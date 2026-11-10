@@ -431,7 +431,9 @@
       "verificado": false,
       "ultima_verificacion": null,
       "origen": "web antigua (14.306 impresiones, pos. 10,3)",
-      "datos_fuente": [],
+      "datos_fuente": [
+        "Directorio Páxinas Galegas: Lg. Bouzón 2, Nantes (36969 Sanxenxo); horario invierno j-d 11:30-16:00 y 20:00-00:00 (verano distinto). Gastroranking da el 986 69 11 39 sin confirmar que sea este local. https://www.paxinasgalegas.es/a-ferreira-247949em.html (consultado 2026-11-10)"
+      ],
       "notas_internas": null
     },
     {
@@ -465,7 +467,9 @@
       "verificado": false,
       "ultima_verificacion": null,
       "origen": "web antigua (2.708 impresiones, pos. 11,7)",
-      "datos_fuente": [],
+      "datos_fuente": [
+        "Directorio (Airbnb, una sola fuente): Rúa Rafael Pico 56, Portonovo, tel. 886 20 76 29. https://www.airbnb.com/things-to-do/places/2831957 (consultado 2026-11-10)"
+      ],
       "notas_internas": null
     },
     {
@@ -2966,7 +2970,8 @@
       "ultima_verificacion": null,
       "origen": "web antigua (2.650 impresiones) + lista de Pablo",
       "datos_fuente": [
-        "Programación de R&B, urbana y house según su web"
+        "Programación de R&B, urbana y house según su web",
+        "Páxinas Galegas: Puerto Deportivo Juan Carlos I, s/n, 36960 Sanxenxo, con terraza; horario de temporada alta (Semana Santa y verano) 23:30-6:00 todos los días, sin confirmar si sigue vigente. https://www.paxinasgalegas.es/dux-229795em.html (consultado 2026-11-10)"
       ],
       "notas_internas": null
     },
@@ -3073,7 +3078,9 @@
       "verificado": false,
       "ultima_verificacion": null,
       "origen": "web antigua (8.614 impresiones) + lista de Pablo",
-      "datos_fuente": [],
+      "datos_fuente": [
+        "Directorios: Puerto Deportivo Juan Carlos I, s/n, 36960 Sanxenxo; local de copas. Sin teléfono ni horario contrastados. https://www.paxinasgalegas.es/pubs-sanxenxo-443ep_304ay.html (consultado 2026-11-10)"
+      ],
       "notas_internas": null
     },
     {
@@ -3141,7 +3148,9 @@
       "verificado": false,
       "ultima_verificacion": null,
       "origen": "web antigua (7.519 impresiones) + lista de Pablo",
-      "datos_fuente": [],
+      "datos_fuente": [
+        "Directorios: Praia dos Barcos, Rúa de Madrid 16, Sanxenxo (Foursquare); comedor al aire libre con vistas al puerto deportivo (Engel & Völkers). Las fuentes no coinciden en el tipo de local. https://redirect.foursquare.com/carpensado/list/sanxe (consultado 2026-11-10)"
+      ],
       "notas_internas": null
     },
     {
@@ -3212,7 +3221,8 @@
       "ultima_verificacion": null,
       "origen": "web antigua (2.783 impresiones) + lista de Pablo",
       "datos_fuente": [
-        "Coctelería"
+        "Coctelería",
+        "No encontré el local en directorios ni guías: sin contraste posible (consultado 2026-11-10)"
       ],
       "notas_internas": null
     },
