@@ -35,5 +35,12 @@ Si no existen, usa la foto de portada de esa sección.
 - **Barcos:** `barco-yate-1`, `barco-yate-2`, `barco-yate-3`, `barco-velero-bavaria-1`, `barco-velero-bavaria-2`, `barco-velero-bavaria-3`, `barco-yate-motora`, `barco-pesquero-aldan`, `barco-lancha-rapida`.
 - **Locales con página propia:** `a-vichona`, `a-ferreira`, `a-curva`, `gassho`, `varadero`, `buddha`, `dux`.
 
+## Fotos por playa
+`playa-<id>` (por ejemplo `playa-silgar`, `playa-lapaman`). Salen en la tarjeta de esa playa. Las ids son las de `data/playas.json`.
+Subidas ya: aguete, area-de-agra, baltar, canelas, foxos, lapaman, montalvo, ouriceira, silgar.
+
+## Sin hueco asignado
+`public/img/sin-usar/`: fotos que no sé a qué playa o tramo pertenecen (Castiñeira, Menduíña, Portocelo, Rodas, Foxos vertical, costa de Sanxenxo). Dime cuál es cuál y las coloco.
+
 ## Fotos provisionales
 Las que hay ahora vienen de la web anterior y son **provisionales**: sustitúyelas subiendo la tuya con el mismo nombre (borra la vieja si tiene otra extensión). Las de personas posando en barco o en la playa parecen fotos de archivo: conviene cambiarlas por fotos reales de Sanxenxo.

@@ -1,8 +1,10 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import type { ReactNode } from 'react';
 import { notasVisibles } from '../lib/datos';
 import type { Actividad, Playa } from '../lib/esquemas';
 import { href, type Idioma } from '../lib/i18n';
+import { foto } from '../lib/fotos';
 import { NOMBRE_TRAMO, esTop, slugTramoDe } from '../lib/paraisos';
 
 export function EnPreparacion({ texto = 'Estamos preparando esta sección.' }: { texto?: string }) {
@@ -15,6 +17,7 @@ export function Aviso({ children }: { children: ReactNode }) {
 
 export function TarjetaPlaya({ playa, lang, etiquetaTramo = false }: { playa: Playa; lang: Idioma; etiquetaTramo?: boolean }) {
   const top = esTop(playa);
+  const src = foto(`playa-${playa.slug}`);
   const enlace = top ? `${href(lang, `/paraisos/playas/${slugTramoDe(playa.tramo)}/`)}#${playa.slug}` : null;
   const cuerpo = (
     <>
@@ -32,7 +35,14 @@ export function TarjetaPlaya({ playa, lang, etiquetaTramo = false }: { playa: Pl
     </>
   );
   return (
-    <div id={playa.slug} className="card-elegant stagger-child !p-6">{cuerpo}</div>
+    <div id={playa.slug} className="card-elegant stagger-child overflow-hidden !p-0">
+      {src && (
+        <div className="relative aspect-[16/9]">
+          <Image src={src} alt={`Playa de ${playa.nombre}`} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover" />
+        </div>
+      )}
+      <div className="p-6">{cuerpo}</div>
+    </div>
   );
 }
 
