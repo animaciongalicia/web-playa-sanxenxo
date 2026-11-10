@@ -29,7 +29,7 @@ Los furanchos de la guía están agrupados por zona, más abajo. Esto es lo que 
 
 **Sanxenxo y Portonovo.** Los más cercanos al centro de la zona: Loureiro Miniño y O Outeiro.
 
-**Meaño.** Se considera el epicentro de los furanchos de las Rías Baixas. Aquí están A de Marcos, O Furancho Ángel, O Lar do Outeiro, A Casa Pequena, O Lar das Pereiras y Furancho de Juan.
+**Meaño.** Se considera el epicentro de los furanchos de las Rías Baixas: hay más de una docena, y la zona de Cobas se tiene por la meca. Aquí están A de Marcos, O Furancho Ángel, O Lar do Outeiro, A Casa Pequena, O Lar das Pereiras y Furancho de Juan.
 
 **Cambados.** O Furancho de Pancho, A Casa do Zapateiro, Furancho D'Andrade Casa Vieja, Furancho Sito de Castrelo y Furancho A Ruda.
 

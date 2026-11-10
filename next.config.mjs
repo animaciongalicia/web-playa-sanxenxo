@@ -8,6 +8,8 @@ const seguridad = [
   { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
 ];
 
+const lanzado = process.env.LANZADO === '1';
+
 const nextConfig = {
   trailingSlash: true,
   poweredByHeader: false,
@@ -18,8 +20,8 @@ const nextConfig = {
         source: '/:path*',
         headers: [
           ...seguridad,
-          // BLOQUEO TOTAL hasta la Fase 9 (lanzamiento). Se retira entonces.
-          { key: 'X-Robots-Tag', value: 'noindex, nofollow' },
+          // BLOQUEO TOTAL hasta el lanzamiento (Fase 9): se retira al poner LANZADO=1.
+          ...(lanzado ? [] : [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }]),
         ],
       },
     ];

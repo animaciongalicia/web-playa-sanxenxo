@@ -30,7 +30,7 @@
       "slug": "motos-de-agua",
       "nombre": "Motos de agua",
       "familia": "mar-con-motor",
-      "descripcion": null,
+      "descripcion": "Salidas en moto de agua con monitor y un pequeño curso previo, con una o dos personas por moto. No hace falta carné, pero sí estar en plenas facultades.",
       "donde": [
         {
           "tipo": "zona",
@@ -64,7 +64,7 @@
       "slug": "parascending",
       "nombre": "Parascending",
       "familia": "mar-con-motor",
-      "descripcion": null,
+      "descripcion": "Un vuelo con paracaídas remolcado por una embarcación, para ver la costa desde arriba y sin esfuerzo.",
       "donde": [
         {
           "tipo": "zona",
@@ -90,7 +90,7 @@
       "slug": "sesion-acuatica-desde-barco",
       "nombre": "Sesión acuática desde barco",
       "familia": "mar-con-motor",
-      "descripcion": null,
+      "descripcion": "Una salida en barco con banana, donut, doble donut y wakeboard. De las más animadas para un grupo.",
       "donde": [
         {
           "tipo": "puerto",
@@ -146,7 +146,7 @@
       "slug": "paddle-surf",
       "nombre": "Paddle surf",
       "familia": "playa-y-tabla",
-      "descripcion": null,
+      "descripcion": "De pie sobre una tabla y con un remo. Es más tranquilo que el surf y se aprende rápido.",
       "donde": [
         {
           "tipo": "zona",
@@ -178,7 +178,7 @@
       "slug": "big-sup",
       "nombre": "Big SUP",
       "familia": "playa-y-tabla",
-      "descripcion": null,
+      "descripcion": "Una tabla grande y colectiva en la que rema todo el grupo a la vez. Es fácil acabar en el agua.",
       "donde": [
         {
           "tipo": "playa",
@@ -208,7 +208,7 @@
       "slug": "kayak",
       "nombre": "Kayak",
       "familia": "playa-y-tabla",
-      "descripcion": null,
+      "descripcion": "Alquiler o salida guiada, individual o doble, para ver la costa desde el agua con calma.",
       "donde": [
         {
           "tipo": "zona",
@@ -242,7 +242,7 @@
       "slug": "bautismo-de-buceo",
       "nombre": "Bautismo de buceo",
       "familia": "buceo-y-pesca",
-      "descripcion": null,
+      "descripcion": "Tu primera inmersión, con instructor y organizada por subgrupos.",
       "donde": [
         {
           "tipo": "puerto",
@@ -272,7 +272,7 @@
       "slug": "snorkel",
       "nombre": "Snorkel",
       "familia": "buceo-y-pesca",
-      "descripcion": null,
+      "descripcion": "Con el equipo que ponen los clubes de buceo, acompañado de monitores y guías y pegado a la costa. Solo hace falta saber nadar.",
       "donde": [
         {
           "tipo": "zona",
@@ -300,7 +300,7 @@
       "slug": "pesca-recreativa",
       "nombre": "Pesca recreativa",
       "familia": "buceo-y-pesca",
-      "descripcion": null,
+      "descripcion": "Una jornada de pesca para grupos con interés real en pescar.",
       "donde": [
         {
           "tipo": "zona",
@@ -330,7 +330,7 @@
       "slug": "pesca-turismo",
       "nombre": "Pesca-turismo",
       "familia": "buceo-y-pesca",
-      "descripcion": null,
+      "descripcion": "Una jornada con profesionales del mar: se va a ver cómo se trabaja, no a una fiesta a bordo.",
       "donde": [
         {
           "tipo": "zona",
@@ -356,7 +356,7 @@
       "slug": "ruta-de-bateas-con-mejillones-y-vino",
       "nombre": "Ruta de bateas con mejillones y vino",
       "familia": "mar-y-mesa",
-      "descripcion": null,
+      "descripcion": "Una salida en barco hasta las bateas, donde se cultiva el mejillón, con mejillones y vino.",
       "donde": [
         {
           "tipo": "zona",
@@ -382,7 +382,7 @@
       "slug": "mariscada-o-cena-en-barco",
       "nombre": "Mariscada o cena en barco",
       "familia": "mar-y-mesa",
-      "descripcion": null,
+      "descripcion": "Comer o cenar marisco a bordo. Hay propuestas con queimada y espectáculo.",
       "donde": [
         {
           "tipo": "zona",
@@ -408,7 +408,7 @@
       "slug": "churrascada-en-barco",
       "nombre": "Churrascada en barco",
       "familia": "mar-y-mesa",
-      "descripcion": null,
+      "descripcion": "Un churrasco a bordo, con la ría de fondo.",
       "donde": [
         {
           "tipo": "puerto",
@@ -434,7 +434,7 @@
       "slug": "kayak-en-areoso",
       "nombre": "Kayak en Areoso",
       "familia": "kayak-areoso",
-      "descripcion": null,
+      "descripcion": "Una ruta en kayak hasta Areoso, una pequeña isla de la ría de Arousa. Solo kayak.",
       "donde": [
         {
           "tipo": "zona",
@@ -466,7 +466,7 @@
       "slug": "olimpiadas-de-playa",
       "nombre": "Olimpiadas de playa",
       "familia": "dias-a-medida",
-      "descripcion": null,
+      "descripcion": "Pruebas por equipos en la playa, con ganadores y mucha risa.",
       "donde": [
         {
           "tipo": "zona",
@@ -492,7 +492,7 @@
       "slug": "gymkana-de-despedida-en-playa",
       "nombre": "Gymkana de despedida en playa",
       "familia": "dias-a-medida",
-      "descripcion": null,
+      "descripcion": "Un conjunto de pruebas y juegos para retar la creatividad, la habilidad y el trabajo en equipo.",
       "donde": [
         {
           "tipo": "zona",
@@ -518,7 +518,7 @@
       "slug": "torneo-de-voley-playa-o-palas",
       "nombre": "Torneo de vóley playa o palas",
       "familia": "dias-a-medida",
-      "descripcion": null,
+      "descripcion": "Un torneo en la arena, por equipos, con partidos cortos.",
       "donde": [
         {
           "tipo": "zona",
@@ -544,7 +544,7 @@
       "slug": "reto-de-big-sup",
       "nombre": "Reto de Big SUP",
       "familia": "dias-a-medida",
-      "descripcion": null,
+      "descripcion": "Remar en equipo sobre una tabla colectiva, convertido en una competición.",
       "donde": [
         {
           "tipo": "zona",
@@ -570,7 +570,7 @@
       "slug": "atardecer-en-barco-con-catering-y-fotografia",
       "nombre": "Atardecer en barco con catering y fotografía",
       "familia": "dias-a-medida",
-      "descripcion": null,
+      "descripcion": "Una salida al atardecer en barco, con catering y fotos, para cerrar el día.",
       "donde": [
         {
           "tipo": "zona",
@@ -596,7 +596,7 @@
       "slug": "barco-privado-con-fondeo-bano-y-paddle",
       "nombre": "Barco privado con fondeo, baño y paddle",
       "familia": "dias-a-medida",
-      "descripcion": null,
+      "descripcion": "Un barco solo para el grupo, con parada para bañarse y paddle surf.",
       "donde": [
         {
           "tipo": "zona",
@@ -622,7 +622,7 @@
       "slug": "ruta-en-kayak-con-picnic",
       "nombre": "Ruta en kayak con picnic",
       "familia": "dias-a-medida",
-      "descripcion": null,
+      "descripcion": "Una ruta tranquila en kayak, con parada para comer.",
       "donde": [
         {
           "tipo": "zona",
@@ -648,7 +648,7 @@
       "slug": "sesion-de-yoga-o-movilidad-en-playa",
       "nombre": "Sesión de yoga o movilidad en playa",
       "familia": "dias-a-medida",
-      "descripcion": null,
+      "descripcion": "Una sesión suave en la arena para empezar el día.",
       "donde": [
         {
           "tipo": "zona",
@@ -674,7 +674,7 @@
       "slug": "fiesta-con-dj-bebida-y-comida",
       "nombre": "Fiesta con DJ, bebida y comida",
       "familia": "dias-a-medida",
-      "descripcion": null,
+      "descripcion": "Una celebración montada para el grupo, con música, bebida y comida.",
       "donde": [
         {
           "tipo": "zona",

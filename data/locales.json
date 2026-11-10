@@ -44,7 +44,7 @@
       "direccion": "Paseo de Carlos Pérez 12, Aldán",
       "playa_cercana": null,
       "como_es": null,
-      "que_se_come": null,
+      "que_se_come": "Pescados, mariscos y arroces.",
       "contacto": {
         "telefono": "986 32 92 29",
         "web": null,
@@ -106,7 +106,8 @@
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Marisquería",
-        "Directorio: Avenida José Graña 38, Cangas (Aldán). Sin teléfono (https://www.paxinasgalegas.es/mesones-y-taperias-aldan-367ep_1218di.html). Consultado 2026-11-10"
+        "Directorio: Avenida José Graña 38, Cangas (Aldán). Sin teléfono (https://www.paxinasgalegas.es/mesones-y-taperias-aldan-367ep_1218di.html). Consultado 2026-11-10",
+        "Sin más datos en directorios. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -307,15 +308,15 @@
       "municipio": "Marín",
       "direccion": "Playa de Aguete",
       "playa_cercana": "Aguete",
-      "como_es": null,
-      "que_se_come": null,
+      "como_es": "Restaurante de playa en Marín, con cocina vasca adaptada a la gallega.",
+      "que_se_come": "Pescados y mariscos de la ría, arroces y pastel de bonito y puerro.",
       "contacto": {
         "telefono": "623 002 830",
         "web": null,
         "email": null
       },
       "meses_apertura": null,
-      "horario_tipico": null,
+      "horario_tipico": "En verano, todos los días de 11:00 a 1:00 (directorio).",
       "despedidas": {
         "admite": "desconocido",
         "cuando": null,
@@ -331,7 +332,8 @@
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Restaurante en la zona de playa de Aguete",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Directorios: cocina vasca adaptada a la gallega; en primera línea de playa; opiniones lo describen como no barato (no se publica) (https://gastroranking.es/r/restaurante-javitxus_212477/). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -344,7 +346,7 @@
       "municipio": "Poio",
       "direccion": "Av. Francisco Regalado 44, Combarro",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Restaurante de Combarro, de cocina sincera y mucha pasión por el vino.",
       "que_se_come": null,
       "contacto": {
         "telefono": "683 308 048",
@@ -369,7 +371,8 @@
       "datos_fuente": [
         "Pescado a la brasa, arroces y tapas",
         "Terraza con vistas al mar",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Listado: Combarro, cocina tradicional española; otra guía lo sitúa en el puerto deportivo (ubicación sin confirmar) (https://www.opentable.ca/r/tintanegra-combarro). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -382,7 +385,7 @@
       "municipio": "Poio",
       "direccion": "Rúa do Mar 20, Combarro",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "En el centro de Combarro, frente al mar. Platos directos y tradicionales.",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 771 142",
@@ -390,7 +393,7 @@
         "email": null
       },
       "meses_apertura": null,
-      "horario_tipico": null,
+      "horario_tipico": "Todos los días de 12:00 a 22:00 (guía de viajes).",
       "despedidas": {
         "admite": "desconocido",
         "cuando": null,
@@ -406,7 +409,8 @@
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Restaurante tradicional de pescado y marisco, con vistas",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Guía de viajes: centro de Combarro, frente al mar (https://www.viajeroscallejeros.com/donde-comer-en-combarro/amp/). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -494,15 +498,15 @@
       "municipio": "Sanxenxo",
       "direccion": "Rúa do Vento 9, Sanxenxo",
       "playa_cercana": null,
-      "como_es": null,
-      "que_se_come": null,
+      "como_es": "Asador con dos comedores, terraza y bodega, rodeado de viñedos de albariño.",
+      "que_se_come": "Parrilladas de carne y de pescado, y postres caseros.",
       "contacto": {
         "telefono": "604 076 356",
-        "web": null,
+        "web": "tabernavillalustre.es",
         "email": null
       },
       "meses_apertura": null,
-      "horario_tipico": null,
+      "horario_tipico": "Todos los días de 13:00 a 16:00 y de 21:00 a 00:00 (directorio).",
       "despedidas": {
         "admite": "desconocido",
         "cuando": null,
@@ -532,8 +536,8 @@
       "municipio": "O Grove",
       "direccion": "Carretera San Vicente do Mar 1100, O Grove",
       "playa_cercana": "Area da Cruz / Seixeliño",
-      "como_es": null,
-      "que_se_come": null,
+      "como_es": "Chiringuito gourmet entre las playas de Seixeliño y Area da Cruz, en O Grove, con vistas a la isla de Ons.",
+      "que_se_come": "Cocina gallega tradicional con toques actuales, platos a la brasa, arroces y fideuás.",
       "contacto": {
         "telefono": null,
         "web": null,
@@ -558,7 +562,8 @@
         "Chiringuito gourmet a pie de playa, entre Seixeliño y Area da Cruz",
         "Incluido en una selección de restaurantes de playa de la Guía Michelin",
         "Carta de mariscos, pescados, carnes y arroces",
-        "Aparece en la guía Michelin como restaurante de O Grove; sin más datos contrastados (https://guide.michelin.com/ca/fr/galicia/o-grove/restaurant/meloxeira-praia). Consultado 2026-11-10"
+        "Aparece en la guía Michelin como restaurante de O Grove; sin más datos contrastados (https://guide.michelin.com/ca/fr/galicia/o-grove/restaurant/meloxeira-praia). Consultado 2026-11-10",
+        "Guía Michelin y Pearl: chiringuito gourmet, gama media; distinciones sin contrastar (no se publican) (https://guide.michelin.com/ar/es/galicia/o-grove/restaurante/meloxeira-praia). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -571,8 +576,8 @@
       "municipio": "O Grove",
       "direccion": "Teniente Domínguez 84, O Grove",
       "playa_cercana": null,
-      "como_es": null,
-      "que_se_come": null,
+      "como_es": "Marisquería gallega de O Grove, abierta en 1998 por Alberto Domingo «Berto».",
+      "que_se_come": "Mariscos y pescados. Destacan la nécora al horno y la langosta frita.",
       "contacto": {
         "telefono": "986 733 447",
         "web": null,
@@ -595,7 +600,8 @@
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Marisquería: producto del mar al vapor, parrilla y guisos",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Guía Michelin y prensa: marisquería gallega; las distinciones varían según la fuente (no se publican) (https://guide.michelin.com/ar/es/galicia/o-grove/restaurante/d-berto). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -1630,7 +1636,7 @@
       "municipio": "Poio",
       "direccion": "Rúa Sinas 73, Raxó",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Junto a la playa de Sinás, en Raxó.",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 740 417",
@@ -1638,7 +1644,7 @@
         "email": null
       },
       "meses_apertura": null,
-      "horario_tipico": null,
+      "horario_tipico": "Todos los días de 11:00 a 3:00 (directorio).",
       "despedidas": {
         "admite": "desconocido",
         "cuando": null,
@@ -1654,7 +1660,8 @@
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Restaurante gallego en formato chiringuito junto a la playa",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Directorio: junto a la playa de Sinás, Raxó (Poio), de 11:00 a 3:00 (https://www.salir.com/chiringuito-sinas-poio-neg-131185.html). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -1691,7 +1698,8 @@
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Kiosco de playa recogido en una guía de 2021",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Un directorio lista un «Kiosko Aturuxo» en la playa de Area de Agra, Sanxenxo: confirmar que es el mismo local. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -1702,9 +1710,9 @@
       "tipo": "chiringuito",
       "zona": "noalla-lanzada",
       "municipio": "Sanxenxo",
-      "direccion": null,
+      "direccion": "Playa Pragueira, Noalla",
       "playa_cercana": "Pragueira",
-      "como_es": null,
+      "como_es": "Chiringuito para ver el atardecer, con hamburguesas, cócteles y música.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1712,7 +1720,7 @@
         "email": null
       },
       "meses_apertura": null,
-      "horario_tipico": null,
+      "horario_tipico": "De jueves a domingo, de 13:00 a 2:00 (directorio).",
       "despedidas": {
         "admite": "desconocido",
         "cuando": null,
@@ -1741,7 +1749,7 @@
       "municipio": "Sanxenxo / O Grove",
       "direccion": "Praia da Lanzada, km 27",
       "playa_cercana": "A Lanzada",
-      "como_es": null,
+      "como_es": "Chiringuito sobre la arena de A Lanzada.",
       "que_se_come": null,
       "contacto": {
         "telefono": "609 441 730",
@@ -1780,7 +1788,7 @@
       "municipio": "O Grove",
       "direccion": null,
       "playa_cercana": "A Lanzada",
-      "como_es": null,
+      "como_es": "En la playa de A Lanzada, con zona infantil, aparcamiento privado y una terraza «Sunset» con cócteles y música en directo.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1819,7 +1827,7 @@
       "municipio": "O Grove",
       "direccion": null,
       "playa_cercana": "Portiño",
-      "como_es": null,
+      "como_es": "Junto al mar, en la playa de Portiño, una playa rocosa pequeña de unos 100 metros: comida, bebidas y atardeceres.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1854,9 +1862,9 @@
       "tipo": "chiringuito",
       "zona": "o-grove-san-vicente",
       "municipio": "O Grove",
-      "direccion": null,
+      "direccion": "Praia da Barrosa, San Vicente do Mar",
       "playa_cercana": "A Barrosa",
-      "como_es": null,
+      "como_es": "Música en directo, tapas, comidas y copas.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1864,7 +1872,7 @@
         "email": null
       },
       "meses_apertura": null,
-      "horario_tipico": null,
+      "horario_tipico": "Todos los días de 12:00 a 4:30 (directorio, sin confirmar).",
       "despedidas": {
         "admite": "desconocido",
         "cuando": null,
@@ -2246,7 +2254,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Bebidas y comida sencilla junto a la playa"
+        "Bebidas y comida sencilla junto a la playa",
+        "Posible coincidencia: chiringuito en el muelle de la playa de Portomaior (Bueu), con carta a la parrilla y actuaciones: confirmar. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -2356,7 +2365,8 @@
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Bar-restaurante; arroces y fideuá según reseñas",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Un listado cita un chiringuito en Montalvo con fiestas con DJ entre semana: confirmar que es este. Consultado 2026-11-10"
       ],
       "notas_internas": null
     }
@@ -2446,7 +2456,7 @@
       "municipio": "Meaño",
       "direccion": "Gañón 34 / Xil",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Furancho de Meaño. Su plato estrella son las navajas.",
       "que_se_come": null,
       "contacto": {
         "telefono": "672 865 268",
@@ -2470,7 +2480,8 @@
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
         "Restaurante y tapas con terraza entre viñedos",
-        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar",
+        "Gastroranking: navajas como plato estrella (https://gastroranking.es/r/furancho-a-de-marcos_157744/). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -2507,7 +2518,8 @@
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
         "Garbanzos con callos y tarta de orujo",
-        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar",
+        "El Español 2021: Aldea de Abaixo; teléfono 986 74 73 96 (no se publica) (https://elespanol.com/treintayseis/vivir/gastrosalnes/20210701/meano-epicentro-furanchos-rias-baixas/593192621_0.html). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -2518,10 +2530,10 @@
       "tipo": "furancho",
       "zona": "meano",
       "municipio": "Meaño",
-      "direccion": null,
+      "direccion": "Outeiro 10, Cobas, Meaño",
       "playa_cercana": null,
       "como_es": null,
-      "que_se_come": null,
+      "que_se_come": "Destacan la tortilla de jamón y el queso de tetilla.",
       "contacto": {
         "telefono": null,
         "web": null,
@@ -2544,7 +2556,8 @@
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
         "Zamburiñas, raxo con patatas y tortillas rellenas",
-        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar",
+        "El Español 2021: Outeiro 10, Cobas; tortilla de jamón y queso de tetilla (https://elespanol.com/treintayseis/vivir/gastrosalnes/20210701/meano-epicentro-furanchos-rias-baixas/593192621_0.html). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -2618,7 +2631,8 @@
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
         "Local de estilo furancho",
-        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -2629,7 +2643,7 @@
       "tipo": "furancho",
       "zona": "meano",
       "municipio": "Meaño / Cambados",
-      "direccion": null,
+      "direccion": "Aldea de Abaixo 4, Meaño",
       "playa_cercana": null,
       "como_es": null,
       "que_se_come": null,
@@ -2668,7 +2682,7 @@
       "municipio": "Cambados",
       "direccion": "Refoxos 33",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Con las mesas bajo las parras.",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 542 214",
@@ -2692,7 +2706,8 @@
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
         "Comida casera y terraza",
-        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar",
+        "Directorio: Refoxos 33; mesas bajo las vides (https://gastroranking.es/r/o-furancho-de-pancho_160581/). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -2728,7 +2743,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -2800,7 +2816,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -2811,10 +2828,10 @@
       "tipo": "furancho",
       "zona": "cambados",
       "municipio": "Cambados",
-      "direccion": null,
+      "direccion": "Adro 17, Castrelo, Cambados",
       "playa_cercana": null,
-      "como_es": null,
-      "que_se_come": null,
+      "como_es": "Taberna de comida gallega casera.",
+      "que_se_come": "Destaca el arroz con pulpo.",
       "contacto": {
         "telefono": null,
         "web": null,
@@ -2836,7 +2853,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar",
+        "Directorio: Adro 17, Castrelo; taberna de comida gallega casera, arroz con pulpo (https://gastroranking.es/r/furancho-a-ruda_177846/). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -2873,7 +2891,8 @@
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
         "Un clásico instituido en la zona",
-        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -2910,7 +2929,8 @@
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
         "Raciones variadas, pulpo y calamares",
-        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -3037,7 +3057,7 @@
       "municipio": "Sanxenxo",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Cócteles, shishas, copas y partidos de fútbol, con buena música.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,

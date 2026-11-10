@@ -69,7 +69,8 @@ jobs:
 | `NEXT_PUBLIC_WHATSAPP` | WhatsApp (botón suave y `/agencia/`) | Todos |
 | `NEXT_PUBLIC_AGENCIA_EMAIL` | Correo de la agencia (`mailto:`): **info@despedidasplayasanxenxo.com** | Todos |
 | `NEXT_PUBLIC_AGENCIA_TELEFONO` | Teléfono para llamar (si falta, se usa el de WhatsApp) | Todos |
-| `MOSTRAR_PENDIENTES` | Modo revisión: `1` solo en Vista previa, nunca en Producción | Vista previa |
+| `LANZADO` | Interruptor de lanzamiento. **Vacío = vista previa** (noindex y se enseña todo, también lo pendiente). **`1` = lanzado** (abre a buscadores y solo sale lo aprobado). Se pone en la Fase 9 | Producción |
+| `MOSTRAR_PENDIENTES` | Solo para pruebas: `1` fuerza el modo revisión, `0` simula producción | Local |
 | `FICHAS_EXPORT_TOKEN` | Token de `/api/fichas-export` | Producción |
 
 Nada de esto va en el repo. Hay un `.env.example` **sin valores**.

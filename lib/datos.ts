@@ -17,9 +17,18 @@ function cargar<T>(archivo: string, esquema: { parse: (x: unknown) => T }): T {
 
 type Control = { publicar: boolean | null };
 
-/** Modo revisión (vista previa de Pablo): además de lo publicado, enseña lo pendiente (publicar === null).
- *  Lo marcado publicar === false nunca sale. En producción real la variable no existe. */
-export const modoRevision = (): boolean => process.env.MOSTRAR_PENDIENTES === '1';
+/** Interruptor de lanzamiento. Hasta que se ponga LANZADO=1 (Fase 9) la web es una vista previa: no se indexa y se enseña
+ *  todo, también lo pendiente. Con LANZADO=1 se abre a buscadores y solo sale lo aprobado (publicar === true). */
+export const lanzado = (): boolean => process.env.LANZADO === '1';
+
+/** Modo revisión: además de lo publicado, enseña lo pendiente (publicar === null). Lo marcado publicar === false nunca sale.
+ *  Antes del lanzamiento está activo por defecto. MOSTRAR_PENDIENTES=1 lo fuerza y =0 lo apaga (para probar "producción"). */
+export const modoRevision = (): boolean => {
+  const forzado = process.env.MOSTRAR_PENDIENTES;
+  if (forzado === '1') return true;
+  if (forzado === '0') return false;
+  return !lanzado();
+};
 
 const publicados = <T extends Control>(fichas: T[]): T[] =>
   fichas.filter((f) => f.publicar === true || (modoRevision() && f.publicar === null));
