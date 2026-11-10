@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import Logo from './Logo';
-import LlamadaAgencia from './LlamadaAgencia';
 import { columnasPie, enlacesLegales } from '../lib/nav';
-import { textos, type Idioma } from '../lib/i18n';
+import { href, textos, type Idioma } from '../lib/i18n';
 
 // Pie en 6 partes: 1 columna de texto (2/6) + 4 columnas (1/6 cada una): 3 de enlaces y la de "Novedades del blog".
 // Los textos legales van abajo del todo, en vertical.
@@ -20,7 +19,7 @@ export default function Footer({ lang }: { lang: Idioma }) {
             <span className="text-lg font-bold tracking-tight text-gray-900">PLAYA SANXENXO</span>
           </div>
           <p className="mt-4 text-sm leading-relaxed text-gray-500">{t.tagline}</p>
-          <LlamadaAgencia lang={lang} className="mt-4" />
+          <Link href={href(lang, '/agencia/')} className="link-inline mt-4 inline-block text-sm">{t.hablarAgencia} →</Link>
         </div>
         {columnas.map((col) => (
           <div key={col.titulo}>

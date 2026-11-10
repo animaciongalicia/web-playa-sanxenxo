@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import HeroPage from '../../../../components/HeroPage';
-import { EnPreparacion } from '../../../../components/Fichas';
+import {EnPreparacion} from '../../../../components/Fichas';
 import { TarjetaLocal } from '../../../../components/Locales';
 import Migas from '../../../../components/Migas';
 import Contenido from '../../../../components/Contenido';
@@ -22,7 +22,7 @@ export default function Restaurantes({ params }: { params: { lang: string } }) {
   const grupos = agruparPorZona(locales);
   return (
     <>
-      <HeroPage titulo="Restaurantes" subtitulo="Agrupados por zona." />
+      <HeroPage ruta="/comer/restaurantes/" titulo="Restaurantes" subtitulo="Agrupados por zona." />
       <Migas lang={params.lang} ruta="/comer/restaurantes/" />
       <Contenido lang={params.lang} ruta="/comer/restaurantes/" />
       {grupos.length ? grupos.map((g, i) => (

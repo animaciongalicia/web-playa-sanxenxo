@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Insignia } from './Fichas';
 import type { Local } from '../lib/esquemas';
 import { NOMBRE_ZONA, TIPO_LOCAL } from '../lib/locales';
 
@@ -20,7 +19,7 @@ export function TarjetaLocal({ local, href, completo = false }: { local: Local; 
   const titulo = (
     <>
       {local.nombre}
-      <Insignia f={local} />
+      
     </>
   );
   const c = local.contacto;

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Contenido from '../../../components/Contenido';
-import { EnPreparacion } from '../../../components/Fichas';
+import {EnPreparacion} from '../../../components/Fichas';
 import HeroPage from '../../../components/HeroPage';
 import LlamadaAgencia from '../../../components/LlamadaAgencia';
 import Migas from '../../../components/Migas';
@@ -23,7 +23,7 @@ export default function Barcos({ params }: { params: { lang: string } }) {
   const ordenados = CATEGORIAS_BARCO.flatMap((c) => barcos.filter((b) => b.categoria === c));
   return (
     <>
-      <HeroPage titulo="Barcos" subtitulo="Yates, veleros, pesquero y lancha rápida para tu grupo." />
+      <HeroPage ruta="/barcos/" titulo="Barcos" subtitulo="Yates, veleros, pesquero y lancha rápida para tu grupo." />
       <Migas lang={params.lang} ruta="/barcos/" />
       <Contenido lang={params.lang} ruta="/barcos/" />
       <Seccion titulo="Elige tu barco" intro="Precio «desde» y capacidad máxima en cada ficha." fondo="gris">

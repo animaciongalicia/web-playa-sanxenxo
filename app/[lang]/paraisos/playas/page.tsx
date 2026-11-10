@@ -6,7 +6,7 @@ import Migas from '../../../../components/Migas';
 import Contenido from '../../../../components/Contenido';
 import Seccion from '../../../../components/Seccion';
 import Tarjeta from '../../../../components/Tarjeta';
-import { EnPreparacion, NotaRevision, TarjetaPlaya } from '../../../../components/Fichas';
+import {EnPreparacion, TarjetaPlaya} from '../../../../components/Fichas';
 import { getPlayas } from '../../../../lib/datos';
 import { IDIOMAS, esIdioma, href } from '../../../../lib/i18n';
 import { TRAMOS_RUTA, esTop, slugTramoDe } from '../../../../lib/paraisos';
@@ -22,7 +22,7 @@ export default function Playas({ params }: { params: { lang: string } }) {
   const top = playas.filter(esTop);
   return (
     <>
-      <HeroPage titulo="Playas" subtitulo="Las playas por tramo de costa y las 8 imprescindibles." />
+      <HeroPage ruta="/paraisos/playas/" titulo="Playas" subtitulo="Las playas por tramo de costa y las 8 imprescindibles." />
       <Migas lang={lang} ruta="/paraisos/playas/" />
       <Contenido lang={lang} ruta="/paraisos/playas/" />
       <Seccion titulo="Cinco tramos de costa" intro="Elige el tramo y verás todas sus playas.">
@@ -34,7 +34,6 @@ export default function Playas({ params }: { params: { lang: string } }) {
         </div>
       </Seccion>
       <Seccion fondo="gris" titulo="Las 8 imprescindibles">
-        <NotaRevision>Selección confirmada por Pablo (propuesta del núcleo). Se cambia en <code>data/playas.json</code> (campo <code>top</code>).</NotaRevision>
         {top.length ? (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {top.map((p) => (

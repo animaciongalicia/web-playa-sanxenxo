@@ -6,10 +6,9 @@ import { join } from 'node:path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
-import { modoRevision } from './datos';
 
 export type MetaContenido = {
-  /** true = se publica. null/ausente = borrador: solo sale en la vista previa (modo revisión). false = nunca. */
+  /** false = el texto no se muestra. Cualquier otro valor (o ausente) = se muestra. */
   publicar: boolean | null;
   /** Fuentes (URL o descripción) de los datos del texto. Obligatorio en todo borrador. */
   fuentes: string[];
@@ -35,8 +34,7 @@ export function getContenido(lang: string, ruta: string): Contenido | null {
     fuentes: Array.isArray(data.fuentes) ? data.fuentes.map(String) : [],
     pendiente: Array.isArray(data.pendiente) ? data.pendiente.map(String) : [],
   };
-  if (meta.publicar === false) return null;
-  if (meta.publicar === null && !modoRevision()) return null;
+  if (meta.publicar === false) return null; // ocultar un texto a propósito
   const salida = remark().use(html, { sanitize: false }).processSync(content).toString();
   return { html: salida, meta, palabras: contarPalabras(content) };
 }

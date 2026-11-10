@@ -17,28 +17,12 @@ function cargar<T>(archivo: string, esquema: { parse: (x: unknown) => T }): T {
 
 type Control = { publicar: boolean | null };
 
-/** Interruptor de lanzamiento. Hasta que se ponga LANZADO=1 (Fase 9) la web es una vista previa: no se indexa y se enseña
- *  todo, también lo pendiente. Con LANZADO=1 se abre a buscadores y solo sale lo aprobado (publicar === true). */
-export const lanzado = (): boolean => process.env.LANZADO === '1';
+/** Se publica todo salvo lo marcado publicar === false (ocultar una ficha a propósito). */
+const publicados = <T extends Control>(fichas: T[]): T[] => fichas.filter((f) => f.publicar !== false);
 
-/** Modo revisión: además de lo publicado, enseña lo pendiente (publicar === null). Lo marcado publicar === false nunca sale.
- *  Antes del lanzamiento está activo por defecto. MOSTRAR_PENDIENTES=1 lo fuerza y =0 lo apaga (para probar "producción"). */
-export const modoRevision = (): boolean => {
-  const forzado = process.env.MOSTRAR_PENDIENTES;
-  if (forzado === '1') return true;
-  if (forzado === '0') return false;
-  return !lanzado();
-};
-
-const publicados = <T extends Control>(fichas: T[]): T[] =>
-  fichas.filter((f) => f.publicar === true || (modoRevision() && f.publicar === null));
-
-/** ¿Está la ficha pendiente de decisión? (solo se enseña en modo revisión) */
-export const esPendiente = (f: Control): boolean => f.publicar !== true;
-
-/** Notas operativas: las internas ("Confirmar…") solo salen en revisión; en producción, solo con la ficha verificada. */
-export const notasVisibles = (a: { notas_operativas: string[]; verificado: boolean }): string[] =>
-  a.verificado || modoRevision() ? a.notas_operativas : [];
+/** Notas operativas que sí se enseñan en la ficha (el resto son avisos internos de trabajo). */
+export const notasVisibles = (a: { notas_operativas: string[] }): string[] =>
+  a.notas_operativas.filter((n) => /tiempo se reparte|Mínimo de diez|desembarco en Areoso/i.test(n));
 
 /** Quita lo interno de una ficha cuando se sirve en producción. */
 function limpiar<T extends { notas_internas: string | null; datos_fuente: string[] }>(ficha: T): T {

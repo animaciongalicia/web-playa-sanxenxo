@@ -15,7 +15,7 @@ export default function Comer({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();
   return (
     <>
-      <HeroPage titulo="Comer" subtitulo="Restaurantes, chiringuitos y furanchos por zona." />
+      <HeroPage ruta="/comer/" titulo="Comer" subtitulo="Restaurantes, chiringuitos y furanchos por zona." />
       <Migas lang={params.lang} ruta="/comer/" />
       <Contenido lang={params.lang} ruta="/comer/" />
       <Seccion titulo="Tres formas de sentarse a la mesa">

@@ -16,7 +16,7 @@ export default function Mar({ params }: { params: { lang: string } }) {
   const lang = params.lang;
   return (
     <>
-      <HeroPage titulo="Mar" subtitulo="Ons, Cíes y la ría de Aldán." />
+      <HeroPage ruta="/paraisos/mar/" titulo="Mar" subtitulo="Ons, Cíes y la ría de Aldán." />
       <Migas lang={lang} ruta="/paraisos/mar/" />
       <Contenido lang={lang} ruta="/paraisos/mar/" />
       <Seccion titulo="Tres destinos">

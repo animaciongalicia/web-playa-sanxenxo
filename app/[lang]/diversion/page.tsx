@@ -18,7 +18,7 @@ export default function Diversion({ params }: { params: { lang: string } }) {
   const todos = getLocales('diversion');
   return (
     <>
-      <HeroPage titulo="Diversión" subtitulo="Terraceo, tardeo, puestas de sol y copas." />
+      <HeroPage ruta="/diversion/" titulo="Diversión" subtitulo="Terraceo, tardeo, puestas de sol y copas." />
       <Migas lang={params.lang} ruta="/diversion/" />
       <Contenido lang={params.lang} ruta="/diversion/" />
       <Seccion titulo="Elige zona" intro="Son las mismas zonas de la guía, con sus horarios y su ambiente.">

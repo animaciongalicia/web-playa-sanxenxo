@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import HeroPage from '../../../../components/HeroPage';
-import { EnPreparacion } from '../../../../components/Fichas';
+import {EnPreparacion} from '../../../../components/Fichas';
 import { TarjetaLocal } from '../../../../components/Locales';
 import Migas from '../../../../components/Migas';
 import Contenido from '../../../../components/Contenido';
@@ -20,7 +20,7 @@ export default function Chiringuitos({ params }: { params: { lang: string } }) {
   const grupos = agruparPorZona(getLocales('chiringuitos'));
   return (
     <>
-      <HeroPage titulo="Chiringuitos" subtitulo="Por zona." />
+      <HeroPage ruta="/comer/chiringuitos/" titulo="Chiringuitos" subtitulo="Por zona." />
       <Migas lang={params.lang} ruta="/comer/chiringuitos/" />
       <Contenido lang={params.lang} ruta="/comer/chiringuitos/" />
       {grupos.length ? grupos.map((g, i) => (

@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { Insignia } from './Fichas';
 import type { Barco } from '../lib/esquemas';
 
 export const ENLACE_BARCOS = 'https://seagalicia.com';
@@ -37,7 +36,7 @@ export default function TarjetaBarco({ b, titulo }: { b: Barco; titulo: string }
         <span className="absolute left-3 top-3 rounded bg-white/90 px-2 py-1 text-[11px] font-semibold uppercase tracking-wide text-ria-800">{ETIQUETA[b.categoria]}</span>
       </div>
       <div className="flex flex-1 flex-col p-6">
-        <h3 className="text-lg font-semibold text-gray-900">{titulo}<Insignia f={b} /></h3>
+        <h3 className="text-lg font-semibold text-gray-900">{titulo}</h3>
         {b.descripcion && <p className="mt-2 text-sm leading-relaxed text-gray-600">{b.descripcion}</p>}
         <dl className="mt-3 space-y-1 text-sm text-gray-600">
           {personas && <div><dt className="inline font-semibold text-gray-900">Capacidad: </dt><dd className="inline">{personas}</dd></div>}

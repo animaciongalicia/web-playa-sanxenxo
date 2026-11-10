@@ -5,8 +5,9 @@ const digitos = (s: string) => s.replace(/\D/g, '');
 export type Contacto = { email: string | null; whatsapp: string | null; telefono: string | null };
 
 export function getContacto(): Contacto {
-  const email = (process.env.NEXT_PUBLIC_AGENCIA_EMAIL ?? '').trim();
-  const wa = digitos(process.env.NEXT_PUBLIC_WHATSAPP ?? '');
+  // Datos públicos del negocio. Las variables de entorno los sobrescriben.
+  const email = (process.env.NEXT_PUBLIC_AGENCIA_EMAIL ?? 'info@despedidasplayasanxenxo.com').trim();
+  const wa = digitos(process.env.NEXT_PUBLIC_WHATSAPP ?? '34678288284');
   const tel = digitos(process.env.NEXT_PUBLIC_AGENCIA_TELEFONO ?? '') || wa; // sin teléfono propio, se usa el de WhatsApp
   return { email: email || null, whatsapp: wa || null, telefono: tel || null };
 }

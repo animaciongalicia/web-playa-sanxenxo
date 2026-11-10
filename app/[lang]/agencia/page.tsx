@@ -15,7 +15,7 @@ export default function Agencia({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();
   return (
     <>
-      <HeroPage titulo="Agencia" subtitulo="Aquí no hay formulario: escribes o llamas, y te contestan." />
+      <HeroPage ruta="/agencia/" titulo="Agencia" subtitulo="Aquí no hay formulario: escribes o llamas, y te contestan." />
       <Migas lang={params.lang} ruta="/agencia/" />
       <Contenido lang={params.lang} ruta="/agencia/" />
       <Seccion titulo="Elige cómo prefieres hablar">

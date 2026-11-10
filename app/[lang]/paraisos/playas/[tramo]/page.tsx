@@ -4,7 +4,7 @@ import HeroPage from '../../../../../components/HeroPage';
 import Migas from '../../../../../components/Migas';
 import Contenido from '../../../../../components/Contenido';
 import Seccion from '../../../../../components/Seccion';
-import { EnPreparacion, TarjetaPlaya } from '../../../../../components/Fichas';
+import {EnPreparacion, TarjetaPlaya} from '../../../../../components/Fichas';
 import { getPlayas } from '../../../../../lib/datos';
 import { IDIOMAS, esIdioma } from '../../../../../lib/i18n';
 import { NOMBRE_TRAMO, TRAMOS_RUTA, buscarTramoRuta } from '../../../../../lib/paraisos';
@@ -25,7 +25,7 @@ export default function Tramo({ params }: { params: P }) {
     .filter((g) => g.playas.length);
   return (
     <>
-      <HeroPage titulo={tramo.slug === 'mas-alla' ? 'Más allá: Aldán, Bueu, Marín, Poio y Combarro' : `Playas de ${tramo.titulo}`} />
+      <HeroPage ruta={`/paraisos/playas/${params.tramo}/`} titulo={tramo.slug === 'mas-alla' ? 'Más allá: Aldán, Bueu, Marín, Poio y Combarro' : `Playas de ${tramo.titulo}`} />
       <Migas lang={lang} ruta={`/paraisos/playas/${tramo.slug}/`} titulo={tramo.titulo} />
       <Contenido lang={lang} ruta={`/paraisos/playas/${tramo.slug}/`} />
       {grupos.length ? (

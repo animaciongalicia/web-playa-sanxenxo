@@ -14,7 +14,7 @@ export default function Despedidas({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();
   return (
     <>
-      <HeroPage titulo="Despedidas" subtitulo="El plan en conjunto para tu despedida." />
+      <HeroPage ruta="/despedidas/" titulo="Despedidas" subtitulo="El plan en conjunto para tu despedida." />
       <Migas lang={params.lang} ruta="/despedidas/" />
       <Contenido lang={params.lang} ruta="/despedidas/" />
       <PlanDespedida lang={params.lang} />

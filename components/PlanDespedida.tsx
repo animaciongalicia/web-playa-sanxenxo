@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Insignia } from './Fichas';
 import LlamadaAgencia from './LlamadaAgencia';
 import Seccion from './Seccion';
 import Tarjeta from './Tarjeta';
@@ -27,7 +26,7 @@ export default function PlanDespedida({ lang }: { lang: Idioma }) {
         <Seccion fondo="gris" titulo={vichona.nombre} intro="Asador de churrasco.">
           <p className="max-w-3xl text-lg leading-relaxed text-gray-600">
             {vichona.despedidas.como}
-            <Insignia f={vichona} />
+            
           </p>
           <p className="mt-4"><Link href={`/comer/restaurantes/${vichona.slug}/`} className="link-inline">Ver la ficha →</Link></p>
         </Seccion>

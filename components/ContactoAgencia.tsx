@@ -1,5 +1,5 @@
 import { ASUNTO, formatearTelefono, getContacto, hrefMail, hrefTel, hrefWhatsApp } from '../lib/contacto';
-import { EnPreparacion, NotaRevision } from './Fichas';
+import {EnPreparacion} from './Fichas';
 
 const iconos = {
   mail: 'M3 8l9 6 9-6M5 5h14a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2z',
@@ -31,7 +31,6 @@ export default function ContactoAgencia() {
   if (!c.email && !c.whatsapp && !c.telefono) {
     return (
       <>
-        <NotaRevision>Faltan las variables <code>NEXT_PUBLIC_AGENCIA_EMAIL</code>, <code>NEXT_PUBLIC_WHATSAPP</code> y <code>NEXT_PUBLIC_AGENCIA_TELEFONO</code>.</NotaRevision>
         <EnPreparacion texto="Muy pronto, aquí, cómo contactar con la agencia." />
       </>
     );

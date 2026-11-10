@@ -19,7 +19,7 @@ export default function Actividades({ params }: { params: { lang: string } }) {
   const familias = (Object.keys(FAMILIAS_INFO) as (keyof typeof FAMILIAS_INFO)[]).filter((f) => f !== 'kayak-areoso');
   return (
     <>
-      <HeroPage titulo="Actividades" subtitulo="Qué hacer en el mar y en la playa con tu grupo." />
+      <HeroPage ruta="/actividades/" titulo="Actividades" subtitulo="Qué hacer en el mar y en la playa con tu grupo." />
       <Migas lang={params.lang} ruta="/actividades/" />
       <Contenido lang={params.lang} ruta="/actividades/" />
       <Seccion titulo="Cinco familias" intro="Cada actividad dice dónde se hace.">

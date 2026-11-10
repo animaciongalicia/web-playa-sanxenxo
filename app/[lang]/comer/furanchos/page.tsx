@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import HeroPage from '../../../../components/HeroPage';
-import { Aviso, EnPreparacion } from '../../../../components/Fichas';
+import {Aviso, EnPreparacion} from '../../../../components/Fichas';
 import { TarjetaLocal } from '../../../../components/Locales';
 import Migas from '../../../../components/Migas';
 import Contenido from '../../../../components/Contenido';
@@ -21,7 +21,7 @@ export default function Furanchos({ params }: { params: { lang: string } }) {
   const grupos = ZONAS_FURANCHOS.map((z) => ({ zona: z, locales: todos.filter((f) => f.zona === z) })).filter((g) => g.locales.length);
   return (
     <>
-      <HeroPage titulo="Furanchos" subtitulo="Casas que venden su vino con algo para picar." />
+      <HeroPage ruta="/comer/furanchos/" titulo="Furanchos" subtitulo="Casas que venden su vino con algo para picar." />
       <Migas lang={params.lang} ruta="/comer/furanchos/" />
       <Contenido lang={params.lang} ruta="/comer/furanchos/" />
       <Seccion ancho="estrecho">

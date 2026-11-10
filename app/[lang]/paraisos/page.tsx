@@ -16,7 +16,7 @@ export default function Paraisos({ params }: { params: { lang: string } }) {
   const lang = params.lang;
   return (
     <>
-      <HeroPage titulo="Paraísos" subtitulo="Playas y mar de Sanxenxo y alrededores." />
+      <HeroPage ruta="/paraisos/" titulo="Paraísos" subtitulo="Playas y mar de Sanxenxo y alrededores." />
       <Migas lang={lang} ruta="/paraisos/" />
       <Contenido lang={lang} ruta="/paraisos/" />
       <Seccion titulo="Empieza por aquí" intro="Dos entradas: la arena y el agua.">

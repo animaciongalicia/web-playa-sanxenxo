@@ -1,6 +1,6 @@
 import AvisoPendiente2027 from './AvisoPendiente2027';
 import Contenido from './Contenido';
-import { EnPreparacion, Insignia } from './Fichas';
+import {EnPreparacion} from './Fichas';
 import HeroPage from './HeroPage';
 import LlamadaAgencia from './LlamadaAgencia';
 import Migas from './Migas';
@@ -14,12 +14,12 @@ export default function ServicioPagina({ lang, id, ruta, titulo, subtitulo }: { 
   const s = getServicio(id);
   return (
     <>
-      <HeroPage titulo={titulo} subtitulo={subtitulo} />
+      <HeroPage ruta={ruta} titulo={titulo} subtitulo={subtitulo} />
       <Migas lang={lang} ruta={ruta} />
       <Contenido lang={lang} ruta={ruta} />
       <Seccion ancho="estrecho">
         {s?.estado_2027 === 'pendiente' && <div className="mb-6"><AvisoPendiente2027 lang={lang} /></div>}
-        {s?.descripcion ? <p className="text-lg leading-relaxed text-gray-600">{s.descripcion}<Insignia f={s} /></p> : <EnPreparacion />}
+        {s?.descripcion ? <p className="text-lg leading-relaxed text-gray-600">{s.descripcion}</p> : <EnPreparacion />}
         {s && s.salidas.length > 0 && (
           <p className="mt-8 text-gray-600"><strong className="text-gray-900">Salidas: </strong>{s.salidas.join(', ')}</p>
         )}

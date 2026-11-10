@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Contenido from '../../../components/Contenido';
-import { Insignia, NotaRevision } from '../../../components/Fichas';
 import HeroPage from '../../../components/HeroPage';
 import LlamadaAgencia from '../../../components/LlamadaAgencia';
 import Migas from '../../../components/Migas';
@@ -25,16 +24,15 @@ export default function CuandoIr({ params }: { params: { lang: string } }) {
     .filter((x) => x.campos.length);
   return (
     <>
-      <HeroPage titulo="Cuándo ir y condiciones" subtitulo="Mes a mes: qué te encuentras, qué te conviene y qué condiciones tienen las despedidas." />
+      <HeroPage ruta="/cuando-ir/" titulo="Cuándo ir y condiciones" subtitulo="Mes a mes: qué te encuentras, qué te conviene y qué condiciones tienen las despedidas." />
       <Migas lang={lang} ruta="/cuando-ir/" />
       <Contenido lang={lang} ruta="/cuando-ir/" id="meses" />
       {conDatos.length > 0 && (
         <Seccion fondo="gris" titulo="Mes a mes">
-          <NotaRevision>Campos rellenados en <code>data/servicios-y-meses.json</code>.</NotaRevision>
           <div className="space-y-10">
             {conDatos.map(({ mes, titulo, campos }) => (
               <div key={mes.id} id={mes.id}>
-                <h3 className="text-2xl font-bold text-gray-900">{titulo}<Insignia f={mes} /></h3>
+                <h3 className="text-2xl font-bold text-gray-900">{titulo}</h3>
                 <div className="mt-4 space-y-4">
                   {campos.map((c) => (
                     <div key={c.campo}>

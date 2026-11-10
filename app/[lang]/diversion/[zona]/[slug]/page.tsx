@@ -22,7 +22,7 @@ export default function LocalDiversion({ params }: { params: P }) {
   if (!esIdioma(params.lang) || !local) notFound();
   return (
     <>
-      <HeroPage etiqueta={TIPO_LOCAL[local.tipo]} titulo={local.nombre} />
+      <HeroPage ruta={`/diversion/${params.zona}/${params.slug}/`} etiqueta={TIPO_LOCAL[local.tipo]} titulo={local.nombre} />
       <Migas lang={params.lang} ruta={`/diversion/${local.zona}/${local.slug}/`} titulo={local.nombre} />
       <Contenido lang={params.lang} ruta={`/diversion/${local.zona}/${local.slug}/`} />
       <Seccion ancho="estrecho">

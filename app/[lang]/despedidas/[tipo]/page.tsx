@@ -17,7 +17,7 @@ export default function Despedida({ params }: { params: P }) {
   const titulo = TIPOS[params.tipo as keyof typeof TIPOS];
   return (
     <>
-      <HeroPage titulo={titulo} />
+      <HeroPage ruta={`/despedidas/${params.tipo}/`} titulo={titulo} />
       <Migas lang={params.lang} ruta={`/despedidas/${params.tipo}/`} titulo={titulo} />
       <Contenido lang={params.lang} ruta={`/despedidas/${params.tipo}/`} />
       <PlanDespedida lang={params.lang} />

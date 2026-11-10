@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import HeroPage from '../../../../components/HeroPage';
-import { EnPreparacion } from '../../../../components/Fichas';
+import {EnPreparacion} from '../../../../components/Fichas';
 import { TarjetaLocal } from '../../../../components/Locales';
 import Migas from '../../../../components/Migas';
 import Contenido from '../../../../components/Contenido';
@@ -25,7 +25,7 @@ export default function ZonaDiversion({ params }: { params: P }) {
   const referencias = zona === 'a-lanzada-san-vicente' ? getLocales('chiringuitos').filter((l) => l.tambien_en.includes('diversion')) : [];
   return (
     <>
-      <HeroPage titulo={`Diversión: ${NOMBRE_ZONA[zona]}`} />
+      <HeroPage ruta={`/diversion/${params.zona}/`} titulo={`Diversión: ${NOMBRE_ZONA[zona]}`} />
       <Migas lang={params.lang} ruta={`/diversion/${zona}/`} titulo={NOMBRE_ZONA[zona]} />
       <Contenido lang={params.lang} ruta={`/diversion/${zona}/`} />
       <Seccion>

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import HeroPage from '../../../../components/HeroPage';
 import LlamadaAgencia from '../../../../components/LlamadaAgencia';
-import { Aviso, EnPreparacion, TarjetaActividad } from '../../../../components/Fichas';
+import {Aviso, EnPreparacion, TarjetaActividad} from '../../../../components/Fichas';
 import Migas from '../../../../components/Migas';
 import Contenido from '../../../../components/Contenido';
 import Seccion from '../../../../components/Seccion';
@@ -26,7 +26,7 @@ export default function Familia({ params }: { params: P }) {
   const kayak = params.familia === 'kayak-areoso';
   return (
     <>
-      <HeroPage titulo={info.titulo} subtitulo={info.texto} />
+      <HeroPage ruta={`/actividades/${params.familia}/`} titulo={info.titulo} subtitulo={info.texto} />
       <Migas lang={params.lang} ruta={`/actividades/${params.familia}/`} titulo={info.titulo} />
       <Contenido lang={params.lang} ruta={`/actividades/${params.familia}/`} />
       <Seccion>

@@ -43,7 +43,7 @@ export default function Pagina({ params }: { params: { lang: string; slug: strin
 
   return (
     <>
-      <HeroPage titulo={ruta.titulo} subtitulo={ruta.descripcion} />
+      <HeroPage ruta={ruta.ruta} titulo={ruta.titulo} subtitulo={ruta.descripcion} />
       <Migas lang={lang} ruta={ruta.ruta} />
       <Contenido lang={lang} ruta={ruta.ruta} />
       {!getContenido(lang, ruta.ruta) && (

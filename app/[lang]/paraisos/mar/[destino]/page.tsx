@@ -5,7 +5,7 @@ import HeroPage from '../../../../../components/HeroPage';
 import Migas from '../../../../../components/Migas';
 import Contenido from '../../../../../components/Contenido';
 import Seccion from '../../../../../components/Seccion';
-import { Aviso, EnPreparacion, Insignia, TarjetaPlaya } from '../../../../../components/Fichas';
+import {Aviso, EnPreparacion, TarjetaPlaya} from '../../../../../components/Fichas';
 import LlamadaAgencia from '../../../../../components/LlamadaAgencia';
 import { getDestinos, getPlayas } from '../../../../../lib/datos';
 import { IDIOMAS, esIdioma, href } from '../../../../../lib/i18n';
@@ -29,11 +29,11 @@ export default function Destino({ params }: { params: P }) {
   const hayContenido = destino && (destino.descripcion || destino.como_se_llega || destino.cupos_permisos);
   return (
     <>
-      <HeroPage etiqueta={destino?.parque_nacional ? 'Parque Nacional de las Islas Atlánticas' : undefined} titulo={TITULOS[id]} />
+      <HeroPage ruta={`/paraisos/mar/${params.destino}/`} etiqueta={destino?.parque_nacional ? 'Parque Nacional de las Islas Atlánticas' : undefined} titulo={TITULOS[id]} />
       <Migas lang={lang} ruta={`/paraisos/mar/${params.destino}/`} titulo={TITULOS[id]} />
       <Contenido lang={lang} ruta={`/paraisos/mar/${params.destino}/`} />
       <Seccion ancho="estrecho">
-        {destino && <p className="mb-4"><Insignia f={destino} /></p>}
+        {destino && <p className="mb-4"></p>}
         {destino?.descripcion && <p className="text-lg leading-relaxed text-gray-600">{destino.descripcion}</p>}
         {destino?.como_se_llega && <><h2 className="mt-8 text-xl font-bold text-gray-900">Cómo se llega</h2><p className="mt-2 text-gray-600">{destino.como_se_llega}</p></>}
         {destino?.cupos_permisos && <div className="mt-8"><Aviso><strong>Cupos y permisos:</strong> {destino.cupos_permisos}</Aviso></div>}

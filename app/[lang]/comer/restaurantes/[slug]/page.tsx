@@ -21,7 +21,7 @@ export default function Restaurante({ params }: { params: P }) {
   if (!esIdioma(params.lang) || !local) notFound();
   return (
     <>
-      <HeroPage titulo={local.nombre} etiqueta="Restaurante" />
+      <HeroPage ruta={`/comer/restaurantes/${params.slug}/`} titulo={local.nombre} etiqueta="Restaurante" />
       <Migas lang={params.lang} ruta={`/comer/restaurantes/${local.slug}/`} titulo={local.nombre} />
       <Contenido lang={params.lang} ruta={`/comer/restaurantes/${local.slug}/`} />
       <Seccion ancho="estrecho">

@@ -160,7 +160,7 @@ Tareas (detalle en `docs/05`):
 1. Revisión final y QA en la vista previa.
 2. **48 h antes:** bajar el TTL del DNS.
 3. Añadir `despedidasplayasanxenxo.com` y `www` al proyecto de Vercel y cambiar DNS.
-4. Poner `LANZADO=1` en Vercel (Producción): quita el `noindex`, abre `robots.txt` y deja de mostrar lo pendiente.
+4. Poner `LANZADO=1` en Vercel (Producción): quita el `noindex` y abre `robots.txt`.
 5. Enviar el sitemap a Search Console y vigilar el informe de cobertura (la web vieja tenía 83 URLs sin indexar).
 6. Revisar los 301 y la analítica durante dos semanas.
 

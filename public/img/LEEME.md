@@ -1,0 +1,39 @@
+# Fotos de la web: cómo subirlas
+
+Sube cada foto a esta carpeta (`public/img/`) con el **nombre exacto** de la lista. No hay que tocar código: si el archivo existe, la web lo usa. Formatos: `.jpg`, `.jpeg`, `.webp`, `.png` o `.avif`.
+
+Medidas recomendadas (la web las redimensiona sola):
+- **Portada de página (hero):** apaisada, 1920 × 900 px o más. Se oscurece un poco para que el texto se lea, así que valen fotos luminosas.
+- **Tarjetas:** apaisadas, 1200 × 800 px.
+- Peso: hasta 1,5 MB cada una está bien.
+
+## Portadas de página
+| Nombre | Dónde sale |
+|---|---|
+| `home-hero` | Portada de la home |
+| `paraisos` | Paraísos (y por defecto, Playas y sus tramos) |
+| `playas` | Playas |
+| `mar` | Mar |
+| `playas-sanxenxo`, `playas-portonovo`, `playas-noalla-a-lanzada`, `playas-o-grove-san-vicente`, `playas-mas-alla` | Cada tramo de playas |
+| `islas-ons`, `islas-cies`, `ria-de-aldan` | Cada destino de mar |
+| `barcos` | Barcos |
+| `actividades` | Actividades |
+| `mar-con-motor`, `playa-y-tabla`, `buceo-y-pesca`, `mar-y-mesa`, `dias-a-medida`, `kayak-areoso` | Cada familia de actividades |
+| `comer` | Comer (y restaurantes, chiringuitos y furanchos por defecto) |
+| `diversion` | Diversión |
+| `despedidas` | Despedidas |
+| `soltero`, `soltera` | Despedida de soltero / de soltera |
+| `cuando-ir` | Cuándo ir y condiciones |
+| `limusinas`, `humor-amarillo-en-sanxenxo` | Servicios |
+| `agencia` | Agencia |
+
+## Tarjetas de la home
+`card-paraisos`, `card-barcos`, `card-actividades`, `card-comer`, `card-diversion`, `card-despedidas`, `card-cuando-ir`.
+Si no existen, usa la foto de portada de esa sección.
+
+## Fotos por ficha
+- **Barcos:** `barco-yate-1`, `barco-yate-2`, `barco-yate-3`, `barco-velero-bavaria-1`, `barco-velero-bavaria-2`, `barco-velero-bavaria-3`, `barco-yate-motora`, `barco-pesquero-aldan`, `barco-lancha-rapida`.
+- **Locales con página propia:** `a-vichona`, `a-ferreira`, `a-curva`, `gassho`, `varadero`, `buddha`, `dux`.
+
+## Fotos provisionales
+Las que hay ahora vienen de la web anterior y son **provisionales**: sustitúyelas subiendo la tuya con el mismo nombre (borra la vieja si tiene otra extensión). Las de personas posando en barco o en la playa parecen fotos de archivo: conviene cambiarlas por fotos reales de Sanxenxo.

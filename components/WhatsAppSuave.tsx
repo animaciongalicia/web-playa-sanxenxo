@@ -1,7 +1,7 @@
 // WhatsApp "muy suave": un círculo pequeño, discreto, sin color chillón ni animación.
 // El número viene de NEXT_PUBLIC_WHATSAPP (formato internacional sin "+"). Sin número, no se pinta.
 export default function WhatsAppSuave({ etiqueta }: { etiqueta: string }) {
-  const numero = (process.env.NEXT_PUBLIC_WHATSAPP ?? '').replace(/\D/g, '');
+  const numero = (process.env.NEXT_PUBLIC_WHATSAPP ?? '34678288284').replace(/\D/g, '');
   if (!numero) return null;
   return (
     <a

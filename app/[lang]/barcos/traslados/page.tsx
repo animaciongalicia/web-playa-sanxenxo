@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import HeroPage from '../../../../components/HeroPage';
 import LlamadaAgencia from '../../../../components/LlamadaAgencia';
-import { EnPreparacion, Insignia } from '../../../../components/Fichas';
+import {EnPreparacion} from '../../../../components/Fichas';
 import Migas from '../../../../components/Migas';
 import Contenido from '../../../../components/Contenido';
 import Seccion from '../../../../components/Seccion';
@@ -22,7 +22,7 @@ export default function Traslados({ params }: { params: { lang: string } }) {
   const traslados = getTraslados();
   return (
     <>
-      <HeroPage titulo="Traslados a Ons, Cíes y Aldán" subtitulo="En lancha rápida." />
+      <HeroPage ruta="/barcos/" titulo="Traslados a Ons, Cíes y Aldán" subtitulo="En lancha rápida." />
       <Migas lang={params.lang} ruta="/barcos/traslados/" />
       <Contenido lang={params.lang} ruta="/barcos/traslados/" />
       <Seccion>
@@ -30,7 +30,7 @@ export default function Traslados({ params }: { params: { lang: string } }) {
           <div className="grid gap-6 md:grid-cols-3">
             {traslados.map((t) => (
               <article key={t.id} className="card-elegant stagger-child !p-6">
-                <h3 className="text-lg font-semibold text-gray-900">{NOMBRE[t.destino]}<Insignia f={t} /></h3>
+                <h3 className="text-lg font-semibold text-gray-900">{NOMBRE[t.destino]}</h3>
                 <dl className="mt-3 space-y-1 text-sm text-gray-600">
                   {t.puerto_salida && <div><dt className="inline font-semibold text-gray-900">Puerto de salida: </dt><dd className="inline">{t.puerto_salida}</dd></div>}
                   {t.duracion && <div><dt className="inline font-semibold text-gray-900">Duración: </dt><dd className="inline">{t.duracion}</dd></div>}

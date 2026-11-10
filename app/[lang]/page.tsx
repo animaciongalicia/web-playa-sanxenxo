@@ -1,29 +1,16 @@
+import Image from 'next/image';
 import Link from 'next/link';
-import type { ReactNode } from 'react';
+import { notFound } from 'next/navigation';
 import HeroPage from '../../components/HeroPage';
 import Seccion from '../../components/Seccion';
 import Tarjeta from '../../components/Tarjeta';
-import LlamadaAgencia from '../../components/LlamadaAgencia';
+import TarjetaBarco, { tituloBarco } from '../../components/TarjetaBarco';
+import BandaAgencia from '../../components/BandaAgencia';
 import Contenido from '../../components/Contenido';
+import Icono, { type NombreIcono } from '../../components/Icono';
 import { esIdioma, href, textos } from '../../lib/i18n';
-import { notFound } from 'next/navigation';
-
-const icono = (d: string): ReactNode => (
-  <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
-    <path strokeLinecap="round" strokeLinejoin="round" d={d} />
-  </svg>
-);
-
-// Trazos simples, uno por sección.
-const ICONOS = {
-  paraisos: 'M3 17c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 3 2M12 3v6m0 0l-3-3m3 3l3-3',
-  barcos: 'M3 17l2 3h14l2-3H3zM12 3v10M12 5l6 8H12',
-  actividades: 'M13 10V3L4 14h7v7l9-11h-7z',
-  comer: 'M6 3v8a3 3 0 003 3v7M10 3v6M14 3c2 0 4 2 4 6s-2 5-4 5v7',
-  diversion: 'M9 18V5l12-2v13M9 18a3 3 0 11-6 0 3 3 0 016 0zm12-2a3 3 0 11-6 0 3 3 0 016 0z',
-  despedidas: 'M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.5 5.5L21 10l-5.5 2.5L13 18l-2.5-5.5L5 10l5.5-2.5L13 2z',
-  cuandoIr: 'M8 7V3m8 4V3M4 11h16M5 5h14a1 1 0 011 1v14a1 1 0 01-1 1H5a1 1 0 01-1-1V6a1 1 0 011-1z',
-};
+import { getBarcos } from '../../lib/datos';
+import { foto } from '../../lib/fotos';
 
 export default function Home({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();
@@ -31,59 +18,127 @@ export default function Home({ params }: { params: { lang: string } }) {
   const t = textos(lang);
   const h = (r: string) => href(lang, r);
 
-  const entradas = [
-    { clave: 'paraisos', titulo: t.paraisos, texto: 'Playas y mar: Ons, Cíes y la ría de Aldán.', ruta: '/paraisos/' },
-    { clave: 'barcos', titulo: t.barcos, texto: 'Yates, veleros y traslados en lancha rápida.', ruta: '/barcos/' },
-    { clave: 'actividades', titulo: t.actividades, texto: 'Qué hacer en el mar y en la playa con tu grupo.', ruta: '/actividades/' },
-    { clave: 'comer', titulo: t.comer, texto: 'Restaurantes, chiringuitos y furanchos por zona.', ruta: '/comer/' },
-    { clave: 'diversion', titulo: t.diversion, texto: 'Terraceo, tardeo, puestas de sol y copas.', ruta: '/diversion/' },
-    { clave: 'despedidas', titulo: t.despedidas, texto: 'El plan completo para despedidas de soltero y de soltera.', ruta: '/despedidas/' },
-    { clave: 'cuandoIr', titulo: t.cuandoIr, texto: 'Mes a mes: qué te encuentras y qué te conviene.', ruta: '/cuando-ir/' },
-  ] as const;
+  const entradas: { clave: string; titulo: string; texto: string; ruta: string; icono: NombreIcono }[] = [
+    { clave: 'paraisos', titulo: t.paraisos, texto: 'Playas y mar: Ons, Cíes y la ría de Aldán.', ruta: '/paraisos/', icono: 'paraisos' },
+    { clave: 'barcos', titulo: t.barcos, texto: 'Yates, veleros y traslados en lancha rápida.', ruta: '/barcos/', icono: 'barcos' },
+    { clave: 'actividades', titulo: t.actividades, texto: 'Qué hacer en el mar y en la playa con tu grupo.', ruta: '/actividades/', icono: 'actividades' },
+    { clave: 'comer', titulo: t.comer, texto: 'Restaurantes, chiringuitos y furanchos por zona.', ruta: '/comer/', icono: 'comer' },
+    { clave: 'diversion', titulo: t.diversion, texto: 'Terraceo, tardeo, puestas de sol y copas.', ruta: '/diversion/', icono: 'diversion' },
+    { clave: 'despedidas', titulo: t.despedidas, texto: 'El plan completo para despedidas de soltero y de soltera.', ruta: '/despedidas/', icono: 'despedidas' },
+    { clave: 'cuando-ir', titulo: t.cuandoIr, texto: 'Mes a mes: qué te encuentras y qué te conviene.', ruta: '/cuando-ir/', icono: 'calendario' },
+  ];
 
-  const zonas = [
-    ['Sanxenxo', '/paraisos/playas/sanxenxo/'],
-    ['Portonovo', '/paraisos/playas/portonovo/'],
-    ['Noalla – A Lanzada', '/paraisos/playas/noalla-a-lanzada/'],
-    ['O Grove – San Vicente', '/paraisos/playas/o-grove-san-vicente/'],
-  ] as const;
+  const tramos = [
+    { id: 'sanxenxo', nombre: 'Sanxenxo', texto: 'El centro: Silgar, Areas y el puerto deportivo.' },
+    { id: 'portonovo', nombre: 'Portonovo', texto: 'Calas, paseo marítimo y ambiente de puerto.' },
+    { id: 'noalla-a-lanzada', nombre: 'Noalla – A Lanzada', texto: 'Arena larga, mar abierto y atardeceres.' },
+    { id: 'o-grove-san-vicente', nombre: 'O Grove – San Vicente', texto: 'Hasta A Toja: playas tranquilas y mesa de mar.' },
+  ];
+
+  const porQue: { icono: NombreIcono; titulo: string; texto: string }[] = [
+    { icono: 'ojo', titulo: 'Información real', texto: 'Datos de la zona, sin rodeos y sin postureo.' },
+    { icono: 'mapa', titulo: 'Todo en un sitio', texto: 'Playas, mar, comida y diversión de Aldán a O Grove.' },
+    { icono: 'corazon', titulo: 'Hecha para despedidas', texto: 'Pensada para grupos que quieren pasarlo bien.' },
+  ];
+
+  // Barcos destacados: uno de cada categoría, hasta tres.
+  const barcos = getBarcos();
+  const vistas = new Set<string>();
+  const destacados = barcos.filter((b) => (vistas.has(b.categoria) ? false : (vistas.add(b.categoria), true))).slice(0, 3);
+  const contar = (cat: string) => barcos.filter((b) => b.categoria === cat).length;
+  const indice = (b: (typeof barcos)[number]) => barcos.filter((x) => x.categoria === b.categoria).indexOf(b) + 1;
+
+  const fotoIntro = foto('paraisos', 'home-hero');
 
   return (
     <>
-      <HeroPage etiqueta="Sanxenxo · Despedidas" titulo="Tu despedida en Sanxenxo: playas, mar y fiesta" subtitulo={t.tagline}>
+      <HeroPage ruta="/" etiqueta="Sanxenxo · Despedidas" titulo="Tu despedida en Sanxenxo: playas, mar y fiesta" subtitulo={t.tagline}>
         <Link href={h('/paraisos/')} className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-4 text-sm font-semibold text-ria-800 transition-all hover:bg-ria-50 hover:shadow-lg">
           {t.paraisos}
         </Link>
         <Link href={h('/despedidas/')} className="btn-claro !px-8 !py-4">{t.despedidas}</Link>
       </HeroPage>
 
-      <Seccion titulo="Elige por dónde empezar" intro="Siete entradas. Cada una responde una duda real de tu despedida.">
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      {/* Qué es esta guía */}
+      <Seccion>
+        <div className="grid items-center gap-12 lg:grid-cols-2">
+          <div>
+            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-ria-600">La guía</p>
+            <h2 className="heading-section">Sanxenxo es pequeño. Lo bueno se extiende 10 km a la redonda.</h2>
+            <p className="mt-5 text-lg leading-relaxed text-gray-600">De Aldán a O Grove está todo lo que quiere un grupo: playas, mar, barcos, buena mesa y terrazas al atardecer.</p>
+            <p className="mt-4 text-lg leading-relaxed text-gray-600">Aquí lo tienes ordenado para que decidas rápido y llegues con el plan hecho.</p>
+            <div className="mt-8 grid gap-5 sm:grid-cols-3">
+              {porQue.map((p) => (
+                <div key={p.titulo}>
+                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-ria-50 text-ria-700"><Icono nombre={p.icono} className="h-6 w-6" /></span>
+                  <h3 className="mt-3 font-semibold text-gray-900">{p.titulo}</h3>
+                  <p className="mt-1 text-sm leading-relaxed text-gray-500">{p.texto}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-gradient-to-br from-ria-100 via-ria-200 to-ria-400 shadow-xl">
+            {fotoIntro && <Image src={fotoIntro} alt="" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />}
+          </div>
+        </div>
+      </Seccion>
+
+      {/* Las siete entradas */}
+      <Seccion fondo="gris" etiqueta="Empieza aquí" titulo="Elige por dónde empezar" intro="Siete entradas. Cada una responde una duda real de tu despedida." centrado>
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {entradas.map((e) => (
-            <Tarjeta key={e.clave} titulo={e.titulo} texto={e.texto} href={h(e.ruta)} icono={icono(ICONOS[e.clave])} />
+            <Tarjeta key={e.clave} titulo={e.titulo} texto={e.texto} href={h(e.ruta)} claves={[`card-${e.clave}`, e.clave]} nombreIcono={e.icono} />
           ))}
+        </div>
+      </Seccion>
+
+      {/* Tramos de costa */}
+      <Seccion fondo="arena" etiqueta="Playas" titulo="Cuatro tramos de costa" intro="El núcleo de la guía. Empieza por el que te pille más cerca." centrado>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {tramos.map((z) => (
+            <Tarjeta key={z.id} titulo={z.nombre} texto={z.texto} href={h(`/paraisos/playas/${z.id}/`)} claves={[`playas-${z.id}`, z.id, 'paraisos']} nombreIcono="playa" />
+          ))}
+        </div>
+      </Seccion>
+
+      {/* Barcos destacados */}
+      {destacados.length > 0 && (
+        <Seccion etiqueta="Mar" titulo="Un día en barco cambia la despedida" intro="Yates, veleros y lancha rápida desde Sanxenxo y Portonovo. Con patrón, seguros y precio claro.">
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {destacados.map((b) => (
+              <TarjetaBarco key={b.id} b={b} titulo={tituloBarco(b, indice(b), contar(b.categoria))} />
+            ))}
+          </div>
+          <div className="mt-10 text-center">
+            <Link href={h('/barcos/')} className="btn-primary">Ver todos los barcos</Link>
+          </div>
+        </Seccion>
+      )}
+
+      {/* Cuándo ir */}
+      <Seccion fondo="ria" etiqueta="Cuándo ir" titulo="La temporada, en tres líneas" intro="Lo gordo es verano. Pero hay vida fuera de él." centrado>
+        <div className="grid gap-6 md:grid-cols-3">
+          {[
+            { k: 'Calentamiento', v: '1 al 15 de junio', d: 'Ambiente suave, precios más amables y menos gente.' },
+            { k: 'Lo gordo', v: '20 de junio a final de agosto', d: 'Todo abierto, todo lleno. Reserva con tiempo.' },
+            { k: 'Resto del año', v: 'De septiembre a mayo', d: 'Zona muy tranquila: manda el Imserso. Mira condiciones antes de decidir.' },
+          ].map((c) => (
+            <div key={c.k} className="stagger-child rounded-2xl border border-white/15 bg-white/5 p-7 backdrop-blur-sm">
+              <Icono nombre="sol" className="h-8 w-8 text-arena-300" />
+              <p className="mt-4 text-sm font-semibold uppercase tracking-widest text-arena-300">{c.k}</p>
+              <p className="mt-1 text-xl font-bold">{c.v}</p>
+              <p className="mt-2 text-sm leading-relaxed text-ria-100">{c.d}</p>
+            </div>
+          ))}
+        </div>
+        <div className="mt-10 text-center">
+          <Link href={h('/cuando-ir/')} className="btn-claro">Mes a mes</Link>
         </div>
       </Seccion>
 
       <Contenido lang={lang} ruta="/" />
 
-      <Seccion fondo="gris" titulo="Cuatro tramos de costa" intro="El núcleo de la guía. Empieza por el que te pille más cerca.">
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {zonas.map(([nombre, ruta]) => (
-            <Link key={ruta} href={h(ruta)} className="card-elegant stagger-child block !p-6 text-center">
-              <span className="text-lg font-semibold text-ria-800">{nombre}</span>
-            </Link>
-          ))}
-        </div>
-      </Seccion>
-
-      <Seccion ancho="estrecho">
-        <div className="text-center">
-          <h2 className="heading-section">¿Ya sabes lo que quieres?</h2>
-          <p className="mt-4 text-lg leading-relaxed text-gray-600">La guía te ayuda a decidir. Cuando lo tengas claro, la agencia te lo organiza.</p>
-          <LlamadaAgencia lang={lang} className="mt-6 !text-base" />
-        </div>
-      </Seccion>
+      <BandaAgencia lang={lang} titulo="¿Ya sabes lo que quieres?" texto="La guía te ayuda a decidir. Cuando lo tengas claro, la agencia te lo organiza." />
     </>
   );
 }
