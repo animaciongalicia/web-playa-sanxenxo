@@ -2,9 +2,10 @@ import Link from 'next/link';
 import { href, textos, type Idioma } from '../lib/i18n';
 import { migasDe } from '../lib/rutas';
 
-export default function Migas({ lang, ruta }: { lang: Idioma; ruta: string }) {
+export default function Migas({ lang, ruta, titulo }: { lang: Idioma; ruta: string; titulo?: string }) {
   const t = textos(lang);
   const migas = migasDe(ruta);
+  if (titulo && migas[migas.length - 1]?.ruta !== ruta) migas.push({ titulo, ruta });
   return (
     <nav aria-label="Migas de pan" className="border-b border-gray-100 bg-gray-50 px-6 py-3">
       <ol className="mx-auto flex max-w-7xl flex-wrap items-center gap-2 text-sm text-gray-500">

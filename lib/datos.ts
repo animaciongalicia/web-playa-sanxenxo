@@ -16,7 +16,20 @@ function cargar<T>(archivo: string, esquema: { parse: (x: unknown) => T }): T {
 }
 
 type Control = { publicar: boolean | null };
-const publicados = <T extends Control>(fichas: T[]): T[] => fichas.filter((f) => f.publicar === true);
+
+/** Modo revisión (vista previa de Pablo): además de lo publicado, enseña lo pendiente (publicar === null).
+ *  Lo marcado publicar === false nunca sale. En producción real la variable no existe. */
+export const modoRevision = (): boolean => process.env.MOSTRAR_PENDIENTES === '1';
+
+const publicados = <T extends Control>(fichas: T[]): T[] =>
+  fichas.filter((f) => f.publicar === true || (modoRevision() && f.publicar === null));
+
+/** ¿Está la ficha pendiente de decisión? (solo se enseña en modo revisión) */
+export const esPendiente = (f: Control): boolean => f.publicar !== true;
+
+/** Notas operativas: las internas ("Confirmar…") solo salen en revisión; en producción, solo con la ficha verificada. */
+export const notasVisibles = (a: { notas_operativas: string[]; verificado: boolean }): string[] =>
+  a.verificado || modoRevision() ? a.notas_operativas : [];
 
 /** Quita lo interno de una ficha cuando se sirve en producción. */
 function limpiar<T extends { notas_internas: string | null; datos_fuente: string[] }>(ficha: T): T {
