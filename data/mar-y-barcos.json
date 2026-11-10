@@ -100,8 +100,8 @@
       "eslora": "Entre 39 y 42 pies",
       "plazas": 11,
       "plazas_opciones": [],
-      "patron": null,
-      "puerto_salida": null,
+      "patron": "siempre",
+      "puerto_salida": "Sanxenxo o Portonovo (alguno, desde Combarro)",
       "zona": null,
       "duracion": null,
       "descripcion": null,
@@ -126,9 +126,16 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Tres yates de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos"
+        "Tres yates de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos",
+        "2026-11-10, Pablo: cada precio incluye barco, seguros y patrón; en veleros, también combustible; en yates, unos sí y otros no (consultar). La mayoría salen de Sanxenxo o Portonovo y alguno de Combarro"
       ],
-      "notas_internas": null
+      "notas_internas": null,
+      "incluye": [
+        "Barco",
+        "Seguros",
+        "Patrón"
+      ],
+      "consultar": "Combustible: depende del yate, consulta"
     },
     {
       "id": "yate-2",
@@ -139,8 +146,8 @@
       "eslora": "Entre 39 y 42 pies",
       "plazas": 11,
       "plazas_opciones": [],
-      "patron": null,
-      "puerto_salida": null,
+      "patron": "siempre",
+      "puerto_salida": "Sanxenxo o Portonovo (alguno, desde Combarro)",
       "zona": null,
       "duracion": null,
       "descripcion": null,
@@ -165,9 +172,16 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Tres yates de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos"
+        "Tres yates de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos",
+        "2026-11-10, Pablo: cada precio incluye barco, seguros y patrón; en veleros, también combustible; en yates, unos sí y otros no (consultar). La mayoría salen de Sanxenxo o Portonovo y alguno de Combarro"
       ],
-      "notas_internas": null
+      "notas_internas": null,
+      "incluye": [
+        "Barco",
+        "Seguros",
+        "Patrón"
+      ],
+      "consultar": "Combustible: depende del yate, consulta"
     },
     {
       "id": "yate-3",
@@ -178,8 +192,8 @@
       "eslora": "Entre 39 y 42 pies",
       "plazas": 11,
       "plazas_opciones": [],
-      "patron": null,
-      "puerto_salida": null,
+      "patron": "siempre",
+      "puerto_salida": "Sanxenxo o Portonovo (alguno, desde Combarro)",
       "zona": null,
       "duracion": null,
       "descripcion": null,
@@ -204,9 +218,16 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Tres yates de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos"
+        "Tres yates de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos",
+        "2026-11-10, Pablo: cada precio incluye barco, seguros y patrón; en veleros, también combustible; en yates, unos sí y otros no (consultar). La mayoría salen de Sanxenxo o Portonovo y alguno de Combarro"
       ],
-      "notas_internas": null
+      "notas_internas": null,
+      "incluye": [
+        "Barco",
+        "Seguros",
+        "Patrón"
+      ],
+      "consultar": "Combustible: depende del yate, consulta"
     },
     {
       "id": "velero-bavaria-1",
@@ -218,7 +239,7 @@
       "plazas": 11,
       "plazas_opciones": [],
       "patron": "siempre",
-      "puerto_salida": null,
+      "puerto_salida": "Sanxenxo o Portonovo (alguno, desde Combarro)",
       "zona": null,
       "duracion": null,
       "descripcion": null,
@@ -243,9 +264,17 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Tres veleros Bavaria de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, modelo exacto de cada uno, puerto de salida y fotos"
+        "Tres veleros Bavaria de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, modelo exacto de cada uno, puerto de salida y fotos",
+        "2026-11-10, Pablo: cada precio incluye barco, seguros y patrón; en veleros, también combustible; en yates, unos sí y otros no (consultar). La mayoría salen de Sanxenxo o Portonovo y alguno de Combarro"
       ],
-      "notas_internas": null
+      "notas_internas": null,
+      "incluye": [
+        "Barco",
+        "Seguros",
+        "Patrón",
+        "Combustible"
+      ],
+      "consultar": null
     },
     {
       "id": "velero-bavaria-2",
@@ -257,7 +286,7 @@
       "plazas": 11,
       "plazas_opciones": [],
       "patron": "siempre",
-      "puerto_salida": null,
+      "puerto_salida": "Sanxenxo o Portonovo (alguno, desde Combarro)",
       "zona": null,
       "duracion": null,
       "descripcion": null,
@@ -282,9 +311,17 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Tres veleros Bavaria de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, modelo exacto de cada uno, puerto de salida y fotos"
+        "Tres veleros Bavaria de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, modelo exacto de cada uno, puerto de salida y fotos",
+        "2026-11-10, Pablo: cada precio incluye barco, seguros y patrón; en veleros, también combustible; en yates, unos sí y otros no (consultar). La mayoría salen de Sanxenxo o Portonovo y alguno de Combarro"
       ],
-      "notas_internas": null
+      "notas_internas": null,
+      "incluye": [
+        "Barco",
+        "Seguros",
+        "Patrón",
+        "Combustible"
+      ],
+      "consultar": null
     },
     {
       "id": "velero-bavaria-3",
@@ -296,7 +333,7 @@
       "plazas": 11,
       "plazas_opciones": [],
       "patron": "siempre",
-      "puerto_salida": null,
+      "puerto_salida": "Sanxenxo o Portonovo (alguno, desde Combarro)",
       "zona": null,
       "duracion": null,
       "descripcion": null,
@@ -321,9 +358,17 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Tres veleros Bavaria de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, modelo exacto de cada uno, puerto de salida y fotos"
+        "Tres veleros Bavaria de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, modelo exacto de cada uno, puerto de salida y fotos",
+        "2026-11-10, Pablo: cada precio incluye barco, seguros y patrón; en veleros, también combustible; en yates, unos sí y otros no (consultar). La mayoría salen de Sanxenxo o Portonovo y alguno de Combarro"
       ],
-      "notas_internas": null
+      "notas_internas": null,
+      "incluye": [
+        "Barco",
+        "Seguros",
+        "Patrón",
+        "Combustible"
+      ],
+      "consultar": null
     },
     {
       "id": "yate-motora",
@@ -334,8 +379,8 @@
       "eslora": null,
       "plazas": 16,
       "plazas_opciones": [],
-      "patron": null,
-      "puerto_salida": null,
+      "patron": "siempre",
+      "puerto_salida": "Sanxenxo o Portonovo (alguno, desde Combarro)",
       "zona": null,
       "duracion": null,
       "descripcion": null,
@@ -360,9 +405,16 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Yate más motora, máximo 16 personas. 4 horas 1.000 €, 8 horas 1.400 € (Pablo). Faltan puerto de salida y fotos"
+        "Yate más motora, máximo 16 personas. 4 horas 1.000 €, 8 horas 1.400 € (Pablo). Faltan puerto de salida y fotos",
+        "2026-11-10, Pablo: cada precio incluye barco, seguros y patrón; en veleros, también combustible; en yates, unos sí y otros no (consultar). La mayoría salen de Sanxenxo o Portonovo y alguno de Combarro"
       ],
-      "notas_internas": null
+      "notas_internas": null,
+      "incluye": [
+        "Barco",
+        "Seguros",
+        "Patrón"
+      ],
+      "consultar": "Combustible: depende del yate, consulta"
     },
     {
       "id": "pesquero-aldan",
@@ -377,7 +429,7 @@
         16,
         21
       ],
-      "patron": null,
+      "patron": "siempre",
       "puerto_salida": null,
       "zona": "Solo en la ría de Aldán",
       "duracion": null,
@@ -409,9 +461,16 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Pesquero con máximo de 11, 16 o 21 personas según la versión, solo en la ría de Aldán (Pablo). Precios: 11 personas 950 €, 16 personas 1.400 €, 21 personas 1.750 € (sin \"desde\": confirmar si es precio cerrado y qué duración incluye). Faltan puerto de salida y fotos"
+        "Pesquero con máximo de 11, 16 o 21 personas según la versión, solo en la ría de Aldán (Pablo). Precios: 11 personas 950 €, 16 personas 1.400 €, 21 personas 1.750 € (sin \"desde\": confirmar si es precio cerrado y qué duración incluye). Faltan puerto de salida y fotos",
+        "2026-11-10, Pablo: cada precio incluye barco, seguros y patrón; en veleros, también combustible; en yates, unos sí y otros no (consultar). La mayoría salen de Sanxenxo o Portonovo y alguno de Combarro"
       ],
-      "notas_internas": null
+      "notas_internas": null,
+      "incluye": [
+        "Barco",
+        "Seguros",
+        "Patrón"
+      ],
+      "consultar": null
     },
     {
       "id": "lancha-rapida",
@@ -422,8 +481,8 @@
       "eslora": null,
       "plazas": 11,
       "plazas_opciones": [],
-      "patron": null,
-      "puerto_salida": null,
+      "patron": "siempre",
+      "puerto_salida": "Sanxenxo o Portonovo (alguno, desde Combarro)",
       "zona": null,
       "duracion": "1 hora",
       "descripcion": "Paseo ultrarrápido por la zona, a modo de experiencia.",
@@ -442,9 +501,16 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Lancha rápida de máximo 11 personas para un paseo ultrarrápido de 1 hora por la zona, a modo de experiencia: 450 € (Pablo, 2026-11-10; sin \"desde\": confirmar si es el precio de la lancha entera). Faltan puerto de salida y fotos"
+        "Lancha rápida de máximo 11 personas para un paseo ultrarrápido de 1 hora por la zona, a modo de experiencia: 450 € (Pablo, 2026-11-10; sin \"desde\": confirmar si es el precio de la lancha entera). Faltan puerto de salida y fotos",
+        "2026-11-10, Pablo: cada precio incluye barco, seguros y patrón; en veleros, también combustible; en yates, unos sí y otros no (consultar). La mayoría salen de Sanxenxo o Portonovo y alguno de Combarro"
       ],
-      "notas_internas": null
+      "notas_internas": null,
+      "incluye": [
+        "Barco",
+        "Seguros",
+        "Patrón"
+      ],
+      "consultar": null
     }
   ],
   "traslados": [
@@ -457,12 +523,13 @@
       "duracion": null,
       "precio_desde": null,
       "enlace_reserva": "https://seagalicia.com",
-      "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
-      "origen": "decisión de Pablo",
+      "publicar": true,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-10",
+      "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Parque Nacional: servicio regular a Ons desde Portonovo, Sanxenxo, Bueu y Marín. Prensa: la naviera Mar de Ons sale a diario de Sanxenxo y Portonovo (sin contrastar con la naviera). https://patrimonionatural.xunta.gal/es/parque-nacional-illas-atlanticas"
+        "Parque Nacional: servicio regular a Ons desde Portonovo, Sanxenxo, Bueu y Marín. Prensa: la naviera Mar de Ons sale a diario de Sanxenxo y Portonovo (sin contrastar con la naviera). https://patrimonionatural.xunta.gal/es/parque-nacional-illas-atlanticas",
+        "Pablo confirma que los traslados a las islas siguen (2026-11-10). Faltan puerto de salida, duración y precio"
       ],
       "notas_internas": null
     },
@@ -475,12 +542,13 @@
       "duracion": null,
       "precio_desde": null,
       "enlace_reserva": "https://seagalicia.com",
-      "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
-      "origen": "decisión de Pablo",
+      "publicar": true,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-10",
+      "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Parque Nacional: a Cíes hay servicio regular desde Vigo, Baiona y Cangas; no figura Sanxenxo. Un traslado desde la ría sería oferta propia: confirmar con Pablo. https://patrimonionatural.xunta.gal/es/parque-nacional-illas-atlanticas"
+        "Parque Nacional: a Cíes hay servicio regular desde Vigo, Baiona y Cangas; no figura Sanxenxo. Un traslado desde la ría sería oferta propia: confirmar con Pablo. https://patrimonionatural.xunta.gal/es/parque-nacional-illas-atlanticas",
+        "Pablo confirma que los traslados a las islas siguen (2026-11-10). Faltan puerto de salida, duración y precio"
       ],
       "notas_internas": null
     },
@@ -493,11 +561,13 @@
       "duracion": null,
       "precio_desde": null,
       "enlace_reserva": "https://seagalicia.com",
-      "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
-      "origen": "decisión de Pablo",
-      "datos_fuente": [],
+      "publicar": true,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-10",
+      "origen": "Pablo (conversación 2026-11-10)",
+      "datos_fuente": [
+        "Pablo confirma que los traslados a las islas siguen (2026-11-10). Faltan puerto de salida, duración y precio"
+      ],
       "notas_internas": null
     }
   ],

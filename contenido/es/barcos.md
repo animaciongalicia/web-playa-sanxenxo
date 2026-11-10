@@ -5,10 +5,9 @@ fuentes:
   - "Fichas y precios dictados por Pablo (2026-11-10) en data/mar-y-barcos.json"
   - "Textos propios de Pablo en despedidasplayasanxenxo.com (barcos, despedidas-en-barco-en-sanxenxo), reescritos"
 pendiente:
-  - "Nombre, puerto de salida y fotos de cada barco"
+  - "Nombre y fotos de cada barco; qué barco sale de cada puerto (Sanxenxo, Portonovo o Combarro)"
   - "Pesquero y lancha rápida: confirmar si los precios son cerrados y qué duración incluye el pesquero"
-  - "Qué incluye cada precio (combustible, seguro, extras): Pablo lo aporta"
-  - "Patrón en yates, yate más motora, pesquero y lancha: confirmar"
+  - "Yates: cuáles incluyen combustible y cuáles no"
 ---
 Un barco privado es uno de los planes que más se recuerdan de una despedida. Aquí tienes lo que hay, con capacidad y precio «desde» en cada ficha.
 
@@ -27,6 +26,14 @@ Una advertencia, para que no te lleves sorpresas: no son barcos grandes tipo dis
 Los veleros se alquilan por **medio día, de 4 horas**, de mañana o de tarde, o por **día entero, de 8 horas**. Los yates se alquilan por medio día o por día entero. El yate con motora se alquila por 4 u 8 horas.
 
 Si es la primera vez, medio día suele bastar. Un día entero tiene sentido si quieres comer a bordo y hacer varias paradas de baño.
+
+## Qué incluye el precio
+
+Cada precio incluye **el barco, los seguros y el patrón**. En los veleros, además, **el combustible**. En los yates depende: algunos lo incluyen y otros no, así que pregúntalo al pedir presupuesto.
+
+## Desde dónde salen
+
+Casi todos los barcos salen de **Sanxenxo o de Portonovo**, y alguno, de **Combarro**. Con esto no tienes que desplazarte lejos: son los dos puertos del centro de la zona.
 
 ## Cómo funciona
 

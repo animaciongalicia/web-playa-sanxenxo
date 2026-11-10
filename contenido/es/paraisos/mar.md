@@ -7,7 +7,7 @@ fuentes:
   - "data/mar-y-barcos.json (decisiones de Pablo)"
 pendiente:
   - "Cupos diarios: la ficha del Parque y la prensa no coinciden. No se publican cifras"
-  - "Pablo confirma si se ofrece traslado a Cíes desde la ría (el servicio regular sale de Vigo, Baiona y Cangas)"
+  - "Traslados a Ons, Cíes y Aldán: Pablo confirma que siguen; faltan puertos, duración y precio"
 ---
 Tienes la ría delante y, más allá, dos de las islas más conocidas de Galicia. El mar de esta zona da para un día entero, y suele ser lo que más se recuerda de una despedida.
 

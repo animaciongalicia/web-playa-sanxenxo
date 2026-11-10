@@ -8,7 +8,7 @@ fuentes:
   - "Guías (Komoot, Wikipedia, Pirata de Nabia): islas, faros, camping"
   - "Texto propio de Pablo sobre snorkel en las Cíes, despedidasplayasanxenxo.com/buceando-en-las-islas-cies/"
 pendiente:
-  - "Desde la ría no hay barco regular a Cíes: Pablo confirma si se ofrece traslado propio y desde qué puerto"
+  - "Traslado a Cíes desde la ría: Pablo confirma que sigue; faltan puerto de salida, duración y precio"
   - "Cupo: la ficha del Parque dice 2.200 al día; la prensa 2026 cita 1.800. No se publica cifra"
 ---
 Las Cíes son un archipiélago frente a la costa de Vigo, a la entrada de la ría. Forman parte del Parque Nacional de las Islas Atlánticas y son, con Ons, uno de los grandes planes de mar de la zona.
@@ -28,7 +28,7 @@ El archipiélago tiene tres islas principales: Monteagudo, Do Faro y San Martiñ
 
 El servicio regular de barco a las Cíes sale de **Vigo, Baiona y Cangas**, en temporada alta. No sale de Sanxenxo ni de Portonovo.
 
-Si te interesa ir desde la ría, la opción es un traslado en lancha rápida. Mira [traslados](/barcos/traslados/) y [barcos](/barcos/).
+Si te interesa ir desde la ría, la opción es un traslado en lancha rápida, que sigue disponible. Mira [traslados](/barcos/traslados/) y [barcos](/barcos/).
 
 ## Permisos y cupos
 

@@ -43,11 +43,16 @@ export default function TarjetaBarco({ b, titulo }: { b: Barco; titulo: string }
           {personas && <div><dt className="inline font-semibold text-gray-900">Capacidad: </dt><dd className="inline">{personas}</dd></div>}
           {b.modelo && <div><dt className="inline font-semibold text-gray-900">Modelo: </dt><dd className="inline">{b.modelo}</dd></div>}
           {b.eslora && <div><dt className="inline font-semibold text-gray-900">Eslora: </dt><dd className="inline">{b.eslora}</dd></div>}
-          {b.patron === 'siempre' && <div><dt className="inline font-semibold text-gray-900">Patrón: </dt><dd className="inline">siempre incluido</dd></div>}
           {b.duracion && <div><dt className="inline font-semibold text-gray-900">Duración: </dt><dd className="inline">{b.duracion}</dd></div>}
           {b.zona && <div><dt className="inline font-semibold text-gray-900">Zona: </dt><dd className="inline">{b.zona}</dd></div>}
           {b.puerto_salida && <div><dt className="inline font-semibold text-gray-900">Puerto de salida: </dt><dd className="inline">{b.puerto_salida}</dd></div>}
         </dl>
+        {(b.incluye.length > 0 || b.consultar) && (
+          <p className="mt-3 text-sm text-gray-600">
+            {b.incluye.length > 0 && <><strong className="text-gray-900">El precio incluye: </strong>{b.incluye.map((x, i) => (i === 0 ? x : x.toLowerCase())).join(', ').replace(/, ([^,]*)$/, ' y $1')}.</>}
+            {b.consultar && <span className="block pt-1 text-gray-500">{b.consultar}.</span>}
+          </p>
+        )}
         {b.precios.length > 0 && (
           <ul className="mt-4 space-y-1 border-t border-gray-100 pt-3 text-sm">
             {b.precios.map((p) => (

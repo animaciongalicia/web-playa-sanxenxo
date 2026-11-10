@@ -130,6 +130,8 @@ export const Barco = z
     duracion: z.string().nullable(),
     descripcion: z.string().nullable(),
     precios: z.array(PrecioBarco),
+    incluye: z.array(z.string()), // lo que incluye el precio
+    consultar: z.string().nullable(), // lo que cambia según el barco (p. ej. combustible en yates)
     fotos: z.array(z.string()), // nombres de archivo en public/img/ (los pone Pablo)
     enlace_reserva: z.string().url(),
   })

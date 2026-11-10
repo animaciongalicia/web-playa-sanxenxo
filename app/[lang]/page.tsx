@@ -50,7 +50,7 @@ export default function Home({ params }: { params: { lang: string } }) {
 
   return (
     <>
-      <HeroPage grande etiqueta="Sanxenxo · Despedidas" titulo="Tu despedida en Sanxenxo: playas, mar y fiesta" subtitulo={t.tagline}>
+      <HeroPage etiqueta="Sanxenxo · Despedidas" titulo="Tu despedida en Sanxenxo: playas, mar y fiesta" subtitulo={t.tagline}>
         <Link href={h('/paraisos/')} className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-4 text-sm font-semibold text-ria-800 transition-all hover:bg-ria-50 hover:shadow-lg">
           {t.paraisos}
         </Link>
