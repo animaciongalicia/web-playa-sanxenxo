@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import HeroPage from '../../../../../components/HeroPage';
-import LlamadaAgencia from '../../../../../components/LlamadaAgencia';
+import BandaAgencia from '../../../../../components/BandaAgencia';
 import { TarjetaLocal } from '../../../../../components/Locales';
 import Migas from '../../../../../components/Migas';
 import Contenido from '../../../../../components/Contenido';
@@ -23,12 +23,12 @@ export default function Restaurante({ params }: { params: P }) {
     <>
       <HeroPage ruta={`/comer/restaurantes/${params.slug}/`} titulo={local.nombre} etiqueta="Restaurante" />
       <Migas lang={params.lang} ruta={`/comer/restaurantes/${local.slug}/`} titulo={local.nombre} />
-      <Contenido lang={params.lang} ruta={`/comer/restaurantes/${local.slug}/`} />
-      <Seccion ancho="estrecho">
+      <Seccion fondo="arena" etiqueta="Ficha rápida" ancho="estrecho">
         <TarjetaLocal local={local} completo />
-        <p className="mt-8"><Link href="/comer/restaurantes/" className="link-inline">← Más restaurantes</Link></p>
       </Seccion>
-      <Seccion ancho="estrecho" fondo="gris"><LlamadaAgencia lang={params.lang} /></Seccion>
+      <Contenido lang={params.lang} ruta={`/comer/restaurantes/${local.slug}/`} />
+      <Seccion ancho="estrecho"><p className="text-center"><Link href="/comer/restaurantes/" className="link-inline">← Más restaurantes</Link></p></Seccion>
+      <BandaAgencia lang={params.lang} />
     </>
   );
 }

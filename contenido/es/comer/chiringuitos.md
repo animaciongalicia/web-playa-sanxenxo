@@ -12,15 +12,6 @@ Muchas playas de la zona tienen chiringuitos. Para tomar una caña, comer un boc
 
 Aquí están por zona de costa.
 
-## Zonas
-
-- **Aldán.** En la ría de Aldán, con varios chiringuitos entre sus calas.
-- **Bueu.** Cerca de Area de Bon.
-- **Poio y Raxó.**
-- **Sanxenxo y Portonovo.**
-- **Noalla y A Lanzada.** Con vistas al atardecer en algunos.
-- **O Grove y San Vicente.** En la zona de San Vicente do Mar.
-
 ## Cómo elegir
 
 1. **Por la playa.** Elige primero la playa y después el chiringuito. Mira [playas](/paraisos/playas/).

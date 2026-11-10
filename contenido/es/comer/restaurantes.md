@@ -10,23 +10,6 @@ pendiente:
 ---
 Aquí tienes los restaurantes de la guía, agrupados por zona. Hay opciones muy distintas: asadores con grandes salones, tabernas con vinos, marisquerías y sitios para ir a comer con calma.
 
-## Cómo está ordenado
-
-Por zona, para que busques cerca de donde te alojas o donde sales de noche:
-
-- **Aldán**, en la ría del mismo nombre.
-- **Bueu**, con Beluso.
-- **Marín.**
-- **Combarro y Raxó**, en Poio.
-- **Sanxenxo y Portonovo**, el centro de la zona.
-- **O Grove.**
-
-## Tres con página propia
-
-- **[A Vichona](/comer/restaurantes/a-vichona/).** Un asador de churrasco con capacidad para 120 personas, varios espacios y salas privadas.
-- **[A Ferreira](/comer/restaurantes/a-ferreira/).** Un asador con grandes salones y una amplia zona ajardinada, abierto todo el año.
-- **[A Curva](/comer/restaurantes/a-curva/).** Una taberna vinoteca pequeña, con unas 400 referencias de vino.
-
 ## Cuánto cuesta, más o menos
 
 Hay menús desde unos 25 € por persona hasta mariscadas de unos 50 € por persona. Depende del presupuesto y de lo que quieras probar. Si buscas gastronomía con estrella Michelin, hay opciones como Culler de Pau o Camiño da Serpe.

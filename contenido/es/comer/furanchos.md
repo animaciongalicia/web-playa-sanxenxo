@@ -23,18 +23,6 @@ Es una de las tradiciones más gallegas que puedes meter en un plan, y de las m�
 
 En algunas zonas se les llama también "loureiros", porque antiguamente colocaban una rama de laurel en la puerta. Esa rama avisaba a los vecinos de que el vino del año ya estaba listo.
 
-## Dónde están
-
-Los furanchos de la guía están agrupados por zona, más abajo. Esto es lo que hay en cada una.
-
-**Sanxenxo y Portonovo.** Los más cercanos al centro de la zona: Loureiro Miniño y O Outeiro.
-
-**Meaño.** Se considera el epicentro de los furanchos de las Rías Baixas: hay más de una docena, y la zona de Cobas se tiene por la meca. Aquí están A de Marcos, O Furancho Ángel, O Lar do Outeiro, A Casa Pequena, O Lar das Pereiras y Furancho de Juan.
-
-**Cambados.** O Furancho de Pancho, A Casa do Zapateiro, Furancho D'Andrade Casa Vieja, Furancho Sito de Castrelo y Furancho A Ruda.
-
-**Ribadumia y Vilanova.** O Loureiro de Siso y Lourancho.
-
 ## Cómo ir
 
 1. **Mira si está abierto.** Es lo más importante. Al ser de temporada, puede estar cerrado.

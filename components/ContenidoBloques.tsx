@@ -66,18 +66,20 @@ function BloqueVista({ b, i }: { b: Bloque; i: number }) {
 }
 
 /** Texto largo maquetado: entradilla, índice de saltos y un bloque por apartado, con fondos alternos. */
-export default function ContenidoBloques({ lang, ruta, id, indice = true }: { lang: Idioma; ruta: string; id?: string; indice?: boolean }) {
+export default function ContenidoBloques({ lang, ruta, id, indice = true, parte = 'todo' }: { lang: Idioma; ruta: string; id?: string; indice?: boolean; parte?: 'todo' | 'intro' | 'resto' }) {
   const c = getBloques(lang, ruta) ?? (lang !== 'es' ? getBloques('es', ruta) : null);
   if (!c) return null;
   if (c.legal || !c.bloques.length) return null;
+  const verIntro = parte !== 'resto';
+  const verBloques = parte !== 'intro';
   return (
     <div id={id}>
-      {c.intro && (
+      {verIntro && c.intro && (
         <section className="section-padding bg-white pb-6 md:pb-8">
           <div className="mx-auto max-w-3xl text-xl leading-relaxed text-gray-700 [&_a]:font-medium [&_a]:text-ria-700 [&_p+p]:mt-4" dangerouslySetInnerHTML={{ __html: c.intro }} />
         </section>
       )}
-      {indice && c.bloques.length > 2 && (
+      {verBloques && indice && c.bloques.length > 2 && (
         <nav aria-label="En esta página" className="sticky top-16 z-30 border-y border-gray-100 bg-white/90 backdrop-blur">
           <ul className="mx-auto flex max-w-5xl gap-2 overflow-x-auto px-6 py-3 text-sm">
             {c.bloques.map((b) => (
@@ -88,7 +90,7 @@ export default function ContenidoBloques({ lang, ruta, id, indice = true }: { la
           </ul>
         </nav>
       )}
-      {c.bloques.map((b, i) => <BloqueVista key={b.id} b={b} i={i} />)}
+      {verBloques && c.bloques.map((b, i) => <BloqueVista key={b.id} b={b} i={i} />)}
     </div>
   );
 }

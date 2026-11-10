@@ -23,3 +23,11 @@ export function agruparPorZona(locales: Local[]): { zona: Local['zona']; locales
   for (const l of locales) mapa.set(l.zona, [...(mapa.get(l.zona) ?? []), l]);
   return [...mapa].map(([zona, locales]) => ({ zona, locales }));
 }
+
+/** Ordena los grupos de zona: primero el núcleo (Sanxenxo y alrededores), luego el resto. */
+export function ordenarZonas<T extends { zona: string }>(grupos: T[], orden: string[]): T[] {
+  const pos = (z: string) => (orden.includes(z) ? orden.indexOf(z) : orden.length);
+  return [...grupos].sort((a, b) => pos(a.zona) - pos(b.zona));
+}
+export const ORDEN_RESTAURANTES = ['sanxenxo-portonovo', 'o-grove', 'combarro-raxo', 'aldan', 'bueu', 'marin'];
+export const ORDEN_CHIRINGUITOS = ['sanxenxo-portonovo', 'noalla-lanzada', 'o-grove-san-vicente', 'poio-raxo', 'aldan', 'bueu'];
