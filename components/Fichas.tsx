@@ -4,10 +4,12 @@ import type { ReactNode } from 'react';
 import { notasVisibles } from '../lib/datos';
 import type { Actividad, Playa } from '../lib/esquemas';
 import { href, type Idioma } from '../lib/i18n';
+import { slugify } from '../lib/bloques';
 import { foto } from '../lib/fotos';
+import Icono, { type NombreIcono } from './Icono';
 import { NOMBRE_TRAMO, esTop, slugTramoDe } from '../lib/paraisos';
 
-export function EnPreparacion({ texto = 'Estamos preparando esta sección.' }: { texto?: string }) {
+export function EnPreparacion({ texto = 'Sección en preparación.' }: { texto?: string }) {
   return <p className="rounded-lg border border-dashed border-gray-200 px-4 py-6 text-center text-gray-500">{texto}</p>;
 }
 
@@ -46,31 +48,40 @@ export function TarjetaPlaya({ playa, lang, etiquetaTramo = false }: { playa: Pl
   );
 }
 
-export function TarjetaActividad({ a }: { a: Actividad }) {
+export function TarjetaActividad({ a, compacta = false }: { a: Actividad; compacta?: boolean }) {
   const notas = notasVisibles(a);
+  const chips: { icono: NombreIcono; texto: string }[] = [];
+  if (a.duracion) chips.push({ icono: 'reloj', texto: a.duracion });
+  if (a.grupo_minimo) chips.push({ icono: 'personas', texto: `Desde ${a.grupo_minimo} personas` });
+  if (a.temporada) chips.push({ icono: 'calendario', texto: a.temporada });
   return (
-    <article id={a.slug} className="card-elegant stagger-child !p-6">
-      <h3 className="text-lg font-semibold text-gray-900">
-        {a.nombre}
-        
-      </h3>
-      {a.descripcion && <p className="mt-2 text-sm leading-relaxed text-gray-600">{a.descripcion}</p>}
-      {/* "Dónde se hace" es obligatorio en toda actividad (docs/02). */}
-      <p className="mt-3 text-sm text-gray-600">
-        <strong className="text-gray-900">Dónde: </strong>
-        {a.donde.map((d) => d.nombre).join(' · ')}
-      </p>
-      <dl className="mt-2 space-y-1 text-sm text-gray-600">
-        {a.duracion && <div><dt className="inline font-semibold text-gray-900">Duración: </dt><dd className="inline">{a.duracion}</dd></div>}
-        {a.grupo_minimo && <div><dt className="inline font-semibold text-gray-900">Grupo mínimo: </dt><dd className="inline">{a.grupo_minimo} personas</dd></div>}
-        {a.temporada && <div><dt className="inline font-semibold text-gray-900">Temporada: </dt><dd className="inline">{a.temporada}</dd></div>}
-      </dl>
-      {a.a_medida && <p className="mt-3 text-xs font-semibold uppercase tracking-wider text-ria-700">Día a medida</p>}
-      {notas.length > 0 && (
-        <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-gray-500">
-          {notas.map((n) => <li key={n}>{n}</li>)}
-        </ul>
-      )}
+    <article id={compacta ? undefined : a.slug} className="stagger-child flex scroll-mt-28 flex-col overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-shadow hover:shadow-md">
+      <div className="h-1.5 bg-gradient-to-r from-ria-500 to-arena-400" />
+      <div className="flex flex-1 flex-col p-6">
+        <h3 className="text-lg font-semibold text-gray-900">{a.nombre}</h3>
+        {a.a_medida && <span className="mt-2 inline-block w-fit rounded-full bg-arena-100 px-3 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-arena-800">Día a medida</span>}
+        {a.descripcion && !compacta && <p className="mt-3 text-sm leading-relaxed text-gray-600">{a.descripcion}</p>}
+        {chips.length > 0 && (
+          <ul className="mt-4 flex flex-wrap gap-2">
+            {chips.map((c) => (
+              <li key={c.texto} className="inline-flex items-center gap-1.5 rounded-full bg-ria-50 px-3 py-1 text-xs font-medium text-ria-800">
+                <Icono nombre={c.icono} className="h-3.5 w-3.5" />{c.texto}
+              </li>
+            ))}
+          </ul>
+        )}
+        {notas.length > 0 && (
+          <ul className="mt-4 space-y-1 text-xs leading-relaxed text-gray-500">
+            {notas.map((n) => <li key={n}>· {n}</li>)}
+          </ul>
+        )}
+        {compacta && <a href={`#${slugify(a.nombre)}`} className="mt-4 text-sm font-semibold text-ria-700 hover:underline">Ver detalle ↓</a>}
+        {/* "Dónde se hace" es obligatorio en toda actividad (docs/02). */}
+        <p className="mt-auto flex items-start gap-2 border-t border-gray-100 pt-4 text-sm text-gray-700">
+          <Icono nombre="pin" className="mt-0.5 h-4 w-4 shrink-0 text-ria-600" />
+          <span>{a.donde.map((d) => d.nombre).join(' · ')}</span>
+        </p>
+      </div>
     </article>
   );
 }

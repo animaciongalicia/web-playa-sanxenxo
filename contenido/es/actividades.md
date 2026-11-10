@@ -12,15 +12,6 @@ Una despedida no es solo cena y fiesta. Cada vez más grupos aprovechan el día 
 
 Una regla de esta guía: **toda actividad dice dónde se hace**. Es lo primero que necesitas para saber si te encaja.
 
-## Seis familias
-
-- **[Mar con motor](/actividades/mar-con-motor/).** Motos de agua, parascending y una sesión acuática desde barco. Para quien busca velocidad.
-- **[Playa y tabla](/actividades/playa-y-tabla/).** Surf, paddle surf, Big SUP y kayak. Para quien prefiere el agua con más calma.
-- **[Buceo y pesca](/actividades/buceo-y-pesca/).** Bautismo de buceo, snorkel y pesca. Para ver el mar por dentro.
-- **[Mar y mesa](/actividades/mar-y-mesa/).** Bateas, mariscada y churrascada en barco. Para combinar mar y comida.
-- **[Días a medida](/actividades/dias-a-medida/).** Olimpiadas, gymkana, vóley y fiestas pensadas para el grupo.
-- **[Kayak en Areoso](/actividades/kayak-areoso/).** Una ruta en kayak con página propia.
-
 ## Cómo elegir
 
 1. **Piensa en el grupo.** Una actividad para todos no es lo mismo que una para algunos. Si hay perfiles muy distintos, reparte.

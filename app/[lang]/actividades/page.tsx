@@ -1,12 +1,13 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import BandaAgencia from '../../../components/BandaAgencia';
+import Contenido from '../../../components/Contenido';
 import HeroPage from '../../../components/HeroPage';
 import Migas from '../../../components/Migas';
-import Contenido from '../../../components/Contenido';
 import Seccion from '../../../components/Seccion';
-import Tarjeta from '../../../components/Tarjeta';
+import TarjetaFoto from '../../../components/TarjetaFoto';
 import { getActividades } from '../../../lib/datos';
-import { esIdioma } from '../../../lib/i18n';
+import { esIdioma, href } from '../../../lib/i18n';
 import { FAMILIAS_INFO } from '../../../lib/paraisos';
 
 export const dynamicParams = false;
@@ -15,21 +16,23 @@ export const metadata: Metadata = { title: 'Actividades', description: 'Qué hac
 
 export default function Actividades({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();
+  const lang = params.lang;
   const todas = getActividades();
-  const familias = (Object.keys(FAMILIAS_INFO) as (keyof typeof FAMILIAS_INFO)[]).filter((f) => f !== 'kayak-areoso');
+  const familias = Object.keys(FAMILIAS_INFO) as (keyof typeof FAMILIAS_INFO)[];
   return (
     <>
-      <HeroPage ruta="/actividades/" titulo="Actividades" subtitulo="Qué hacer en el mar y en la playa con tu grupo." />
-      <Migas lang={params.lang} ruta="/actividades/" />
-      <Contenido lang={params.lang} ruta="/actividades/" />
-      <Seccion titulo="Cinco familias" intro="Cada actividad dice dónde se hace.">
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {familias.map((f) => (
-            <Tarjeta key={f} titulo={FAMILIAS_INFO[f].titulo} texto={`${FAMILIAS_INFO[f].texto} (${todas.filter((a) => a.familia === f).length})`} href={`/actividades/${f}/`} />
-          ))}
-          <Tarjeta titulo={FAMILIAS_INFO['kayak-areoso'].titulo} texto="Página propia: es de lo más buscado." href="/actividades/kayak-areoso/" />
+      <HeroPage ruta="/actividades/" etiqueta="Mar y playa" titulo="Actividades" subtitulo="Qué hacer en el mar y en la playa con tu grupo." />
+      <Migas lang={lang} ruta="/actividades/" />
+      <Seccion etiqueta="Seis familias" titulo="Elige el tipo de plan" intro="Cada actividad dice dónde se hace." centrado>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {familias.map((f) => {
+            const n = todas.filter((a) => a.familia === f).length;
+            return <TarjetaFoto key={f} titulo={FAMILIAS_INFO[f].titulo} texto={FAMILIAS_INFO[f].texto} href={href(lang, `/actividades/${f}/`)} claves={[f, 'actividades']} datos={n ? [`${n} ${n === 1 ? 'actividad' : 'actividades'}`] : undefined} />;
+          })}
         </div>
       </Seccion>
+      <Contenido lang={lang} ruta="/actividades/" />
+      <BandaAgencia lang={lang} />
     </>
   );
 }
