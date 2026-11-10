@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import type { Barco } from '../lib/esquemas';
+import { foto } from '../lib/fotos';
 
 export const ENLACE_BARCOS = 'https://seagalicia.com';
 
@@ -23,11 +24,12 @@ export default function TarjetaBarco({ b, titulo }: { b: Barco; titulo: string }
   const personas = b.plazas_opciones.length > 1
     ? `Hasta ${b.plazas_opciones.slice(0, -1).join(', ')} o ${b.plazas_opciones[b.plazas_opciones.length - 1]} personas, según el barco`
     : b.plazas ? `Hasta ${b.plazas} personas` : null;
+  const src = foto(`barco-${b.slug}`) ?? (b.fotos[0] ? `/img/${b.fotos[0]}` : null);
   return (
     <article id={b.slug} className="card-elegant stagger-child flex flex-col overflow-hidden !p-0">
       <div className="relative aspect-[4/3] bg-gradient-to-br from-ria-100 via-ria-200 to-ria-300">
-        {b.fotos[0] ? (
-          <Image src={`/img/${b.fotos[0]}`} alt={titulo} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover" />
+        {src ? (
+          <Image src={src} alt={titulo} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover" />
         ) : (
           <svg className="absolute inset-0 m-auto h-14 w-14 text-white/70" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.2} aria-hidden="true">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3 17l2 3h14l2-3H3zM12 3v10M12 5l6 8H12" />

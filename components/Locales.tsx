@@ -1,5 +1,7 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import type { Local } from '../lib/esquemas';
+import { foto } from '../lib/fotos';
 import { NOMBRE_ZONA, TIPO_LOCAL } from '../lib/locales';
 
 /** Regla 5: la línea de grupos y despedidas solo existe si el dato es `si` o `segun-epoca`.
@@ -23,6 +25,7 @@ export function TarjetaLocal({ local, href, completo = false }: { local: Local; 
     </>
   );
   const c = local.contacto;
+  const src = foto(local.slug, local.id);
   const cuerpo = (
     <>
       <h3 className="text-lg font-semibold text-gray-900">{titulo}</h3>
@@ -46,9 +49,14 @@ export function TarjetaLocal({ local, href, completo = false }: { local: Local; 
       {href && !completo && <span className="mt-4 inline-block text-sm font-semibold text-ria-700">Ver ficha →</span>}
     </>
   );
+  const imagen = src && !completo && (
+    <div className="relative -mx-6 -mt-6 mb-5 aspect-[16/9] overflow-hidden rounded-t-2xl">
+      <Image src={src} alt={local.nombre} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover" />
+    </div>
+  );
   return href && !completo ? (
-    <Link id={local.slug} href={href} className="card-elegant stagger-child block !p-6">{cuerpo}</Link>
+    <Link id={local.slug} href={href} className="card-elegant stagger-child block overflow-hidden !p-6">{imagen}{cuerpo}</Link>
   ) : (
-    <article id={local.slug} className="card-elegant stagger-child !p-6">{cuerpo}</article>
+    <article id={local.slug} className="card-elegant stagger-child overflow-hidden !p-6">{imagen}{cuerpo}</article>
   );
 }

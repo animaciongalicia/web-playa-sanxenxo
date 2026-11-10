@@ -37,10 +37,14 @@ Si no existen, usa la foto de portada de esa sección.
 
 ## Fotos por playa
 `playa-<id>` (por ejemplo `playa-silgar`, `playa-lapaman`). Salen en la tarjeta de esa playa. Las ids son las de `data/playas.json`.
-Subidas ya: aguete, area-de-agra, baltar, canelas, foxos, lapaman, montalvo, ouriceira, silgar.
+Subidas ya: aguete, area-das-pipas, area-de-agra, area-de-bon, areas, areas-gordas, baltar, canelas, foxos, lapaman, montalvo, ouriceira, paxarinas, pedras-negras, silgar.
+
+## Fotos por local (chiringuitos, restaurantes, diversión)
+Se nombran con el id del local (`data/locales.json`): `bico-beach-bar`, `pe-na-praia`, `nautico-de-san-vicente`, `arroceria-sunset-a-lanzada`, `kiosko-aturuxu`, `corsario`… Salen en su tarjeta y en su ficha.
+Portadas por listado: `chiringuitos`, `restaurantes`.
 
 ## Sin hueco asignado
-`public/img/sin-usar/`: fotos que no sé a qué playa o tramo pertenecen (Castiñeira, Menduíña, Portocelo, Rodas, Foxos vertical, costa de Sanxenxo). Dime cuál es cuál y las coloco.
+`public/img/sin-usar/`: fotos que no sé a qué playa o tramo pertenecen (Castiñeira, Menduíña, Portocelo, Rodas, Areabrava, Pintens, Raeiros, Arneles, Area dos Cas, Melide y Ons, veleros y yates sobrantes, el puerto de Sanxenxo, atardeceres…). Aquí también está `motos-de-agua.heic`, que el servidor no puede leer: pásala a JPG. Dime cuál es cuál y las coloco.
 
 ## Fotos provisionales
 Las que hay ahora vienen de la web anterior y son **provisionales**: sustitúyelas subiendo la tuya con el mismo nombre (borra la vieja si tiene otra extensión). Las de personas posando en barco o en la playa parecen fotos de archivo: conviene cambiarlas por fotos reales de Sanxenxo.
