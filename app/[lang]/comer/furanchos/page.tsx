@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import HeroPage from '../../../../components/HeroPage';
 import { Aviso } from '../../../../components/Fichas';
 import Migas from '../../../../components/Migas';
+import Contenido from '../../../../components/Contenido';
 import Seccion from '../../../../components/Seccion';
 import Tarjeta from '../../../../components/Tarjeta';
 import { getLocales } from '../../../../lib/datos';
@@ -20,6 +21,7 @@ export default function Furanchos({ params }: { params: { lang: string } }) {
     <>
       <HeroPage titulo="Furanchos" subtitulo="Casas que venden su vino con algo para picar." />
       <Migas lang={params.lang} ruta="/comer/furanchos/" />
+      <Contenido lang={params.lang} ruta="/comer/furanchos/" />
       <Seccion titulo="Cuatro zonas">
         <div className="mb-8"><Aviso>Los furanchos abren, más o menos, de diciembre a junio. Cada temporada cambia: mira siempre las fechas de cada uno.</Aviso></div>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

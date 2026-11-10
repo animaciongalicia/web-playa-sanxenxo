@@ -1,4 +1,5 @@
 import AvisoPendiente2027 from './AvisoPendiente2027';
+import Contenido from './Contenido';
 import { EnPreparacion, Insignia } from './Fichas';
 import HeroPage from './HeroPage';
 import LlamadaAgencia from './LlamadaAgencia';
@@ -15,6 +16,7 @@ export default function ServicioPagina({ lang, id, ruta, titulo, subtitulo }: { 
     <>
       <HeroPage titulo={titulo} subtitulo={subtitulo} />
       <Migas lang={lang} ruta={ruta} />
+      <Contenido lang={lang} ruta={ruta} />
       <Seccion ancho="estrecho">
         {s?.estado_2027 === 'pendiente' && <div className="mb-6"><AvisoPendiente2027 lang={lang} /></div>}
         {s?.descripcion ? <p className="text-lg leading-relaxed text-gray-600">{s.descripcion}<Insignia f={s} /></p> : <EnPreparacion />}

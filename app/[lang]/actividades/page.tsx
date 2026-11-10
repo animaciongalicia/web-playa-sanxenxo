@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import HeroPage from '../../../components/HeroPage';
 import Migas from '../../../components/Migas';
+import Contenido from '../../../components/Contenido';
 import Seccion from '../../../components/Seccion';
 import Tarjeta from '../../../components/Tarjeta';
 import { getActividades } from '../../../lib/datos';
@@ -20,6 +21,7 @@ export default function Actividades({ params }: { params: { lang: string } }) {
     <>
       <HeroPage titulo="Actividades" subtitulo="Qué hacer en el mar y en la playa con tu grupo." />
       <Migas lang={params.lang} ruta="/actividades/" />
+      <Contenido lang={params.lang} ruta="/actividades/" />
       <Seccion titulo="Cinco familias" intro="Cada actividad dice dónde se hace.">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {familias.map((f) => (

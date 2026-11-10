@@ -4,6 +4,7 @@ import HeroPage from '../../components/HeroPage';
 import Seccion from '../../components/Seccion';
 import Tarjeta from '../../components/Tarjeta';
 import LlamadaAgencia from '../../components/LlamadaAgencia';
+import Contenido from '../../components/Contenido';
 import { esIdioma, href, textos } from '../../lib/i18n';
 import { notFound } from 'next/navigation';
 
@@ -63,6 +64,8 @@ export default function Home({ params }: { params: { lang: string } }) {
           ))}
         </div>
       </Seccion>
+
+      <Contenido lang={lang} ruta="/" />
 
       <Seccion fondo="gris" titulo="Cuatro tramos de costa" intro="El núcleo de la guía. Empieza por el que te pille más cerca.">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

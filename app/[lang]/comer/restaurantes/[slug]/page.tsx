@@ -5,6 +5,7 @@ import HeroPage from '../../../../../components/HeroPage';
 import LlamadaAgencia from '../../../../../components/LlamadaAgencia';
 import { TarjetaLocal } from '../../../../../components/Locales';
 import Migas from '../../../../../components/Migas';
+import Contenido from '../../../../../components/Contenido';
 import Seccion from '../../../../../components/Seccion';
 import { getLocales } from '../../../../../lib/datos';
 import { esIdioma } from '../../../../../lib/i18n';
@@ -22,6 +23,7 @@ export default function Restaurante({ params }: { params: P }) {
     <>
       <HeroPage titulo={local.nombre} etiqueta="Restaurante" />
       <Migas lang={params.lang} ruta={`/comer/restaurantes/${local.slug}/`} titulo={local.nombre} />
+      <Contenido lang={params.lang} ruta={`/comer/restaurantes/${local.slug}/`} />
       <Seccion ancho="estrecho">
         <TarjetaLocal local={local} completo />
         <p className="mt-8"><Link href="/comer/restaurantes/" className="link-inline">← Más restaurantes</Link></p>

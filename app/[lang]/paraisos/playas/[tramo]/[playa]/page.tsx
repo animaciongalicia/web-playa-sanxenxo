@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import HeroPage from '../../../../../../components/HeroPage';
 import Migas from '../../../../../../components/Migas';
+import Contenido from '../../../../../../components/Contenido';
 import Seccion from '../../../../../../components/Seccion';
 import { Insignia, NotaRevision, TarjetaActividad } from '../../../../../../components/Fichas';
 import LlamadaAgencia from '../../../../../../components/LlamadaAgencia';
@@ -32,6 +33,7 @@ export default function PaginaPlaya({ params }: { params: P }) {
     <>
       <HeroPage etiqueta={NOMBRE_TRAMO[playa.tramo]} titulo={playa.nombre} />
       <Migas lang={lang} ruta={`/paraisos/playas/${tramo.slug}/${playa.slug}/`} titulo={playa.nombre} />
+      <Contenido lang={lang} ruta={`/paraisos/playas/${tramo.slug}/${playa.slug}/`} />
       <Seccion ancho="estrecho">
         <NotaRevision>Playa top confirmada por Pablo. <Insignia f={playa} /></NotaRevision>
         {playa.descripcion && <p className="text-lg leading-relaxed text-gray-600">{playa.descripcion}</p>}

@@ -4,6 +4,7 @@ import HeroPage from '../../../../components/HeroPage';
 import { EnPreparacion } from '../../../../components/Fichas';
 import { TarjetaLocal } from '../../../../components/Locales';
 import Migas from '../../../../components/Migas';
+import Contenido from '../../../../components/Contenido';
 import Seccion from '../../../../components/Seccion';
 import { getLocales } from '../../../../lib/datos';
 import { esIdioma } from '../../../../lib/i18n';
@@ -23,6 +24,7 @@ export default function Restaurantes({ params }: { params: { lang: string } }) {
     <>
       <HeroPage titulo="Restaurantes" subtitulo="Agrupados por zona." />
       <Migas lang={params.lang} ruta="/comer/restaurantes/" />
+      <Contenido lang={params.lang} ruta="/comer/restaurantes/" />
       {grupos.length ? grupos.map((g, i) => (
         <Seccion key={g.zona} fondo={i % 2 ? 'gris' : 'blanco'} titulo={g.zona === 'por-definir' ? 'Para despedidas' : NOMBRE_ZONA[g.zona]} id={g.zona}>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">{g.locales.map((l) => <TarjetaLocal key={l.id} local={l} href={href(l)} />)}</div>

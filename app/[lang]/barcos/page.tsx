@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import HeroPage from '../../../components/HeroPage';
 import { ENLACE_BARCOS } from '../../../components/ListaBarcos';
 import Migas from '../../../components/Migas';
+import Contenido from '../../../components/Contenido';
 import Seccion from '../../../components/Seccion';
 import Tarjeta from '../../../components/Tarjeta';
 import { esIdioma } from '../../../lib/i18n';
@@ -18,6 +19,7 @@ export default function Barcos({ params }: { params: { lang: string } }) {
     <>
       <HeroPage titulo="Barcos" subtitulo="Yates, veleros y traslados en lancha rápida." />
       <Migas lang={lang} ruta="/barcos/" />
+      <Contenido lang={lang} ruta="/barcos/" />
       <Seccion titulo="Elige cómo salir al mar">
         <div className="grid gap-8 md:grid-cols-3">
           <Tarjeta titulo="Yates" texto="Barcos a motor para tu grupo." href="/barcos/yates/" />

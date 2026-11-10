@@ -5,6 +5,7 @@ import HeroPage from '../../../../components/HeroPage';
 import { EnPreparacion } from '../../../../components/Fichas';
 import { TarjetaLocal } from '../../../../components/Locales';
 import Migas from '../../../../components/Migas';
+import Contenido from '../../../../components/Contenido';
 import Seccion from '../../../../components/Seccion';
 import { getLocales } from '../../../../lib/datos';
 import { esIdioma } from '../../../../lib/i18n';
@@ -21,6 +22,7 @@ export default function Chiringuitos({ params }: { params: { lang: string } }) {
     <>
       <HeroPage titulo="Chiringuitos" subtitulo="Por zona." />
       <Migas lang={params.lang} ruta="/comer/chiringuitos/" />
+      <Contenido lang={params.lang} ruta="/comer/chiringuitos/" />
       {grupos.length ? grupos.map((g, i) => (
         <Seccion key={g.zona} fondo={i % 2 ? 'gris' : 'blanco'} titulo={NOMBRE_ZONA[g.zona]} id={g.zona}>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import HeroPage from '../../../../../components/HeroPage';
 import Migas from '../../../../../components/Migas';
+import Contenido from '../../../../../components/Contenido';
 import Seccion from '../../../../../components/Seccion';
 import { EnPreparacion, TarjetaPlaya } from '../../../../../components/Fichas';
 import { getPlayas } from '../../../../../lib/datos';
@@ -26,6 +27,7 @@ export default function Tramo({ params }: { params: P }) {
     <>
       <HeroPage titulo={tramo.slug === 'mas-alla' ? 'Más allá: Aldán, Bueu, Marín, Poio y Combarro' : `Playas de ${tramo.titulo}`} />
       <Migas lang={lang} ruta={`/paraisos/playas/${tramo.slug}/`} titulo={tramo.titulo} />
+      <Contenido lang={lang} ruta={`/paraisos/playas/${tramo.slug}/`} />
       {grupos.length ? (
         grupos.map((g, i) => (
           <Seccion key={g.t} fondo={i % 2 ? 'gris' : 'blanco'} titulo={tramo.tramos.length > 1 ? NOMBRE_TRAMO[g.t] : undefined} id={g.t}>

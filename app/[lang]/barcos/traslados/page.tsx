@@ -5,6 +5,7 @@ import HeroPage from '../../../../components/HeroPage';
 import LlamadaAgencia from '../../../../components/LlamadaAgencia';
 import { EnPreparacion, Insignia } from '../../../../components/Fichas';
 import Migas from '../../../../components/Migas';
+import Contenido from '../../../../components/Contenido';
 import Seccion from '../../../../components/Seccion';
 import { getTraslados } from '../../../../lib/datos';
 import { esIdioma } from '../../../../lib/i18n';
@@ -23,6 +24,7 @@ export default function Traslados({ params }: { params: { lang: string } }) {
     <>
       <HeroPage titulo="Traslados a Ons, Cíes y Aldán" subtitulo="En lancha rápida." />
       <Migas lang={params.lang} ruta="/barcos/traslados/" />
+      <Contenido lang={params.lang} ruta="/barcos/traslados/" />
       <Seccion>
         {traslados.length ? (
           <div className="grid gap-6 md:grid-cols-3">

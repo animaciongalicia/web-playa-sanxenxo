@@ -4,6 +4,7 @@ import HeroPage from '../../../../components/HeroPage';
 import LlamadaAgencia from '../../../../components/LlamadaAgencia';
 import ListaBarcos from '../../../../components/ListaBarcos';
 import Migas from '../../../../components/Migas';
+import Contenido from '../../../../components/Contenido';
 import Seccion from '../../../../components/Seccion';
 import { esIdioma } from '../../../../lib/i18n';
 
@@ -17,6 +18,7 @@ export default function Pagina({ params }: { params: { lang: string } }) {
     <>
       <HeroPage titulo="Yates" />
       <Migas lang={params.lang} ruta="/barcos/yates/" />
+      <Contenido lang={params.lang} ruta="/barcos/yates/" />
       <Seccion ancho="estrecho">
         <p className="text-lg text-gray-600">Barcos a motor para tu grupo. Precio «desde» y puerto de salida en cada ficha.</p>
         <div className="mt-8"><ListaBarcos categoria="yate" /></div>

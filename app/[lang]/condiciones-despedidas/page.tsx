@@ -4,6 +4,7 @@ import HeroPage from '../../../components/HeroPage';
 import { EnPreparacion, NotaRevision } from '../../../components/Fichas';
 import LlamadaAgencia from '../../../components/LlamadaAgencia';
 import Migas from '../../../components/Migas';
+import Contenido from '../../../components/Contenido';
 import Seccion from '../../../components/Seccion';
 import { IDIOMAS, esIdioma } from '../../../lib/i18n';
 
@@ -18,6 +19,7 @@ export default function Condiciones({ params }: { params: { lang: string } }) {
     <>
       <HeroPage titulo="Condiciones de las despedidas" subtitulo="Qué se puede y qué no en la zona, sobre todo en julio y agosto." />
       <Migas lang={params.lang} ruta="/condiciones-despedidas/" />
+      <Contenido lang={params.lang} ruta="/condiciones-despedidas/" />
       <Seccion ancho="estrecho">
         <NotaRevision>Texto pendiente de Pablo: condiciones de la zona, agregadas y sin señalar locales. Referencia previa suya: despedidas aceptadas en mayo y junio, casi nadie las quiere en julio y agosto, y algo en septiembre. Falta que lo confirme y lo desarrolle.</NotaRevision>
         <EnPreparacion />

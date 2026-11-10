@@ -5,6 +5,7 @@ import HeroPage from '../../../../../components/HeroPage';
 import LlamadaAgencia from '../../../../../components/LlamadaAgencia';
 import { TarjetaLocal } from '../../../../../components/Locales';
 import Migas from '../../../../../components/Migas';
+import Contenido from '../../../../../components/Contenido';
 import Seccion from '../../../../../components/Seccion';
 import { getLocales } from '../../../../../lib/datos';
 import { esIdioma } from '../../../../../lib/i18n';
@@ -23,6 +24,7 @@ export default function LocalDiversion({ params }: { params: P }) {
     <>
       <HeroPage etiqueta={TIPO_LOCAL[local.tipo]} titulo={local.nombre} />
       <Migas lang={params.lang} ruta={`/diversion/${local.zona}/${local.slug}/`} titulo={local.nombre} />
+      <Contenido lang={params.lang} ruta={`/diversion/${local.zona}/${local.slug}/`} />
       <Seccion ancho="estrecho">
         <TarjetaLocal local={local} completo />
         <p className="mt-8"><Link href={`/diversion/${local.zona}/`} className="link-inline">← Más en {NOMBRE_ZONA[local.zona]}</Link></p>

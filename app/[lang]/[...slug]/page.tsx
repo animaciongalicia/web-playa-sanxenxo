@@ -5,8 +5,10 @@ import { notFound } from 'next/navigation';
 import AvisoPendiente2027 from '../../../components/AvisoPendiente2027';
 import HeroPage from '../../../components/HeroPage';
 import LlamadaAgencia from '../../../components/LlamadaAgencia';
+import Contenido from '../../../components/Contenido';
 import Migas from '../../../components/Migas';
 import Seccion from '../../../components/Seccion';
+import { getContenido } from '../../../lib/contenido';
 import { getServicio } from '../../../lib/datos';
 import { IDIOMAS, esIdioma, textos } from '../../../lib/i18n';
 import { RUTAS, buscarRuta } from '../../../lib/rutas';
@@ -43,11 +45,14 @@ export default function Pagina({ params }: { params: { lang: string; slug: strin
     <>
       <HeroPage titulo={ruta.titulo} subtitulo={ruta.descripcion} />
       <Migas lang={lang} ruta={ruta.ruta} />
-      <Seccion ancho="estrecho">
-        {servicio?.estado_2027 === 'pendiente' && <div className="mb-6"><AvisoPendiente2027 lang={lang} /></div>}
-        <p className="text-lg text-gray-600">{t.enConstruccion}</p>
-        {esDespedida && <LlamadaAgencia lang={lang} className="mt-6" />}
-      </Seccion>
+      <Contenido lang={lang} ruta={ruta.ruta} />
+      {!getContenido(lang, ruta.ruta) && (
+        <Seccion ancho="estrecho">
+          {servicio?.estado_2027 === 'pendiente' && <div className="mb-6"><AvisoPendiente2027 lang={lang} /></div>}
+          <p className="text-lg text-gray-600">{t.enConstruccion}</p>
+          {esDespedida && <LlamadaAgencia lang={lang} className="mt-6" />}
+        </Seccion>
+      )}
     </>
   );
 }

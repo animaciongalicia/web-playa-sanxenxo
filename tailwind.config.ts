@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import typography from '@tailwindcss/typography';
 
 // Paleta propia de Playa Sanxenxo.
 // ria   = azul petróleo de ría (primario): 700 botones y enlaces, 800 bandas, 50-100 fondos claros.
@@ -40,7 +41,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [typography],
 };
 
 export default config;

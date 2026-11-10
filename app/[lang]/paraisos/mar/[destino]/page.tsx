@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import HeroPage from '../../../../../components/HeroPage';
 import Migas from '../../../../../components/Migas';
+import Contenido from '../../../../../components/Contenido';
 import Seccion from '../../../../../components/Seccion';
 import { Aviso, EnPreparacion, Insignia, TarjetaPlaya } from '../../../../../components/Fichas';
 import LlamadaAgencia from '../../../../../components/LlamadaAgencia';
@@ -30,6 +31,7 @@ export default function Destino({ params }: { params: P }) {
     <>
       <HeroPage etiqueta={destino?.parque_nacional ? 'Parque Nacional de las Islas Atlánticas' : undefined} titulo={TITULOS[id]} />
       <Migas lang={lang} ruta={`/paraisos/mar/${params.destino}/`} titulo={TITULOS[id]} />
+      <Contenido lang={lang} ruta={`/paraisos/mar/${params.destino}/`} />
       <Seccion ancho="estrecho">
         {destino && <p className="mb-4"><Insignia f={destino} /></p>}
         {destino?.descripcion && <p className="text-lg leading-relaxed text-gray-600">{destino.descripcion}</p>}

@@ -4,6 +4,7 @@ import HeroPage from '../../../../components/HeroPage';
 import LlamadaAgencia from '../../../../components/LlamadaAgencia';
 import { Aviso, EnPreparacion, TarjetaActividad } from '../../../../components/Fichas';
 import Migas from '../../../../components/Migas';
+import Contenido from '../../../../components/Contenido';
 import Seccion from '../../../../components/Seccion';
 import { getActividades } from '../../../../lib/datos';
 import { FAMILIAS } from '../../../../lib/esquemas';
@@ -27,6 +28,7 @@ export default function Familia({ params }: { params: P }) {
     <>
       <HeroPage titulo={info.titulo} subtitulo={info.texto} />
       <Migas lang={params.lang} ruta={`/actividades/${params.familia}/`} titulo={info.titulo} />
+      <Contenido lang={params.lang} ruta={`/actividades/${params.familia}/`} />
       <Seccion>
         {kayak && <div className="mb-8"><Aviso>El desembarco en Areoso requiere autorización: no podemos prometerte una parada garantizada.</Aviso></div>}
         {actividades.length ? (

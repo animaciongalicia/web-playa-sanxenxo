@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import HeroPage from '../../../../components/HeroPage';
 import Migas from '../../../../components/Migas';
+import Contenido from '../../../../components/Contenido';
 import Seccion from '../../../../components/Seccion';
 import Tarjeta from '../../../../components/Tarjeta';
 import { EnPreparacion, NotaRevision, TarjetaPlaya } from '../../../../components/Fichas';
@@ -22,6 +23,7 @@ export default function Playas({ params }: { params: { lang: string } }) {
     <>
       <HeroPage titulo="Playas" subtitulo="Las playas por tramo de costa y las 8 imprescindibles." />
       <Migas lang={lang} ruta="/paraisos/playas/" />
+      <Contenido lang={lang} ruta="/paraisos/playas/" />
       <Seccion titulo="Cinco tramos de costa" intro="Elige el tramo y verás todas sus playas.">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {TRAMOS_RUTA.map((t) => {

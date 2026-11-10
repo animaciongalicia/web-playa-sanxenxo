@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import ContactoAgencia from '../../../components/ContactoAgencia';
 import HeroPage from '../../../components/HeroPage';
 import Migas from '../../../components/Migas';
+import Contenido from '../../../components/Contenido';
 import Seccion from '../../../components/Seccion';
 import { IDIOMAS, esIdioma } from '../../../lib/i18n';
 
@@ -16,6 +17,7 @@ export default function Agencia({ params }: { params: { lang: string } }) {
     <>
       <HeroPage titulo="Agencia" subtitulo="Aquí no hay formulario: escribes o llamas, y te contestan." />
       <Migas lang={params.lang} ruta="/agencia/" />
+      <Contenido lang={params.lang} ruta="/agencia/" />
       <Seccion titulo="Elige cómo prefieres hablar">
         <ContactoAgencia />
       </Seccion>

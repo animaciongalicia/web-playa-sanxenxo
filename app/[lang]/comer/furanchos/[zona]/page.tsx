@@ -4,6 +4,7 @@ import HeroPage from '../../../../../components/HeroPage';
 import { Aviso, EnPreparacion } from '../../../../../components/Fichas';
 import { TarjetaLocal } from '../../../../../components/Locales';
 import Migas from '../../../../../components/Migas';
+import Contenido from '../../../../../components/Contenido';
 import Seccion from '../../../../../components/Seccion';
 import { getLocales } from '../../../../../lib/datos';
 import { esIdioma } from '../../../../../lib/i18n';
@@ -23,6 +24,7 @@ export default function ZonaFuranchos({ params }: { params: P }) {
     <>
       <HeroPage titulo={titulo} />
       <Migas lang={params.lang} ruta={`/comer/furanchos/${params.zona}/`} titulo={titulo} />
+      <Contenido lang={params.lang} ruta={`/comer/furanchos/${params.zona}/`} />
       <Seccion>
         <div className="mb-8"><Aviso>Abren, más o menos, de diciembre a junio. Confirma las fechas de la temporada.</Aviso></div>
         {locales.length ? <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">{locales.map((l) => <TarjetaLocal key={l.id} local={l} />)}</div> : <EnPreparacion />}

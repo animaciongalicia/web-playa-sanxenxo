@@ -5,6 +5,7 @@ import HeroPage from '../../../../components/HeroPage';
 import { EnPreparacion, Insignia, NotaRevision } from '../../../../components/Fichas';
 import LlamadaAgencia from '../../../../components/LlamadaAgencia';
 import Migas from '../../../../components/Migas';
+import Contenido from '../../../../components/Contenido';
 import Seccion from '../../../../components/Seccion';
 import { getMeses } from '../../../../lib/datos';
 import { IDIOMAS, esIdioma, href } from '../../../../lib/i18n';
@@ -25,6 +26,7 @@ export default function Mes({ params }: { params: P }) {
     <>
       <HeroPage titulo={meta.titulo} subtitulo="Cuándo ir" />
       <Migas lang={lang} ruta={`/cuando-ir/${meta.id}/`} titulo={meta.titulo} />
+      <Contenido lang={lang} ruta={`/cuando-ir/${meta.id}/`} />
       <Seccion ancho="estrecho">
         {mes && <p className="mb-4"><Insignia f={mes} /></p>}
         <NotaRevision>Este mes lo escribe Pablo con la entrevista de <code>docs/07</code>. Solo se pinta lo que cuente.</NotaRevision>
