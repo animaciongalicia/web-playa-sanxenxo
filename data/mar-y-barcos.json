@@ -97,7 +97,7 @@
       "categoria": "yate",
       "nombre": null,
       "modelo": null,
-      "eslora": "Entre 21 y 40 pies",
+      "eslora": "Entre 39 y 42 pies",
       "plazas": 11,
       "plazas_opciones": [],
       "patron": null,
@@ -126,7 +126,7 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Tres yates de entre 21 y 40 pies, máximo 11 plazas (Pablo). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos"
+        "Tres yates de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos"
       ],
       "notas_internas": null
     },
@@ -136,7 +136,7 @@
       "categoria": "yate",
       "nombre": null,
       "modelo": null,
-      "eslora": "Entre 21 y 40 pies",
+      "eslora": "Entre 39 y 42 pies",
       "plazas": 11,
       "plazas_opciones": [],
       "patron": null,
@@ -165,7 +165,7 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Tres yates de entre 21 y 40 pies, máximo 11 plazas (Pablo). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos"
+        "Tres yates de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos"
       ],
       "notas_internas": null
     },
@@ -175,7 +175,7 @@
       "categoria": "yate",
       "nombre": null,
       "modelo": null,
-      "eslora": "Entre 21 y 40 pies",
+      "eslora": "Entre 39 y 42 pies",
       "plazas": 11,
       "plazas_opciones": [],
       "patron": null,
@@ -204,7 +204,7 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Tres yates de entre 21 y 40 pies, máximo 11 plazas (Pablo). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos"
+        "Tres yates de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos"
       ],
       "notas_internas": null
     },
@@ -213,8 +213,8 @@
       "slug": "velero-bavaria-1",
       "categoria": "velero",
       "nombre": null,
-      "modelo": "Bavaria 42",
-      "eslora": "42 pies",
+      "modelo": "Bavaria",
+      "eslora": "Entre 39 y 42 pies",
       "plazas": 11,
       "plazas_opciones": [],
       "patron": "siempre",
@@ -243,7 +243,7 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Tres veleros Bavaria de 42 pies, máximo 11 plazas (Pablo). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, puerto de salida y fotos"
+        "Tres veleros Bavaria de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, modelo exacto de cada uno, puerto de salida y fotos"
       ],
       "notas_internas": null
     },
@@ -252,8 +252,8 @@
       "slug": "velero-bavaria-2",
       "categoria": "velero",
       "nombre": null,
-      "modelo": "Bavaria 42",
-      "eslora": "42 pies",
+      "modelo": "Bavaria",
+      "eslora": "Entre 39 y 42 pies",
       "plazas": 11,
       "plazas_opciones": [],
       "patron": "siempre",
@@ -282,7 +282,7 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Tres veleros Bavaria de 42 pies, máximo 11 plazas (Pablo). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, puerto de salida y fotos"
+        "Tres veleros Bavaria de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, modelo exacto de cada uno, puerto de salida y fotos"
       ],
       "notas_internas": null
     },
@@ -291,8 +291,8 @@
       "slug": "velero-bavaria-3",
       "categoria": "velero",
       "nombre": null,
-      "modelo": "Bavaria 42",
-      "eslora": "42 pies",
+      "modelo": "Bavaria",
+      "eslora": "Entre 39 y 42 pies",
       "plazas": 11,
       "plazas_opciones": [],
       "patron": "siempre",
@@ -321,7 +321,7 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Tres veleros Bavaria de 42 pies, máximo 11 plazas (Pablo). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, puerto de salida y fotos"
+        "Tres veleros Bavaria de entre 39 y 42 pies, máximo 11 plazas (Pablo, corregido 2026-11-10). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, modelo exacto de cada uno, puerto de salida y fotos"
       ],
       "notas_internas": null
     },
@@ -382,7 +382,26 @@
       "zona": "Solo en la ría de Aldán",
       "duracion": null,
       "descripcion": null,
-      "precios": [],
+      "precios": [
+        {
+          "concepto": "Para 11 personas",
+          "importe": 950,
+          "importe_max": null,
+          "desde": false
+        },
+        {
+          "concepto": "Para 16 personas",
+          "importe": 1400,
+          "importe_max": null,
+          "desde": false
+        },
+        {
+          "concepto": "Para 21 personas",
+          "importe": 1750,
+          "importe_max": null,
+          "desde": false
+        }
+      ],
       "fotos": [],
       "enlace_reserva": "https://seagalicia.com",
       "publicar": true,
@@ -390,7 +409,7 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Pesquero con máximo de 11, 16 o 21 personas según la versión, solo en la ría de Aldán (Pablo). Faltan precio, puerto de salida y fotos"
+        "Pesquero con máximo de 11, 16 o 21 personas según la versión, solo en la ría de Aldán (Pablo). Precios: 11 personas 950 €, 16 personas 1.400 €, 21 personas 1.750 € (sin \"desde\": confirmar si es precio cerrado y qué duración incluye). Faltan puerto de salida y fotos"
       ],
       "notas_internas": null
     },
@@ -408,7 +427,14 @@
       "zona": null,
       "duracion": "1 hora",
       "descripcion": "Paseo ultrarrápido por la zona, a modo de experiencia.",
-      "precios": [],
+      "precios": [
+        {
+          "concepto": "Experiencia (1 hora)",
+          "importe": 450,
+          "importe_max": null,
+          "desde": false
+        }
+      ],
       "fotos": [],
       "enlace_reserva": "https://seagalicia.com",
       "publicar": true,
@@ -416,7 +442,7 @@
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Lancha rápida de máximo 11 personas para un paseo ultrarrápido de 1 hora por la zona, a modo de experiencia (Pablo). Faltan precio, puerto de salida y fotos"
+        "Lancha rápida de máximo 11 personas para un paseo ultrarrápido de 1 hora por la zona, a modo de experiencia: 450 € (Pablo, 2026-11-10; sin \"desde\": confirmar si es el precio de la lancha entera). Faltan puerto de salida y fotos"
       ],
       "notas_internas": null
     }

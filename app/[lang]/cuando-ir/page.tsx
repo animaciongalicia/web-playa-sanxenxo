@@ -29,7 +29,7 @@ export default function CuandoIr({ params }: { params: { lang: string } }) {
       <Migas lang={lang} ruta="/cuando-ir/" />
       <Contenido lang={lang} ruta="/cuando-ir/" id="meses" />
       {conDatos.length > 0 && (
-        <Seccion fondo="gris" titulo="Lo que cuenta Pablo, mes a mes">
+        <Seccion fondo="gris" titulo="Mes a mes">
           <NotaRevision>Campos rellenados en <code>data/servicios-y-meses.json</code>.</NotaRevision>
           <div className="space-y-10">
             {conDatos.map(({ mes, titulo, campos }) => (

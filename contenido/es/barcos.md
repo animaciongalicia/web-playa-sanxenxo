@@ -6,7 +6,7 @@ fuentes:
   - "Textos propios de Pablo en despedidasplayasanxenxo.com (barcos, despedidas-en-barco-en-sanxenxo), reescritos"
 pendiente:
   - "Nombre, puerto de salida y fotos de cada barco"
-  - "Precios del pesquero y de la lancha rápida"
+  - "Pesquero y lancha rápida: confirmar si los precios son cerrados y qué duración incluye el pesquero"
   - "Qué incluye cada precio (combustible, seguro, extras): Pablo lo aporta"
   - "Patrón en yates, yate más motora, pesquero y lancha: confirmar"
 ---
@@ -16,11 +16,11 @@ Una advertencia, para que no te lleves sorpresas: no son barcos grandes tipo dis
 
 ## Qué hay
 
-- **Tres yates**, de entre 21 y 40 pies, con un máximo de 11 plazas.
-- **Tres veleros Bavaria de 42 pies**, con un máximo de 11 plazas y patrón siempre incluido.
+- **Tres yates**, de entre 39 y 42 pies, con un máximo de 11 plazas.
+- **Tres veleros Bavaria**, de entre 39 y 42 pies, con un máximo de 11 plazas y patrón siempre incluido.
 - **Un yate con motora**, para hasta 16 personas.
-- **Un pesquero**, solo en la ría de Aldán, con versiones para 11, 16 o 21 personas.
-- **Una lancha rápida**, hasta 11 personas, para un paseo ultrarrápido de una hora por la zona.
+- **Un pesquero**, solo en la ría de Aldán, con versiones para 11, 16 o 21 personas, cada una con su precio.
+- **Una lancha rápida**, hasta 11 personas, para un paseo ultrarrápido de una hora por la zona, con un precio de experiencia.
 
 ## Medio día o día entero
 

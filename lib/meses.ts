@@ -12,5 +12,5 @@ export const CAMPOS_MES: { campo: Exclude<keyof Mes, 'id' | 'publicar' | 'verifi
   { campo: 'despedidas', titulo: 'Despedidas' },
   { campo: 'cupos_ons_cies', titulo: 'Cupos de Ons y Cíes' },
   { campo: 'mar_y_playa', titulo: 'Mar y playa' },
-  { campo: 'recomendacion', titulo: 'Qué recomiendo este mes' },
+  { campo: 'recomendacion', titulo: 'Qué te conviene' },
 ];

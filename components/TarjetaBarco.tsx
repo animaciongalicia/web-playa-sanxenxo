@@ -8,10 +8,10 @@ const ETIQUETA: Record<Barco['categoria'], string> = {
   yate: 'Yate', velero: 'Velero', 'yate-motora': 'Yate más motora', pesquero: 'Pesquero', 'lancha-rapida': 'Lancha rápida',
 };
 
-const eur = (n: number) => new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(n);
+const miles = (n: number) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
 
 function precio(p: Barco['precios'][number]) {
-  const cifra = p.importe_max ? `${eur(p.importe).replace(/\s?€/, '')}-${eur(p.importe_max)}` : eur(p.importe);
+  const cifra = p.importe_max ? `${miles(p.importe)}-${miles(p.importe_max)} €` : `${miles(p.importe)} €`;
   return `${p.desde ? 'Desde ' : ''}${cifra}`;
 }
 

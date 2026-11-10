@@ -25,7 +25,7 @@
 | `/paraisos/mar/islas-ons/` | Destino | mar, barcos | Parque Nacional de las Islas Atlánticas |
 | `/paraisos/mar/islas-cies/` | Destino | mar, barcos | Parque Nacional de las Islas Atlánticas |
 | `/paraisos/mar/ria-de-aldan/` | Destino | mar, playas | El Caribe gallego |
-| `/barcos/` | Barcos | barcos | **Una sola página con 9 fichas en 3 columnas** (decisión de Pablo): 3 yates (21-40 pies, máx. 11), 3 veleros Bavaria 42 (máx. 11), yate más motora (máx. 16), pesquero de Aldán (11/16/21) y lancha rápida (11, 1 h). Precios "desde" |
+| `/barcos/` | Barcos | barcos | **Una sola página con 9 fichas en 3 columnas** (decisión de Pablo): 3 yates (39-42 pies, máx. 11), 3 veleros Bavaria (39-42 pies, máx. 11), yate más motora (máx. 16), pesquero de Aldán (11/16/21) y lancha rápida (11, 1 h). Precios "desde" |
 | `/barcos/traslados/` | Traslados | mar, barcos | Lancha rápida a Ons, Cíes y Aldán |
 | `/actividades/` | Hub | actividades | |
 | `/actividades/mar-con-motor/` | Familia | actividades | Motos de agua, parascending, sesión acuática desde barco |
