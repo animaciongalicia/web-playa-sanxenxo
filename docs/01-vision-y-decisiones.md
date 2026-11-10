@@ -2,7 +2,7 @@
 
 ## Visión en una frase
 
-Una guía honesta de playas, mar, barcos, actividades, comida y diversión de **ría de Aldán a O Grove**, escrita por alguien con 15-20 años vendiendo en la zona, que ayuda a decidir cómo organizar una despedida y deja la venta a una página de agencia.
+Una guía honesta de disfrute de **Sanxenxo para despedidas** (playas, mar, barcos, actividades, comida, diversión y fiesta en Sanxenxo y alrededores), escrita por alguien con 15-20 años vendiendo en la zona, que ayuda a decidir cómo organizar una despedida y deja la venta a una página de agencia.
 
 ## Principio rector: informar para las despedidas, vender sin vender
 
@@ -21,7 +21,7 @@ Una guía honesta de playas, mar, barcos, actividades, comida y diversión de **
 | Tema | Decisión |
 |---|---|
 | Nombre | **Playa Sanxenxo** (el dominio mantiene "despedidas") |
-| Zona | De la ría de Aldán a O Grove y A Toja |
+| Zona | Sanxenxo y alrededores (de la ría de Aldán a O Grove y A Toja). El mensaje de marca es **Sanxenxo + despedidas**, no la ría |
 | Núcleo de la guía | Sanxenxo, Portonovo, Noalla–A Lanzada, O Grove–San Vicente |
 | Más allá del núcleo | Aldán, Bueu, Marín, Poio, Combarro (menos peso) |
 | Playas | 39 identificadas, "nos llegan de sobras". Todas se llegan en coche y en barco: **sin campo de acceso ni de ambiente** |

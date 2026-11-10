@@ -10,7 +10,7 @@ pendiente:
 ---
 ## Qué es este sitio
 
-Playa Sanxenxo es una guía informativa de la ría de Aldán a O Grove. No vende servicios directamente ni permite contratar o reservar desde el propio sitio.
+Playa Sanxenxo es una guía informativa para disfrutar de Sanxenxo y sus alrededores, pensada para despedidas. No vende servicios directamente ni permite contratar o reservar desde el propio sitio.
 
 ## Información orientativa
 

@@ -12,7 +12,7 @@
 
 | Ruta | Plantilla | Datos | Notas |
 |---|---|---|---|
-| `/` | Home | todos | Mensaje: guía de la ría de Aldán a O Grove. Entradas a las 7 secciones |
+| `/` | Home | todos | Mensaje: guía de disfrute de Sanxenxo para despedidas. Entradas a las 7 secciones |
 | `/paraisos/` | Hub | — | Playas + mar |
 | `/paraisos/playas/` | HubPlayas | playas | Mapa y las 8 top. Los 5 tramos |
 | `/paraisos/playas/sanxenxo/` | Tramo | playas | Tramo `sanxenxo` |

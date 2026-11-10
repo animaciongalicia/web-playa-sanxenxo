@@ -10,7 +10,7 @@ pendiente:
 ---
 La parte buena de la zona empieza por la arena y el agua. Esta sección reúne las dos cosas: las playas y el mar.
 
-Son 39 playas, repartidas desde la ría de Aldán hasta O Grove. Todas se llegan en coche y también en barco, así que no tienes que elegir entre una cosa y otra. Y el mar abre tres destinos que merecen un día entero: Ons, Cíes y la ría de Aldán.
+Son 39 playas en Sanxenxo y sus alrededores, de la ría de Aldán a O Grove. Todas se llegan en coche y también en barco, así que no tienes que elegir entre una cosa y otra. Y el mar abre tres destinos que merecen un día entero: Ons, Cíes y la ría de Aldán.
 
 ## Playas
 

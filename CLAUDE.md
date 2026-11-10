@@ -4,7 +4,7 @@ Lee este archivo entero antes de tocar nada. Después lee `docs/04-plan-por-fase
 
 ## Qué es este proyecto
 
-Web informativa **Playa Sanxenxo** (dominio `despedidasplayasanxenxo.com`, el dominio conserva "despedidas"). Es una guía de playas, mar, barcos, actividades, dónde comer y diversión en la zona **ría de Aldán – Sanxenxo – Portonovo – A Lanzada – O Grove / San Vicente (hasta A Toja)**.
+Web informativa **Playa Sanxenxo** (dominio `despedidasplayasanxenxo.com`, el dominio conserva "despedidas"). Es una **guía de disfrute de Sanxenxo para despedidas**: playas, mar, barcos, actividades, dónde comer, diversión y fiesta en **Sanxenxo y alrededores** (Portonovo, Noalla, A Lanzada, O Grove / San Vicente hasta A Toja, y la ría de Aldán). **El foco es siempre Sanxenxo y las despedidas**; la ría de Aldán y O Grove son contexto, no el mensaje.
 
 **Objetivo de negocio:** informar para las despedidas de soltero y de soltera. **Vender sin vender.** La guía ayuda a decidir; la venta ocurre en una única página: `/agencia/`.
 

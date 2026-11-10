@@ -15,7 +15,7 @@ export type Ruta = {
 
 export const RUTAS: Ruta[] = [
   // Paraísos (fase 3)
-  { ruta: '/paraisos/', titulo: 'Paraísos', descripcion: 'Playas y mar de la ría de Aldán a O Grove.', fase: 3, pt: true },
+  { ruta: '/paraisos/', titulo: 'Paraísos', descripcion: 'Playas y mar de Sanxenxo y alrededores.', fase: 3, pt: true },
   { ruta: '/paraisos/playas/', titulo: 'Playas', descripcion: 'Las playas por tramo de costa y las 8 imprescindibles.', fase: 3, pt: true },
   { ruta: '/paraisos/playas/sanxenxo/', titulo: 'Playas de Sanxenxo', fase: 3, pt: true },
   { ruta: '/paraisos/playas/portonovo/', titulo: 'Playas de Portonovo', fase: 3, pt: true },

@@ -9,14 +9,14 @@ import { IDIOMAS, esIdioma, href } from '../../../lib/i18n';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.map((lang) => ({ lang }));
-export const metadata: Metadata = { title: 'Paraísos', description: 'Playas y mar de la ría de Aldán a O Grove.' };
+export const metadata: Metadata = { title: 'Paraísos', description: 'Playas y mar de Sanxenxo y alrededores.' };
 
 export default function Paraisos({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();
   const lang = params.lang;
   return (
     <>
-      <HeroPage titulo="Paraísos" subtitulo="Playas y mar de la ría de Aldán a O Grove." />
+      <HeroPage titulo="Paraísos" subtitulo="Playas y mar de Sanxenxo y alrededores." />
       <Migas lang={lang} ruta="/paraisos/" />
       <Contenido lang={lang} ruta="/paraisos/" />
       <Seccion titulo="Empieza por aquí" intro="Dos entradas: la arena y el agua.">

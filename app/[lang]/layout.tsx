@@ -15,8 +15,8 @@ export const viewport: Viewport = { width: 'device-width', initialScale: 1, them
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.despedidasplayasanxenxo.com'),
-  title: { default: 'Playa Sanxenxo · Guía de la ría de Aldán a O Grove', template: '%s · Playa Sanxenxo' },
-  description: 'Guía de playas, mar, barcos, actividades, comida y diversión de la ría de Aldán a O Grove.',
+  title: { default: 'Playa Sanxenxo · Guía de disfrute de Sanxenxo para despedidas', template: '%s · Playa Sanxenxo' },
+  description: 'Guía de disfrute de Sanxenxo para despedidas de soltero y de soltera: playas, mar, barcos, actividades, dónde comer, diversión y fiesta en Sanxenxo y alrededores.',
   // Bloqueo total hasta la Fase 9.
   robots: { index: false, follow: false },
 };
