@@ -67,7 +67,7 @@ jobs:
 | `NEXT_PUBLIC_GA_ID` | Medición de GA4 | Producción |
 | `NEXT_PUBLIC_SITE_URL` | URL canónica | Todos |
 | `NEXT_PUBLIC_WHATSAPP` | WhatsApp (botón suave y `/agencia/`) | Todos |
-| `NEXT_PUBLIC_AGENCIA_EMAIL` | Correo de la agencia (`mailto:`) | Todos |
+| `NEXT_PUBLIC_AGENCIA_EMAIL` | Correo de la agencia (`mailto:`): **info@despedidasplayasanxenxo.com** | Todos |
 | `NEXT_PUBLIC_AGENCIA_TELEFONO` | Teléfono para llamar (si falta, se usa el de WhatsApp) | Todos |
 | `MOSTRAR_PENDIENTES` | Modo revisión: `1` solo en Vista previa, nunca en Producción | Vista previa |
 | `FICHAS_EXPORT_TOKEN` | Token de `/api/fichas-export` | Producción |

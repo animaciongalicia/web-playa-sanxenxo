@@ -5,6 +5,7 @@
 /* Sistema de diseño (blueprint Suunia adaptado a la paleta ria/arena). */
 @layer base {
   html { scroll-behavior: smooth; }
+  [id] { scroll-margin-top: 5.5rem; }
   body { @apply bg-white text-gray-600 antialiased; }
   :focus-visible { @apply outline-none ring-2 ring-ria-600 ring-offset-2; }
 }

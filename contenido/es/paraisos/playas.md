@@ -27,12 +27,12 @@ Elige el tramo que te quede más cerca del sitio donde duermes. Lo demás, lo cu
 
 ## Las ocho imprescindibles
 
-Entre las 39, ocho tienen página propia, con lo que necesitas para decidir.
+Entre las 39, ocho destacan. Las encuentras dentro de su tramo, marcadas como imprescindibles.
 
-- **Sanxenxo:** [Silgar](/paraisos/playas/sanxenxo/silgar/) y [Areas](/paraisos/playas/sanxenxo/areas/).
-- **Portonovo:** [Montalvo](/paraisos/playas/portonovo/montalvo/).
-- **Noalla y A Lanzada:** [A Lanzada](/paraisos/playas/noalla-a-lanzada/a-lanzada/), [Areas Gordas](/paraisos/playas/noalla-a-lanzada/areas-gordas/) y [Pragueira](/paraisos/playas/noalla-a-lanzada/pragueira/).
-- **O Grove y San Vicente:** [Pedras Negras](/paraisos/playas/o-grove-san-vicente/pedras-negras/) y [A Barrosa](/paraisos/playas/o-grove-san-vicente/a-barrosa/).
+- **Sanxenxo:** [Silgar y Areas](/paraisos/playas/sanxenxo/).
+- **Portonovo:** [Montalvo](/paraisos/playas/portonovo/).
+- **Noalla y A Lanzada:** [A Lanzada, Areas Gordas y Pragueira](/paraisos/playas/noalla-a-lanzada/).
+- **O Grove y San Vicente:** [Pedras Negras y A Barrosa](/paraisos/playas/o-grove-san-vicente/).
 
 ## Qué dice la bandera azul
 

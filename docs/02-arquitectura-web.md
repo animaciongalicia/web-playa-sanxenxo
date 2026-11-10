@@ -20,7 +20,7 @@
 | `/paraisos/playas/noalla-a-lanzada/` | Tramo | playas | |
 | `/paraisos/playas/o-grove-san-vicente/` | Tramo | playas | Incluye Reboredo y Moreiras |
 | `/paraisos/playas/mas-alla/` | Tramo | playas | Aldán, Bueu, Marín, Poio, Combarro (secciones dentro de la página) |
-| `/paraisos/playas/[tramo]/[playa]/` | Playa | playas | **Solo las 8 top.** Las otras viven como tarjeta/ancla en su tramo |
+| ~~`/paraisos/playas/[tramo]/[playa]/`~~ | — | — | **Eliminada.** Las 8 top viven como sección dentro de su tramo (ancla `#slug`), igual que el resto de playas. Decisión de Pablo, 2026-11-10 |
 | `/paraisos/mar/` | Hub | mar | Tres bloques |
 | `/paraisos/mar/islas-ons/` | Destino | mar, barcos | Parque Nacional de las Islas Atlánticas |
 | `/paraisos/mar/islas-cies/` | Destino | mar, barcos | Parque Nacional de las Islas Atlánticas |

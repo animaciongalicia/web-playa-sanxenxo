@@ -27,7 +27,7 @@ export function NotaRevision({ children }: { children: ReactNode }) {
 
 export function TarjetaPlaya({ playa, lang, etiquetaTramo = false }: { playa: Playa; lang: Idioma; etiquetaTramo?: boolean }) {
   const top = esTop(playa);
-  const enlace = top ? href(lang, `/paraisos/playas/${slugTramoDe(playa.tramo)}/${playa.slug}/`) : null;
+  const enlace = top ? `${href(lang, `/paraisos/playas/${slugTramoDe(playa.tramo)}/`)}#${playa.slug}` : null;
   const cuerpo = (
     <>
       <h3 className="text-lg font-semibold text-gray-900">
@@ -40,12 +40,10 @@ export function TarjetaPlaya({ playa, lang, etiquetaTramo = false }: { playa: Pl
       </p>
       {playa.descripcion && <p className="mt-3 text-sm leading-relaxed text-gray-600">{playa.descripcion}</p>}
       {playa.bandera_azul && playa.verificado && <p className="mt-3 text-sm text-ria-700">Bandera azul {playa.bandera_azul.anio}</p>}
-      {enlace && <span className="mt-4 inline-block text-sm font-semibold text-ria-700">Ver playa →</span>}
+      
     </>
   );
-  return enlace ? (
-    <Link id={playa.slug} href={enlace} className="card-elegant stagger-child block !p-6">{cuerpo}</Link>
-  ) : (
+  return (
     <div id={playa.slug} className="card-elegant stagger-child !p-6">{cuerpo}</div>
   );
 }

@@ -68,7 +68,8 @@
       "datos_fuente": [
         "Cocina gallega tradicional al borde de la ría de Aldán",
         "Pescados, mariscos y arroces",
-        "Instalado en una antigua fábrica de salazón"
+        "Instalado en una antigua fábrica de salazón",
+        "Directorios: Paseo de Carlos Pérez 12, Aldán; reservas 986 32 92 29; pescados, mariscos y arroces. Su web figura como acasadealdan.com: puede ser el mismo negocio que \"A Taberna Casa de Aldán\" (posible duplicado a revisar) (https://gastroranking.es/r/o-con-de-aldan_4584/). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -104,7 +105,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Marisquería"
+        "Marisquería",
+        "Directorio: Avenida José Graña 38, Cangas (Aldán). Sin teléfono (https://www.paxinasgalegas.es/mesones-y-taperias-aldan-367ep_1218di.html). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -140,7 +142,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Restaurante gallego junto al puerto"
+        "Restaurante gallego junto al puerto",
+        "No aparece como ficha propia en directorios. Ver nota de O Con de Aldán (posible duplicado). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -176,7 +179,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Especializado en barbacoa"
+        "Especializado en barbacoa",
+        "Directorio: Lontreira 1 bajo, Aldán, Cangas. Sin teléfono (https://www.paxinasgalegas.es/restaurantes-cangas-de-morrazo-461ep_262ay.html?pagina=2). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -214,7 +218,8 @@
       "datos_fuente": [
         "Marisquería centenaria frente al puerto y la playa de Beluso",
         "Cestas de marisco, guisos, arroces marineros, pescados al horno",
-        "Menú del día solo en invierno"
+        "Menú del día solo en invierno",
+        "Directorios: Praia de Beluso 28 bajo, Beluso, Bueu (Turismo de Galicia lo da como nº 27: confirmar) (https://gastroranking.es/r/a-centoleira_23829/). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -250,7 +255,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Marisquería de perfil tradicional"
+        "Marisquería de perfil tradicional",
+        "Directorio: Costa Figueirón 3, Beluso, Bueu (https://gastroranking.es/r/restaurante-bar-peixoto_71094/). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -287,7 +293,8 @@
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Restaurante y hotel con acceso directo a la playa",
-        "Posibles dos salones independientes para eventos (por confirmar)"
+        "Posibles dos salones independientes para eventos (por confirmar)",
+        "Directorio: Loureiro 13, Bueu (https://www.paxinasgalegas.es/restaurantes-bueu-461ep_258ay.html). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -323,7 +330,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Restaurante en la zona de playa de Aguete"
+        "Restaurante en la zona de playa de Aguete",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -360,7 +368,8 @@
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Pescado a la brasa, arroces y tapas",
-        "Terraza con vistas al mar"
+        "Terraza con vistas al mar",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -396,30 +405,31 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Restaurante tradicional de pescado y marisco, con vistas"
+        "Restaurante tradicional de pescado y marisco, con vistas",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
     {
       "id": "restaurante-a-ferreira",
-      "slug": "restaurante-a-ferreira",
+      "slug": "a-ferreira",
       "nombre": "Restaurante A Ferreira",
       "tipo": "restaurante",
       "zona": "sanxenxo-portonovo",
       "municipio": "Sanxenxo",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
-      "que_se_come": null,
+      "como_es": "Asador con grandes salones y una amplia zona ajardinada, a unos 3 kilómetros del centro de Sanxenxo, con vistas a la isla de A Toxa y aparcamiento privado.",
+      "que_se_come": "Carnes a la brasa: churrasco de ternera y de cerdo, parrilladas, chuletón de buey a la piedra y pulpo a la brasa. También pescados frescos, menú degustación y postres caseros.",
       "contacto": {
         "telefono": null,
         "web": null,
         "email": null
       },
-      "meses_apertura": null,
-      "horario_tipico": null,
+      "meses_apertura": "Todo el año",
+      "horario_tipico": "Menú del día de lunes a viernes",
       "despedidas": {
-        "admite": "desconocido",
+        "admite": "no",
         "cuando": null,
         "como": null
       },
@@ -432,20 +442,21 @@
       "ultima_verificacion": null,
       "origen": "web antigua (14.306 impresiones, pos. 10,3)",
       "datos_fuente": [
-        "Directorio Páxinas Galegas: Lg. Bouzón 2, Nantes (36969 Sanxenxo); horario invierno j-d 11:30-16:00 y 20:00-00:00 (verano distinto). Gastroranking da el 986 69 11 39 sin confirmar que sea este local. https://www.paxinasgalegas.es/a-ferreira-247949em.html (consultado 2026-11-10)"
+        "Directorio Páxinas Galegas: Lg. Bouzón 2, Nantes (36969 Sanxenxo); horario invierno j-d 11:30-16:00 y 20:00-00:00 (verano distinto). Gastroranking da el 986 69 11 39 sin confirmar que sea este local. https://www.paxinasgalegas.es/a-ferreira-247949em.html (consultado 2026-11-10)",
+        "Texto propio de Pablo en despedidasplayasanxenxo.com (restaurante-a-ferreira-sanxenxo): abrió hacia 2005, abierto todo el año, amplios comedores y reservados, comuniones, bautizos y eventos. Sobre despedidas dice que \"no son muy bien vistas por el alboroto\": por eso admite=no y NO se publica en la ficha (regla 5)"
       ],
       "notas_internas": null
     },
     {
       "id": "vinoteca-a-curva",
-      "slug": "vinoteca-a-curva",
+      "slug": "a-curva",
       "nombre": "Vinoteca A Curva",
       "tipo": "vinoteca",
       "zona": "sanxenxo-portonovo",
       "municipio": "Sanxenxo",
       "direccion": "Portonovo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Taberna vinoteca familiar de Portonovo. Terraza en el exterior y, dentro, mesas y bancos de madera con manteles de papel; en las paredes, botellas vacías y tapas de madera con nombres de bodegas.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -455,9 +466,9 @@
       "meses_apertura": null,
       "horario_tipico": null,
       "despedidas": {
-        "admite": "desconocido",
+        "admite": "si",
         "cuando": null,
-        "como": null
+        "como": "Se recomienda a las despedidas que quieren probar vinos gallegos. No se hacen catas, pero el dueño explica cada vino."
       },
       "pagina_propia": true,
       "tambien_en": [],
@@ -468,9 +479,11 @@
       "ultima_verificacion": null,
       "origen": "web antigua (2.708 impresiones, pos. 11,7)",
       "datos_fuente": [
-        "Directorio (Airbnb, una sola fuente): Rúa Rafael Pico 56, Portonovo, tel. 886 20 76 29. https://www.airbnb.com/things-to-do/places/2831957 (consultado 2026-11-10)"
+        "Directorio (Airbnb, una sola fuente): Rúa Rafael Pico 56, Portonovo, tel. 886 20 76 29. https://www.airbnb.com/things-to-do/places/2831957 (consultado 2026-11-10)",
+        "Texto propio de Pablo en despedidasplayasanxenxo.com (vinoteca-a-curva-portonovo): historia de la taberna familiar; el sumiller Miguel Anxo Besada lleva el local desde hace unos 12 años"
       ],
-      "notas_internas": null
+      "notas_internas": null,
+      "que_se_bebe": "Unas 400 referencias de vino, con casi todos los pequeños productores gallegos, y vinos de otras zonas de España y de Borgoña, Champagne o rieslings alemanes."
     },
     {
       "id": "taberna-villalustre",
@@ -505,7 +518,8 @@
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Carne y pescado a la parrilla de carbón",
-        "Entorno rústico y terraza en un viñedo"
+        "Entorno rústico y terraza en un viñedo",
+        "Directorio Salir.com: Camiño do Vento 9, Sanxenxo (36960); tel. 986 69 17 71; L-D 13:00-16:00 y 21:00-00:00; web tabernavillalustre.es; asador de parrilladas de carne y pescado y postres caseros, dos comedores, terraza, bodega y viñedos de albariño (https://www.salir.com/taberna-villalustre-sanxenxo-neg-134791.html). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -543,7 +557,8 @@
       "datos_fuente": [
         "Chiringuito gourmet a pie de playa, entre Seixeliño y Area da Cruz",
         "Incluido en una selección de restaurantes de playa de la Guía Michelin",
-        "Carta de mariscos, pescados, carnes y arroces"
+        "Carta de mariscos, pescados, carnes y arroces",
+        "Aparece en la guía Michelin como restaurante de O Grove; sin más datos contrastados (https://guide.michelin.com/ca/fr/galicia/o-grove/restaurant/meloxeira-praia). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -579,7 +594,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Marisquería: producto del mar al vapor, parrilla y guisos"
+        "Marisquería: producto del mar al vapor, parrilla y guisos",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -1637,7 +1653,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Restaurante gallego en formato chiringuito junto a la playa"
+        "Restaurante gallego en formato chiringuito junto a la playa",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -1673,7 +1690,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Kiosco de playa recogido en una guía de 2021"
+        "Kiosco de playa recogido en una guía de 2021",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -1709,7 +1727,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Bar con terraza junto al mirador de Pragueira"
+        "Bar con terraza junto al mirador de Pragueira",
+        "Directorio: Playa Pragueira s/n, Noalla; jueves a domingo de 13:00 a 2:00; atardeceres con hamburguesas, cócteles y música (https://www.paxinasgalegas.es/bico-beach-699005em.html). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -1747,7 +1766,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Bar/chiringuito junto al arenal"
+        "Bar/chiringuito junto al arenal",
+        "Prensa (La Voz de Galicia): chiringuito sobre la arena de A Lanzada. Sin dirección ni horarios contrastados. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -1785,7 +1805,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Restaurante y terraza con vistas al mar, hacia San Vicente do Mar"
+        "Restaurante y terraza con vistas al mar, hacia San Vicente do Mar",
+        "Directorio: en la playa de A Lanzada, con zona infantil, aparcamiento privado y terraza \"Sunset\" con cócteles y música en directo (https://www.salir.com/restaurante-arroceria-a-lanzada-o-grove-neg-139039.html). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -1821,7 +1842,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Chiringuito de playa cerca del puerto deportivo de San Vicente do Mar"
+        "Chiringuito de playa cerca del puerto deportivo de San Vicente do Mar",
+        "Guía: Portiño es una playa rocosa pequeña, de unos 100 m; el chiringuito está junto al mar, con comida, bebidas y atardeceres (https://www.inspain.org/en/pontevedra/o-grove/beaches/portino). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -1860,7 +1882,8 @@
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Bar junto al mar con cócteles, raciones, terraza y conciertos",
-        "Según Pablo, el más top y con más búsquedas"
+        "Según Pablo, el más top y con más búsquedas",
+        "Directorios: Praia da Barrosa, San Vicente do Mar; música en directo, tapas, comidas y copas; horario citado 12:00-4:30 todos los días (sin confirmar) (https://www.salir.com/nautico-de-san-vicente-do-mar-o-grove-neg-131189.html). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -1898,7 +1921,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Kiosco de playa"
+        "Kiosco de playa",
+        "Posible coincidencia: \"Kiosco Areaso\", en la playa de Area de Reboredo (O Grove), que alquila kayaks y da clases de paddle surf y rutas guiadas. Confirmar que es el mismo local y su relación con la actividad \"Kayak en Areoso\". Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -2294,7 +2318,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Chiringuito y bar en la playa; opiniones dispares"
+        "Chiringuito y bar en la playa; opiniones dispares",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -2330,7 +2355,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
-        "Bar-restaurante; arroces y fideuá según reseñas"
+        "Bar-restaurante; arroces y fideuá según reseñas",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     }
@@ -2369,7 +2395,8 @@
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
         "Tradicional; abre pocos meses al año",
-        "Huevos, zorza, tortilla y richada"
+        "Huevos, zorza, tortilla y richada",
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
       ],
       "notas_internas": null
     },
@@ -2405,7 +2432,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Secreto ibérico, pulpo y tortilla"
+        "Secreto ibérico, pulpo y tortilla",
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
       ],
       "notas_internas": null
     },
@@ -2441,7 +2469,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Restaurante y tapas con terraza entre viñedos"
+        "Restaurante y tapas con terraza entre viñedos",
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
       ],
       "notas_internas": null
     },
@@ -2477,7 +2506,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Garbanzos con callos y tarta de orujo"
+        "Garbanzos con callos y tarta de orujo",
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
       ],
       "notas_internas": null
     },
@@ -2513,7 +2543,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Zamburiñas, raxo con patatas y tortillas rellenas"
+        "Zamburiñas, raxo con patatas y tortillas rellenas",
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
       ],
       "notas_internas": null
     },
@@ -2549,7 +2580,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Huevos con pan de millo, tortilla con chorizo y pulpo a feira"
+        "Huevos con pan de millo, tortilla con chorizo y pulpo a feira",
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
       ],
       "notas_internas": null
     },
@@ -2585,7 +2617,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Local de estilo furancho"
+        "Local de estilo furancho",
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
       ],
       "notas_internas": null
     },
@@ -2621,7 +2654,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Albariño y tinto de Barrantes, churrasco, zamburiñas, pulpo y richada"
+        "Albariño y tinto de Barrantes, churrasco, zamburiñas, pulpo y richada",
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
       ],
       "notas_internas": null
     },
@@ -2657,7 +2691,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Comida casera y terraza"
+        "Comida casera y terraza",
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
       ],
       "notas_internas": null
     },
@@ -2692,7 +2727,9 @@
       "verificado": false,
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
-      "datos_fuente": [],
+      "datos_fuente": [
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
+      ],
       "notas_internas": null
     },
     {
@@ -2726,7 +2763,9 @@
       "verificado": false,
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
-      "datos_fuente": [],
+      "datos_fuente": [
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
+      ],
       "notas_internas": null
     },
     {
@@ -2760,7 +2799,9 @@
       "verificado": false,
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
-      "datos_fuente": [],
+      "datos_fuente": [
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
+      ],
       "notas_internas": null
     },
     {
@@ -2794,7 +2835,9 @@
       "verificado": false,
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
-      "datos_fuente": [],
+      "datos_fuente": [
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
+      ],
       "notas_internas": null
     },
     {
@@ -2829,7 +2872,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Un clásico instituido en la zona"
+        "Un clásico instituido en la zona",
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
       ],
       "notas_internas": null
     },
@@ -2865,7 +2909,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Raciones variadas, pulpo y calamares"
+        "Raciones variadas, pulpo y calamares",
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
       ],
       "notas_internas": null
     },
@@ -2901,7 +2946,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Zorza adobada, cordero estofado, chipirones y tarta de queso"
+        "Zorza adobada, cordero estofado, chipirones y tarta de queso",
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
       ],
       "notas_internas": null
     },
@@ -2937,7 +2983,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documentos de furanchos)",
       "datos_fuente": [
-        "Pulpo, oreja, raxo y tarta de piña fría"
+        "Pulpo, oreja, raxo y tarta de piña fría",
+        "Contexto: un furancho es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha con tapas caseras (máximo cinco, de una lista cerrada). Fechas de cada temporada: confirmar"
       ],
       "notas_internas": null
     }
@@ -2950,9 +2997,9 @@
       "tipo": "discoteca",
       "zona": "sanxenxo-puerto",
       "municipio": "Sanxenxo",
-      "direccion": null,
+      "direccion": "Puerto deportivo Juan Carlos I, Sanxenxo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Complejo en el puerto deportivo Juan Carlos I, con tres áreas: cafetería, terraza y pub. Estilo moderno, con música en directo y una programación de eventos en verano.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2960,7 +3007,7 @@
         "email": null
       },
       "meses_apertura": null,
-      "horario_tipico": null,
+      "horario_tipico": "La cafetería abre todos los días desde las 18:00. El pub, viernes y sábado desde las 23:00.",
       "despedidas": {
         "admite": "desconocido",
         "cuando": null,
@@ -2976,7 +3023,8 @@
       "origen": "web antigua (2.650 impresiones) + lista de Pablo",
       "datos_fuente": [
         "Programación de R&B, urbana y house según su web",
-        "Páxinas Galegas: Puerto Deportivo Juan Carlos I, s/n, 36960 Sanxenxo, con terraza; horario de temporada alta (Semana Santa y verano) 23:30-6:00 todos los días, sin confirmar si sigue vigente. https://www.paxinasgalegas.es/dux-229795em.html (consultado 2026-11-10)"
+        "Páxinas Galegas: Puerto Deportivo Juan Carlos I, s/n, 36960 Sanxenxo, con terraza; horario de temporada alta (Semana Santa y verano) 23:30-6:00 todos los días, sin confirmar si sigue vigente. https://www.paxinasgalegas.es/dux-229795em.html (consultado 2026-11-10)",
+        "Texto propio de Pablo en despedidasplayasanxenxo.com (dux-puerto-sanxenxo): tres áreas, horarios y ambiente (más adulto por la tarde, más juvenil por la noche). Horarios de la web anterior: confirmar para 2027"
       ],
       "notas_internas": null
     },
@@ -3012,7 +3060,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
-        "Terraza de copas y formato de club en el puerto"
+        "Terraza de copas y formato de club en el puerto",
+        "Directorio: local de cócteles, shishas, copas y partidos de fútbol, con música (https://www.paxinasgalegas.es/pubs-sanxenxo-443ep_304ay.html). Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -3048,7 +3097,8 @@
       "ultima_verificacion": null,
       "origen": "Pablo + Search Console (926 impresiones)",
       "datos_fuente": [
-        "Discoteca con terraza"
+        "Discoteca con terraza",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -3059,9 +3109,9 @@
       "tipo": "copas",
       "zona": "sanxenxo-puerto",
       "municipio": "Sanxenxo",
-      "direccion": null,
+      "direccion": "Puerto deportivo Juan Carlos I, Sanxenxo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Pub veterano del puerto deportivo de Sanxenxo, de decoración oriental y música chill-out y house. Tiene dos plantas, una terraza con vistas al mar y aparcamiento justo al lado.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3071,9 +3121,9 @@
       "meses_apertura": null,
       "horario_tipico": null,
       "despedidas": {
-        "admite": "desconocido",
+        "admite": "si",
         "cuando": null,
-        "como": null
+        "como": "Tiene reservados para grupos con botellas."
       },
       "pagina_propia": true,
       "tambien_en": [],
@@ -3084,9 +3134,11 @@
       "ultima_verificacion": null,
       "origen": "web antigua (8.614 impresiones) + lista de Pablo",
       "datos_fuente": [
-        "Directorios: Puerto Deportivo Juan Carlos I, s/n, 36960 Sanxenxo; local de copas. Sin teléfono ni horario contrastados. https://www.paxinasgalegas.es/pubs-sanxenxo-443ep_304ay.html (consultado 2026-11-10)"
+        "Directorios: Puerto Deportivo Juan Carlos I, s/n, 36960 Sanxenxo; local de copas. Sin teléfono ni horario contrastados. https://www.paxinasgalegas.es/pubs-sanxenxo-443ep_304ay.html (consultado 2026-11-10)",
+        "Texto propio de Pablo en despedidasplayasanxenxo.com (el-buddha-puerto-sanxenxo): decoración, plantas, terraza, reservados y aparcamiento. Pasó de abrir solo en verano a abrir también los fines de semana"
       ],
-      "notas_internas": null
+      "notas_internas": null,
+      "que_se_bebe": "Copas."
     },
     {
       "id": "clandestino",
@@ -3119,7 +3171,9 @@
       "verificado": false,
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de diversión)",
-      "datos_fuente": [],
+      "datos_fuente": [
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+      ],
       "notas_internas": null
     },
     {
@@ -3131,7 +3185,7 @@
       "municipio": "Sanxenxo",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Pub histórico del puerto de Sanxenxo, que sigue en el sitio donde empezó. Terraza con vistas a la playa, en una calle peatonal: puedes pedir en la barra y tomarte la copa fuera.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3141,9 +3195,9 @@
       "meses_apertura": null,
       "horario_tipico": null,
       "despedidas": {
-        "admite": "desconocido",
+        "admite": "si",
         "cuando": null,
-        "como": null
+        "como": "Sirve para empezar la noche con calma, antes de seguir por los pubs del puerto, o para acabar al final."
       },
       "pagina_propia": true,
       "tambien_en": [],
@@ -3154,9 +3208,11 @@
       "ultima_verificacion": null,
       "origen": "web antigua (7.519 impresiones) + lista de Pablo",
       "datos_fuente": [
-        "Directorios: Praia dos Barcos, Rúa de Madrid 16, Sanxenxo (Foursquare); comedor al aire libre con vistas al puerto deportivo (Engel & Völkers). Las fuentes no coinciden en el tipo de local. https://redirect.foursquare.com/carpensado/list/sanxe (consultado 2026-11-10)"
+        "Directorios: Praia dos Barcos, Rúa de Madrid 16, Sanxenxo (Foursquare); comedor al aire libre con vistas al puerto deportivo (Engel & Völkers). Las fuentes no coinciden en el tipo de local. https://redirect.foursquare.com/carpensado/list/sanxe (consultado 2026-11-10)",
+        "Texto propio de Pablo en despedidasplayasanxenxo.com (pub-varadero-paseo-sanxenxo): terraza, calle peatonal, ambiente joven de Sanxenxo"
       ],
-      "notas_internas": null
+      "notas_internas": null,
+      "que_se_bebe": "Copas, con buena música."
     },
     {
       "id": "la-menta",
@@ -3190,7 +3246,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
-        "Primera copa / coctelería"
+        "Primera copa / coctelería",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -3201,9 +3258,9 @@
       "tipo": "copas",
       "zona": "sanxenxo-puerto",
       "municipio": "Sanxenxo",
-      "direccion": null,
+      "direccion": "Mirador de Punta Vicaño, Sanxenxo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Mirador con terraza en el parque de Punta Vicaño, el que une Portonovo con Sanxenxo y separa las playas de Baltar y Silgar. Vistas al mar, a la playa de Silgar y a la otra orilla de la ría de Pontevedra.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3213,9 +3270,9 @@
       "meses_apertura": null,
       "horario_tipico": null,
       "despedidas": {
-        "admite": "desconocido",
-        "cuando": null,
-        "como": null
+        "admite": "si",
+        "cuando": "Sábado por la tarde y domingo por la mañana.",
+        "como": "Las despedidas, sobre todo de soltera, suelen subir después de la playa para tomar cócteles o refrescos, y los domingos para desayunar, antes o después del spa."
       },
       "pagina_propia": true,
       "tambien_en": [],
@@ -3227,9 +3284,11 @@
       "origen": "web antigua (2.783 impresiones) + lista de Pablo",
       "datos_fuente": [
         "Coctelería",
-        "No encontré el local en directorios ni guías: sin contraste posible (consultado 2026-11-10)"
+        "No encontré el local en directorios ni guías: sin contraste posible (consultado 2026-11-10)",
+        "Texto propio de Pablo en despedidasplayasanxenxo.com (gassho-sanxenxo-cocteleria): descripción, terraza, desayunos y uso por despedidas"
       ],
-      "notas_internas": null
+      "notas_internas": null,
+      "que_se_bebe": "Cócteles con y sin alcohol, café, batidos y zumos naturales. Desayunos con tostadas de distintos panes y dulces."
     },
     {
       "id": "pub-42-grados-norte",
@@ -3264,7 +3323,8 @@
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
         "Pub del Real Club Náutico de Sanxenxo",
-        "Público más adulto (+30), más pequeño, con buena terraza"
+        "Público más adulto (+30), más pequeño, con buena terraza",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -3300,7 +3360,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
-        "Coctelería"
+        "Coctelería",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -3336,7 +3397,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
-        "Coctelería"
+        "Coctelería",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -3372,7 +3434,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
-        "Pub o discoteca según el grupo"
+        "Pub o discoteca según el grupo",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -3408,7 +3471,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
-        "Pub o discoteca según el grupo"
+        "Pub o discoteca según el grupo",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -3444,7 +3508,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
-        "Formato de discoteca o pista de baile"
+        "Formato de discoteca o pista de baile",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -3480,7 +3545,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
-        "Atardecer, cena y primera copa"
+        "Atardecer, cena y primera copa",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -3516,7 +3582,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
-        "Playa con música, eventos con DJ o música en vivo según fecha"
+        "Playa con música, eventos con DJ o música en vivo según fecha",
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -3552,7 +3619,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
-        "Terraza interior"
+        "Terraza interior",
+        "Pocos datos en directorios (existe como pub en O Grove): sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     },
@@ -3588,7 +3656,8 @@
       "ultima_verificacion": null,
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
-        "Coctelería"
+        "Coctelería",
+        "Pocos datos en directorios (existe como pub en O Grove): sin contraste posible. Consultado 2026-11-10"
       ],
       "notas_internas": null
     }

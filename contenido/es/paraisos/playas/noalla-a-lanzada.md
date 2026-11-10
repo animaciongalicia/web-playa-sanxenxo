@@ -1,44 +1,42 @@
 ---
 titulo: Playas de Noalla y A Lanzada
-objetivo: 550
+objetivo: 500
 fuentes:
   - "Lista oficial de bandera azul 2026-2027 (Xunta de Galicia): https://www.xunta.gal/notas-de-prensa/-/nova/024145/galicia-tendra-este-ano-118-playas-con-bandera-azul-10-mas-que-2025-consolida"
-  - "Guías de playas (Masmar, Páxinas Galegas, Turismo Rías Baixas, Wikipedia): A Lanzada ~2,4-2,5 km; Major 700 m; Foxos tómbolo; A Lapa e islote Outeiro das Lapas"
+  - "Masmar, ficha de A Lanzada: https://masmar.net/index.php/esl/Guías/Playas/Pontevedra-Galicia/Playa-de-A-Lanzada-O-Grove-y-Sanxenxo"
+  - "Guías de playas (Páxinas Galegas, Turismo Rías Baixas, Turismo de España, Wikipedia): A Lanzada ~2,4-2,5 km; Major 700 m; Pragueira ~300 m; Foxos tómbolo; A Lapa e islote Outeiro das Lapas"
+  - "data/actividades.json: clases de surf, paddle surf y Big SUP en A Lanzada y Foxos"
 pendiente:
   - "Longitudes sin contrastar con fuente oficial: se publican solo A Lanzada (rango) y Major"
-  - "Confirmar con Pablo el ambiente de las playas para grupos"
+  - "Pablo aporta ambiente y qué recomienda para grupos"
 ---
-Este es el tramo de los arenales largos. Noalla y A Lanzada reúnen playas abiertas al Atlántico, con mucha arena, mucho cielo y un aire distinto al de las playas urbanas.
+Este es el tramo de los arenales largos. Noalla y A Lanzada reúnen playas abiertas al Atlántico, con mucha arena y mucho cielo, y un aire distinto al de las playas urbanas.
 
-## A Lanzada
+Tres de ellas son imprescindibles: A Lanzada, Areas Gordas y Pragueira.
 
-[A Lanzada](/paraisos/playas/noalla-a-lanzada/a-lanzada/) es la gran playa de la zona: unos 2,4 kilómetros de arena. Se reparte entre los términos de Sanxenxo y O Grove. Es una de las más visitadas de Galicia y es la referencia para el surf. En la lista oficial de bandera azul 2026-2027 aparece como "Nosa Señora da Lanzada", en Sanxenxo.
+## A Lanzada, imprescindible
 
-Y si sumas las contiguas, Areas Gordas y A Lapa, pasa de tres kilómetros. Cada tramo tiene su nombre: Areas Gordas, A Lapa y A Lanzada.
+La gran playa de la zona: unos 2,4 kilómetros de arena abierta al Atlántico, entre los términos de Sanxenxo y O Grove. Es una de las más visitadas de Galicia. En la lista oficial de bandera azul 2026-2027 aparece como "Nosa Señora da Lanzada", en Sanxenxo.
 
-## Areas Gordas
+Si sumas las contiguas, Areas Gordas y A Lapa, pasa de los tres kilómetros. Al final, junto al istmo de Foxos, está la capilla de piedra de Nosa Señora da Lanzada, y un camino de tierra por detrás de la orilla lleva hasta ella.
 
-[Areas Gordas](/paraisos/playas/noalla-a-lanzada/areas-gordas/) es el tramo de arena más gruesa. Linda por un extremo con la capilla de Nosa Señora da Lanzada y con la playa de A Lapa.
+Es la playa de referencia para el surf y los deportes de tabla. En la guía de actividades aparece en las clases de surf, el paddle surf y el Big SUP. Mira [playa y tabla](/actividades/playa-y-tabla/). Al ser un arenal abierto, el viento y el oleaje cambian su carácter más que en las playas de ría.
 
-## A Lapa
+## Areas Gordas, imprescindible
 
-Una playa con forma de concha, separada de Areas Gordas por el islote Outeiro das Lapas. Tiene bandera azul.
+Es el tramo de arena más gruesa del arenal, con bandera azul 2026-2027. Un extremo linda con la capilla y con A Lapa, de la que la separa el islote Outeiro das Lapas. Es buena opción si buscas un día de playa algo más tranquilo que en A Lanzada.
 
-## Foxos
+## A Lapa y Foxos
 
-Una pequeña cala con forma de tómbolo, en el istmo de la ermita, entre Foxos y Areas Gordas. Es una playa rural, y tiene bandera azul. Un camino de tierra por detrás de la orilla lleva hasta la capilla de piedra de A Lanzada.
+**A Lapa** tiene forma de concha. **Foxos** es una cala pequeña, en forma de tómbolo, en el istmo de la ermita. Las dos tienen bandera azul.
 
 ## Major
 
-Mide unos 700 metros. Un acantilado la separa de Pragueira. Tiene bandera azul.
+Mide unos 700 metros. Un acantilado la separa de Pragueira. También tiene bandera azul.
 
-## Pragueira
+## Pragueira, imprescindible
 
-[Pragueira](/paraisos/playas/noalla-a-lanzada/pragueira/) es de arena blanca y vegetación, y está separada por grandes rocas de la concurrida playa de Areas. Tiene bandera azul.
-
-## Qué se hace
-
-En A Lanzada hay clases de surf y de paddle surf. También Foxos aparece en las actividades de paddle surf y de Big SUP. Si te interesa, mira [playa y tabla](/actividades/playa-y-tabla/).
+De arena blanca y vegetación, con bandera azul 2026-2027. Es de tamaño medio y de entorno más natural que las urbanas. Grandes rocas la separan de la concurrida playa de Areas, en [Sanxenxo](/paraisos/playas/sanxenxo/). A su lado queda Bascuas, la playa naturista de [Portonovo](/paraisos/playas/portonovo/).
 
 ## Qué hay cerca
 
@@ -46,4 +44,8 @@ Los chiringuitos de esta zona son parte del plan: mira [chiringuitos de Noalla y
 
 ## Cuándo ir
 
-El viento y el oleaje cambian el carácter de estas playas más que en las de ría. Lee [cuándo ir](/cuando-ir/) antes de planificar, y ten un plan B si el día no acompaña. Para ver cómo encaja en una despedida, mira el [plan completo](/despedidas/).
+El viento y el oleaje mandan aquí. Lee [cuándo ir](/cuando-ir/) antes de planificar, y ten un plan B si el día no acompaña.
+
+## Para una despedida
+
+Un día de playa grande, con mucho espacio, y un plan de tabla si al grupo le apetece. Combínalo con una comida con vistas y la noche en Sanxenxo. Mira el [plan completo](/despedidas/).

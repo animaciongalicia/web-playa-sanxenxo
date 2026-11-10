@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import HeroPage from '../../../../components/HeroPage';
+import Link from 'next/link';
 import Migas from '../../../../components/Migas';
 import Contenido from '../../../../components/Contenido';
 import Seccion from '../../../../components/Seccion';
@@ -8,7 +9,7 @@ import Tarjeta from '../../../../components/Tarjeta';
 import { EnPreparacion, NotaRevision, TarjetaPlaya } from '../../../../components/Fichas';
 import { getPlayas } from '../../../../lib/datos';
 import { IDIOMAS, esIdioma, href } from '../../../../lib/i18n';
-import { TRAMOS_RUTA, esTop } from '../../../../lib/paraisos';
+import { TRAMOS_RUTA, esTop, slugTramoDe } from '../../../../lib/paraisos';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.map((lang) => ({ lang }));
@@ -36,7 +37,11 @@ export default function Playas({ params }: { params: { lang: string } }) {
         <NotaRevision>Selección confirmada por Pablo (propuesta del núcleo). Se cambia en <code>data/playas.json</code> (campo <code>top</code>).</NotaRevision>
         {top.length ? (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {top.map((p) => <TarjetaPlaya key={p.id} playa={p} lang={lang} etiquetaTramo />)}
+            {top.map((p) => (
+              <Link key={p.id} href={`${href(lang, `/paraisos/playas/${slugTramoDe(p.tramo)}/`)}#${p.slug}`} className="block">
+                <TarjetaPlaya playa={p} lang={lang} etiquetaTramo />
+              </Link>
+            ))}
           </div>
         ) : <EnPreparacion />}
       </Seccion>
