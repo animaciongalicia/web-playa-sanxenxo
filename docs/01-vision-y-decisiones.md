@@ -21,7 +21,7 @@ Una guía honesta de disfrute de **Sanxenxo para despedidas** (playas, mar, barc
 | Tema | Decisión |
 |---|---|
 | Nombre | **Playa Sanxenxo** (el dominio mantiene "despedidas") |
-| Zona | Sanxenxo y alrededores (de la ría de Aldán a O Grove y A Toja). El mensaje de marca es **Sanxenxo + despedidas**, no la ría |
+| Zona | Sanxenxo y alrededores (de la ría de Aldán a O Grove y A Toja). El mensaje de marca es **Sanxenxo + despedidas**, no la ría. Sanxenxo es un pueblo pequeño con ~10 km de zona de influencia: de Aldán a O Grove son sus zonas de disfrute |
 | Núcleo de la guía | Sanxenxo, Portonovo, Noalla–A Lanzada, O Grove–San Vicente |
 | Más allá del núcleo | Aldán, Bueu, Marín, Poio, Combarro (menos peso) |
 | Playas | 39 identificadas, "nos llegan de sobras". Todas se llegan en coche y en barco: **sin campo de acceso ni de ambiente** |
