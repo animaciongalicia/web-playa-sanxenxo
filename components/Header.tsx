@@ -39,7 +39,7 @@ export default function Header({ lang, items, inicioHref, etiquetas }: Props) {
           <Logo />
           <span className="leading-tight">
             <span className="block text-lg font-bold tracking-tight text-gray-900 sm:text-xl">PLAYA SANXENXO</span>
-            <span className="hidden text-[10px] font-semibold uppercase tracking-wider text-gray-500 sm:block">Despedidas en Sanxenxo</span>
+            <span className="hidden text-[10px] font-semibold uppercase tracking-wider text-gray-500 sm:block">Disfruta Sanxenxo y alrededores</span>
           </span>
         </Link>
 

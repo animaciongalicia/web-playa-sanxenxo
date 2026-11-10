@@ -40,8 +40,7 @@
 | `/comer/restaurantes/` | Lista | locales | Agrupada por zona (anclas). Páginas propias solo donde `pagina_propia` |
 | `/comer/restaurantes/[slug]/` | Local | locales | A Ferreira, A Curva, A Vichona |
 | `/comer/chiringuitos/` | Lista | locales | Por zona |
-| `/comer/furanchos/` | Hub | furanchos | Aviso: abren de diciembre a junio, más o menos |
-| `/comer/furanchos/[zona]/` | Zona | furanchos | `sanxenxo-portonovo`, `meano`, `cambados`, `ribadumia-vilanova`, `o-grove`, `bueu-marin` (las dos últimas no se publican hasta tener datos) |
+| `/comer/furanchos/` | Furanchos | furanchos | **Una sola página, agrupada por zonas** (decisión de Pablo): sanxenxo-portonovo, meano, cambados, ribadumia-vilanova. Aviso: abren de diciembre a junio, más o menos |
 | `/diversion/` | Hub | diversion | Terraceo, tardeo, puestas de sol, copas |
 | `/diversion/[zona]/` | Zona | diversion | `sanxenxo-puerto`, `portonovo`, `a-lanzada-san-vicente`, `o-grove` |
 | `/diversion/[zona]/[slug]/` | Local | diversion | Gassho, Varadero, Buddha, Dux |

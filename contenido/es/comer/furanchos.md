@@ -8,11 +8,12 @@ fuentes:
   - "data/locales.json (17 furanchos de la lista de Pablo)"
 pendiente:
   - "Fechas reales de apertura de cada temporada y de cada furancho: Pablo los confirma"
-  - "Zonas de O Grove y Bueu–Marín sin datos: no se publican"
+  - "Ubicación exacta y municipio de cada furancho"
+  - "Zonas de O Grove y Bueu-Marín sin datos: no se publican"
 ---
 Un furancho no es un bar ni un restaurante. Es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha, acompañado de tapas caseras.
 
-Es una de las tradiciones más gallegas que puedes incluir en un plan, y de las más baratas.
+Es una de las tradiciones más gallegas que puedes meter en un plan, y de las más baratas.
 
 ## Cómo funciona
 
@@ -22,24 +23,28 @@ Es una de las tradiciones más gallegas que puedes incluir en un plan, y de las 
 
 En algunas zonas se les llama también "loureiros", porque antiguamente colocaban una rama de laurel en la puerta. Esa rama avisaba a los vecinos de que el vino del año ya estaba listo.
 
-## Dónde
+## Dónde están
 
-Hay furanchos por toda la zona. Estos son los que tienen datos en la guía:
+Los furanchos de la guía están agrupados por zona, más abajo. Esto es lo que hay en cada una.
 
-- **[Sanxenxo y Portonovo](/comer/furanchos/sanxenxo-portonovo/).**
-- **[Meaño](/comer/furanchos/meano/).** Se considera el epicentro de los furanchos de las Rías Baixas.
-- **[Cambados](/comer/furanchos/cambados/).**
-- **[Ribadumia y Vilanova](/comer/furanchos/ribadumia-vilanova/).**
+**Sanxenxo y Portonovo.** Los más cercanos al centro de la zona: Loureiro Miniño y O Outeiro.
+
+**Meaño.** Se considera el epicentro de los furanchos de las Rías Baixas. Aquí están A de Marcos, O Furancho Ángel, O Lar do Outeiro, A Casa Pequena, O Lar das Pereiras y Furancho de Juan.
+
+**Cambados.** O Furancho de Pancho, A Casa do Zapateiro, Furancho D'Andrade Casa Vieja, Furancho Sito de Castrelo y Furancho A Ruda.
+
+**Ribadumia y Vilanova.** O Loureiro de Siso y Lourancho.
 
 ## Cómo ir
 
-1. **Mira si está abierto.** Es lo más importante. Al ser temporada, puede estar cerrado.
+1. **Mira si está abierto.** Es lo más importante. Al ser de temporada, puede estar cerrado.
 2. **Lleva efectivo.** Muchos no aceptan tarjeta.
 3. **Reserva si sois muchos.** Son casas, y el espacio es limitado.
 4. **Ve con calma.** El ritmo es el de un vino y una tapa.
+5. **Planifica el transporte.** Algunos están a unos kilómetros del núcleo. Que no conduzca quien va a beber.
 
 ## Cómo encaja en el plan
 
-Es un plan de tarde, perfecto en invierno y primavera, cuando las playas están más tranquilas. Puede servir para una despedida fuera de temporada. Combínalo con una comida y la noche en Sanxenxo.
+Es un plan de tarde, perfecto en invierno y primavera, cuando las playas están más tranquilas. Sirve para una despedida fuera de temporada alta. Combínalo con una comida y la noche en Sanxenxo.
 
-Mira [cuándo ir](/cuando-ir/) para saber qué más hay en esa época, y el [plan completo](/despedidas/).
+Mira [cuándo ir](/cuando-ir/) para saber qué más hay en esa época, y el [plan completo de la despedida](/despedidas/). Y para comer con otro estilo, los [restaurantes](/comer/restaurantes/) y los [chiringuitos](/comer/chiringuitos/).

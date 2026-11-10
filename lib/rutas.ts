@@ -47,10 +47,6 @@ export const RUTAS: Ruta[] = [
   { ruta: '/comer/restaurantes/', titulo: 'Restaurantes', fase: 5 },
   { ruta: '/comer/chiringuitos/', titulo: 'Chiringuitos', fase: 5 },
   { ruta: '/comer/furanchos/', titulo: 'Furanchos', descripcion: 'Abren, más o menos, de diciembre a junio.', fase: 5 },
-  { ruta: '/comer/furanchos/sanxenxo-portonovo/', titulo: 'Furanchos en Sanxenxo y Portonovo', fase: 5 },
-  { ruta: '/comer/furanchos/meano/', titulo: 'Furanchos en Meaño', fase: 5 },
-  { ruta: '/comer/furanchos/cambados/', titulo: 'Furanchos en Cambados', fase: 5 },
-  { ruta: '/comer/furanchos/ribadumia-vilanova/', titulo: 'Furanchos en Ribadumia y Vilanova', fase: 5 },
 
   // Diversión (fase 5)
   { ruta: '/diversion/', titulo: 'Diversión', descripcion: 'Terraceo, tardeo, puestas de sol y copas.', fase: 5 },
