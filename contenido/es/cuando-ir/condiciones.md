@@ -1,5 +1,5 @@
 ---
-titulo: Condiciones de las despedidas en Sanxenxo
+titulo: Condiciones de las despedidas
 objetivo: 300
 fuentes:
   - "Texto propio de Pablo en despedidasplayasanxenxo.com/restaurantes-para-despedidas-en-sanxenxo/ y en la ficha de A Ferreira"
@@ -8,6 +8,8 @@ pendiente:
   - "Pablo desarrolla y confirma este texto: es lo que él sabe y yo no puedo inventar"
   - "Condiciones concretas por mes, antelación de reserva, qué se pide a los grupos y qué no se admite"
 ---
+## Condiciones de las despedidas
+
 Antes de fijar la fecha de tu despedida, lee esto. Es información agregada, sin señalar locales, y te ahorra más de un disgusto.
 
 ## La realidad de la zona
@@ -24,7 +26,7 @@ La aceptación de despedidas depende mucho de la época.
 - **Julio y agosto:** casi nadie las quiere. La zona está llena y los locales prefieren otro tipo de clientela.
 - **Septiembre:** se aceptan un poco.
 
-Esto no significa que no puedas organizar una despedida en verano. Significa que tienes que hacerlo con más antelación, con menos sitios disponibles y con otro tipo de plan. Para el detalle de cada mes, mira [cuándo ir](/cuando-ir/).
+Esto no significa que no puedas organizar una despedida en verano. Significa que tienes que hacerlo con más antelación, con menos sitios disponibles y con otro tipo de plan. Para el detalle de cada mes, mira más arriba.
 
 ## Cómo organizarte para evitar problemas
 

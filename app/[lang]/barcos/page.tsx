@@ -1,33 +1,46 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import HeroPage from '../../../components/HeroPage';
-import { ENLACE_BARCOS } from '../../../components/ListaBarcos';
-import Migas from '../../../components/Migas';
 import Contenido from '../../../components/Contenido';
+import { EnPreparacion } from '../../../components/Fichas';
+import HeroPage from '../../../components/HeroPage';
+import LlamadaAgencia from '../../../components/LlamadaAgencia';
+import Migas from '../../../components/Migas';
 import Seccion from '../../../components/Seccion';
-import Tarjeta from '../../../components/Tarjeta';
+import TarjetaBarco, { ENLACE_BARCOS, tituloBarco } from '../../../components/TarjetaBarco';
+import { getBarcos } from '../../../lib/datos';
+import { CATEGORIAS_BARCO } from '../../../lib/esquemas';
 import { esIdioma } from '../../../lib/i18n';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => [{ lang: 'es' }];
-export const metadata: Metadata = { title: 'Barcos', description: 'Yates, veleros y traslados en lancha rápida.' };
+export const metadata: Metadata = { title: 'Barcos', description: 'Yates, veleros, pesquero y lancha rápida para tu grupo.' };
 
+// Una sola página con todas las fichas, en 3 columnas (decisión de Pablo). El orden sigue CATEGORIAS_BARCO.
 export default function Barcos({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();
-  const lang = params.lang;
+  const barcos = getBarcos();
+  const ordenados = CATEGORIAS_BARCO.flatMap((c) => barcos.filter((b) => b.categoria === c));
   return (
     <>
-      <HeroPage titulo="Barcos" subtitulo="Yates, veleros y traslados en lancha rápida." />
-      <Migas lang={lang} ruta="/barcos/" />
-      <Contenido lang={lang} ruta="/barcos/" />
-      <Seccion titulo="Elige cómo salir al mar">
-        <div className="grid gap-8 md:grid-cols-3">
-          <Tarjeta titulo="Yates" texto="Barcos a motor para tu grupo." href="/barcos/yates/" />
-          <Tarjeta titulo="Veleros" texto="11 plazas más patrón." href="/barcos/veleros/" />
-          <Tarjeta titulo="Traslados" texto="Lancha rápida a Ons, Cíes y Aldán." href="/barcos/traslados/" />
-        </div>
-        <p className="mt-10 text-sm text-gray-500">La flota es de <a href={ENLACE_BARCOS} target="_blank" rel="noopener noreferrer" className="link-inline">Sea Galicia</a>.</p>
+      <HeroPage titulo="Barcos" subtitulo="Yates, veleros, pesquero y lancha rápida para tu grupo." />
+      <Migas lang={params.lang} ruta="/barcos/" />
+      <Contenido lang={params.lang} ruta="/barcos/" />
+      <Seccion titulo="Elige tu barco" intro="Precio «desde» y capacidad máxima en cada ficha." fondo="gris">
+        {ordenados.length ? (
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {ordenados.map((b) => {
+              const misma = barcos.filter((x) => x.categoria === b.categoria);
+              return <TarjetaBarco key={b.id} b={b} titulo={tituloBarco(b, misma.indexOf(b) + 1, misma.length)} />;
+            })}
+          </div>
+        ) : <EnPreparacion />}
+        <p className="mt-10 text-sm text-gray-500">
+          Los barcos son de <a href={ENLACE_BARCOS} target="_blank" rel="noopener noreferrer" className="link-inline">Sea Galicia</a>. ¿Prefieres un traslado a Ons, Cíes o Aldán?{' '}
+          <Link href="/barcos/traslados/" className="link-inline">Mira los traslados</Link>.
+        </p>
       </Seccion>
+      <Seccion ancho="estrecho"><LlamadaAgencia lang={params.lang} /></Seccion>
     </>
   );
 }

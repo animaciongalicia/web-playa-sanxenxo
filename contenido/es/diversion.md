@@ -45,4 +45,4 @@ Locales de copas y terrazas en O Grove, para quien se aloja por esa zona.
 
 Primero cena. Después, terraza para empezar con calma y copas por el puerto. Si buscas desayunar al día siguiente con vistas, mira [Gassho](/diversion/sanxenxo-puerto/gassho/).
 
-Si vais a mover mucha gente de noche, mira la [limusina](/limusinas/). Y antes de fijar fecha, lee las [condiciones de las despedidas](/condiciones-despedidas/) y [cuándo ir](/cuando-ir/). El plan completo está en [despedidas](/despedidas/).
+Si vais a mover mucha gente de noche, mira la [limusina](/limusinas/). Y antes de fijar fecha, lee las [condiciones de las despedidas](/cuando-ir/#condiciones) y [cuándo ir](/cuando-ir/). El plan completo está en [despedidas](/despedidas/).

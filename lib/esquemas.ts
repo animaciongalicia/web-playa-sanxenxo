@@ -105,15 +105,32 @@ export const Actividad = z
   .strict();
 
 // ── Barco, traslado, destino ───────────────────────────
+export const CATEGORIAS_BARCO = ['yate', 'velero', 'yate-motora', 'pesquero', 'lancha-rapida'] as const;
+
+/** Un precio de un barco. `desde` = "desde X €". `importe_max` para rangos (650-700). */
+export const PrecioBarco = z.object({
+  concepto: z.string(), // "Medio día (4 h)", "Día entero (8 h)"…
+  importe: z.number(),
+  importe_max: z.number().nullable(),
+  desde: z.boolean(),
+});
+
 export const Barco = z
   .object({
     ...base,
-    categoria: z.enum(['yate', 'velero']),
+    categoria: z.enum(CATEGORIAS_BARCO),
     nombre: z.string().nullable(),
-    plazas: z.number().int().nullable(),
+    modelo: z.string().nullable(), // p. ej. "Bavaria 42"
+    eslora: z.string().nullable(), // texto libre: "Entre 21 y 40 pies"
+    plazas: z.number().int().nullable(), // máximo de personas
+    plazas_opciones: z.array(z.number().int()), // si hay varias versiones (11, 16 o 21)
     patron: z.enum(['siempre', 'opcional']).nullable(),
     puerto_salida: z.string().nullable(),
-    precio_desde: z.object({ importe: z.number(), moneda: z.literal('EUR'), unidad: z.string() }).nullable(),
+    zona: z.string().nullable(), // p. ej. "Solo en la ría de Aldán"
+    duracion: z.string().nullable(),
+    descripcion: z.string().nullable(),
+    precios: z.array(PrecioBarco),
+    fotos: z.array(z.string()), // nombres de archivo en public/img/ (los pone Pablo)
     enlace_reserva: z.string().url(),
   })
   .merge(Control)

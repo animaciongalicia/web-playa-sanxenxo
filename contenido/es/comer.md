@@ -35,7 +35,7 @@ Son casas particulares que abren de forma temporal para vender el vino sobrante 
 
 En Sanxenxo hay un pulso entre los locales que aceptan despedidas y los que las evitan por el alboroto. Muchos no aceptan cenas de grupo, y se han dado casos de grupos a los que no dejan pasar al llegar.
 
-Por eso, pregunta antes y reserva con tiempo, sobre todo en julio y agosto. Lo cuentan las [condiciones de las despedidas](/condiciones-despedidas/).
+Por eso, pregunta antes y reserva con tiempo, sobre todo en julio y agosto. Lo cuentan las [condiciones de las despedidas](/cuando-ir/#condiciones).
 
 ## Cómo elegir
 

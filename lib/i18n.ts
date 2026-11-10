@@ -11,7 +11,8 @@ export function esIdioma(valor: string): valor is Idioma {
 export function href(lang: Idioma, ruta: string): string {
   if (lang === 'es') return ruta;
   if (ruta === '/') return '/pt/';
-  return buscarRuta(ruta)?.pt ? `/pt${ruta}` : ruta;
+  const sinAncla = ruta.split('#')[0];
+  return buscarRuta(sinAncla)?.pt ? `/pt${ruta}` : ruta;
 }
 
 /** Misma página en el otro idioma. Si no existe en portugués, lleva a la portada /pt/. */

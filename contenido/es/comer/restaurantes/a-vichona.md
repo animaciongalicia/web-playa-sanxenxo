@@ -23,7 +23,7 @@ Churrasco, que es lo que da nombre al asador. Los clientes destacan también el 
 
 Admite despedidas de soltero y de soltera. Tiene espacios privados por si quieres un momento de animación o de shows, sin mezclar al grupo con el resto de comensales.
 
-Si organizas una despedida, lee antes las [condiciones de las despedidas](/condiciones-despedidas/) y mira el [plan completo](/despedidas/).
+Si organizas una despedida, lee antes las [condiciones de las despedidas](/cuando-ir/#condiciones) y mira el [plan completo](/despedidas/).
 
 ## Cómo llegar
 

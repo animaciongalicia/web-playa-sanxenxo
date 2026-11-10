@@ -5,7 +5,7 @@ fuentes:
   - "Textos propios de Pablo en despedidasplayasanxenxo.com (despedidas-en-sanxenxo, despedidas-de-soltero, despedidas-de-soltera, restaurantes-para-despedidas), reescritos"
 pendiente:
   - "Confirmar los rangos de presupuesto (vienen de la web anterior) para la temporada 2027"
-  - "Confirmar el tope de unas 18 personas por barco privado"
+  - "Capacidades de barcos: ahora vienen de las fichas de Pablo (11, 16 y 21 personas)"
 ---
 Una despedida en Sanxenxo no es solo cena y fiesta. Cada vez más grupos aprovechan el día entero, o el fin de semana, para combinar mar, actividades, comida y noche.
 
@@ -29,7 +29,7 @@ Cada pieza tiene su sección en la guía: [playas y mar](/paraisos/), [barcos](/
 
 ## Un barco privado, sin fantasías
 
-El barco es uno de los planes que más se recuerdan, pero conviene tener clara la realidad. Aquí hablamos de veleros y yates privados, solo para tu grupo, con patrón y música a bordo. Con capacidad limitada: lo normal es hasta unas 18 personas.
+El barco es uno de los planes que más se recuerdan, pero conviene tener clara la realidad. Aquí hablamos de veleros y yates privados, solo para tu grupo, con patrón y música a bordo. Con capacidad limitada: entre 11 y 16 personas, según el barco (hasta 21 en el pesquero de la ría de Aldán).
 
 No hay barcos grandes tipo discoteca ni fiestas conjuntas en el mar. Lo que sí hay es privacidad, un buen momento para brindar y, si el tiempo acompaña, parada para el baño.
 
@@ -59,7 +59,7 @@ Una despedida bien pensada se disfruta mucho más. Y suele costar menos.
 
 Hay restaurantes para todos los presupuestos: desde menús de 25 € por persona hasta mariscadas de 50 € por persona. Unos tienen reservado para shows, otros no. Unos están junto al paseo y la playa de Silgar, otros más en las afueras, hacia la zona de Panadeira o por Portonovo. Hay furanchos y marisquerías.
 
-Una advertencia que conviene saber: en Sanxenxo no todos los restaurantes aceptan cenas de despedida, sobre todo en temporada alta. Hay quien las evita por el alboroto. Por eso se pregunta antes y se reserva con tiempo. Lo explican las [condiciones de las despedidas](/condiciones-despedidas/).
+Una advertencia que conviene saber: en Sanxenxo no todos los restaurantes aceptan cenas de despedida, sobre todo en temporada alta. Hay quien las evita por el alboroto. Por eso se pregunta antes y se reserva con tiempo. Lo explican las [condiciones de las despedidas](/cuando-ir/#condiciones).
 
 ## Un sábado tipo
 
@@ -74,7 +74,7 @@ Lo importante: no sobrecargues. Con una actividad bien elegida, el día se disfr
 
 ## Cuándo ir
 
-El mes cambia casi todo: qué hay abierto, cuánta gente encuentras y dónde se aceptan despedidas. Mira [cuándo ir](/cuando-ir/) antes de fijar la fecha, y lee las [condiciones de las despedidas](/condiciones-despedidas/).
+El mes cambia casi todo: qué hay abierto, cuánta gente encuentras y dónde se aceptan despedidas. Mira [cuándo ir](/cuando-ir/) antes de fijar la fecha, y lee las [condiciones de las despedidas](/cuando-ir/#condiciones).
 
 ## Soltero o soltera
 

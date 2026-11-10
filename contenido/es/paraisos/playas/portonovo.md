@@ -46,4 +46,4 @@ También hay actividades acuáticas y salidas en barco desde el puerto. Mira [ba
 
 Es un buen punto de partida cuando buscas algo menos masificado que Sanxenxo. La combinación que mejor funciona: playa o barco de día, cena tranquila en la villa y copas en Portonovo o en el puerto de Sanxenxo, que queda a un paseo.
 
-Eso sí, en julio y agosto la zona se llena. Lee las [condiciones de las despedidas](/condiciones-despedidas/) antes de decidir fecha, y mira el [plan completo](/despedidas/).
+Eso sí, en julio y agosto la zona se llena. Lee las [condiciones de las despedidas](/cuando-ir/#condiciones) antes de decidir fecha, y mira el [plan completo](/despedidas/).

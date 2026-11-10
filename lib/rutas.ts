@@ -28,9 +28,7 @@ export const RUTAS: Ruta[] = [
   { ruta: '/paraisos/mar/ria-de-aldan/', titulo: 'Ría de Aldán, el Caribe gallego', fase: 3, pt: true },
 
   // Barcos (fase 4)
-  { ruta: '/barcos/', titulo: 'Barcos', descripcion: 'Yates, veleros y traslados en lancha rápida.', fase: 4 },
-  { ruta: '/barcos/yates/', titulo: 'Yates', fase: 4 },
-  { ruta: '/barcos/veleros/', titulo: 'Veleros', fase: 4 },
+  { ruta: '/barcos/', titulo: 'Barcos', descripcion: 'Yates, veleros, pesquero y lancha rápida.', fase: 4 },
   { ruta: '/barcos/traslados/', titulo: 'Traslados a Ons, Cíes y Aldán', fase: 4 },
 
   // Actividades (fase 4)
@@ -59,14 +57,7 @@ export const RUTAS: Ruta[] = [
   { ruta: '/despedidas/', titulo: 'Despedidas', descripcion: 'El plan en conjunto para tu despedida.', fase: 6, pt: true },
   { ruta: '/despedidas/soltero/', titulo: 'Despedida de soltero', fase: 6, pt: true },
   { ruta: '/despedidas/soltera/', titulo: 'Despedida de soltera', fase: 6, pt: true },
-  { ruta: '/cuando-ir/', titulo: 'Cuándo ir', descripcion: 'Mes a mes: qué te encuentras y qué te conviene.', fase: 6, pt: true },
-  { ruta: '/cuando-ir/mayo/', titulo: 'Mayo', fase: 6, pt: true },
-  { ruta: '/cuando-ir/junio/', titulo: 'Junio', fase: 6, pt: true },
-  { ruta: '/cuando-ir/julio/', titulo: 'Julio', fase: 6, pt: true },
-  { ruta: '/cuando-ir/agosto/', titulo: 'Agosto', fase: 6, pt: true },
-  { ruta: '/cuando-ir/septiembre/', titulo: 'Septiembre', fase: 6, pt: true },
-  { ruta: '/cuando-ir/resto-del-ano/', titulo: 'Resto del año', fase: 6, pt: true },
-  { ruta: '/condiciones-despedidas/', titulo: 'Condiciones de las despedidas', fase: 6, pt: true },
+  { ruta: '/cuando-ir/', titulo: 'Cuándo ir y condiciones', descripcion: 'Mes a mes: qué te encuentras, qué te conviene y qué condiciones tienen las despedidas.', fase: 6, pt: true },
 
   // Pie (fase 6)
   { ruta: '/limusinas/', titulo: 'Limusinas', descripcion: 'Paseos en limusina desde Sanxenxo, Combarro y O Grove.', fase: 6, servicio: 'limusinas' },

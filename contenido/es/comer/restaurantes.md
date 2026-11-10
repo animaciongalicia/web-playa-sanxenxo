@@ -38,7 +38,7 @@ Hay menús desde unos 25 € por persona hasta mariscadas de unos 50 € por per
 - **Cerca o lejos.** Hay restaurantes junto al paseo y la playa de Silgar, otros en el puerto y otros más en las afueras. Cuanto más cerca de la noche, menos desplazamientos.
 - **Reserva con tiempo.** Los fines de semana de verano se llenan.
 
-Más sobre esto en las [condiciones de las despedidas](/condiciones-despedidas/).
+Más sobre esto en las [condiciones de las despedidas](/cuando-ir/#condiciones).
 
 ## Y después de cenar
 

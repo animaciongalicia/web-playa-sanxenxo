@@ -13,11 +13,6 @@ export function menuPrincipal(lang: Idioma): NavItem[] {
     },
     {
       label: t.barcos, href: h('/barcos/'),
-      hijos: [
-        { label: t.yates, href: h('/barcos/yates/') },
-        { label: t.veleros, href: h('/barcos/veleros/') },
-        { label: t.traslados, href: h('/barcos/traslados/') },
-      ],
     },
     {
       label: t.actividades, href: h('/actividades/'),
@@ -65,7 +60,7 @@ export function columnasPie(lang: Idioma): { titulo: string; enlaces: { label: s
       titulo: t.servicios,
       enlaces: [
         { label: t.limusinas, href: h('/limusinas/') }, { label: t.humorAmarillo, href: h('/humor-amarillo-en-sanxenxo/') },
-        { label: t.condiciones, href: h('/condiciones-despedidas/') }, { label: t.agencia, href: h('/agencia/') },
+        { label: t.condiciones, href: h('/cuando-ir/#condiciones') }, { label: t.agencia, href: h('/agencia/') },
       ],
     },
     {

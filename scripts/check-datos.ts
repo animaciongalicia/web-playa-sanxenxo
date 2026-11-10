@@ -84,7 +84,7 @@ if (locales) {
   // Regla 5 de CLAUDE.md: la línea de despedidas solo se publica con si / segun-epoca.
   for (const l of todosLocales)
     if (l.despedidas.admite === 'no' && l.publicar === true)
-      avisos.push(`"${l.id}" admite=no y publicar=true: no se publicará la línea de despedidas (va a /condiciones-despedidas/ agregado)`);
+      avisos.push(`"${l.id}" admite=no y publicar=true: no se publicará la línea de despedidas (va a /cuando-ir/#condiciones agregado)`);
 }
 
 if (actividades) {

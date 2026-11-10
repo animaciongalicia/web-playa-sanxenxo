@@ -21,7 +21,7 @@ export default function PlanDespedida({ lang }: { lang: Idioma }) {
           <Tarjeta titulo="Diversión" texto="Terraceo, tardeo, puestas de sol y copas." href="/diversion/" />
           <Tarjeta titulo="Cuándo ir" texto="Mes a mes: qué te encuentras y qué te conviene." href={h('/cuando-ir/')} />
         </div>
-        <p className="mt-8 text-sm text-gray-600">Antes de decidir fecha, lee las <Link href={h('/condiciones-despedidas/')} className="link-inline">condiciones de las despedidas</Link>.</p>
+        <p className="mt-8 text-sm text-gray-600">Antes de decidir fecha, lee las <Link href={h('/cuando-ir/#condiciones')} className="link-inline">condiciones de las despedidas</Link>.</p>
       </Seccion>
       {vichona && (
         <Seccion fondo="gris" titulo={vichona.nombre} intro="Asador de churrasco.">

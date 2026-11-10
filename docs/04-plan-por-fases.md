@@ -86,7 +86,7 @@ Necesita de Pablo: confirmar las 8 top; fotos; descripciones de Ons, Cíes y Ald
 **Objetivo:** la oferta, presentada como información.
 
 Tareas:
-- `/barcos/`, `/barcos/yates/`, `/barcos/veleros/`, `/barcos/traslados/` con precios "desde" (los pone Pablo) y puerto de salida.
+- `/barcos/` (9 fichas en una sola página, decisión de Pablo) y `/barcos/traslados/` con precios "desde" (los pone Pablo) y puerto de salida.
 - Hub de actividades, 5 páginas de familia, `/actividades/kayak-areoso/`.
 - Cada actividad muestra **dónde se hace** (puertos, playas o zonas).
 - Avisos operativos reales: "el tiempo de la sesión se reparte entre el grupo", "el desembarco en Areoso requiere autorización", "bateas: mínimo de 10 personas".

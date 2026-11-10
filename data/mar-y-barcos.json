@@ -1,5 +1,5 @@
 {
-  "_nota": "Los barcos son de Sea Galicia (seagalicia.com). El repo de Sea Galicia no se toca: solo se enlaza. 'barcos' está vacío a propósito: Pablo aporta nombre, plazas, puerto y precio desde.",
+  "_nota": "Los barcos son de Sea Galicia (seagalicia.com). El repo de Sea Galicia no se toca: solo se enlaza. 'barcos' está vacío a propósito: Pablo aporta nombre, plazas, puerto y precio desde. | 2026-11-10: Pablo define 9 fichas de barcos (3 yates, 3 veleros Bavaria 42, yate más motora, pesquero de Aldán y lancha rápida).",
   "destinos": [
     {
       "id": "ons",
@@ -90,7 +90,337 @@
     },
     "galeon": "fuera salvo que Pablo diga lo contrario"
   },
-  "barcos": [],
+  "barcos": [
+    {
+      "id": "yate-1",
+      "slug": "yate-1",
+      "categoria": "yate",
+      "nombre": null,
+      "modelo": null,
+      "eslora": "Entre 21 y 40 pies",
+      "plazas": 11,
+      "plazas_opciones": [],
+      "patron": null,
+      "puerto_salida": null,
+      "zona": null,
+      "duracion": null,
+      "descripcion": null,
+      "precios": [
+        {
+          "concepto": "Medio día",
+          "importe": 650,
+          "importe_max": 700,
+          "desde": true
+        },
+        {
+          "concepto": "Día entero",
+          "importe": 1000,
+          "importe_max": null,
+          "desde": true
+        }
+      ],
+      "fotos": [],
+      "enlace_reserva": "https://seagalicia.com",
+      "publicar": true,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-10",
+      "origen": "Pablo (conversación 2026-11-10)",
+      "datos_fuente": [
+        "Tres yates de entre 21 y 40 pies, máximo 11 plazas (Pablo). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "yate-2",
+      "slug": "yate-2",
+      "categoria": "yate",
+      "nombre": null,
+      "modelo": null,
+      "eslora": "Entre 21 y 40 pies",
+      "plazas": 11,
+      "plazas_opciones": [],
+      "patron": null,
+      "puerto_salida": null,
+      "zona": null,
+      "duracion": null,
+      "descripcion": null,
+      "precios": [
+        {
+          "concepto": "Medio día",
+          "importe": 650,
+          "importe_max": 700,
+          "desde": true
+        },
+        {
+          "concepto": "Día entero",
+          "importe": 1000,
+          "importe_max": null,
+          "desde": true
+        }
+      ],
+      "fotos": [],
+      "enlace_reserva": "https://seagalicia.com",
+      "publicar": true,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-10",
+      "origen": "Pablo (conversación 2026-11-10)",
+      "datos_fuente": [
+        "Tres yates de entre 21 y 40 pies, máximo 11 plazas (Pablo). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "yate-3",
+      "slug": "yate-3",
+      "categoria": "yate",
+      "nombre": null,
+      "modelo": null,
+      "eslora": "Entre 21 y 40 pies",
+      "plazas": 11,
+      "plazas_opciones": [],
+      "patron": null,
+      "puerto_salida": null,
+      "zona": null,
+      "duracion": null,
+      "descripcion": null,
+      "precios": [
+        {
+          "concepto": "Medio día",
+          "importe": 650,
+          "importe_max": 700,
+          "desde": true
+        },
+        {
+          "concepto": "Día entero",
+          "importe": 1000,
+          "importe_max": null,
+          "desde": true
+        }
+      ],
+      "fotos": [],
+      "enlace_reserva": "https://seagalicia.com",
+      "publicar": true,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-10",
+      "origen": "Pablo (conversación 2026-11-10)",
+      "datos_fuente": [
+        "Tres yates de entre 21 y 40 pies, máximo 11 plazas (Pablo). Precios \"desde\": medio día 650-700 €, día entero 1.000 €. Faltan nombre, eslora exacta de cada uno, puerto de salida y fotos"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "velero-bavaria-1",
+      "slug": "velero-bavaria-1",
+      "categoria": "velero",
+      "nombre": null,
+      "modelo": "Bavaria 42",
+      "eslora": "42 pies",
+      "plazas": 11,
+      "plazas_opciones": [],
+      "patron": "siempre",
+      "puerto_salida": null,
+      "zona": null,
+      "duracion": null,
+      "descripcion": null,
+      "precios": [
+        {
+          "concepto": "Medio día (4 h, mañana o tarde)",
+          "importe": 600,
+          "importe_max": null,
+          "desde": true
+        },
+        {
+          "concepto": "Día entero (8 h)",
+          "importe": 750,
+          "importe_max": null,
+          "desde": true
+        }
+      ],
+      "fotos": [],
+      "enlace_reserva": "https://seagalicia.com",
+      "publicar": true,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-10",
+      "origen": "Pablo (conversación 2026-11-10)",
+      "datos_fuente": [
+        "Tres veleros Bavaria de 42 pies, máximo 11 plazas (Pablo). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, puerto de salida y fotos"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "velero-bavaria-2",
+      "slug": "velero-bavaria-2",
+      "categoria": "velero",
+      "nombre": null,
+      "modelo": "Bavaria 42",
+      "eslora": "42 pies",
+      "plazas": 11,
+      "plazas_opciones": [],
+      "patron": "siempre",
+      "puerto_salida": null,
+      "zona": null,
+      "duracion": null,
+      "descripcion": null,
+      "precios": [
+        {
+          "concepto": "Medio día (4 h, mañana o tarde)",
+          "importe": 600,
+          "importe_max": null,
+          "desde": true
+        },
+        {
+          "concepto": "Día entero (8 h)",
+          "importe": 750,
+          "importe_max": null,
+          "desde": true
+        }
+      ],
+      "fotos": [],
+      "enlace_reserva": "https://seagalicia.com",
+      "publicar": true,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-10",
+      "origen": "Pablo (conversación 2026-11-10)",
+      "datos_fuente": [
+        "Tres veleros Bavaria de 42 pies, máximo 11 plazas (Pablo). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, puerto de salida y fotos"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "velero-bavaria-3",
+      "slug": "velero-bavaria-3",
+      "categoria": "velero",
+      "nombre": null,
+      "modelo": "Bavaria 42",
+      "eslora": "42 pies",
+      "plazas": 11,
+      "plazas_opciones": [],
+      "patron": "siempre",
+      "puerto_salida": null,
+      "zona": null,
+      "duracion": null,
+      "descripcion": null,
+      "precios": [
+        {
+          "concepto": "Medio día (4 h, mañana o tarde)",
+          "importe": 600,
+          "importe_max": null,
+          "desde": true
+        },
+        {
+          "concepto": "Día entero (8 h)",
+          "importe": 750,
+          "importe_max": null,
+          "desde": true
+        }
+      ],
+      "fotos": [],
+      "enlace_reserva": "https://seagalicia.com",
+      "publicar": true,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-10",
+      "origen": "Pablo (conversación 2026-11-10)",
+      "datos_fuente": [
+        "Tres veleros Bavaria de 42 pies, máximo 11 plazas (Pablo). Precios \"desde\": medio día de 4 horas 600 €, día entero de 8 horas 750 €. Faltan nombre, puerto de salida y fotos"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "yate-motora",
+      "slug": "yate-motora",
+      "categoria": "yate-motora",
+      "nombre": "Yate más motora",
+      "modelo": null,
+      "eslora": null,
+      "plazas": 16,
+      "plazas_opciones": [],
+      "patron": null,
+      "puerto_salida": null,
+      "zona": null,
+      "duracion": null,
+      "descripcion": null,
+      "precios": [
+        {
+          "concepto": "4 horas",
+          "importe": 1000,
+          "importe_max": null,
+          "desde": false
+        },
+        {
+          "concepto": "8 horas",
+          "importe": 1400,
+          "importe_max": null,
+          "desde": false
+        }
+      ],
+      "fotos": [],
+      "enlace_reserva": "https://seagalicia.com",
+      "publicar": true,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-10",
+      "origen": "Pablo (conversación 2026-11-10)",
+      "datos_fuente": [
+        "Yate más motora, máximo 16 personas. 4 horas 1.000 €, 8 horas 1.400 € (Pablo). Faltan puerto de salida y fotos"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "pesquero-aldan",
+      "slug": "pesquero-aldan",
+      "categoria": "pesquero",
+      "nombre": "Pesquero de Aldán",
+      "modelo": null,
+      "eslora": null,
+      "plazas": 21,
+      "plazas_opciones": [
+        11,
+        16,
+        21
+      ],
+      "patron": null,
+      "puerto_salida": null,
+      "zona": "Solo en la ría de Aldán",
+      "duracion": null,
+      "descripcion": null,
+      "precios": [],
+      "fotos": [],
+      "enlace_reserva": "https://seagalicia.com",
+      "publicar": true,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-10",
+      "origen": "Pablo (conversación 2026-11-10)",
+      "datos_fuente": [
+        "Pesquero con máximo de 11, 16 o 21 personas según la versión, solo en la ría de Aldán (Pablo). Faltan precio, puerto de salida y fotos"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "lancha-rapida",
+      "slug": "lancha-rapida",
+      "categoria": "lancha-rapida",
+      "nombre": "Lancha rápida",
+      "modelo": null,
+      "eslora": null,
+      "plazas": 11,
+      "plazas_opciones": [],
+      "patron": null,
+      "puerto_salida": null,
+      "zona": null,
+      "duracion": "1 hora",
+      "descripcion": "Paseo ultrarrápido por la zona, a modo de experiencia.",
+      "precios": [],
+      "fotos": [],
+      "enlace_reserva": "https://seagalicia.com",
+      "publicar": true,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-10",
+      "origen": "Pablo (conversación 2026-11-10)",
+      "datos_fuente": [
+        "Lancha rápida de máximo 11 personas para un paseo ultrarrápido de 1 hora por la zona, a modo de experiencia (Pablo). Faltan precio, puerto de salida y fotos"
+      ],
+      "notas_internas": null
+    }
+  ],
   "traslados": [
     {
       "id": "traslado-ons",

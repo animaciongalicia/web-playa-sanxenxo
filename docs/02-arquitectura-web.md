@@ -25,9 +25,7 @@
 | `/paraisos/mar/islas-ons/` | Destino | mar, barcos | Parque Nacional de las Islas Atlánticas |
 | `/paraisos/mar/islas-cies/` | Destino | mar, barcos | Parque Nacional de las Islas Atlánticas |
 | `/paraisos/mar/ria-de-aldan/` | Destino | mar, playas | El Caribe gallego |
-| `/barcos/` | Hub | barcos | |
-| `/barcos/yates/` | Barcos | barcos | 3-4 yates, precio "desde", **puerto de salida** |
-| `/barcos/veleros/` | Barcos | barcos | 3-4 veleros, 11 plazas + patrón, **puerto de salida** |
+| `/barcos/` | Barcos | barcos | **Una sola página con 9 fichas en 3 columnas** (decisión de Pablo): 3 yates (21-40 pies, máx. 11), 3 veleros Bavaria 42 (máx. 11), yate más motora (máx. 16), pesquero de Aldán (11/16/21) y lancha rápida (11, 1 h). Precios "desde" |
 | `/barcos/traslados/` | Traslados | mar, barcos | Lancha rápida a Ons, Cíes y Aldán |
 | `/actividades/` | Hub | actividades | |
 | `/actividades/mar-con-motor/` | Familia | actividades | Motos de agua, parascending, sesión acuática desde barco |
@@ -47,9 +45,7 @@
 | `/despedidas/` | Hub | todos | El plan en conjunto |
 | `/despedidas/soltero/` | Despedida | todos | |
 | `/despedidas/soltera/` | Despedida | todos | |
-| `/cuando-ir/` | Hub | meses | Visión general |
-| `/cuando-ir/[mes]/` | Mes | meses | `mayo`, `junio`, `julio`, `agosto`, `septiembre`, `resto-del-ano` |
-| `/condiciones-despedidas/` | Texto | contenido | **Pie.** Condiciones en la zona, sobre todo julio y agosto |
+| `/cuando-ir/` | Meses + condiciones | meses, contenido | **Una sola página** (decisión de Pablo): los meses (mayo, junio, julio, agosto, septiembre, resto del año) por un lado y las condiciones de las despedidas por otro (`#condiciones`, enlazada desde el pie). Texto en `contenido/es/cuando-ir.md` y `contenido/es/cuando-ir/condiciones.md` |
 | `/limusinas/` | Servicio | servicios | **Pie.** Paseos desde Sanxenxo, Combarro, O Grove |
 | `/humor-amarillo-en-sanxenxo/` | Servicio | servicios | **Pie.** Se conserva esta URL exacta |
 | `/agencia/` | Agencia | — | **Pie. Contacto directo: correo, WhatsApp o llamada. Sin formulario** |
