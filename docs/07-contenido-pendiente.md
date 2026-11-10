@@ -31,7 +31,7 @@ Claude Code **no rellena nada de esto por su cuenta**. Cada punto se marca como 
 - [ ] **Limusinas**: descripción del servicio, salidas (Sanxenxo, Combarro, O Grove), capacidad, precios si se publican.
 - [ ] **Humor Amarillo**: descripción del servicio como se hacía cada verano (confirmar la redacción).
 - [ ] Texto de la página de agencia.
-- [ ] **Proveedor de envío del formulario** (Resend, Google Sheets o ActiveCampaign).
+- [ ] **Correo de la agencia** y **número para llamadas** (WhatsApp ya dado: 678 288 284). Sin formulario: no hace falta proveedor de envío.
 - [ ] Textos legales: partir de los del WordPress actual (Aviso legal, Términos, Cookies), revisados.
 
 ### Antes de la Fase 7 (Portugués)

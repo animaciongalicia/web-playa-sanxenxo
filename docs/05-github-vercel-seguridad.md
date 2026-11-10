@@ -66,8 +66,10 @@ jobs:
 |---|---|---|
 | `NEXT_PUBLIC_GA_ID` | Medición de GA4 | Producción |
 | `NEXT_PUBLIC_SITE_URL` | URL canónica | Todos |
-| `AGENCIA_DESTINO_EMAIL` | Destino del formulario | Producción y Vista previa |
-| `AGENCIA_API_KEY` | Clave del proveedor de envío | Producción y Vista previa |
+| `NEXT_PUBLIC_WHATSAPP` | WhatsApp (botón suave y `/agencia/`) | Todos |
+| `NEXT_PUBLIC_AGENCIA_EMAIL` | Correo de la agencia (`mailto:`) | Todos |
+| `NEXT_PUBLIC_AGENCIA_TELEFONO` | Teléfono para llamar (si falta, se usa el de WhatsApp) | Todos |
+| `MOSTRAR_PENDIENTES` | Modo revisión: `1` solo en Vista previa, nunca en Producción | Vista previa |
 | `FICHAS_EXPORT_TOKEN` | Token de `/api/fichas-export` | Producción |
 
 Nada de esto va en el repo. Hay un `.env.example` **sin valores**.
@@ -85,7 +87,7 @@ Reglas heredadas de la auditoría de los proyectos de Pablo:
 Reglas añadidas para este proyecto:
 
 - `.env*` en `.gitignore`. Nunca se hace commit de claves, tokens ni correos reales.
-- El formulario valida en servidor, limita peticiones por IP y no guarda datos en el repo.
+- No hay formulario: la web no recibe ni guarda datos de clientes. El correo, WhatsApp y teléfono son públicos por diseño (`NEXT_PUBLIC_*`).
 - Cabeceras de seguridad en `next.config.js` (`X-Content-Type-Options`, `Referrer-Policy`, `X-Frame-Options`).
 - Dependencias: `npm audit` antes de lanzar y revisar avisos de Dependabot.
 

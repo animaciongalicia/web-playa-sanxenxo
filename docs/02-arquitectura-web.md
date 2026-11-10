@@ -53,7 +53,7 @@
 | `/condiciones-despedidas/` | Texto | contenido | **Pie.** Condiciones en la zona, sobre todo julio y agosto |
 | `/limusinas/` | Servicio | servicios | **Pie.** Paseos desde Sanxenxo, Combarro, O Grove |
 | `/humor-amarillo-en-sanxenxo/` | Servicio | servicios | **Pie.** Se conserva esta URL exacta |
-| `/agencia/` | Agencia | — | **Pie. Único formulario** |
+| `/agencia/` | Agencia | — | **Pie. Contacto directo: correo, WhatsApp o llamada. Sin formulario** |
 | `/aviso-legal/`, `/politica-de-cookies/`, `/privacidad/`, `/terminos-y-condiciones/` | Legal | contenido | |
 
 ## Plantillas: qué lleva cada una
@@ -79,14 +79,18 @@
 - Actividad → playas/puertos donde se hace.
 - Despedidas (soltero/soltera) → todo lo anterior + A Vichona.
 - Cuándo ir → todas las secciones.
-- **Llamada a la agencia:** un enlace discreto ("Hablar con la agencia") en el pie de cada página y en las páginas de despedidas. **Sin formularios fuera de `/agencia/`.**
+- **Llamada a la agencia:** un enlace discreto ("Hablar con la agencia") en el pie de cada página y en las páginas de despedidas. **Ningún formulario en la web.**
 - Un local que está en chiringuitos y en diversión tiene **una sola ficha**; las dos listas enlazan a ella.
 
-## Formulario único (`/agencia/`)
+## Contacto de la agencia (`/agencia/`)
 
-Campos: nombre, tipo (soltero / soltera), fecha aproximada, número de personas, ciudad de origen, qué os interesa (barco, actividades, cena, diversión), teléfono/WhatsApp, email, mensaje, casilla de consentimiento RGPD con enlace a privacidad.
+**Sin formulario y sin servidor.** Tres vías, con botones grandes y pensados para móvil:
 
-Implementación: componente cliente (`'use client'`) + Route Handler `app/api/agencia/route.ts`. Antispam: honeypot + límite de peticiones por IP. Destino: email a Pablo (proveedor pendiente, ver decisiones abiertas). **No se añade a ninguna lista de correo.**
+- **Correo:** enlace `mailto:` que abre el correo del cliente con asunto y mensaje preparados (tipo de despedida, fecha aproximada, número de personas, ciudad de origen, qué os interesa). La dirección también se muestra en texto, para quien no tenga cliente de correo.
+- **WhatsApp:** enlace `wa.me` con el mismo mensaje preparado.
+- **Llamada:** enlace `tel:`.
+
+Cada botón solo se pinta si su variable de entorno existe (`NEXT_PUBLIC_AGENCIA_EMAIL`, `NEXT_PUBLIC_WHATSAPP`, `NEXT_PUBLIC_AGENCIA_TELEFONO`). La web no recoge ni guarda datos: no hay proveedor de envío, ni antispam, ni casilla RGPD de formulario. **No se añade a ninguna lista de correo.**
 
 ## Portugués
 

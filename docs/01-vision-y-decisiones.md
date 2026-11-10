@@ -38,7 +38,7 @@ Una guía honesta de playas, mar, barcos, actividades, comida y diversión de **
 | Condiciones de las despedidas | Página aparte, al pie. Explica las condiciones en la zona, sobre todo en julio y agosto |
 | Limusinas | Pie de página. Servicio de paseos desde Sanxenxo, Combarro y O Grove. Posiciona. `estado_2027: pendiente` |
 | Humor Amarillo | Pie de página. Posiciona muy bien y lo buscan las despedidas. Se mantiene la URL. `estado_2027: pendiente` |
-| Agencia | Página en el pie. **Único formulario de la web** |
+| Agencia | Página en el pie. **Contacto directo: correo (abre el del cliente), WhatsApp o llamada. Sin formulario** |
 | Idiomas | Español completo y portugués **parcial** |
 | Captación | **Cero email.** Sin guía descargable |
 | Contenido antiguo | Solo se mantienen 8 páginas (ver `docs/06`). Todo lo demás se retira |
@@ -49,7 +49,7 @@ Una guía honesta de playas, mar, barcos, actividades, comida y diversión de **
 
 Claude Code **no debe resolver estas**: las deja con la propuesta por defecto y las marca `decision_pendiente`.
 
-1. **Las 8 playas top.** Dos candidatas:
+1. ~~Las 8 playas top~~ **Resuelta (Pablo, 2026-11-10): propuesta del núcleo.** Dos candidatas eran:
    - *Propuesta anterior (cubre ría de Pontevedra):* Silgar, Montalvo, Areas, Lourido, Lapamán, Portomaior, Aguete, Mogor.
    - *Propuesta del núcleo:* Silgar, Montalvo, Areas, A Lanzada, Areas Gordas, Pragueira, Pedras Negras, A Barrosa.
    - **Por defecto:** la propuesta del núcleo, porque 5 de las anteriores están fuera del núcleo. Los datos llevan ambas banderas (`top_propuesta_anterior`, `top_propuesta_nucleo`).
@@ -58,7 +58,7 @@ Claude Code **no debe resolver estas**: las deja con la propuesta por defecto y 
 4. **Galeón:** lo anuncia Sea Galicia, pero Pablo ya solo habla de yates y veleros. Por defecto, fuera.
 5. **Cómo se muestra "admite despedidas":** por defecto solo se muestra `si` o `segun-epoca`; el `no` va agregado en `/condiciones-despedidas/`.
 6. **Portugués:** qué secciones se traducen (propuesta: Paraísos, Cuándo ir, Condiciones, Despedidas, Agencia).
-7. **Proveedor de envío del formulario** (opciones: Resend, Google Sheets, ActiveCampaign).
+7. ~~Proveedor de envío del formulario~~ **Resuelta:** no hay formulario; contacto por correo, WhatsApp o llamada.
 8. **Páginas de casas rurales / alojamientos y "beauty relax en O Grove":** tuvieron algo de tráfico en la web vieja y no encajan con este plan. Por defecto, se retiran.
 9. **Restaurantes de la lista de reserva** (Pinela, Doade, Menduiña, O Farol…): por defecto fuera de la publicación inicial.
 

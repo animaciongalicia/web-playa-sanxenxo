@@ -31,7 +31,7 @@ export default function Playas({ params }: { params: { lang: string } }) {
         </div>
       </Seccion>
       <Seccion fondo="gris" titulo="Las 8 imprescindibles">
-        <NotaRevision>Selección según la propuesta del núcleo (decisión abierta nº 1). Pablo confirma o cambia la lista en <code>data/playas.json</code> (campo <code>top</code>).</NotaRevision>
+        <NotaRevision>Selección confirmada por Pablo (propuesta del núcleo). Se cambia en <code>data/playas.json</code> (campo <code>top</code>).</NotaRevision>
         {top.length ? (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {top.map((p) => <TarjetaPlaya key={p.id} playa={p} lang={lang} etiquetaTramo />)}

@@ -42,7 +42,7 @@ Tareas:
 - `robots.txt` que **bloquea todo** mientras no esté el dominio (se abre en la Fase 9).
 - Scripts: `lint`, `typecheck`, `check:datos` (vacío por ahora), `build`.
 - Todas las rutas de `docs/02` existen como páginas vacías con su título (sin 404 internos).
-- Página de agencia **sin** formulario aún.
+- Página de agencia (se rellena en la Fase 6).
 
 Criterio de salida: navegación completa en la vista previa, build en verde, Lighthouse móvil > 90 en la home.
 
@@ -124,12 +124,12 @@ Tareas:
 - `/cuando-ir/` y 6 páginas de mes (contenido de Pablo, ver `docs/07`).
 - `/condiciones-despedidas/`.
 - `/limusinas/` y `/humor-amarillo-en-sanxenxo/` con `estado_2027`.
-- `/agencia/` con el **único formulario** + Route Handler + antispam + RGPD.
+- `/agencia/` con contacto directo: correo (`mailto:` con mensaje preparado), WhatsApp y llamada. **Sin formulario ni servidor.**
 - Páginas legales (a partir de las del WordPress actual, revisadas).
 
-Criterio de salida: el formulario envía y llega; no hay ningún otro formulario en la web; `rg "<form"` solo encuentra `/agencia/`.
+Criterio de salida: los tres botones de `/agencia/` funcionan en móvil y escritorio; `rg "<form"` no encuentra nada en toda la web.
 
-Necesita de Pablo: texto de cuándo ir (entrevista), condiciones, descripción de limusinas y humor, proveedor de envío del formulario.
+Necesita de Pablo: texto de cuándo ir (entrevista), condiciones, descripción de limusinas y humor, correo de la agencia y número de llamada.
 
 ---
 

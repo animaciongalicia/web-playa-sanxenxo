@@ -9,6 +9,8 @@ export type Ruta = {
   fase: number; // fase del plan en la que se rellena de verdad
   pt?: boolean;
   servicio?: 'limusinas' | 'humor-amarillo';
+  /** true = sin página propia: la sirve la plantilla genérica de app/[lang]/[...slug]. Si una ruta tiene página propia NO debe llevarlo (dos rutas no pueden generar la misma URL). */
+  generica?: boolean;
 };
 
 export const RUTAS: Ruta[] = [
@@ -76,10 +78,10 @@ export const RUTAS: Ruta[] = [
   { ruta: '/agencia/', titulo: 'Agencia', descripcion: 'Cuéntanos tu despedida.', fase: 6, pt: true },
 
   // Legales (fase 6)
-  { ruta: '/aviso-legal/', titulo: 'Aviso legal', fase: 6 },
-  { ruta: '/privacidad/', titulo: 'Política de privacidad', fase: 6 },
-  { ruta: '/politica-de-cookies/', titulo: 'Política de cookies', fase: 6 },
-  { ruta: '/terminos-y-condiciones/', titulo: 'Términos y condiciones', fase: 6 },
+  { ruta: '/aviso-legal/', titulo: 'Aviso legal', fase: 6, generica: true },
+  { ruta: '/privacidad/', titulo: 'Política de privacidad', fase: 6, generica: true },
+  { ruta: '/politica-de-cookies/', titulo: 'Política de cookies', fase: 6, generica: true },
+  { ruta: '/terminos-y-condiciones/', titulo: 'Términos y condiciones', fase: 6, generica: true },
 ];
 
 export function buscarRuta(ruta: string): Ruta | undefined {

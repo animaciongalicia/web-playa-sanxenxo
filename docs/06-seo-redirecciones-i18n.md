@@ -117,5 +117,5 @@ Solo en fichas **verificadas** y con datos reales:
 ## Analítica
 
 - GA4 con el ID existente (`NEXT_PUBLIC_GA_ID`), cargado solo tras el consentimiento de cookies.
-- Eventos: clic al enlace de agencia, envío del formulario, clic a seagalicia.com, cambio de idioma.
+- Eventos: clic al enlace de agencia, clic en correo / WhatsApp / llamada, clic a seagalicia.com, cambio de idioma.
 - Search Console: reutilizar la propiedad actual del dominio, enviar el nuevo sitemap y vigilar cobertura.

@@ -24,7 +24,7 @@ Dueño: Pablo García Dacosta. Lo supervisa él. Trabaja en sesiones cortas, as�
 
 1. **No inventes datos.** Teléfonos, horarios, precios, capacidades, meses de apertura, si un local admite despedidas: si no está en `data-semilla/` o en un documento, se queda en `null` y la página muestra "pendiente de confirmar" solo en modo desarrollo (en producción se oculta el campo).
 2. **Todo dato de local, actividad o barco lleva `verificado` y `ultima_verificacion`.** Los datos semilla vienen de fuentes web (algunas de 2021) y están todos en `verificado: false`. Solo Pablo los marca como verificados.
-3. **Un solo formulario en toda la web: `/agencia/`.** El resto de páginas solo enlazan a la agencia con una llamada discreta. Nada de formularios, pop-ups ni captación de email. Sin guías descargables a cambio de correo.
+3. **Ningún formulario en toda la web.** `/agencia/` es una página de contacto directo: botón de correo (se abre el correo del cliente con el mensaje preparado), WhatsApp y llamada. El resto de páginas solo enlazan a la agencia con una llamada discreta (más el WhatsApp suave). Nada de `<form>`, pop-ups ni captación de email. Sin guías descargables a cambio de correo. Decisión de Pablo, 2026-11-10.
 4. **Playas: sin filtro de "ambiente".** Todas valen para todos.
 5. **Fichas de local:** centradas en el local (cómo es, qué se come). Al final, una línea sobre grupos y despedidas **solo si el dato es `si` o `segun-epoca`**. Nunca se publica un "no admite despedidas" sobre un local con nombre; esa información va agregada en `/condiciones-despedidas/`, sin señalar locales.
 6. **Limusinas y Humor Amarillo** se describen como servicios que se hacen, con la marca "Pendiente de actualización 2027" controlada por el campo `estado_2027`.

@@ -33,7 +33,7 @@ export default function PaginaPlaya({ params }: { params: P }) {
       <HeroPage etiqueta={NOMBRE_TRAMO[playa.tramo]} titulo={playa.nombre} />
       <Migas lang={lang} ruta={`/paraisos/playas/${tramo.slug}/${playa.slug}/`} titulo={playa.nombre} />
       <Seccion ancho="estrecho">
-        <NotaRevision>Playa top según la propuesta del núcleo. <Insignia f={playa} /></NotaRevision>
+        <NotaRevision>Playa top confirmada por Pablo. <Insignia f={playa} /></NotaRevision>
         {playa.descripcion && <p className="text-lg leading-relaxed text-gray-600">{playa.descripcion}</p>}
         <dl className="mt-6 space-y-2 text-gray-600">
           {playa.municipio && <div><dt className="inline font-semibold text-gray-900">Municipio: </dt><dd className="inline">{playa.municipio}</dd></div>}
