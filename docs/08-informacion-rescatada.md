@@ -103,3 +103,12 @@ Los datos de contacto **no se han escrito en los campos** (`direccion`, `telefon
 4. ¿Añadimos las 8 playas con bandera que no están en la lista?
 5. ¿Publicamos cupos de Ons y Cíes o solo enlazamos al portal oficial?
 6. Locales: confirma dirección y teléfono de A Ferreira, A Curva, Varadero, Buddha y Dux, y dime dónde está Gassho.
+
+## 7. A Vichona (local de Pablo)
+Datos de la ficha de un directorio (🔴, sin contrastar). **Ya puestos en la ficha** (`data/locales.json`) porque Pablo pidió ponerlos:
+- Dirección: **Avenida Vichona 52, Sanxenxo** (de ahí el nombre). Teléfono: **986 69 17 38**. Zona: Sanxenxo y Portonovo.
+- Qué se come: churrasco (Pablo) y, según los clientes, pulpo, mariscada, croquetas y chipirones.
+- En `datos_fuente` (no se publica): valoración ~8,2/10 con ~680 opiniones y reseñas de septiembre 2026.
+- **Discrepancia:** el directorio lo trata como mesón y no cita el churrasco. Se mantiene lo que dice Pablo.
+- **Faltan:** horario, meses de apertura, web, redes, fotos y el detalle de los espacios privados.
+- El nombre original del local no se escribe en ninguna parte de la web ni del repo.

@@ -588,14 +588,14 @@
       "slug": "a-vichona",
       "nombre": "A Vichona",
       "tipo": "restaurante",
-      "zona": "por-definir",
-      "municipio": null,
-      "direccion": null,
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": "Avenida Vichona 52, Sanxenxo",
       "playa_cercana": null,
-      "como_es": null,
-      "que_se_come": null,
+      "como_es": "Asador de churrasco en la Avenida Vichona, en Sanxenxo. Caben 120 personas, repartidas en varios espacios, con salas privadas.",
+      "que_se_come": "Churrasco. Los clientes destacan también el pulpo, la mariscada, las croquetas y los chipirones.",
       "contacto": {
-        "telefono": null,
+        "telefono": "986 69 17 38",
         "web": null,
         "email": null
       },
@@ -609,13 +609,18 @@
       "pagina_propia": true,
       "tambien_en": [],
       "tipo_dudoso": false,
-      "decision_pendiente": "Pablo aporta dirección, cómo es y qué se come",
+      "decision_pendiente": "Pablo confirma dirección y teléfono (de directorio) y aporta horario, meses, web, redes y fotos",
       "publicar": true,
       "verificado": true,
       "ultima_verificacion": "2026-11-10",
       "origen": "Pablo (conversación 2026-11-10)",
       "datos_fuente": [
-        "Asador de churrasco. Local de Pablo"
+        "Asador de churrasco. Local de Pablo",
+        "Directorio Gastroranking (ficha del local, buscar por \"Avda Vichona 52 Sanxenxo\"): dirección Avda Vichona 52, Sanxenxo; teléfono 986 69 17 38. Consultado 2026-11-10",
+        "Mismo directorio: valoración 8,2/10 con ~680 opiniones (Google 638 opiniones y 8,2; TheFork 31 y 7,8; Tripadvisor 11 y 5). Platos que más citan los clientes: pulpo, croquetas, ensalada, carne, tarta, mariscada, patatas, pimientos, chipirones, calamares, jamón, tapas, tortilla. Reseñas de septiembre 2026 elogian pulpo, mariscada, platos generosos y buen servicio. NO publicadas: son opiniones de terceros",
+        "Mismo directorio: carta amplia, acepta tarjeta y efectivo, recomienda reservar, ambiente de casa y apto para ir con niños. Texto autogenerado del directorio: sin contrastar",
+        "DISCREPANCIA a revisar con Pablo: el directorio lo clasifica como mesón y no cita el churrasco; Pablo lo describe como asador de churrasco. Se mantiene lo que dice Pablo",
+        "Faltan: horario, meses de apertura, web, redes, fotos, qué espacios privados hay y para cuántas personas cada uno"
       ],
       "notas_internas": null
     }
