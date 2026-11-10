@@ -1,0 +1,699 @@
+{
+  "_nota": "Actividades tras la criba de Pablo. 'donde' es obligatorio en la web. Las empresas se omiten a propósito (la mitad son agencias, no proveedores).",
+  "familias": [
+    "mar-con-motor",
+    "playa-y-tabla",
+    "buceo-y-pesca",
+    "mar-y-mesa",
+    "kayak-areoso",
+    "dias-a-medida"
+  ],
+  "fuera_de_alcance": [
+    "Twister y manta",
+    "Wakeskate",
+    "Esquí acuático y slalom",
+    "Kneeboard",
+    "Plancha doble",
+    "Aquakarts",
+    "Bodyboard",
+    "Iniciación a la vela",
+    "Windsurf",
+    "Lancha o motora de alquiler",
+    "Buceo para titulados",
+    "Avistamiento de cetáceos",
+    "Snorkel, paddle surf, bicicleta acuática y otras en Areoso (solo kayak)",
+    "Flyboard, e-foil, wingfoil, kitesurf, coasteering, parque hinchable, hidropedales"
+  ],
+  "actividades": [
+    {
+      "id": "motos-de-agua",
+      "slug": "motos-de-agua",
+      "nombre": "Motos de agua",
+      "familia": "mar-con-motor",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Sanxenxo"
+        },
+        {
+          "tipo": "zona",
+          "nombre": "Portonovo"
+        },
+        {
+          "tipo": "puerto",
+          "nombre": "Marina de Combarro"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Confirmar motos disponibles y duración real de conducción"
+      ],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "parascending",
+      "slug": "parascending",
+      "nombre": "Parascending",
+      "familia": "mar-con-motor",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Sanxenxo"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Vuelo con paracaídas remolcado por embarcación; plazas por salida a confirmar"
+      ],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "sesion-acuatica-desde-barco",
+      "slug": "sesion-acuatica-desde-barco",
+      "nombre": "Sesión acuática desde barco",
+      "familia": "mar-con-motor",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "puerto",
+          "nombre": "Portonovo"
+        }
+      ],
+      "duracion": "2 horas",
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "En un barco: banana, donut, doble donut y wakeboard",
+        "El tiempo se reparte entre los participantes: dos horas de actividad para el grupo no son dos horas por persona",
+        "Confirmar si se combinan modalidades o se elige una para todo el grupo"
+      ],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "clase-de-surf",
+      "slug": "clase-de-surf",
+      "nombre": "Clase de surf",
+      "familia": "playa-y-tabla",
+      "descripcion": "Clase privada de grupo (iniciación y perfeccionamiento)",
+      "donde": [
+        {
+          "tipo": "playa",
+          "nombre": "A Lanzada"
+        },
+        {
+          "tipo": "playa",
+          "nombre": "Montalvo"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "paddle-surf",
+      "slug": "paddle-surf",
+      "nombre": "Paddle surf",
+      "familia": "playa-y-tabla",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Portonovo"
+        },
+        {
+          "tipo": "playa",
+          "nombre": "A Lanzada"
+        },
+        {
+          "tipo": "playa",
+          "nombre": "Foxos"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "big-sup",
+      "slug": "big-sup",
+      "nombre": "Big SUP",
+      "familia": "playa-y-tabla",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "playa",
+          "nombre": "A Lanzada"
+        },
+        {
+          "tipo": "playa",
+          "nombre": "Foxos"
+        }
+      ],
+      "duracion": "rutas de 2 horas",
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Tabla colectiva: la modalidad con más componente de grupo"
+      ],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "kayak",
+      "slug": "kayak",
+      "nombre": "Kayak",
+      "familia": "playa-y-tabla",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Sanxenxo"
+        },
+        {
+          "tipo": "zona",
+          "nombre": "San Vicente do Mar"
+        },
+        {
+          "tipo": "playa",
+          "nombre": "Baltar"
+        }
+      ],
+      "duracion": "rutas de 2 horas",
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Guiado o alquiler; individual o doble"
+      ],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "bautismo-de-buceo",
+      "slug": "bautismo-de-buceo",
+      "nombre": "Bautismo de buceo",
+      "familia": "buceo-y-pesca",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "puerto",
+          "nombre": "Portonovo"
+        },
+        {
+          "tipo": "zona",
+          "nombre": "Isla de Ons"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Organización por subgrupos; confirmar requisitos"
+      ],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "snorkel",
+      "slug": "snorkel",
+      "nombre": "Snorkel",
+      "familia": "buceo-y-pesca",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Costa de Portonovo"
+        },
+        {
+          "tipo": "zona",
+          "nombre": "Isla de Ons (con traslado)"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "pesca-recreativa",
+      "slug": "pesca-recreativa",
+      "nombre": "Pesca recreativa",
+      "familia": "buceo-y-pesca",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Sanxenxo"
+        },
+        {
+          "tipo": "zona",
+          "nombre": "Portonovo"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Para grupos con interés real en pescar; concretar material y modalidad"
+      ],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "pesca-turismo",
+      "slug": "pesca-turismo",
+      "nombre": "Pesca-turismo",
+      "familia": "buceo-y-pesca",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Sanxenxo"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Jornada con profesionales del mar, distinta de una fiesta a bordo"
+      ],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "ruta-de-bateas-con-mejillones-y-vino",
+      "slug": "ruta-de-bateas-con-mejillones-y-vino",
+      "nombre": "Ruta de bateas con mejillones y vino",
+      "familia": "mar-y-mesa",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "O Grove"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": 10,
+      "temporada": null,
+      "notas_operativas": [
+        "Mínimo de diez personas en la oferta localizada"
+      ],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "mariscada-o-cena-en-barco",
+      "slug": "mariscada-o-cena-en-barco",
+      "nombre": "Mariscada o cena en barco",
+      "familia": "mar-y-mesa",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "O Grove"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Hay oferta con queimada y espectáculo; pedir presupuesto actualizado"
+      ],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "churrascada-en-barco",
+      "slug": "churrascada-en-barco",
+      "nombre": "Churrascada en barco",
+      "familia": "mar-y-mesa",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "puerto",
+          "nombre": "Portonovo"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Confirmar qué se cocina en el barco y qué va servido"
+      ],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "kayak-en-areoso",
+      "slug": "kayak-en-areoso",
+      "nombre": "Kayak en Areoso",
+      "familia": "kayak-areoso",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "A Illa de Arousa"
+        },
+        {
+          "tipo": "zona",
+          "nombre": "Areoso"
+        }
+      ],
+      "duracion": "4 u 8 horas",
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Solo kayak. Muchas búsquedas: página propia",
+        "El desembarco en Areoso requiere autorización: no prometer parada garantizada",
+        "Distinguir alquiler libre de ruta guiada"
+      ],
+      "a_medida": false,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "olimpiadas-de-playa",
+      "slug": "olimpiadas-de-playa",
+      "nombre": "Olimpiadas de playa",
+      "familia": "dias-a-medida",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Por definir con Pablo"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Día producido casi a medida. Operativa por cerrar: espacio, permisos, monitor, seguro, limpieza y cancelación"
+      ],
+      "a_medida": true,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "propuesta de Pablo (día producido a medida)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "gymkana-de-despedida-en-playa",
+      "slug": "gymkana-de-despedida-en-playa",
+      "nombre": "Gymkana de despedida en playa",
+      "familia": "dias-a-medida",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Por definir con Pablo"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Día producido casi a medida. Operativa por cerrar: espacio, permisos, monitor, seguro, limpieza y cancelación"
+      ],
+      "a_medida": true,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "propuesta de Pablo (día producido a medida)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "torneo-de-voley-playa-o-palas",
+      "slug": "torneo-de-voley-playa-o-palas",
+      "nombre": "Torneo de vóley playa o palas",
+      "familia": "dias-a-medida",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Por definir con Pablo"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Día producido casi a medida. Operativa por cerrar: espacio, permisos, monitor, seguro, limpieza y cancelación"
+      ],
+      "a_medida": true,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "propuesta de Pablo (día producido a medida)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "reto-de-big-sup",
+      "slug": "reto-de-big-sup",
+      "nombre": "Reto de Big SUP",
+      "familia": "dias-a-medida",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Por definir con Pablo"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Día producido casi a medida. Operativa por cerrar: espacio, permisos, monitor, seguro, limpieza y cancelación"
+      ],
+      "a_medida": true,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "propuesta de Pablo (día producido a medida)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "atardecer-en-barco-con-catering-y-fotografia",
+      "slug": "atardecer-en-barco-con-catering-y-fotografia",
+      "nombre": "Atardecer en barco con catering y fotografía",
+      "familia": "dias-a-medida",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Por definir con Pablo"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Día producido casi a medida. Operativa por cerrar: espacio, permisos, monitor, seguro, limpieza y cancelación"
+      ],
+      "a_medida": true,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "propuesta de Pablo (día producido a medida)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "barco-privado-con-fondeo-bano-y-paddle",
+      "slug": "barco-privado-con-fondeo-bano-y-paddle",
+      "nombre": "Barco privado con fondeo, baño y paddle",
+      "familia": "dias-a-medida",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Por definir con Pablo"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Día producido casi a medida. Operativa por cerrar: espacio, permisos, monitor, seguro, limpieza y cancelación"
+      ],
+      "a_medida": true,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "propuesta de Pablo (día producido a medida)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "ruta-en-kayak-con-picnic",
+      "slug": "ruta-en-kayak-con-picnic",
+      "nombre": "Ruta en kayak con picnic",
+      "familia": "dias-a-medida",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Por definir con Pablo"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Día producido casi a medida. Operativa por cerrar: espacio, permisos, monitor, seguro, limpieza y cancelación"
+      ],
+      "a_medida": true,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "propuesta de Pablo (día producido a medida)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "sesion-de-yoga-o-movilidad-en-playa",
+      "slug": "sesion-de-yoga-o-movilidad-en-playa",
+      "nombre": "Sesión de yoga o movilidad en playa",
+      "familia": "dias-a-medida",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Por definir con Pablo"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Día producido casi a medida. Operativa por cerrar: espacio, permisos, monitor, seguro, limpieza y cancelación"
+      ],
+      "a_medida": true,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "propuesta de Pablo (día producido a medida)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "fiesta-con-dj-bebida-y-comida",
+      "slug": "fiesta-con-dj-bebida-y-comida",
+      "nombre": "Fiesta con DJ, bebida y comida",
+      "familia": "dias-a-medida",
+      "descripcion": null,
+      "donde": [
+        {
+          "tipo": "zona",
+          "nombre": "Por definir con Pablo"
+        }
+      ],
+      "duracion": null,
+      "grupo_minimo": null,
+      "temporada": null,
+      "notas_operativas": [
+        "Día producido casi a medida. Operativa por cerrar: espacio, permisos, monitor, seguro, limpieza y cancelación"
+      ],
+      "a_medida": true,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "propuesta de Pablo (día producido a medida)",
+      "datos_fuente": [],
+      "notas_internas": null
+    }
+  ]
+}

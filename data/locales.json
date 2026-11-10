@@ -1,0 +1,3603 @@
+{
+  "_nota": "verificado:false en todo salvo A Vichona. Una sola ficha por local: Pé Na Praia, Arrocería A Lanzada, Náutico de San Vicente y Areaso Beach viven en chiringuitos y se referencian en diversion_referencias. Chiringuitos: 20 candidatos, publicar 8-10 (decisión pendiente).",
+  "zonas": {
+    "restaurantes": [
+      "aldan",
+      "bueu",
+      "marin",
+      "combarro-raxo",
+      "sanxenxo-portonovo",
+      "o-grove"
+    ],
+    "chiringuitos": [
+      "aldan",
+      "bueu",
+      "poio-raxo",
+      "sanxenxo-portonovo",
+      "noalla-lanzada",
+      "o-grove-san-vicente"
+    ],
+    "furanchos": [
+      "sanxenxo-portonovo",
+      "meano",
+      "cambados",
+      "ribadumia-vilanova",
+      "o-grove",
+      "bueu-marin",
+      "sin-zona"
+    ],
+    "diversion": [
+      "sanxenxo-puerto",
+      "portonovo",
+      "a-lanzada-san-vicente",
+      "o-grove"
+    ]
+  },
+  "restaurantes": [
+    {
+      "id": "o-con-de-aldan",
+      "slug": "o-con-de-aldan",
+      "nombre": "O Con de Aldán",
+      "tipo": "restaurante",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": "Paseo de Carlos Pérez 12, Aldán",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 32 92 29",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "Pablo + búsqueda web 2026",
+      "datos_fuente": [
+        "Cocina gallega tradicional al borde de la ría de Aldán",
+        "Pescados, mariscos y arroces",
+        "Instalado en una antigua fábrica de salazón"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "chinchorro",
+      "slug": "chinchorro",
+      "nombre": "Chinchorro",
+      "tipo": "restaurante",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": "Av. José Graña 38, Aldán",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "618 149 050",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Marisquería"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "a-taberna-casa-de-aldan",
+      "slug": "a-taberna-casa-de-aldan",
+      "nombre": "A Taberna – Casa de Aldán",
+      "tipo": "restaurante",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": "Av. José Graña 52, Aldán",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "622 354 398",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Comprobar si pertenece al mismo grupo que O Con de Aldán",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Restaurante gallego junto al puerto"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "o-recuncho-da-grella",
+      "slug": "o-recuncho-da-grella",
+      "nombre": "O Recuncho da Grella",
+      "tipo": "restaurante",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": "Lontreira 1 Bajo, Aldán",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "886 295 998",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Especializado en barbacoa"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "a-centoleira",
+      "slug": "a-centoleira",
+      "nombre": "A Centoleira",
+      "tipo": "restaurante",
+      "zona": "bueu",
+      "municipio": "Bueu",
+      "direccion": "Praia de Beluso, Bueu",
+      "playa_cercana": "Beluso",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 323 481",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "Pablo + búsqueda web 2026",
+      "datos_fuente": [
+        "Marisquería centenaria frente al puerto y la playa de Beluso",
+        "Cestas de marisco, guisos, arroces marineros, pescados al horno",
+        "Menú del día solo en invierno"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "peixoto",
+      "slug": "peixoto",
+      "nombre": "Peixoto",
+      "tipo": "restaurante",
+      "zona": "bueu",
+      "municipio": "Bueu",
+      "direccion": "Costa Figueirón, Beluso",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "636 178 815",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Marisquería de perfil tradicional"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "loureiro",
+      "slug": "loureiro",
+      "nombre": "Loureiro",
+      "tipo": "restaurante",
+      "zona": "bueu",
+      "municipio": "Bueu",
+      "direccion": "Av. Loureiro 13, Bueu",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 320 719",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Restaurante y hotel con acceso directo a la playa",
+        "Posibles dos salones independientes para eventos (por confirmar)"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "javitxus",
+      "slug": "javitxus",
+      "nombre": "Javitxus",
+      "tipo": "restaurante",
+      "zona": "marin",
+      "municipio": "Marín",
+      "direccion": "Playa de Aguete",
+      "playa_cercana": "Aguete",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "623 002 830",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Restaurante en la zona de playa de Aguete"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "tintanegra",
+      "slug": "tintanegra",
+      "nombre": "Tintanegra",
+      "tipo": "restaurante",
+      "zona": "combarro-raxo",
+      "municipio": "Poio",
+      "direccion": "Av. Francisco Regalado 44, Combarro",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "683 308 048",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Pescado a la brasa, arroces y tapas",
+        "Terraza con vistas al mar"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "o-bocoi",
+      "slug": "o-bocoi",
+      "nombre": "O'Bocoi",
+      "tipo": "restaurante",
+      "zona": "combarro-raxo",
+      "municipio": "Poio",
+      "direccion": "Rúa do Mar 20, Combarro",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 771 142",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Restaurante tradicional de pescado y marisco, con vistas"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "restaurante-a-ferreira",
+      "slug": "restaurante-a-ferreira",
+      "nombre": "Restaurante A Ferreira",
+      "tipo": "restaurante",
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": true,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "web antigua (14.306 impresiones, pos. 10,3)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "vinoteca-a-curva",
+      "slug": "vinoteca-a-curva",
+      "nombre": "Vinoteca A Curva",
+      "tipo": "vinoteca",
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": "Portonovo",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": true,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "web antigua (2.708 impresiones, pos. 11,7)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "taberna-villalustre",
+      "slug": "taberna-villalustre",
+      "nombre": "Taberna Villalustre",
+      "tipo": "restaurante",
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": "Rúa do Vento 9, Sanxenxo",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "604 076 356",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Carne y pescado a la parrilla de carbón",
+        "Entorno rústico y terraza en un viñedo"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "meloxeira-praia",
+      "slug": "meloxeira-praia",
+      "nombre": "Meloxeira Praia",
+      "tipo": "restaurante",
+      "zona": "o-grove",
+      "municipio": "O Grove",
+      "direccion": "Carretera San Vicente do Mar 1100, O Grove",
+      "playa_cercana": "Area da Cruz / Seixeliño",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "Pablo + búsqueda web 2026",
+      "datos_fuente": [
+        "Chiringuito gourmet a pie de playa, entre Seixeliño y Area da Cruz",
+        "Incluido en una selección de restaurantes de playa de la Guía Michelin",
+        "Carta de mariscos, pescados, carnes y arroces"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "d-berto",
+      "slug": "d-berto",
+      "nombre": "D'Berto",
+      "tipo": "restaurante",
+      "zona": "o-grove",
+      "municipio": "O Grove",
+      "direccion": "Teniente Domínguez 84, O Grove",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 733 447",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Marisquería: producto del mar al vapor, parrilla y guisos"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "a-vichona",
+      "slug": "a-vichona",
+      "nombre": "A Vichona",
+      "tipo": "restaurante",
+      "zona": "por-definir",
+      "municipio": null,
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "si",
+        "cuando": null,
+        "como": "Caben 120 personas. Varios espacios, incluidos privados por si quieren shows. Admite despedidas de soltero y de soltera."
+      },
+      "pagina_propia": true,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Pablo aporta dirección, cómo es y qué se come",
+      "publicar": true,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-10",
+      "origen": "Pablo (conversación 2026-11-10)",
+      "datos_fuente": [
+        "Asador de churrasco. Local de Pablo"
+      ],
+      "notas_internas": null
+    }
+  ],
+  "alta_cocina": [
+    {
+      "id": "pepe-vieira",
+      "slug": "pepe-vieira",
+      "nombre": "Pepe Vieira",
+      "tipo": "alta-cocina",
+      "zona": "combarro-raxo",
+      "municipio": "Poio",
+      "direccion": "Camiño da Serpe, Raxó",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 741 378",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Bloque opcional de alta cocina",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Alta cocina, menús degustación"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "culler-de-pau",
+      "slug": "culler-de-pau",
+      "nombre": "Culler de Pau",
+      "tipo": "alta-cocina",
+      "zona": "o-grove",
+      "municipio": "O Grove",
+      "direccion": "Reboredo 73, O Grove",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 732 275",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Bloque opcional de alta cocina",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Alta cocina, menús degustación, vistas al mar"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "solla",
+      "slug": "solla",
+      "nombre": "Solla",
+      "tipo": "alta-cocina",
+      "zona": "combarro-raxo",
+      "municipio": "Poio",
+      "direccion": "San Salvador de Poio",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Bloque opcional de alta cocina",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Restaurante recogido en la Guía Michelin"
+      ],
+      "notas_internas": null
+    }
+  ],
+  "reserva": [
+    {
+      "id": "pinela",
+      "slug": "pinela",
+      "nombre": "Pinela",
+      "tipo": "restaurante",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": "Av. José Graña 30, Aldán",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 328 333",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Restaurante y cafetería"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "doade",
+      "slug": "doade",
+      "nombre": "Doade",
+      "tipo": "restaurante",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": "O Igrexario, Hío",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 328 302",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Cocina gallega"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "menduina",
+      "slug": "menduina",
+      "nombre": "Menduiña",
+      "tipo": "restaurante",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": "Playa de Menduiña",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Referencia junto al arenal para pescado y marisco"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "o-farol",
+      "slug": "o-farol",
+      "nombre": "O Farol",
+      "tipo": "restaurante",
+      "zona": "bueu",
+      "municipio": "Bueu",
+      "direccion": "Montero Ríos 207, Bueu",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 321 921",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Pizzería, cervecería, tapas y pub"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "la-zarzamora",
+      "slug": "la-zarzamora",
+      "nombre": "La Zarzamora",
+      "tipo": "restaurante",
+      "zona": "bueu",
+      "municipio": "Bueu",
+      "direccion": "Rúa Alexandre Bóveda, Bueu",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "633 150 105",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Cocina mediterránea"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "los-3-monos-aguete",
+      "slug": "los-3-monos-aguete",
+      "nombre": "Los 3 Monos Aguete",
+      "tipo": "restaurante",
+      "zona": "marin",
+      "municipio": "Marín",
+      "direccion": "Camiño de Aguete 172",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "620 358 997",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Restaurante que también organiza eventos y bodas"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "taberna-leucoina",
+      "slug": "taberna-leucoina",
+      "nombre": "Taberna Leucoiña",
+      "tipo": "restaurante",
+      "zona": "combarro-raxo",
+      "municipio": "Poio",
+      "direccion": "Rúa do Mar 34, Combarro",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 771 064",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Taberna-restaurante del frente marítimo"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "arroyo-mar-y-tierra",
+      "slug": "arroyo-mar-y-tierra",
+      "nombre": "Arroyo Mar y Tierra",
+      "tipo": "restaurante",
+      "zona": "combarro-raxo",
+      "municipio": "Poio",
+      "direccion": "Praza Peirao da Chousa 2, Combarro",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "667 228 453",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Restaurante en la plaza del muelle"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "o-peirao",
+      "slug": "o-peirao",
+      "nombre": "O Peirao",
+      "tipo": "restaurante",
+      "zona": "combarro-raxo",
+      "municipio": "Poio",
+      "direccion": "Rúa do Mar 6, Combarro",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 772 376",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Carnes y pescado con vistas a la ría"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "gran-proa",
+      "slug": "gran-proa",
+      "nombre": "Gran Proa",
+      "tipo": "restaurante",
+      "zona": "combarro-raxo",
+      "municipio": "Poio",
+      "direccion": "Ramón Encinas 4, Raxó",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 740 433",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Hotel frente a la playa con café-bar"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "o-rincon-dos-barcos",
+      "slug": "o-rincon-dos-barcos",
+      "nombre": "O Rincón dos Barcos",
+      "tipo": "restaurante",
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": "Praia dos Barcos, Sanxenxo",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Tapas junto a la playa urbana"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "esencia-by-salgadoiro",
+      "slug": "esencia-by-salgadoiro",
+      "nombre": "Esencia by Salgadoiro",
+      "tipo": "restaurante",
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": "Parque do Espiñeiro 5, Portonovo",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "671 347 921",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Restaurante gallego"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "la-mar-brava-by-eder-moore",
+      "slug": "la-mar-brava-by-eder-moore",
+      "nombre": "La Mar Brava by Eder Moore",
+      "tipo": "restaurante",
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": "Rúa do Progreso 4, Portonovo",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "886 299 510",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Cocina de fusión"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "asador-o-chiringuito",
+      "slug": "asador-o-chiringuito",
+      "nombre": "Asador O Chiringuito",
+      "tipo": "restaurante",
+      "zona": "o-grove",
+      "municipio": "O Grove",
+      "direccion": "Av. de Beiramar 84, O Grove",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 731 701",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Parrilla, cocina gallega y marisquería. Es un asador, no un chiringuito de arena"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "taberna-a-laxeira",
+      "slug": "taberna-a-laxeira",
+      "nombre": "Taberna A Laxeira",
+      "tipo": "restaurante",
+      "zona": "o-grove",
+      "municipio": "O Grove",
+      "direccion": "Rúa Peralto 53, O Grove",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Restaurante pequeño e informal de tapas y marisco"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "taberna-okra",
+      "slug": "taberna-okra",
+      "nombre": "Taberna Okra",
+      "tipo": "restaurante",
+      "zona": "o-grove",
+      "municipio": "O Grove",
+      "direccion": "Rúa Luís Seoane 11, O Grove",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 187 348",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Lista de reserva: no se publica en la primera versión",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Referencias gallegas y japonesas"
+      ],
+      "notas_internas": null
+    }
+  ],
+  "candidatos": [
+    {
+      "id": "casa-acuna",
+      "slug": "casa-acuna",
+      "nombre": "Casa Acuña",
+      "tipo": "restaurante",
+      "zona": "bueu",
+      "municipio": "Bueu",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Candidato sin validar por Pablo",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "búsqueda web 2026 (no validado por Pablo)",
+      "datos_fuente": [
+        "Restaurante clásico de la zona",
+        "Ofrece alojamiento y traslados en barco a Ons"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "taberna-arca",
+      "slug": "taberna-arca",
+      "nombre": "Taberna Arca",
+      "tipo": "restaurante",
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Candidato sin validar por Pablo",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "búsqueda web 2026 (no validado por Pablo)",
+      "datos_fuente": [
+        "Aparece bien valorado en rankings de tapas de Sanxenxo"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "ardora",
+      "slug": "ardora",
+      "nombre": "Ardora",
+      "tipo": "restaurante",
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Candidato sin validar por Pablo",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "búsqueda web 2026 (no validado por Pablo)",
+      "datos_fuente": [
+        "Vistas al puerto deportivo de Sanxenxo"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "mardivino-asador",
+      "slug": "mardivino-asador",
+      "nombre": "Mardivino Asador",
+      "tipo": "restaurante",
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Candidato sin validar por Pablo",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "búsqueda web 2026 (no validado por Pablo)",
+      "datos_fuente": [
+        "En el paseo do Silgar, con vistas a la playa de Portonovo"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "o-barco",
+      "slug": "o-barco",
+      "nombre": "O Barco",
+      "tipo": "restaurante",
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Candidato sin validar por Pablo",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "búsqueda web 2026 (no validado por Pablo)",
+      "datos_fuente": [
+        "Paseo do Silgar, cocina gallega tradicional, comedor con vistas al mar"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "vina-pedreira",
+      "slug": "vina-pedreira",
+      "nombre": "Viña Pedreira",
+      "tipo": "restaurante",
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Candidato sin validar por Pablo",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "búsqueda web 2026 (no validado por Pablo)",
+      "datos_fuente": [
+        "Bodega con terraza en Portonovo"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "asador-d-pepe-pedras-negras",
+      "slug": "asador-d-pepe-pedras-negras",
+      "nombre": "Asador D'Pepe Pedras Negras",
+      "tipo": "restaurante",
+      "zona": "o-grove",
+      "municipio": "O Grove",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Candidato sin validar por Pablo",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "búsqueda web 2026 (no validado por Pablo)",
+      "datos_fuente": [
+        "Cerca de Pedras Negras"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "taberna-rural",
+      "slug": "taberna-rural",
+      "nombre": "Taberna Rural",
+      "tipo": "restaurante",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Candidato sin validar por Pablo",
+      "publicar": false,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "búsqueda web 2026 (no validado por Pablo)",
+      "datos_fuente": [
+        "Taberna en Aldán"
+      ],
+      "notas_internas": null
+    }
+  ],
+  "chiringuitos": [
+    {
+      "id": "chiringuito-sinas",
+      "slug": "chiringuito-sinas",
+      "nombre": "Chiringuito Sinás",
+      "tipo": "chiringuito",
+      "zona": "poio-raxo",
+      "municipio": "Poio",
+      "direccion": "Rúa Sinas 73, Raxó",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 740 417",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Restaurante gallego en formato chiringuito junto a la playa"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "kiosko-aturuxu",
+      "slug": "kiosko-aturuxu",
+      "nombre": "Kiosko Aturuxu",
+      "tipo": "chiringuito",
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": "Area de Agra",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Kiosco de playa recogido en una guía de 2021"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "bico-beach-bar",
+      "slug": "bico-beach-bar",
+      "nombre": "Bico Beach Bar",
+      "tipo": "chiringuito",
+      "zona": "noalla-lanzada",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": "Pragueira",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Bar con terraza junto al mirador de Pragueira"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "pe-na-praia",
+      "slug": "pe-na-praia",
+      "nombre": "Pé Na Praia",
+      "tipo": "chiringuito",
+      "zona": "noalla-lanzada",
+      "municipio": "Sanxenxo / O Grove",
+      "direccion": "Praia da Lanzada, km 27",
+      "playa_cercana": "A Lanzada",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "609 441 730",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [
+        "diversion"
+      ],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Bar/chiringuito junto al arenal"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "arroceria-sunset-a-lanzada",
+      "slug": "arroceria-sunset-a-lanzada",
+      "nombre": "Arrocería & Sunset A Lanzada",
+      "tipo": "chiringuito",
+      "zona": "o-grove-san-vicente",
+      "municipio": "O Grove",
+      "direccion": null,
+      "playa_cercana": "A Lanzada",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [
+        "diversion"
+      ],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Restaurante y terraza con vistas al mar, hacia San Vicente do Mar"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "chiringuito-playa-portino",
+      "slug": "chiringuito-playa-portino",
+      "nombre": "Chiringuito Playa Portiño",
+      "tipo": "chiringuito",
+      "zona": "o-grove-san-vicente",
+      "municipio": "O Grove",
+      "direccion": null,
+      "playa_cercana": "Portiño",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Chiringuito de playa cerca del puerto deportivo de San Vicente do Mar"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "nautico-de-san-vicente",
+      "slug": "nautico-de-san-vicente",
+      "nombre": "Náutico de San Vicente",
+      "tipo": "chiringuito",
+      "zona": "o-grove-san-vicente",
+      "municipio": "O Grove",
+      "direccion": null,
+      "playa_cercana": "A Barrosa",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": "elnautico.org",
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [
+        "diversion"
+      ],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Bar junto al mar con cócteles, raciones, terraza y conciertos",
+        "Según Pablo, el más top y con más búsquedas"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "areaso-beach",
+      "slug": "areaso-beach",
+      "nombre": "Areaso Beach",
+      "tipo": "chiringuito",
+      "zona": "o-grove-san-vicente",
+      "municipio": "O Grove",
+      "direccion": null,
+      "playa_cercana": "Area de Reboredo",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [
+        "diversion"
+      ],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Kiosco de playa"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "chiringuito-de-francon",
+      "slug": "chiringuito-de-francon",
+      "nombre": "Chiringuito de Francón",
+      "tipo": "chiringuito",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": null,
+      "playa_cercana": "Francón",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Confirmar marca y gestión actuales",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Chiringo de madera, comida y cócteles; antecedentes de conciertos al atardecer"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "chiringuito-de-areacova",
+      "slug": "chiringuito-de-areacova",
+      "nombre": "Chiringuito de Areacova",
+      "tipo": "chiringuito",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": null,
+      "playa_cercana": "Areacova",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Terraza sobre el arenal, tapas tradicionales y churrasco los fines de semana (publicación de 2024)"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "o-pirata",
+      "slug": "o-pirata",
+      "nombre": "O Pirata",
+      "tipo": "chiringuito",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": "Estr. Baixada á Praia de Menduiña 70, Aldán",
+      "playa_cercana": "Menduiña",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Chiringuito de comida tradicional junto a la playa"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "chiringuito-de-pintens",
+      "slug": "chiringuito-de-pintens",
+      "nombre": "Chiringuito de Pinténs",
+      "tipo": "chiringuito",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": null,
+      "playa_cercana": "Pinténs",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Confirmar nombre comercial",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Local a pie de playa con aparcamiento contiguo"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "chiringuito-de-san-xian",
+      "slug": "chiringuito-de-san-xian",
+      "nombre": "Chiringuito de San Xián",
+      "tipo": "chiringuito",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": null,
+      "playa_cercana": "San Xián",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Cervezas NÓS y antecedentes de conciertos"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "chiringuito-de-arneles",
+      "slug": "chiringuito-de-arneles",
+      "nombre": "Chiringuito de Arneles",
+      "tipo": "chiringuito",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": null,
+      "playa_cercana": "Arneles",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Finca espaciosa, ambiente familiar"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "chiringuito-de-vilarino",
+      "slug": "chiringuito-de-vilarino",
+      "nombre": "Chiringuito de Vilariño",
+      "tipo": "chiringuito",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": null,
+      "playa_cercana": "Vilariño",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Bebidas y vistas a la ensenada, música puntual"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "chiringuito-de-castineiras",
+      "slug": "chiringuito-de-castineiras",
+      "nombre": "Chiringuito de Castiñeiras",
+      "tipo": "chiringuito",
+      "zona": "aldan",
+      "municipio": "Cangas",
+      "direccion": null,
+      "playa_cercana": "Castiñeiras",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Identificar gestión y carta",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Ambiente animado según una guía de la ría"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "chiringo-duna",
+      "slug": "chiringo-duna",
+      "nombre": "Chiringo Duna",
+      "tipo": "chiringuito",
+      "zona": "bueu",
+      "municipio": "Bueu",
+      "direccion": null,
+      "playa_cercana": "Portomaior",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Bebidas y comida sencilla junto a la playa"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "chiringuito-de-area-de-bon",
+      "slug": "chiringuito-de-area-de-bon",
+      "nombre": "Chiringuito de Area de Bon",
+      "tipo": "chiringuito",
+      "zona": "bueu",
+      "municipio": "Bueu",
+      "direccion": null,
+      "playa_cercana": "Area de Bon",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Parcela amplia de hierba; política de comida para llevar a confirmar"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "tarantela-playa",
+      "slug": "tarantela-playa",
+      "nombre": "Tarantela Playa",
+      "tipo": "chiringuito",
+      "zona": "o-grove-san-vicente",
+      "municipio": "O Grove",
+      "direccion": null,
+      "playa_cercana": "Area de Reboredo",
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "621 492 930",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Decidir si entra (propuesta: publicar 8-10 chiringuitos)",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Chiringuito y bar en la playa; opiniones dispares"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "chiringuito-marusia",
+      "slug": "chiringuito-marusia",
+      "nombre": "Chiringuito Marusia",
+      "tipo": "chiringuito",
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "680 383 214",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Confirmar ubicación exacta y carta",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de locales)",
+      "datos_fuente": [
+        "Bar-restaurante; arroces y fideuá según reseñas"
+      ],
+      "notas_internas": null
+    }
+  ],
+  "furanchos": [
+    {
+      "id": "loureiro-minino",
+      "slug": "loureiro-minino",
+      "nombre": "Loureiro Miniño",
+      "tipo": "furancho",
+      "zona": "sanxenxo-portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [
+        "Tradicional; abre pocos meses al año",
+        "Huevos, zorza, tortilla y richada"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "o-outeiro",
+      "slug": "o-outeiro",
+      "nombre": "O Outeiro",
+      "tipo": "furancho",
+      "zona": "sanxenxo-portonovo",
+      "municipio": null,
+      "direccion": "Dorrón",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Confirmar que Dorrón es de Sanxenxo",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [
+        "Secreto ibérico, pulpo y tortilla"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "furancho-a-de-marcos",
+      "slug": "furancho-a-de-marcos",
+      "nombre": "Furancho A de Marcos",
+      "tipo": "furancho",
+      "zona": "meano",
+      "municipio": "Meaño",
+      "direccion": "Gañón 34 / Xil",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "672 865 268",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Confirmar si Gañón y Xil son la misma ubicación",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [
+        "Restaurante y tapas con terraza entre viñedos"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "o-furancho-angel",
+      "slug": "o-furancho-angel",
+      "nombre": "O Furancho Ángel",
+      "tipo": "furancho",
+      "zona": "meano",
+      "municipio": "Meaño",
+      "direccion": "Aldea de Abaixo",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [
+        "Garbanzos con callos y tarta de orujo"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "o-lar-do-outeiro",
+      "slug": "o-lar-do-outeiro",
+      "nombre": "O Lar do Outeiro",
+      "tipo": "furancho",
+      "zona": "meano",
+      "municipio": "Meaño",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [
+        "Zamburiñas, raxo con patatas y tortillas rellenas"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "a-casa-pequena",
+      "slug": "a-casa-pequena",
+      "nombre": "A Casa Pequena",
+      "tipo": "furancho",
+      "zona": "meano",
+      "municipio": "Meaño",
+      "direccion": "Lores",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": true,
+      "decision_pendiente": "Una fuente la trata como furancho y otra como casa de comidas",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [
+        "Huevos con pan de millo, tortilla con chorizo y pulpo a feira"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "o-lar-das-pereiras",
+      "slug": "o-lar-das-pereiras",
+      "nombre": "O Lar das Pereiras",
+      "tipo": "furancho",
+      "zona": "meano",
+      "municipio": "Meaño",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": true,
+      "decision_pendiente": "No confirmado como furancho tradicional",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [
+        "Local de estilo furancho"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "furancho-de-juan",
+      "slug": "furancho-de-juan",
+      "nombre": "Furancho de Juan",
+      "tipo": "furancho",
+      "zona": "meano",
+      "municipio": "Meaño / Cambados",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "La fuente no concreta municipio",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [
+        "Albariño y tinto de Barrantes, churrasco, zamburiñas, pulpo y richada"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "o-furancho-de-pancho",
+      "slug": "o-furancho-de-pancho",
+      "nombre": "O Furancho de Pancho",
+      "tipo": "furancho",
+      "zona": "cambados",
+      "municipio": "Cambados",
+      "direccion": "Refoxos 33",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": "986 542 214",
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [
+        "Comida casera y terraza"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "a-casa-do-zapateiro",
+      "slug": "a-casa-do-zapateiro",
+      "nombre": "A Casa do Zapateiro",
+      "tipo": "furancho",
+      "zona": "cambados",
+      "municipio": "Cambados",
+      "direccion": "Oubiña",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "furancho-d-andrade-casa-vieja",
+      "slug": "furancho-d-andrade-casa-vieja",
+      "nombre": "Furancho D'Andrade Casa Vieja",
+      "tipo": "furancho",
+      "zona": "cambados",
+      "municipio": "Cambados",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "furancho-sito-de-castrelo",
+      "slug": "furancho-sito-de-castrelo",
+      "nombre": "Furancho Sito de Castrelo",
+      "tipo": "furancho",
+      "zona": "cambados",
+      "municipio": "Cambados",
+      "direccion": "Castrelo",
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "furancho-a-ruda",
+      "slug": "furancho-a-ruda",
+      "nombre": "Furancho A Ruda",
+      "tipo": "furancho",
+      "zona": "cambados",
+      "municipio": "Cambados",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "o-loureiro-de-siso",
+      "slug": "o-loureiro-de-siso",
+      "nombre": "O Loureiro de Siso",
+      "tipo": "furancho",
+      "zona": "ribadumia-vilanova",
+      "municipio": "Ribadumia",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [
+        "Un clásico instituido en la zona"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "lourancho",
+      "slug": "lourancho",
+      "nombre": "Lourancho",
+      "tipo": "furancho",
+      "zona": "ribadumia-vilanova",
+      "municipio": "Vilanova de Arousa",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [
+        "Raciones variadas, pulpo y calamares"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "furancho-a-de-pastora",
+      "slug": "furancho-a-de-pastora",
+      "nombre": "Furancho A de Pastora",
+      "tipo": "furancho",
+      "zona": "sin-zona",
+      "municipio": null,
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Sin ubicación en la fuente",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [
+        "Zorza adobada, cordero estofado, chipirones y tarta de queso"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "furancho-bouzabella",
+      "slug": "furancho-bouzabella",
+      "nombre": "Furancho Bouzabella",
+      "tipo": "furancho",
+      "zona": "sin-zona",
+      "municipio": null,
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": "diciembre–junio aprox. (confirmar cada temporada)",
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Sin ubicación en la fuente",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documentos de furanchos)",
+      "datos_fuente": [
+        "Pulpo, oreja, raxo y tarta de piña fría"
+      ],
+      "notas_internas": null
+    }
+  ],
+  "diversion": [
+    {
+      "id": "dux",
+      "slug": "dux",
+      "nombre": "Dux",
+      "tipo": "discoteca",
+      "zona": "sanxenxo-puerto",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": "duxsanxenxo.com",
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": true,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "web antigua (2.650 impresiones) + lista de Pablo",
+      "datos_fuente": [
+        "Programación de R&B, urbana y house según su web"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "prive-puerto",
+      "slug": "prive-puerto",
+      "nombre": "Privé Puerto",
+      "tipo": "terraza",
+      "zona": "sanxenxo-puerto",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de diversión)",
+      "datos_fuente": [
+        "Terraza de copas y formato de club en el puerto"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "la-ola",
+      "slug": "la-ola",
+      "nombre": "La Ola",
+      "tipo": "discoteca",
+      "zona": "sanxenxo-puerto",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": "04:00–06:00 (según Pablo)",
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "Pablo + Search Console (926 impresiones)",
+      "datos_fuente": [
+        "Discoteca con terraza"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "buddha",
+      "slug": "buddha",
+      "nombre": "Buddha",
+      "tipo": "copas",
+      "zona": "sanxenxo-puerto",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": true,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "web antigua (8.614 impresiones) + lista de Pablo",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "clandestino",
+      "slug": "clandestino",
+      "nombre": "Clandestino",
+      "tipo": "copas",
+      "zona": "sanxenxo-puerto",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de diversión)",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "varadero",
+      "slug": "varadero",
+      "nombre": "Varadero",
+      "tipo": "copas",
+      "zona": "sanxenxo-puerto",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": true,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "web antigua (7.519 impresiones) + lista de Pablo",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "la-menta",
+      "slug": "la-menta",
+      "nombre": "La Menta",
+      "tipo": "copas",
+      "zona": "sanxenxo-puerto",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de diversión)",
+      "datos_fuente": [
+        "Primera copa / coctelería"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "gassho",
+      "slug": "gassho",
+      "nombre": "Gassho",
+      "tipo": "copas",
+      "zona": "sanxenxo-puerto",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": true,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "web antigua (2.783 impresiones) + lista de Pablo",
+      "datos_fuente": [
+        "Coctelería"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "pub-42-grados-norte",
+      "slug": "pub-42-grados-norte",
+      "nombre": "Pub 42 Grados Norte",
+      "tipo": "copas",
+      "zona": "sanxenxo-puerto",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de diversión)",
+      "datos_fuente": [
+        "Pub del Real Club Náutico de Sanxenxo",
+        "Público más adulto (+30), más pequeño, con buena terraza"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "cubaney",
+      "slug": "cubaney",
+      "nombre": "Cubaney",
+      "tipo": "copas",
+      "zona": "portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de diversión)",
+      "datos_fuente": [
+        "Coctelería"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "lolitas",
+      "slug": "lolitas",
+      "nombre": "Lolitas",
+      "tipo": "copas",
+      "zona": "portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de diversión)",
+      "datos_fuente": [
+        "Coctelería"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "la-noche",
+      "slug": "la-noche",
+      "nombre": "La Noche",
+      "tipo": "copas",
+      "zona": "portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de diversión)",
+      "datos_fuente": [
+        "Pub o discoteca según el grupo"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "picamillo",
+      "slug": "picamillo",
+      "nombre": "Picamillo",
+      "tipo": "copas",
+      "zona": "portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de diversión)",
+      "datos_fuente": [
+        "Pub o discoteca según el grupo"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "canelas",
+      "slug": "canelas",
+      "nombre": "Canelas",
+      "tipo": "discoteca",
+      "zona": "portonovo",
+      "municipio": "Sanxenxo",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de diversión)",
+      "datos_fuente": [
+        "Formato de discoteca o pista de baile"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "corsario",
+      "slug": "corsario",
+      "nombre": "Corsario",
+      "tipo": "terraza",
+      "zona": "a-lanzada-san-vicente",
+      "municipio": "O Grove",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Confirmar municipio y ubicación",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de diversión)",
+      "datos_fuente": [
+        "Atardecer, cena y primera copa"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "la-cala-raeiros",
+      "slug": "la-cala-raeiros",
+      "nombre": "La Cala Raeiros",
+      "tipo": "terraza",
+      "zona": "a-lanzada-san-vicente",
+      "municipio": "O Grove",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Confirmar municipio",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de diversión)",
+      "datos_fuente": [
+        "Playa con música, eventos con DJ o música en vivo según fecha"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "k-lua",
+      "slug": "k-lua",
+      "nombre": "K-Lua",
+      "tipo": "terraza",
+      "zona": "o-grove",
+      "municipio": "O Grove",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de diversión)",
+      "datos_fuente": [
+        "Terraza interior"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "chiado",
+      "slug": "chiado",
+      "nombre": "Chiado",
+      "tipo": "copas",
+      "zona": "o-grove",
+      "municipio": "O Grove",
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": null,
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "lista de Pablo (documento de diversión)",
+      "datos_fuente": [
+        "Coctelería"
+      ],
+      "notas_internas": null
+    }
+  ],
+  "diversion_referencias": [
+    {
+      "zona": "a-lanzada-san-vicente",
+      "ref": "nautico-de-san-vicente",
+      "nota": "El más top y con más búsquedas (Pablo)"
+    },
+    {
+      "zona": "a-lanzada-san-vicente",
+      "ref": "pe-na-praia",
+      "nota": null
+    },
+    {
+      "zona": "a-lanzada-san-vicente",
+      "ref": "arroceria-sunset-a-lanzada",
+      "nota": null
+    },
+    {
+      "zona": "a-lanzada-san-vicente",
+      "ref": "areaso-beach",
+      "nota": null
+    }
+  ]
+}

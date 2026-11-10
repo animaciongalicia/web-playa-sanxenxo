@@ -1,0 +1,131 @@
+{
+  "_nota": "Los barcos son de Sea Galicia (seagalicia.com). El repo de Sea Galicia no se toca: solo se enlaza. 'barcos' está vacío a propósito: Pablo aporta nombre, plazas, puerto y precio desde.",
+  "destinos": [
+    {
+      "id": "ons",
+      "slug": "ons",
+      "nombre": "Isla de Ons",
+      "parque_nacional": true,
+      "descripcion": null,
+      "como_se_llega": null,
+      "cupos_permisos": null,
+      "playas": [],
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "decisión de Pablo",
+      "datos_fuente": [
+        "Parque Nacional de las Islas Atlánticas de Galicia",
+        "Pertenece al municipio de Bueu",
+        "Se llega en ferri desde Sanxenxo, Portonovo, Marín y Bueu (fuente web)",
+        "Cupos y permisos: a confirmar"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "cies",
+      "slug": "cies",
+      "nombre": "Islas Cíes",
+      "parque_nacional": true,
+      "descripcion": null,
+      "como_se_llega": null,
+      "cupos_permisos": null,
+      "playas": [],
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "decisión de Pablo",
+      "datos_fuente": [
+        "Parque Nacional de las Islas Atlánticas de Galicia",
+        "Cupos y permisos: a confirmar"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "aldan",
+      "slug": "aldan",
+      "nombre": "Ría de Aldán (el Caribe gallego)",
+      "parque_nacional": false,
+      "descripcion": null,
+      "como_se_llega": null,
+      "cupos_permisos": null,
+      "playas": [
+        "lagos",
+        "area-de-bon"
+      ],
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "decisión de Pablo",
+      "datos_fuente": [
+        "Playas con bandera azul según listado de prensa: Lagos y Area de Bon",
+        "Resto de playas de Aldán pendientes"
+      ],
+      "notas_internas": null
+    }
+  ],
+  "flota_prevista": {
+    "yates": {
+      "cantidad": "3-4",
+      "patron": "a confirmar"
+    },
+    "veleros": {
+      "cantidad": "3-4",
+      "plazas": 11,
+      "patron": "siempre"
+    },
+    "galeon": "fuera salvo que Pablo diga lo contrario"
+  },
+  "barcos": [],
+  "traslados": [
+    {
+      "id": "traslado-ons",
+      "slug": "traslado-ons",
+      "destino": "ons",
+      "tipo": "lancha-rapida",
+      "puerto_salida": null,
+      "duracion": null,
+      "precio_desde": null,
+      "enlace_reserva": "https://seagalicia.com",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "decisión de Pablo",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "traslado-cies",
+      "slug": "traslado-cies",
+      "destino": "cies",
+      "tipo": "lancha-rapida",
+      "puerto_salida": null,
+      "duracion": null,
+      "precio_desde": null,
+      "enlace_reserva": "https://seagalicia.com",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "decisión de Pablo",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "traslado-aldan",
+      "slug": "traslado-aldan",
+      "destino": "aldan",
+      "tipo": "lancha-rapida",
+      "puerto_salida": null,
+      "duracion": null,
+      "precio_desde": null,
+      "enlace_reserva": "https://seagalicia.com",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "decisión de Pablo",
+      "datos_fuente": [],
+      "notas_internas": null
+    }
+  ],
+  "enlace_reserva": "https://seagalicia.com"
+}

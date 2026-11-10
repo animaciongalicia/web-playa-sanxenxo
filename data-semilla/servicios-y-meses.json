@@ -1,0 +1,134 @@
+{
+  "_nota": "Los meses los rellena Pablo con la entrevista de docs/07. No se escribe nada que él no cuente. Referencia previa de Pablo: despedidas aceptadas en mayo y junio; en julio y agosto casi nadie las quiere; septiembre, un poco.",
+  "servicios": [
+    {
+      "id": "limusinas",
+      "descripcion": null,
+      "salidas": [
+        "Sanxenxo",
+        "Combarro",
+        "O Grove"
+      ],
+      "estado_2027": "pendiente",
+      "publicar": true,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "decisión de Pablo",
+      "datos_fuente": [
+        "Paseos en limusina desde Sanxenxo, Combarro y O Grove",
+        "Posiciona en Google (31 clics en la web vieja, pos. 10,2); ya no estaba en uso, se mantiene como servicio",
+        "Se publica como servicio que se hace, con nota de actualización 2027"
+      ],
+      "notas_internas": null
+    },
+    {
+      "id": "humor-amarillo",
+      "descripcion": null,
+      "salidas": [],
+      "estado_2027": "pendiente",
+      "publicar": true,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "decisión de Pablo",
+      "datos_fuente": [
+        "Servicio que se ofrecía cada verano y lo buscan las despedidas",
+        "Posiciona muy bien: 'humor amarillo sanxenxo' 44 clics, pos. 1,5; la página tuvo 89 clics",
+        "Conservar la URL /humor-amarillo-en-sanxenxo/",
+        "Confirmar la redacción de cómo se ofrecía"
+      ],
+      "notas_internas": null
+    }
+  ],
+  "meses": [
+    {
+      "id": "mayo",
+      "ambiente": null,
+      "abre_y_cierra": null,
+      "despedidas": null,
+      "cupos_ons_cies": null,
+      "mar_y_playa": null,
+      "recomendacion": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "entrevista pendiente con Pablo",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "junio",
+      "ambiente": null,
+      "abre_y_cierra": null,
+      "despedidas": null,
+      "cupos_ons_cies": null,
+      "mar_y_playa": null,
+      "recomendacion": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "entrevista pendiente con Pablo",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "julio",
+      "ambiente": null,
+      "abre_y_cierra": null,
+      "despedidas": null,
+      "cupos_ons_cies": null,
+      "mar_y_playa": null,
+      "recomendacion": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "entrevista pendiente con Pablo",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "agosto",
+      "ambiente": null,
+      "abre_y_cierra": null,
+      "despedidas": null,
+      "cupos_ons_cies": null,
+      "mar_y_playa": null,
+      "recomendacion": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "entrevista pendiente con Pablo",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "septiembre",
+      "ambiente": null,
+      "abre_y_cierra": null,
+      "despedidas": null,
+      "cupos_ons_cies": null,
+      "mar_y_playa": null,
+      "recomendacion": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "entrevista pendiente con Pablo",
+      "datos_fuente": [],
+      "notas_internas": null
+    },
+    {
+      "id": "resto-del-ano",
+      "ambiente": null,
+      "abre_y_cierra": null,
+      "despedidas": null,
+      "cupos_ons_cies": null,
+      "mar_y_playa": null,
+      "recomendacion": null,
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "entrevista pendiente con Pablo",
+      "datos_fuente": [],
+      "notas_internas": null
+    }
+  ]
+}
