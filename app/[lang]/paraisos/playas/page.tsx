@@ -1,19 +1,27 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import HeroPage from '../../../../components/HeroPage';
-import Link from 'next/link';
-import Migas from '../../../../components/Migas';
+import BandaAgencia from '../../../../components/BandaAgencia';
 import Contenido from '../../../../components/Contenido';
+import { EnPreparacion, TarjetaPlaya } from '../../../../components/Fichas';
+import HeroPage from '../../../../components/HeroPage';
+import Migas from '../../../../components/Migas';
 import Seccion from '../../../../components/Seccion';
-import Tarjeta from '../../../../components/Tarjeta';
-import {EnPreparacion, TarjetaPlaya} from '../../../../components/Fichas';
+import TarjetaFoto from '../../../../components/TarjetaFoto';
 import { getPlayas } from '../../../../lib/datos';
 import { IDIOMAS, esIdioma, href } from '../../../../lib/i18n';
-import { TRAMOS_RUTA, esTop, slugTramoDe } from '../../../../lib/paraisos';
+import { TRAMOS_RUTA, esTop } from '../../../../lib/paraisos';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.map((lang) => ({ lang }));
 export const metadata: Metadata = { title: 'Playas', description: 'Las playas por tramo de costa y las 8 imprescindibles.' };
+
+const RESUMEN: Record<string, string> = {
+  sanxenxo: 'Las urbanas, con paseo marítimo: Silgar, Areas, Panadeira.',
+  portonovo: 'Baltar, Montalvo, Caneliñas y alguna cala escondida.',
+  'noalla-a-lanzada': 'Arenales largos y abiertos al Atlántico.',
+  'o-grove-san-vicente': 'Calas, pasarelas de madera y buenas vistas.',
+  'mas-alla': 'Aldán, Bueu, Marín, Poio y Combarro.',
+};
 
 export default function Playas({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();
@@ -22,28 +30,25 @@ export default function Playas({ params }: { params: { lang: string } }) {
   const top = playas.filter(esTop);
   return (
     <>
-      <HeroPage ruta="/paraisos/playas/" titulo="Playas" subtitulo="Las playas por tramo de costa y las 8 imprescindibles." />
+      <HeroPage ruta="/paraisos/playas/" etiqueta="Paraísos" titulo="Playas" subtitulo="Cinco tramos de costa y ocho imprescindibles para empezar." />
       <Migas lang={lang} ruta="/paraisos/playas/" />
-      <Contenido lang={lang} ruta="/paraisos/playas/" />
-      <Seccion titulo="Cinco tramos de costa" intro="Elige el tramo y verás todas sus playas.">
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <Seccion etiqueta="De sur a norte" titulo="Cinco tramos de costa" intro="Elige el tramo que te quede cerca y verás todas sus playas." centrado>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {TRAMOS_RUTA.map((t) => {
             const n = playas.filter((p) => (t.tramos as readonly string[]).includes(p.tramo)).length;
-            return <Tarjeta key={t.slug} titulo={t.titulo} texto={n ? `${n} playas` : undefined} href={href(lang, `/paraisos/playas/${t.slug}/`)} />;
+            return <TarjetaFoto key={t.slug} titulo={t.titulo} texto={RESUMEN[t.slug]} href={href(lang, `/paraisos/playas/${t.slug}/`)} claves={[`playas-${t.slug}`, 'paraisos']} datos={n ? [`${n} playas`] : undefined} />;
           })}
         </div>
       </Seccion>
-      <Seccion fondo="gris" titulo="Las 8 imprescindibles">
+      <Seccion fondo="arena" etiqueta="Las que no fallan" titulo="Las ocho imprescindibles" centrado>
         {top.length ? (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {top.map((p) => (
-              <Link key={p.id} href={`${href(lang, `/paraisos/playas/${slugTramoDe(p.tramo)}/`)}#${p.slug}`} className="block">
-                <TarjetaPlaya playa={p} lang={lang} etiquetaTramo />
-              </Link>
-            ))}
+            {top.map((p) => <TarjetaPlaya key={p.id} playa={p} lang={lang} etiquetaTramo />)}
           </div>
         ) : <EnPreparacion />}
       </Seccion>
+      <Contenido lang={lang} ruta="/paraisos/playas/" />
+      <BandaAgencia lang={lang} />
     </>
   );
 }

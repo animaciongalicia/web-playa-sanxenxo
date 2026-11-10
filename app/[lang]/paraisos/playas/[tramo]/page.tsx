@@ -3,8 +3,9 @@ import { notFound } from 'next/navigation';
 import HeroPage from '../../../../../components/HeroPage';
 import Migas from '../../../../../components/Migas';
 import Contenido from '../../../../../components/Contenido';
+import BandaAgencia from '../../../../../components/BandaAgencia';
 import Seccion from '../../../../../components/Seccion';
-import {EnPreparacion, TarjetaPlaya} from '../../../../../components/Fichas';
+import { EnPreparacion, TarjetaPlaya } from '../../../../../components/Fichas';
 import { getPlayas } from '../../../../../lib/datos';
 import { IDIOMAS, esIdioma } from '../../../../../lib/i18n';
 import { NOMBRE_TRAMO, TRAMOS_RUTA, buscarTramoRuta } from '../../../../../lib/paraisos';
@@ -30,7 +31,7 @@ export default function Tramo({ params }: { params: P }) {
       <Contenido lang={lang} ruta={`/paraisos/playas/${tramo.slug}/`} />
       {grupos.length ? (
         grupos.map((g, i) => (
-          <Seccion key={g.t} fondo={i % 2 ? 'gris' : 'blanco'} titulo={tramo.tramos.length > 1 ? NOMBRE_TRAMO[g.t] : undefined} id={g.t}>
+          <Seccion key={g.t} fondo={i % 2 ? 'blanco' : 'arena'} etiqueta="Todas las playas" titulo={tramo.tramos.length > 1 ? NOMBRE_TRAMO[g.t] : `Playas de ${tramo.titulo}`} intro={`${g.playas.length} ${g.playas.length === 1 ? 'playa' : 'playas'} en este tramo.`} id={g.t} centrado>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {g.playas.map((p) => <TarjetaPlaya key={p.id} playa={p} lang={lang} />)}
             </div>
@@ -39,6 +40,7 @@ export default function Tramo({ params }: { params: P }) {
       ) : (
         <Seccion ancho="estrecho"><EnPreparacion /></Seccion>
       )}
+      <BandaAgencia lang={lang} />
     </>
   );
 }

@@ -13,18 +13,6 @@ Tienes la ría delante y, más allá, dos de las islas más conocidas de Galicia
 
 Hay tres destinos. Cada uno pide un plan distinto.
 
-## Isla de Ons
-
-[Ons](/paraisos/mar/islas-ons/) es una isla pequeña, habitada y sin coches, dentro del Parque Nacional de las Islas Atlánticas. Tiene playas, senderos, un faro y acantilados. Es la que mejor te queda desde Sanxenxo: hay barco regular desde Sanxenxo, Portonovo, Bueu y Marín.
-
-## Islas Cíes
-
-[Las Cíes](/paraisos/mar/islas-cies/) son el archipiélago más famoso del Parque Nacional, frente a Vigo. Tienen tres faros, playas de arena blanca y el único camping de las islas. Los barcos regulares salen de Vigo, Baiona y Cangas.
-
-## Ría de Aldán
-
-La [ría de Aldán](/paraisos/mar/ria-de-aldan/) es una bahía recogida entre Cangas y Bueu, con playas pequeñas y agua tranquila. Es el plan fácil: poca distancia, poco tiempo de navegación.
-
 ## Lo que tienes que saber de Ons y Cíes
 
 Las dos islas son Parque Nacional, y eso tiene normas.

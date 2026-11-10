@@ -6,7 +6,8 @@ import Migas from '../../../../../components/Migas';
 import Contenido from '../../../../../components/Contenido';
 import Seccion from '../../../../../components/Seccion';
 import {Aviso, EnPreparacion, TarjetaPlaya} from '../../../../../components/Fichas';
-import LlamadaAgencia from '../../../../../components/LlamadaAgencia';
+import BandaAgencia from '../../../../../components/BandaAgencia';
+import { getContenido } from '../../../../../lib/contenido';
 import { getDestinos, getPlayas } from '../../../../../lib/datos';
 import { IDIOMAS, esIdioma, href } from '../../../../../lib/i18n';
 import { DESTINO_SLUG } from '../../../../../lib/paraisos';
@@ -26,13 +27,14 @@ export default function Destino({ params }: { params: P }) {
   const lang = params.lang;
   const destino = getDestinos().find((d) => d.id === id);
   const playas = getPlayas().filter((p) => destino?.playas.includes(p.id));
+  const hayTexto = !!getContenido(lang, `/paraisos/mar/${params.destino}/`);
   const hayContenido = destino && (destino.descripcion || destino.como_se_llega || destino.cupos_permisos);
   return (
     <>
       <HeroPage ruta={`/paraisos/mar/${params.destino}/`} etiqueta={destino?.parque_nacional ? 'Parque Nacional de las Islas Atlánticas' : undefined} titulo={TITULOS[id]} />
       <Migas lang={lang} ruta={`/paraisos/mar/${params.destino}/`} titulo={TITULOS[id]} />
       <Contenido lang={lang} ruta={`/paraisos/mar/${params.destino}/`} />
-      <Seccion ancho="estrecho">
+      {(!hayTexto || !!hayContenido) && !hayTexto && <Seccion ancho="estrecho">
         {destino && <p className="mb-4"></p>}
         {destino?.descripcion && <p className="text-lg leading-relaxed text-gray-600">{destino.descripcion}</p>}
         {destino?.como_se_llega && <><h2 className="mt-8 text-xl font-bold text-gray-900">Cómo se llega</h2><p className="mt-2 text-gray-600">{destino.como_se_llega}</p></>}
@@ -42,13 +44,13 @@ export default function Destino({ params }: { params: P }) {
           <Link href={href(lang, '/barcos/')} className="link-inline">Barcos →</Link>
           <Link href={href(lang, '/barcos/traslados/')} className="link-inline">Traslados en lancha rápida →</Link>
         </p>
-      </Seccion>
+      </Seccion>}
       {playas.length > 0 && (
-        <Seccion fondo="gris" titulo="Playas de esta costa">
+        <Seccion fondo="arena" etiqueta="En la zona" titulo="Playas de esta costa" centrado>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">{playas.map((p) => <TarjetaPlaya key={p.id} playa={p} lang={lang} />)}</div>
         </Seccion>
       )}
-      <Seccion ancho="estrecho"><LlamadaAgencia lang={lang} /></Seccion>
+      <BandaAgencia lang={lang} />
     </>
   );
 }

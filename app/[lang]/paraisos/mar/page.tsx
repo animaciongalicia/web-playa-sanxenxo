@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import BandaAgencia from '../../../../components/BandaAgencia';
+import Contenido from '../../../../components/Contenido';
 import HeroPage from '../../../../components/HeroPage';
 import Migas from '../../../../components/Migas';
-import Contenido from '../../../../components/Contenido';
 import Seccion from '../../../../components/Seccion';
-import Tarjeta from '../../../../components/Tarjeta';
+import TarjetaFoto from '../../../../components/TarjetaFoto';
 import { IDIOMAS, esIdioma, href } from '../../../../lib/i18n';
 
 export const dynamicParams = false;
@@ -16,16 +17,17 @@ export default function Mar({ params }: { params: { lang: string } }) {
   const lang = params.lang;
   return (
     <>
-      <HeroPage ruta="/paraisos/mar/" titulo="Mar" subtitulo="Ons, Cíes y la ría de Aldán." />
+      <HeroPage ruta="/paraisos/mar/" etiqueta="Paraísos" titulo="Mar" subtitulo="Ons, Cíes y la ría de Aldán: tres destinos, tres planes distintos." />
       <Migas lang={lang} ruta="/paraisos/mar/" />
-      <Contenido lang={lang} ruta="/paraisos/mar/" />
-      <Seccion titulo="Tres destinos">
+      <Seccion etiqueta="Tres destinos" titulo="Elige tu día de mar" centrado>
         <div className="grid gap-8 md:grid-cols-3">
-          <Tarjeta titulo="Isla de Ons" texto="Parque Nacional de las Islas Atlánticas." href={href(lang, '/paraisos/mar/islas-ons/')} />
-          <Tarjeta titulo="Islas Cíes" texto="Parque Nacional de las Islas Atlánticas." href={href(lang, '/paraisos/mar/islas-cies/')} />
-          <Tarjeta titulo="Ría de Aldán" texto="El Caribe gallego." href={href(lang, '/paraisos/mar/ria-de-aldan/')} />
+          <TarjetaFoto alto="alto" etiqueta="Parque Nacional" titulo="Isla de Ons" texto="Pequeña, habitada y sin coches. Playas, senderos y faro. Barco regular desde Sanxenxo, Portonovo, Bueu y Marín." href={href(lang, '/paraisos/mar/islas-ons/')} claves={['islas-ons', 'mar']} datos={['Autorización previa']} />
+          <TarjetaFoto alto="alto" etiqueta="Parque Nacional" titulo="Islas Cíes" texto="El archipiélago más famoso, frente a Vigo: arena blanca y tres faros. Barcos desde Vigo, Baiona y Cangas." href={href(lang, '/paraisos/mar/islas-cies/')} claves={['islas-cies', 'mar']} datos={['Autorización previa']} />
+          <TarjetaFoto alto="alto" titulo="Ría de Aldán" texto="Una bahía recogida entre Cangas y Bueu, con agua tranquila. El plan fácil: poca distancia, poco tiempo de barco." href={href(lang, '/paraisos/mar/ria-de-aldan/')} claves={['ria-de-aldan', 'mar']} datos={['El plan fácil']} />
         </div>
       </Seccion>
+      <Contenido lang={lang} ruta="/paraisos/mar/" />
+      <BandaAgencia lang={lang} />
     </>
   );
 }

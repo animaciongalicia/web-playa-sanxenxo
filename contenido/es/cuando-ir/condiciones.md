@@ -7,8 +7,6 @@ pendiente:
   - "Hoteles y apartamentos que piden 3 o 4 noches: la transcripción es confusa. Pablo confirma"
   - "Pablo añade qué se pide a los grupos y qué no se admite"
 ---
-## Condiciones de las despedidas
-
 Antes de fijar la fecha de tu despedida, lee esto. Es información agregada, sin señalar locales, y te ahorra más de un disgusto.
 
 ## La realidad de la zona

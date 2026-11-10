@@ -13,27 +13,6 @@ Entre Aldán y O Grove hay, solo en nuestra lista, 39 playas. Es una de las zona
 
 La mejor noticia es práctica: todas se llegan en coche y también en barco. No hay playas "solo para unos" ni filtros de ambiente. Valen para todos.
 
-## Cómo está ordenada la guía
-
-Está dividida en cinco tramos, de sur a norte:
-
-1. [Sanxenxo](/paraisos/playas/sanxenxo/): las urbanas, junto al paseo.
-2. [Portonovo](/paraisos/playas/portonovo/): Baltar, Montalvo y las calas.
-3. [Noalla y A Lanzada](/paraisos/playas/noalla-a-lanzada/): los arenales largos y abiertos.
-4. [O Grove y San Vicente](/paraisos/playas/o-grove-san-vicente/): calas y pasarelas de madera.
-5. [Más allá](/paraisos/playas/mas-alla/): Aldán, Bueu, Marín, Poio y Combarro.
-
-Elige el tramo que te quede más cerca del sitio donde duermes. Lo demás, lo cuentan las fichas.
-
-## Las ocho imprescindibles
-
-Entre las 39, ocho destacan. Las encuentras dentro de su tramo, marcadas como imprescindibles.
-
-- **Sanxenxo:** [Silgar y Areas](/paraisos/playas/sanxenxo/).
-- **Portonovo:** [Montalvo](/paraisos/playas/portonovo/).
-- **Noalla y A Lanzada:** [A Lanzada, Areas Gordas y Pragueira](/paraisos/playas/noalla-a-lanzada/).
-- **O Grove y San Vicente:** [Pedras Negras y A Barrosa](/paraisos/playas/o-grove-san-vicente/).
-
 ## Qué dice la bandera azul
 
 La bandera azul es un distintivo anual de calidad. Esto es lo que dice la lista oficial 2026-2027:
