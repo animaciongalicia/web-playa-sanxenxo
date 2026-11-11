@@ -143,7 +143,7 @@ Criterio de salida: cada página con versión `pt` enlaza a la `es` y viceversa 
 
 ## Fase 8 · SEO técnico, redirecciones y analítica
 
-**Hecha (sin portugués).** 39 redirecciones 301 y 10 páginas 410 en `data/redirecciones.json`; `sitemap.xml`; `robots.txt` (bloqueado hasta `LANZADO=1`); canónica, Open Graph y títulos/descripciones por página (`lib/seo.ts`); JSON-LD (migas, organización, `ContactPage`, y locales/destinos solo si están verificados); GA4 con aviso de cookies (solo si existe `NEXT_PUBLIC_GA_ID`); 404 con las siete secciones; `npm run check:seo`. Queda: el sitemap multiidioma y `hreflang` (con la Fase 7).
+**Hecha (sin portugués).** 39 redirecciones 301 y 10 páginas 410 en `data/redirecciones.json`; `sitemap.xml`; `robots.txt` (abierto, con el sitemap); canónica, Open Graph y títulos/descripciones por página (`lib/seo.ts`); JSON-LD (migas, organización, `ContactPage`, y locales/destinos solo si están verificados); GA4 con aviso de cookies (solo si existe `NEXT_PUBLIC_GA_ID`); 404 con las siete secciones; `npm run check:seo`. Queda: el sitemap multiidioma y `hreflang` (con la Fase 7).
 
 Tareas (detalle en `docs/06`):
 - Redirecciones 301 desde las URLs antiguas con tráfico.
@@ -162,7 +162,7 @@ Tareas (detalle en `docs/05`):
 1. Revisión final y QA en la vista previa.
 2. **48 h antes:** bajar el TTL del DNS.
 3. Añadir `despedidasplayasanxenxo.com` y `www` al proyecto de Vercel y cambiar DNS.
-4. Poner `LANZADO=1` en Vercel (Producción): quita el `noindex` y abre `robots.txt`.
+4. Comprobar que `www.despedidasplayasanxenxo.com` ya no envía `noindex` (solo lo envían los dominios que no son el canónico).
 5. Enviar el sitemap a Search Console y vigilar el informe de cobertura (la web vieja tenía 83 URLs sin indexar).
 6. Revisar los 301 y la analítica durante dos semanas.
 

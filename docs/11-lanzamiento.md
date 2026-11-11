@@ -22,8 +22,8 @@ Estado a 2026-11-11. Lo que ya está hecho y lo que falta, en orden.
 ## Día del lanzamiento
 1. **48 h antes:** bajar el TTL del DNS del dominio.
 2. Añadir `despedidasplayasanxenxo.com` y `www` al proyecto de Vercel y cambiar el DNS (el canónico es `www`).
-3. En Vercel (Producción): `LANZADO=1` y `NEXT_PUBLIC_SITE_URL=https://www.despedidasplayasanxenxo.com`. Redesplegar.
-4. Comprobar: `/robots.txt` (permite todo y apunta al sitemap), `/sitemap.xml`, la cabecera `X-Robots-Tag` ausente, y una URL antigua (debe dar 301).
+3. En Vercel (Producción): `NEXT_PUBLIC_SITE_URL=https://www.despedidasplayasanxenxo.com`. Redesplegar. No hay interruptor de lanzamiento: la web se indexa en el dominio canónico y envía `noindex` en cualquier otro (por ejemplo `*.vercel.app`).
+4. Comprobar: `/robots.txt` (permite todo y apunta al sitemap), `/sitemap.xml`, la cabecera `X-Robots-Tag` ausente en el dominio canónico, y una URL antigua (debe dar 301).
 5. Search Console: enviar el sitemap y vigilar la cobertura (la web vieja tenía 83 URLs sin indexar).
 6. Dos semanas: revisar redirecciones, 404 y analítica.
 

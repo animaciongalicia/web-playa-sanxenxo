@@ -1,7 +1,7 @@
 ---
 titulo: "Cuánto cuesta alquilar un barco para una despedida en Sanxenxo: precio por persona"
 seo: "Barco para despedida: precio por persona"
-fecha: 2026-11-25
+fecha: 2026-11-11
 descripcion: "Precio de alquilar un barco para una despedida en Sanxenxo, calculado por persona: velero, yate, yate con motora, pesquero y lancha rápida."
 imagen: barcos
 paginas:

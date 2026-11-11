@@ -1,7 +1,7 @@
 ---
 titulo: "Qué mes elegir para una despedida en Sanxenxo: mayo, junio, julio, agosto o septiembre"
 seo: "Mes ideal para una despedida en Sanxenxo"
-fecha: 2026-12-02
+fecha: 2026-11-11
 descripcion: "Qué mes elegir para una despedida en Sanxenxo según lo que busques: calma, ambiente o mar. Fechas clave, permisos de Ons y Cíes y qué reservar primero."
 imagen: cuando-ir
 paginas:

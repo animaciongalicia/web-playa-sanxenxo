@@ -17,8 +17,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.despedidasplayasanxenxo.com'),
   title: { default: 'Playa Sanxenxo · Guía de disfrute de Sanxenxo para despedidas', template: '%s · Playa Sanxenxo' },
   description: 'Guía de disfrute de Sanxenxo para despedidas de soltero y de soltera: playas, mar, barcos, actividades, dónde comer, diversión y fiesta en Sanxenxo y alrededores.',
-  // Bloqueo total hasta el lanzamiento (LANZADO=1, Fase 9).
-  robots: process.env.LANZADO === '1' ? { index: true, follow: true } : { index: false, follow: false },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({ children, params }: { children: ReactNode; params: { lang: string } }) {

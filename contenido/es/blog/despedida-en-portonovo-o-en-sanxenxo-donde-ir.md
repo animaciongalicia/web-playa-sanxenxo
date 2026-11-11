@@ -1,7 +1,7 @@
 ---
 titulo: "Despedida en Portonovo o en Sanxenxo: cuál elegir y cómo combinar las dos"
 seo: "Despedida en Portonovo o en Sanxenxo"
-fecha: 2026-12-09
+fecha: 2026-11-11
 descripcion: "Portonovo o Sanxenxo para una despedida: diferencias de ambiente, playas, dónde cenar y salir de copas, y un día para combinar las dos zonas."
 imagen: playas-portonovo
 paginas:

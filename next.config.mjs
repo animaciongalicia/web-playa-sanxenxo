@@ -10,8 +10,6 @@ const seguridad = [
   { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
 ];
 
-const lanzado = process.env.LANZADO === '1';
-
 // Redirecciones 301 del dominio antiguo (data/redirecciones.json, docs/06).
 const { redirecciones } = JSON.parse(readFileSync(new URL('./data/redirecciones.json', import.meta.url), 'utf8'));
 
@@ -25,8 +23,6 @@ const nextConfig = {
         source: '/:path*',
         headers: [
           ...seguridad,
-          // BLOQUEO TOTAL hasta el lanzamiento (Fase 9): se retira al poner LANZADO=1.
-          ...(lanzado ? [] : [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }]),
         ],
       },
     ];

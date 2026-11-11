@@ -1,7 +1,7 @@
 ---
 titulo: "Una despedida diferente: lancha rápida por la ría, comida en Combarro y motos de agua guiadas"
 seo: "Despedida diferente: lancha y motos"
-fecha: 2026-12-30
+fecha: 2026-11-11
 descripcion: "Despedida de 10 personas con lancha rápida por la ría, comida en Combarro y cinco motos de agua dobles guiadas. Horarios, precios y cuentas por persona."
 imagen: mar-con-motor
 paginas:

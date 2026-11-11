@@ -3,6 +3,15 @@ import redirecciones from './data/redirecciones.json';
 
 // Español sin prefijo (se reescribe internamente a /es/...), portugués bajo /pt/.
 // /es/... directamente se redirige a la URL sin prefijo para no duplicar contenido.
+// Dominios donde la web se indexa. En cualquier otro (p. ej. *.vercel.app) se envía noindex para no duplicar contenido.
+const DOMINIOS = ['despedidasplayasanxenxo.com', 'www.despedidasplayasanxenxo.com'];
+
+function conRobots(res: NextResponse, req: NextRequest) {
+  const host = (req.headers.get('host') ?? '').split(':')[0];
+  if (host && host !== 'localhost' && !DOMINIOS.includes(host)) res.headers.set('X-Robots-Tag', 'noindex, nofollow');
+  return res;
+}
+
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
@@ -18,13 +27,13 @@ export function middleware(req: NextRequest) {
   if (pathname === '/es' || pathname.startsWith('/es/')) {
     const url = req.nextUrl.clone();
     url.pathname = pathname.replace(/^\/es/, '') || '/';
-    return NextResponse.redirect(url, 308);
+    return conRobots(NextResponse.redirect(url, 308), req);
   }
-  if (pathname === '/pt' || pathname.startsWith('/pt/')) return NextResponse.next();
+  if (pathname === '/pt' || pathname.startsWith('/pt/')) return conRobots(NextResponse.next(), req);
 
   const url = req.nextUrl.clone();
   url.pathname = `/es${pathname}`;
-  return NextResponse.rewrite(url);
+  return conRobots(NextResponse.rewrite(url), req);
 }
 
 export const config = {

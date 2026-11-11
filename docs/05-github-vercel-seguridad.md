@@ -69,7 +69,6 @@ jobs:
 | `NEXT_PUBLIC_WHATSAPP` | WhatsApp (botón suave y `/agencia/`) | Todos |
 | `NEXT_PUBLIC_AGENCIA_EMAIL` | Correo de la agencia (`mailto:`): **info@despedidasplayasanxenxo.com** | Todos |
 | `NEXT_PUBLIC_AGENCIA_TELEFONO` | Teléfono para llamar (si falta, se usa el de WhatsApp) | Todos |
-| `LANZADO` | Vacío = la web no se indexa (noindex y `robots.txt` cerrado), mientras se prepara. **`1` = abre a buscadores.** Se pone en la Fase 9, al apuntar el dominio | Producción |
 | `FICHAS_EXPORT_TOKEN` | Token de `/api/fichas-export` | Producción |
 
 Nada de esto va en el repo. Hay un `.env.example` **sin valores**.

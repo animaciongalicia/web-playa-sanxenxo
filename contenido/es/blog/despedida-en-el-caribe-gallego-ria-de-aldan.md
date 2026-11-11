@@ -1,7 +1,7 @@
 ---
 titulo: "Despedida en el Caribe gallego: día entero en velero o yate por la ría de Aldán"
 seo: "Despedida en el Caribe gallego: Aldán"
-fecha: 2026-12-23
+fecha: 2026-11-11
 descripcion: "Una despedida en el Caribe gallego, la ría de Aldán: día entero en velero o yate desde Combarro, Sanxenxo o Portonovo, con comida en la playa y baños."
 imagen: ria-de-aldan
 paginas:

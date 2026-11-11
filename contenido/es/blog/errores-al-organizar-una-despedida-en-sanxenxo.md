@@ -1,7 +1,7 @@
 ---
 titulo: "Ocho errores al organizar una despedida en Sanxenxo y cómo evitarlos"
 seo: "Errores al organizar una despedida"
-fecha: 2026-12-16
+fecha: 2026-11-11
 descripcion: "Los ocho errores que más se repiten al organizar una despedida en Sanxenxo, desde esperar fiestas tipo Ibiza hasta olvidar el permiso de Ons."
 imagen: despedidas
 paginas:

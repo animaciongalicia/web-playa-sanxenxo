@@ -1,7 +1,7 @@
 ---
 titulo: "Permiso de barco para Ons: cupo diario, quién lo pide y seis horas en la isla"
 seo: "Permiso de barco para Ons: cupo diario"
-fecha: 2027-01-13
+fecha: 2026-11-11
 descripcion: "Cómo funciona el permiso de los barcos para ir a Ons y Cíes: lo pide cada patrón a la Xunta, se concede al barco y no hace falta permiso personal."
 imagen: islas-ons
 paginas:

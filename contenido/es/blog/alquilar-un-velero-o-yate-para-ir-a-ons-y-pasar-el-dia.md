@@ -1,7 +1,7 @@
 ---
 titulo: "Alquilar un velero o yate para ir a Ons (o a las Cíes) y pasar el día entero fondeados"
 seo: "Velero o yate a Ons: día entero"
-fecha: 2027-01-06
+fecha: 2026-11-11
 descripcion: "Cómo ir a Ons en velero o yate privado: el permiso lo pide el patrón, no la gente, y con el día entero puedes fondear, comer en la isla y nadar a la playa."
 imagen: islas-ons
 paginas:

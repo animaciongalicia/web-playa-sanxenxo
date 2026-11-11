@@ -1,7 +1,7 @@
 ---
 titulo: "Despedida de soltero en Sanxenxo: cómo repartir el día para que nadie se aburra"
 seo: "Despedida de soltero en Sanxenxo: planes"
-fecha: 2026-11-18
+fecha: 2026-11-11
 descripcion: "Cómo organizar una despedida de soltero en Sanxenxo: reparte el día entre barco, motos de agua, comida y noche, con tiempos reales y presupuesto."
 imagen: soltero
 paginas:

@@ -1,5 +1,5 @@
 // Blog: un archivo Markdown por entrada en contenido/es/blog/<slug>.md (se lee EN BUILD, como el resto de textos).
-// Cabecera (front matter): titulo, fecha (AAAA-MM-DD), descripcion, imagen (nombre en public/img, opcional), publicar (false = borrador).
+// Cabecera (front matter): titulo, fecha (AAAA-MM-DD), descripcion, imagen (nombre en public/img, opcional), publicar (false = oculta).
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import matter from 'gray-matter';
@@ -7,11 +7,6 @@ import { remark } from 'remark';
 import html from 'remark-html';
 import gfm from 'remark-gfm';
 
-/** Fecha de hoy (ISO). BLOG_HOY permite probar entradas programadas en local. */
-const hoyReal = () => new Date().toISOString().slice(0, 10);
-const hoyISO = () => process.env.BLOG_HOY ?? (process.env.LANZADO === '1' ? hoyReal() : '9999-12-31');
-/** Antes del lanzamiento (LANZADO distinto de 1) se ven todas las entradas, también las programadas. */
-export const estaProgramada = (e: { fecha: string }) => e.fecha > hoyReal();
 const DIR = join(process.cwd(), 'contenido', 'es', 'blog');
 
 export type Entrada = {
@@ -38,13 +33,10 @@ function leer(slug: string) {
 /** Entradas publicadas, la más reciente primero. */
 export function getEntradas(): Entrada[] {
   if (!existsSync(DIR)) return [];
-  const hoy = hoyISO();
   return readdirSync(DIR)
     .filter((f) => f.endsWith('.md') && !f.startsWith('_'))
     .map((f) => leer(f.replace(/\.md$/, ''))?.entrada)
     .filter((e): e is Entrada => !!e)
-    // Las entradas con fecha futura quedan programadas: salen cuando se reconstruye la web a partir de esa fecha.
-    .filter((e) => e.fecha <= hoy)
     .sort((a, b) => b.fecha.localeCompare(a.fecha));
 }
 
@@ -53,7 +45,6 @@ const quitarTildes = (t: string) => t.toLowerCase().normalize('NFD').replace(/[\
 export function getEntrada(slug: string): (Entrada & { html: string; indice: { id: string; titulo: string }[] }) | null {
   const l = leer(slug);
   if (!l) return null;
-  if (l.entrada.fecha > hoyISO()) return null;
   const indice: { id: string; titulo: string }[] = [];
   const cuerpo = remark().use(gfm).use(html, { sanitize: false }).processSync(l.contenido).toString().replace(/<h2>(.*?)<\/h2>/g, (_m, t: string) => {
     const limpio = t.replace(/<[^>]+>/g, '');
@@ -79,9 +70,3 @@ export const fechaLarga = (iso: string) => {
 /** Entradas del blog que apuntan a una página de la guía (para enlazarlas desde ella). */
 export const entradasDe = (ruta: string): Entrada[] => getEntradas().filter((e) => e.paginas.includes(ruta));
 
-/** Todas las entradas, también las programadas (para comprobar enlaces entre ellas). */
-export const getTodasEntradas = (): Entrada[] => {
-  const antes = process.env.BLOG_HOY;
-  process.env.BLOG_HOY = '9999-12-31';
-  try { return getEntradas(); } finally { if (antes === undefined) delete process.env.BLOG_HOY; else process.env.BLOG_HOY = antes; }
-};
