@@ -13,14 +13,6 @@ Un barco privado es uno de los planes que más se recuerdan de una despedida. Aq
 
 Una advertencia, para que no te lleves sorpresas: no son barcos grandes tipo discoteca, ni hay fiestas conjuntas en el mar. El valor está en lo contrario: el barco es solo para tu grupo, con música a bordo y un ambiente que se adapta a lo que buscáis, más tranquilo o más animado.
 
-## Qué hay
-
-- **Tres yates**, de entre 39 y 42 pies, con un máximo de 11 plazas.
-- **Tres veleros Bavaria**, de entre 39 y 42 pies, con un máximo de 11 plazas y patrón siempre incluido.
-- **Un yate con motora**, para hasta 16 personas.
-- **Un pesquero**, solo en la ría de Aldán, con versiones para 11, 16 o 21 personas, cada una con su precio.
-- **Una lancha rápida**, hasta 11 personas, para un paseo ultrarrápido de una hora por la zona, con un precio de experiencia.
-
 ## Medio día o día entero
 
 Los veleros se alquilan por **medio día, de 4 horas**, de mañana o de tarde, o por **día entero, de 8 horas**. Los yates se alquilan por medio día o por día entero. El yate con motora se alquila por 4 u 8 horas.

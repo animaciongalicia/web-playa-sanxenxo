@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Contenido from '../../../components/Contenido';
-import {EnPreparacion} from '../../../components/Fichas';
+import { EnPreparacion } from '../../../components/Fichas';
 import HeroPage from '../../../components/HeroPage';
-import LlamadaAgencia from '../../../components/LlamadaAgencia';
+import BandaAgencia from '../../../components/BandaAgencia';
 import Migas from '../../../components/Migas';
 import Seccion from '../../../components/Seccion';
 import TarjetaBarco, { ENLACE_BARCOS, tituloBarco } from '../../../components/TarjetaBarco';
@@ -23,10 +23,10 @@ export default function Barcos({ params }: { params: { lang: string } }) {
   const ordenados = CATEGORIAS_BARCO.flatMap((c) => barcos.filter((b) => b.categoria === c));
   return (
     <>
-      <HeroPage ruta="/barcos/" titulo="Barcos" subtitulo="Yates, veleros, pesquero y lancha rápida para tu grupo." />
+      <HeroPage ruta="/barcos/" etiqueta="Mar" titulo="Barcos" subtitulo="Yates, veleros, pesquero y lancha rápida para tu grupo." />
       <Migas lang={params.lang} ruta="/barcos/" />
-      <Contenido lang={params.lang} ruta="/barcos/" />
-      <Seccion titulo="Elige tu barco" intro="Precio «desde» y capacidad máxima en cada ficha." fondo="gris">
+      <Contenido lang={params.lang} ruta="/barcos/" parte="intro" />
+      <Seccion etiqueta="Flota" titulo="Elige tu barco" intro="Precio «desde» y capacidad máxima en cada ficha." fondo="gris" centrado>
         {ordenados.length ? (
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {ordenados.map((b) => {
@@ -40,7 +40,8 @@ export default function Barcos({ params }: { params: { lang: string } }) {
           <Link href="/barcos/traslados/" className="link-inline">Mira los traslados</Link>.
         </p>
       </Seccion>
-      <Seccion ancho="estrecho"><LlamadaAgencia lang={params.lang} /></Seccion>
+      <Contenido lang={params.lang} ruta="/barcos/" parte="resto" />
+      <BandaAgencia lang={params.lang} />
     </>
   );
 }
