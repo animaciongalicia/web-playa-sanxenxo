@@ -77,10 +77,8 @@ export function columnasPie(lang: Idioma): { titulo: string; enlaces: { label: s
         { label: es ? 'Despedida de soltero en Sanxenxo' : t.soltero, href: h('/despedidas/soltero/') },
         { label: es ? 'Despedida de soltera en Sanxenxo' : t.soltera, href: h('/despedidas/soltera/') },
         { label: es ? 'Cuándo ir a Sanxenxo' : t.cuandoIr, href: h('/cuando-ir/') },
-        { label: t.condiciones, href: h('/cuando-ir/#condiciones') },
         { label: es ? 'Limusina para despedidas' : t.limusinas, href: h('/limusinas/') },
         { label: es ? 'Humor Amarillo en Sanxenxo' : t.humorAmarillo, href: h('/humor-amarillo-en-sanxenxo/') },
-        { label: es ? 'Contacto con la agencia' : t.agencia, href: h('/agencia/') },
       ],
     },
   ];
