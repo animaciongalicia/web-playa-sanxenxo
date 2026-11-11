@@ -28,7 +28,7 @@ export default function Barcos({ params }: { params: { lang: string } }) {
       <Contenido lang={params.lang} ruta="/barcos/" parte="intro" />
       <Seccion etiqueta="Flota" titulo="Elige tu barco" intro="Precio «desde» y capacidad máxima en cada ficha." fondo="gris" centrado>
         {ordenados.length ? (
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {ordenados.map((b) => {
               const misma = barcos.filter((x) => x.categoria === b.categoria);
               return <TarjetaBarco key={b.id} b={b} titulo={tituloBarco(b, misma.indexOf(b) + 1, misma.length)} />;

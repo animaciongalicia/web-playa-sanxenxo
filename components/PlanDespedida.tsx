@@ -14,8 +14,8 @@ export default function PlanDespedida({ lang }: { lang: Idioma }) {
   const imgVichona = foto('a-vichona');
   return (
     <>
-      <Seccion etiqueta="Todo junto" titulo="El plan, por piezas" intro="Combina lo que te encaje. Cada pieza explica dónde, cuándo y cómo." centrado>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <Seccion etiqueta="Todo junto" titulo="El plan, por piezas" centrado>
+        <div className="grid grid-cols-2 gap-4 lg:grid-cols-3">
           <TarjetaFoto titulo="Playas y mar" texto="Dónde bañarte, y Ons, Cíes y la ría de Aldán." href={h('/paraisos/')} claves={['paraisos']} />
           <TarjetaFoto titulo="Barcos" texto="Yates, veleros y traslados en lancha rápida." href={h('/barcos/')} claves={['barcos']} />
           <TarjetaFoto titulo="Actividades" texto="Qué hacer en el mar y en la playa con tu grupo." href={h('/actividades/')} claves={['actividades']} />
@@ -23,11 +23,11 @@ export default function PlanDespedida({ lang }: { lang: Idioma }) {
           <TarjetaFoto titulo="Diversión" texto="Terraceo, tardeo, puestas de sol y copas." href={h('/diversion/')} claves={['diversion']} />
           <TarjetaFoto titulo="Cuándo ir" texto="Mes a mes: qué te encuentras y qué te conviene." href={h('/cuando-ir/')} claves={['cuando-ir']} />
         </div>
-        <p className="mt-8 text-center text-sm text-gray-600">Antes de decidir fecha, lee las <Link href={h('/cuando-ir/#condiciones')} className="link-inline">condiciones de las despedidas</Link>.</p>
+        <p className="mt-6 text-center text-sm text-gray-600">Antes de decidir fecha, lee las <Link href={h('/cuando-ir/#condiciones')} className="link-inline">condiciones de las despedidas</Link>.</p>
       </Seccion>
       {vichona && (
         <Seccion fondo="gris">
-          <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-2">
+          <div className="mx-auto grid max-w-5xl items-center gap-8 md:grid-cols-[18rem_1fr]">
             <div className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-gradient-to-br from-ria-100 to-ria-300 shadow-xl">
               {imgVichona && <Image src={imgVichona} alt={vichona.nombre} fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />}
             </div>

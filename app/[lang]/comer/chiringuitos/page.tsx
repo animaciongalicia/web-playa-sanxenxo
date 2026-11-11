@@ -5,8 +5,8 @@ import BandaAgencia from '../../../../components/BandaAgencia';
 import Contenido from '../../../../components/Contenido';
 import { EnPreparacion } from '../../../../components/Fichas';
 import HeroPage from '../../../../components/HeroPage';
-import { TarjetaLocal } from '../../../../components/Locales';
 import Migas from '../../../../components/Migas';
+import ListaPorZonas from '../../../../components/ListaPorZonas';
 import NavZonas from '../../../../components/NavZonas';
 import Seccion from '../../../../components/Seccion';
 import { getLocales } from '../../../../lib/datos';
@@ -27,16 +27,12 @@ export default function Chiringuitos({ params }: { params: { lang: string } }) {
       <Migas lang={lang} ruta="/comer/chiringuitos/" />
       <Contenido lang={lang} ruta="/comer/chiringuitos/" parte="intro" />
       <NavZonas zonas={grupos.map((g) => ({ id: g.zona, nombre: NOMBRE_ZONA[g.zona], n: g.locales.length }))} />
-      {grupos.length ? grupos.map((g, i) => (
-        <Seccion key={g.zona} fondo={i % 2 ? 'gris' : 'blanco'} titulo={NOMBRE_ZONA[g.zona]} intro={`${g.locales.length} ${g.locales.length === 1 ? 'chiringuito' : 'chiringuitos'}`} id={g.zona}>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {g.locales.map((l) => <TarjetaLocal key={l.id} local={l} />)}
-          </div>
-          {g.locales.some((l) => l.tambien_en.includes('diversion')) && (
-            <p className="mt-6 text-sm text-gray-500">Algunos también salen en <Link href="/diversion/a-lanzada-san-vicente/" className="link-inline">Diversión</Link>: es la misma ficha.</p>
-          )}
-        </Seccion>
-      )) : <Seccion ancho="estrecho"><EnPreparacion /></Seccion>}
+      {grupos.length ? (
+        <ListaPorZonas
+          grupos={grupos.map((g) => ({ id: g.zona, nombre: NOMBRE_ZONA[g.zona], locales: g.locales }))}
+          pie={(g) => g.locales.some((l) => l.tambien_en.includes('diversion')) ? <p className="mt-3 text-sm text-gray-500">Algunos también salen en <Link href="/diversion/a-lanzada-san-vicente/" className="link-inline">Diversión</Link>: es la misma ficha.</p> : null}
+        />
+      ) : <Seccion ancho="estrecho"><EnPreparacion /></Seccion>}
       <Contenido lang={lang} ruta="/comer/chiringuitos/" parte="resto" />
       <BandaAgencia lang={lang} />
     </>

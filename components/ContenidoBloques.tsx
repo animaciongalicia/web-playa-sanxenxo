@@ -4,7 +4,7 @@ import { foto } from '../lib/fotos';
 import type { Idioma } from '../lib/i18n';
 import AnimateOnScroll from './AnimateOnScroll';
 
-const PROSE = 'prose prose-lg max-w-none prose-p:leading-relaxed prose-p:text-gray-600 prose-a:font-medium prose-a:text-ria-700 prose-a:decoration-ria-300 prose-strong:text-gray-900';
+const PROSE = 'prose prose-sm max-w-none prose-p:my-2 prose-p:leading-relaxed prose-p:text-gray-600 prose-ul:my-2 prose-li:my-0.5 prose-li:text-gray-600 prose-a:font-medium prose-a:text-ria-700 prose-a:decoration-ria-300 prose-strong:text-gray-900';
 const ALIAS: Record<string, string> = { 'isla-de-ons': 'islas-ons', 'islas-cies': 'islas-cies', 'ria-de-aldan': 'ria-de-aldan' };
 
 /** Foto de un bloque si el título nombra algo con foto: "Silgar, imprescindible" → playa-silgar. */
@@ -13,59 +13,72 @@ function fotoDeBloque(titulo: string): string | null {
   return foto(`playa-${nombre}`, ALIAS[nombre] ?? null);
 }
 
-function Piezas({ piezas, oscuro }: { piezas: Pieza[]; oscuro?: boolean }) {
+const palabras = (html: string) => (html.replace(/<[^>]+>/g, ' ').match(/\S+/g) ?? []).length;
+const pesoDe = (b: Bloque) => b.piezas.reduce((n, p) => n + (p.tipo === 'texto' || p.tipo === 'lista' ? palabras(p.html) : p.items.reduce((m, i) => m + palabras(i.html) + 3, 0)), 0);
+
+function Cabecera({ titulo }: { titulo: string }) {
   return (
-    <div className="space-y-8">
-      {piezas.map((p, i) => {
-        if (p.tipo === 'texto') return <div key={i} className={PROSE} dangerouslySetInnerHTML={{ __html: p.html }} />;
-        if (p.tipo === 'lista') return <div key={i} className={`${PROSE} prose-li:text-gray-600`} dangerouslySetInnerHTML={{ __html: p.html }} />;
-        const pasos = p.tipo === 'pasos';
-        return (
-          <div key={i} className={`grid gap-4 ${p.items.length === 2 ? 'sm:grid-cols-2' : p.items.length === 4 ? 'sm:grid-cols-2' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
-            {p.items.map((it, j) => (
-              <div key={j} className={`stagger-child relative rounded-2xl border p-6 shadow-sm ${oscuro ? 'border-white/15 bg-white/5' : 'border-gray-100 bg-white'}`}>
-                {pasos && <span className="mb-3 flex h-9 w-9 items-center justify-center rounded-full bg-ria-700 text-sm font-bold text-white">{j + 1}</span>}
-                {!pasos && <span className="mb-3 block h-1 w-10 rounded-full bg-arena-400" aria-hidden="true" />}
-                {it.titulo && <h3 className="text-base font-semibold text-gray-900">{it.titulo}</h3>}
-                <div className="mt-2 text-sm leading-relaxed text-gray-600 [&_a]:font-medium [&_a]:text-ria-700 [&_p]:m-0 [&_strong]:text-gray-900" dangerouslySetInnerHTML={{ __html: it.html }} />
-              </div>
-            ))}
+    <div className="mb-3 flex items-center gap-2.5">
+      <span className="h-6 w-1 rounded-full bg-ria-600" aria-hidden="true" />
+      <h2 className="text-xl font-bold leading-snug tracking-tight text-gray-900">{titulo}</h2>
+    </div>
+  );
+}
+
+function Tarjetas({ items, pasos }: { items: { titulo: string | null; html: string }[]; pasos: boolean }) {
+  const cols = items.length === 2 ? 'sm:grid-cols-2' : items.length === 4 ? 'sm:grid-cols-2 lg:grid-cols-4' : items.length === 3 ? 'sm:grid-cols-3' : 'sm:grid-cols-2 lg:grid-cols-3';
+  return (
+    <div className={`grid gap-3 ${cols}`}>
+      {items.map((it, j) => (
+        <div key={j} className="rounded-xl border border-gray-100 bg-gray-50 p-4">
+          <div className="flex items-center gap-2">
+            {pasos ? <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-ria-700 text-xs font-bold text-white">{j + 1}</span> : <span className="h-1 w-5 shrink-0 rounded-full bg-arena-400" aria-hidden="true" />}
+            {it.titulo && <h3 className="text-sm font-semibold leading-snug text-gray-900">{it.titulo}</h3>}
           </div>
-        );
+          <div className="mt-1.5 text-sm leading-relaxed text-gray-600 [&_a]:font-medium [&_a]:text-ria-700 [&_p]:m-0 [&_strong]:text-gray-900" dangerouslySetInnerHTML={{ __html: it.html }} />
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function Piezas({ piezas }: { piezas: Pieza[] }) {
+  return (
+    <div className="space-y-3">
+      {piezas.map((p, i) => {
+        if (p.tipo === 'texto' || p.tipo === 'lista') return <div key={i} className={PROSE} dangerouslySetInnerHTML={{ __html: p.html }} />;
+        return <Tarjetas key={i} items={p.items} pasos={p.tipo === 'pasos'} />;
       })}
     </div>
   );
 }
 
-function BloqueVista({ b, i }: { b: Bloque; i: number }) {
+/** Un apartado: texto corto = tarjeta de 1 columna; texto largo = 2 columnas; con tarjetas o foto = ancho completo. */
+function BloqueVista({ b, solo }: { b: Bloque; solo: boolean }) {
   const img = fotoDeBloque(b.titulo);
-  const fondo = i % 2 ? 'bg-gray-50' : 'bg-white';
-  const soloTexto = b.piezas.every((p) => p.tipo === 'texto');
-  const cabecera = (
-    <div className="mb-6 flex items-center gap-3">
-      <span className="h-8 w-1.5 rounded-full bg-ria-600" aria-hidden="true" />
-      <h2 className="text-2xl font-bold tracking-tight text-gray-900 md:text-3xl">{b.titulo}</h2>
-    </div>
-  );
+  const soloTexto = b.piezas.every((p) => p.tipo === 'texto' || p.tipo === 'lista');
+  const peso = pesoDe(b);
+  const base = 'stagger-child scroll-mt-32 rounded-2xl border border-gray-100 bg-white p-5 shadow-sm';
+  if (img && soloTexto) {
+    return (
+      <section id={b.id} className={`${base} grid items-center gap-6 sm:col-span-full md:grid-cols-[1fr_16rem] lg:grid-cols-[1fr_20rem]`}>
+        <div><Cabecera titulo={b.titulo} /><Piezas piezas={b.piezas} /></div>
+        <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-ria-100 md:aspect-square">
+          <Image src={img} alt={b.titulo} fill sizes="(min-width: 1024px) 20rem, (min-width: 768px) 16rem, 100vw" className="object-cover" />
+        </div>
+      </section>
+    );
+  }
+  const ancho = !soloTexto || solo ? 'sm:col-span-full' : peso > 120 ? 'lg:col-span-2' : '';
   return (
-    <section id={b.id} className={`${fondo} section-padding scroll-mt-32`}>
-      <AnimateOnScroll>
-        {img && soloTexto ? (
-          <div className={`mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-2 ${i % 2 ? 'lg:[&>*:first-child]:order-2' : ''}`}>
-            <div>{cabecera}<Piezas piezas={b.piezas} /></div>
-            <div className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-ria-100 shadow-xl">
-              <Image src={img} alt={b.titulo} fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
-            </div>
-          </div>
-        ) : (
-          <div className="mx-auto max-w-4xl">{cabecera}<Piezas piezas={b.piezas} /></div>
-        )}
-      </AnimateOnScroll>
+    <section id={b.id} className={`${base} ${ancho}`}>
+      <Cabecera titulo={b.titulo} />
+      <Piezas piezas={b.piezas} />
     </section>
   );
 }
 
-/** Texto largo maquetado: entradilla, índice de saltos y un bloque por apartado, con fondos alternos. */
+/** Texto largo maquetado compacto: entradilla, índice de saltos y los apartados en columnas. */
 export default function ContenidoBloques({ lang, ruta, id, indice = true, parte = 'todo' }: { lang: Idioma; ruta: string; id?: string; indice?: boolean; parte?: 'todo' | 'intro' | 'resto' }) {
   const c = getBloques(lang, ruta) ?? (lang !== 'es' ? getBloques('es', ruta) : null);
   if (!c) return null;
@@ -75,22 +88,30 @@ export default function ContenidoBloques({ lang, ruta, id, indice = true, parte 
   return (
     <div id={id}>
       {verIntro && c.intro && (
-        <section className="section-padding bg-white pb-6 md:pb-8">
-          <div className="mx-auto max-w-3xl text-xl leading-relaxed text-gray-700 [&_a]:font-medium [&_a]:text-ria-700 [&_p+p]:mt-4" dangerouslySetInnerHTML={{ __html: c.intro }} />
+        <section className="section-padding bg-white !pb-4 !pt-8">
+          <div className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-700 [&_a]:font-medium [&_a]:text-ria-700 [&_p+p]:mt-3" dangerouslySetInnerHTML={{ __html: c.intro }} />
         </section>
       )}
-      {verBloques && indice && c.bloques.length > 2 && (
+      {verBloques && indice && c.bloques.length > 3 && (
         <nav aria-label="En esta página" className="sticky top-16 z-30 border-y border-gray-100 bg-white/90 backdrop-blur">
-          <ul className="mx-auto flex max-w-5xl gap-2 overflow-x-auto px-6 py-3 text-sm">
+          <ul className="mx-auto flex max-w-6xl gap-2 overflow-x-auto px-6 py-2.5 text-sm">
             {c.bloques.map((b) => (
               <li key={b.id} className="shrink-0">
-                <a href={`#${b.id}`} className="inline-block rounded-full bg-gray-100 px-4 py-1.5 font-medium text-gray-700 transition-colors hover:bg-ria-700 hover:text-white">{b.titulo.replace(/,.*$/, '')}</a>
+                <a href={`#${b.id}`} className="inline-block rounded-full bg-gray-100 px-3.5 py-1 font-medium text-gray-700 transition-colors hover:bg-ria-700 hover:text-white">{b.titulo.replace(/,.*$/, '')}</a>
               </li>
             ))}
           </ul>
         </nav>
       )}
-      {verBloques && c.bloques.map((b, i) => <BloqueVista key={b.id} b={b} i={i} />)}
+      {verBloques && (
+        <section className="section-padding bg-gray-50 !py-8">
+          <AnimateOnScroll>
+            <div className="mx-auto grid max-w-7xl grid-flow-dense gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {c.bloques.map((b) => <BloqueVista key={b.id} b={b} solo={c.bloques.length <= 2} />)}
+            </div>
+          </AnimateOnScroll>
+        </section>
+      )}
     </div>
   );
 }

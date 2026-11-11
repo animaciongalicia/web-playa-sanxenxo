@@ -31,7 +31,7 @@ export default function ZonaDiversion({ params }: { params: P }) {
       <Contenido lang={params.lang} ruta={`/diversion/${zona}/`} parte="intro" />
       <Seccion fondo="arena" etiqueta="Los locales" titulo={`Qué hay en ${NOMBRE_ZONA[zona]}`} intro={locales.length ? `${locales.length} ${locales.length === 1 ? 'local' : 'locales'} en la guía.` : undefined} centrado>
         {locales.length || referencias.length ? (
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {locales.map((l) => <TarjetaLocal key={l.id} local={l} href={l.pagina_propia ? `/diversion/${zona}/${l.slug}/` : undefined} />)}
           </div>
         ) : <EnPreparacion />}

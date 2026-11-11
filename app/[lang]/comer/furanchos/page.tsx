@@ -4,8 +4,8 @@ import BandaAgencia from '../../../../components/BandaAgencia';
 import Contenido from '../../../../components/Contenido';
 import { Aviso, EnPreparacion } from '../../../../components/Fichas';
 import HeroPage from '../../../../components/HeroPage';
-import { TarjetaLocal } from '../../../../components/Locales';
 import Migas from '../../../../components/Migas';
+import ListaPorZonas from '../../../../components/ListaPorZonas';
 import NavZonas from '../../../../components/NavZonas';
 import Seccion from '../../../../components/Seccion';
 import { getLocales } from '../../../../lib/datos';
@@ -31,11 +31,7 @@ export default function Furanchos({ params }: { params: { lang: string } }) {
         <Aviso>Los furanchos abren, más o menos, de diciembre a junio. Cada temporada cambia: confirma siempre las fechas antes de ir.</Aviso>
       </Seccion>
       <NavZonas zonas={grupos.map((g) => ({ id: g.zona, nombre: NOMBRE_ZONA[g.zona], n: g.locales.length }))} />
-      {grupos.length ? grupos.map((g, i) => (
-        <Seccion key={g.zona} fondo={i % 2 ? 'gris' : 'blanco'} titulo={NOMBRE_ZONA[g.zona]} intro={`${g.locales.length} ${g.locales.length === 1 ? 'furancho' : 'furanchos'}`} id={g.zona}>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">{g.locales.map((l) => <TarjetaLocal key={l.id} local={l} />)}</div>
-        </Seccion>
-      )) : <Seccion ancho="estrecho"><EnPreparacion /></Seccion>}
+      {grupos.length ? <ListaPorZonas grupos={grupos.map((g) => ({ id: g.zona, nombre: NOMBRE_ZONA[g.zona], locales: g.locales }))} /> : <Seccion ancho="estrecho"><EnPreparacion /></Seccion>}
       <Contenido lang={lang} ruta="/comer/furanchos/" parte="resto" />
       <BandaAgencia lang={lang} />
     </>

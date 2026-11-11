@@ -35,7 +35,7 @@ export default function Seccion({ titulo, intro, etiqueta, fondo = 'blanco', anc
               {intro && <p className={`mt-4 max-w-3xl text-lg leading-relaxed ${centrado ? 'mx-auto' : ''} ${oscuro ? 'text-ria-100' : 'text-gray-600'}`}>{intro}</p>}
             </header>
           )}
-          <div className={titulo || intro ? 'mt-10' : ''}>{children}</div>
+          <div className={titulo || intro ? 'mt-8' : ''}>{children}</div>
         </AnimateOnScroll>
       </div>
     </section>

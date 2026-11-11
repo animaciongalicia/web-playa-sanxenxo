@@ -33,9 +33,9 @@ export function TarjetaLocal({ local, href, completo = false }: { local: Local; 
         {TIPO_LOCAL[local.tipo]}
         {local.zona !== 'por-definir' && ` · ${local.municipio ?? NOMBRE_ZONA[local.zona]}`}
       </p>
-      {local.como_es && <p className="mt-3 text-sm leading-relaxed text-gray-600">{local.como_es}</p>}
-      {local.que_se_come && <p className="mt-2 text-sm leading-relaxed text-gray-600"><strong className="text-gray-900">Qué se come: </strong>{local.que_se_come}</p>}
-      {local.que_se_bebe && <p className="mt-2 text-sm leading-relaxed text-gray-600"><strong className="text-gray-900">Qué se bebe: </strong>{local.que_se_bebe}</p>}
+      {local.como_es && <p className={`mt-3 text-sm leading-relaxed text-gray-600 ${completo ? '' : 'line-clamp-4'}`}>{local.como_es}</p>}
+      {local.que_se_come && <p className={`mt-2 text-sm leading-relaxed text-gray-600 ${completo ? '' : 'line-clamp-2'}`}><strong className="text-gray-900">Qué se come: </strong>{local.que_se_come}</p>}
+      {local.que_se_bebe && <p className={`mt-2 text-sm leading-relaxed text-gray-600 ${completo ? '' : 'line-clamp-2'}`}><strong className="text-gray-900">Qué se bebe: </strong>{local.que_se_bebe}</p>}
       <dl className="mt-3 space-y-1 text-sm text-gray-600">
         {local.direccion && <div><dt className="inline font-semibold text-gray-900">Dónde: </dt><dd className="inline">{local.direccion}</dd></div>}
         {local.playa_cercana && <div><dt className="inline font-semibold text-gray-900">Playa cercana: </dt><dd className="inline">{local.playa_cercana}</dd></div>}

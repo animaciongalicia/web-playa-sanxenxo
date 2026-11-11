@@ -25,7 +25,7 @@ export default function CuandoIr({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();
   const lang = params.lang;
   const meses = getMeses()
-    .map((m) => ({ mes: m, titulo: MESES.find((x) => x.id === m.id)?.titulo ?? m.id, campos: CAMPOS_MES.filter((c) => m[c.campo] && c.campo !== 'recomendacion') }))
+    .map((m) => ({ mes: m, titulo: MESES.find((x) => x.id === m.id)?.titulo ?? m.id, campos: CAMPOS_MES.filter((c) => m[c.campo] && c.campo !== 'recomendacion' && c.campo !== 'cupos_ons_cies') }))
     .filter((x) => x.campos.length || x.mes.recomendacion);
   return (
     <>
@@ -37,32 +37,39 @@ export default function CuandoIr({ params }: { params: { lang: string } }) {
       </Seccion>
       {meses.length > 0 && (
         <Seccion etiqueta="El detalle" titulo="Qué te encuentras cada mes" centrado>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {meses.map(({ mes, titulo, campos }) => (
               <article key={mes.id} id={mes.id} className="stagger-child flex scroll-mt-28 flex-col overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm">
-                <header className={`flex items-center justify-between bg-gradient-to-br ${TONO[mes.id] ?? 'from-ria-600 to-ria-800'} px-6 py-5 text-white`}>
-                  <h3 className="text-2xl font-bold">{titulo}</h3>
+                <header className={`flex items-center justify-between bg-gradient-to-br ${TONO[mes.id] ?? 'from-ria-600 to-ria-800'} px-5 py-3 text-white`}>
+                  <h3 className="text-xl font-bold">{titulo}</h3>
                   <Icono nombre="calendario" className="h-7 w-7 opacity-80" />
                 </header>
-                <dl className="flex-1 space-y-4 p-6 text-sm leading-relaxed text-gray-600">
-                  {campos.map((c) => (
-                    <div key={c.campo}>
-                      <dt className="text-[11px] font-bold uppercase tracking-widest text-ria-600">{c.titulo}</dt>
-                      <dd className="mt-1">{mes[c.campo]}</dd>
+                <div className="flex-1 p-5 text-sm leading-relaxed text-gray-600">
+                  {mes.recomendacion && (
+                    <div>
+                      <p className="text-[11px] font-bold uppercase tracking-widest text-arena-700">Qué te conviene</p>
+                      <p className="mt-1 text-gray-800">{mes.recomendacion}</p>
                     </div>
-                  ))}
-                </dl>
-                {mes.recomendacion && (
-                  <footer className="border-t border-arena-200 bg-arena-50 px-6 py-4 text-sm leading-relaxed text-arena-900">
-                    <strong className="mr-1 text-[11px] font-bold uppercase tracking-widest text-arena-700">Qué te conviene</strong><br />{mes.recomendacion}
-                  </footer>
-                )}
+                  )}
+                  <details className="mt-3 border-t border-gray-100 pt-3">
+                    <summary className="cursor-pointer text-xs font-semibold uppercase tracking-wider text-ria-700">Ver el detalle del mes</summary>
+                    <dl className="mt-3 space-y-3">
+                      {campos.map((c) => (
+                        <div key={c.campo}>
+                          <dt className="text-[11px] font-bold uppercase tracking-widest text-ria-600">{c.titulo}</dt>
+                          <dd className="mt-1">{mes[c.campo]}</dd>
+                        </div>
+                      ))}
+                    </dl>
+                  </details>
+                </div>
               </article>
             ))}
           </div>
+          <p className="mx-auto mt-8 max-w-3xl rounded-xl bg-arena-50 px-5 py-3 text-center text-sm text-arena-900">Ons y Cíes piden autorización previa de la Xunta en Semana Santa y del 15 de mayo al 15 de septiembre. Fuera de esas fechas, se visitan con grupos con guía.</p>
         </Seccion>
       )}
-      <section id="condiciones" className="scroll-mt-24 bg-gradient-to-br from-ria-900 to-ria-700 px-6 py-14 text-center text-white">
+      <section id="condiciones" className="scroll-mt-24 bg-gradient-to-br from-ria-900 to-ria-700 px-6 py-9 text-center text-white">
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-arena-300">Información sin señalar locales</p>
         <h2 className="mx-auto mt-3 max-w-3xl text-3xl font-bold tracking-tight md:text-4xl">Condiciones de las despedidas</h2>
       </section>

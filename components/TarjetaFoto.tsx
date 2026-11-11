@@ -17,7 +17,7 @@ type Props = {
 export default function TarjetaFoto({ titulo, texto, href, claves, etiqueta, datos, alto = 'normal' }: Props) {
   const src = foto(...claves);
   return (
-    <Link href={href} className={`stagger-child group relative flex ${alto === 'alto' ? 'min-h-[22rem]' : 'min-h-[17rem]'} flex-col justify-end overflow-hidden rounded-3xl bg-gradient-to-br from-ria-700 to-ria-900 p-6 text-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl`}>
+    <Link href={href} className={`stagger-child group relative flex ${alto === 'alto' ? 'min-h-[19rem]' : 'min-h-[14rem]'} flex-col justify-end overflow-hidden rounded-3xl bg-gradient-to-br from-ria-700 to-ria-900 p-6 text-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl`}>
       {src && <Image src={src} alt="" fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover transition-transform duration-700 group-hover:scale-105" />}
       <div className="absolute inset-0 bg-gradient-to-t from-ria-950/90 via-ria-950/35 to-transparent" />
       {etiqueta && <span className="absolute left-5 top-5 rounded-full bg-white/90 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-ria-800">{etiqueta}</span>}
