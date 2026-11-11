@@ -22,7 +22,7 @@ const publicados = <T extends Control>(fichas: T[]): T[] => fichas.filter((f) =>
 
 /** Notas operativas que sí se enseñan en la ficha (el resto son avisos internos de trabajo). */
 export const notasVisibles = (a: { notas_operativas: string[] }): string[] =>
-  a.notas_operativas.filter((n) => /tiempo se reparte|Mínimo de diez|desembarco en Areoso/i.test(n));
+  a.notas_operativas.filter((n) => /tiempo se reparte|Mínimo de diez/i.test(n));
 
 /** Quita lo interno de una ficha cuando se sirve en producción. */
 function limpiar<T extends { notas_internas: string | null; datos_fuente: string[] }>(ficha: T): T {

@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Contenido from '../../../../components/Contenido';
 import Galeria from '../../../../components/Galeria';
+import IdeasDespedida from '../../../../components/IdeasDespedida';
+import { IDEAS_SOLTERA, IDEAS_SOLTERO } from '../../../../lib/ideas';
 import HeroPage from '../../../../components/HeroPage';
 import Migas from '../../../../components/Migas';
 import PlanDespedida from '../../../../components/PlanDespedida';
@@ -28,6 +30,11 @@ export default function Despedida({ params }: { params: P }) {
       <Contenido lang={params.lang} ruta={ruta} parte="intro" />
       <Galeria prefijo={params.tipo} etiqueta="Ambiente" titulo={t.galeria} />
       <Contenido lang={params.lang} ruta={ruta} parte="resto" />
+      <IdeasDespedida
+        ideas={params.tipo === 'soltero' ? IDEAS_SOLTERO : IDEAS_SOLTERA}
+        titulo={params.tipo === 'soltero' ? 'Planes para el grupo, con ficha o sin ella' : 'Cosas de chicas, y alguna más'}
+        intro="Ideas que funcionan en una despedida en Sanxenxo y alrededores. Algunas tienen página propia; otras se organizan a medida."
+      />
       <PlanDespedida lang={params.lang} />
     </>
   );

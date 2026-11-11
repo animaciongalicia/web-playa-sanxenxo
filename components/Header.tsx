@@ -25,7 +25,8 @@ function Chevron({ abierto = false }: { abierto?: boolean }) {
 export default function Header({ lang, items, inicioHref, etiquetas }: Props) {
   const [abierto, setAbierto] = useState(false);
   const [sub, setSub] = useState<string | null>(null);
-  const pathname = usePathname() ?? '/';
+  // El servidor ve la ruta reescrita (/es/...); el navegador, la pública. Se normaliza para que coincidan.
+  const pathname = (usePathname() ?? '/').replace(/^\/es(?=\/|$)/, '') || '/';
   const idioma = { es: rutaEnIdioma(pathname, 'es'), pt: rutaEnIdioma(pathname, 'pt') };
   const activo = (h: string) => pathname === h || (h !== '/' && h !== '/pt/' && pathname.startsWith(h));
 

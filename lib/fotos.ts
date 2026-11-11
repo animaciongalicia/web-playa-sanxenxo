@@ -18,6 +18,20 @@ const ALIAS: Record<string, string> = {
   'actividad-ruta-de-bateas-con-mejillones-y-vino': 'mar-y-mesa',
   'actividad-olimpiadas-de-playa': 'dias-a-medida',
   'actividad-barco-privado-con-fondeo-bano-y-paddle': 'despedidas',
+  'idea-gincana-soltero': 'soltero-galeria-2',
+  'idea-motos': 'actividad-motos-de-agua',
+  'idea-pesca': 'buceo-y-pesca',
+  'idea-voley': 'actividad-torneo-de-voley-playa-o-palas',
+  'idea-churrascada': 'a-vichona',
+  'idea-limusina': 'limusinas-interior',
+  'idea-cena': 'comer-cena-privada',
+  'idea-gincana-soltera': 'soltera-galeria-4',
+  'idea-beauty': 'soltera-galeria-2',
+  'idea-spa': 'soltera-galeria-6',
+  'idea-fotos': 'soltera-galeria-5',
+  'idea-cata': 'a-curva',
+  'idea-surf': 'playa-y-tabla',
+  'idea-brindis': 'comer-brindis',
 };
 
 const buscar = (c: string) => {
