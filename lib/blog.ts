@@ -8,7 +8,10 @@ import html from 'remark-html';
 import gfm from 'remark-gfm';
 
 /** Fecha de hoy (ISO). BLOG_HOY permite probar entradas programadas en local. */
-const hoyISO = () => process.env.BLOG_HOY ?? new Date().toISOString().slice(0, 10);
+const hoyReal = () => new Date().toISOString().slice(0, 10);
+const hoyISO = () => process.env.BLOG_HOY ?? (process.env.LANZADO === '1' ? hoyReal() : '9999-12-31');
+/** Antes del lanzamiento (LANZADO distinto de 1) se ven todas las entradas, también las programadas. */
+export const estaProgramada = (e: { fecha: string }) => e.fecha > hoyReal();
 const DIR = join(process.cwd(), 'contenido', 'es', 'blog');
 
 export type Entrada = {

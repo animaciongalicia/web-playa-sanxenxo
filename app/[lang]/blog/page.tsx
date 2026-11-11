@@ -7,7 +7,7 @@ import HeroPage from '../../../components/HeroPage';
 import Migas from '../../../components/Migas';
 import Rejilla from '../../../components/Rejilla';
 import Seccion from '../../../components/Seccion';
-import { fechaLarga, getEntradas } from '../../../lib/blog';
+import { estaProgramada, fechaLarga, getEntradas } from '../../../lib/blog';
 import { foto } from '../../../lib/fotos';
 import { esIdioma } from '../../../lib/i18n';
 import { metaRuta } from '../../../lib/seo';
@@ -35,7 +35,7 @@ export default function Blog({ params }: { params: { lang: string } }) {
                     {img && <Image src={img} alt="" fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover transition-transform duration-500 group-hover:scale-105" />}
                   </div>
                   <div className="p-5">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-ria-700">{fechaLarga(e.fecha)}</p>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-ria-700">{fechaLarga(e.fecha)}{estaProgramada(e) && <span className="ml-2 rounded-full bg-arena-100 px-2 py-0.5 text-[10px] text-arena-900">Programada</span>}</p>
                     <h3 className="mt-1 text-lg font-semibold text-gray-900">{e.titulo}</h3>
                     {e.descripcion && <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-gray-600">{e.descripcion}</p>}
                   </div>
