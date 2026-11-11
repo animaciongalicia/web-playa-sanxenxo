@@ -28,5 +28,5 @@ export const FAMILIAS_INFO = {
   'buceo-y-pesca': { titulo: 'Buceo y pesca', texto: 'Bautismo de buceo, snorkel, pesca recreativa y pesca-turismo.' },
   'mar-y-mesa': { titulo: 'Mar y mesa', texto: 'Bateas, mariscada en barco y churrascada.' },
   'dias-a-medida': { titulo: 'Días a medida', texto: 'Días producidos casi a medida: olimpiadas, gymkana, fiesta con DJ…' },
-  'kayak-areoso': { titulo: 'Kayak en Areoso', texto: 'Solo kayak, en Areoso.' },
+  'kayak-areoso': { titulo: 'Kayak en Areoso', texto: 'Rutas a un islote protegido: formatos, precios orientativos y permiso.' },
 } as const;

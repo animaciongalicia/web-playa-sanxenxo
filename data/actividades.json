@@ -434,24 +434,29 @@
       "slug": "kayak-en-areoso",
       "nombre": "Kayak en Areoso",
       "familia": "kayak-areoso",
-      "descripcion": "Una ruta en kayak hasta Areoso, una pequeña isla de la ría de Arousa. Solo kayak.",
+      "descripcion": "Ruta en kayak hasta Areoso, un islote protegido de la ría de Arousa, con salida desde A Illa de Arousa. Hay formatos con y sin desembarco.",
       "donde": [
         {
           "tipo": "zona",
           "nombre": "A Illa de Arousa"
         },
         {
+          "tipo": "playa",
+          "nombre": "Espiñeiro"
+        },
+        {
           "tipo": "zona",
           "nombre": "Areoso"
         }
       ],
-      "duracion": "4 u 8 horas",
+      "duracion": "de 2 horas y media a medio día, según el formato",
       "grupo_minimo": null,
       "temporada": null,
       "notas_operativas": [
         "Solo kayak. Muchas búsquedas: página propia",
-        "El desembarco en Areoso requiere autorización: no prometer parada garantizada",
-        "Distinguir alquiler libre de ruta guiada"
+        "El desembarco en Areoso requiere autorización gratuita de la Xunta (el alquiler del kayak no la sustituye)",
+        "Distinguir alquiler libre, ruta guiada y barco de apoyo",
+        "Precios anunciados por empresas de la zona: unos 20-35 € por persona, a confirmar para la fecha"
       ],
       "a_medida": false,
       "publicar": null,

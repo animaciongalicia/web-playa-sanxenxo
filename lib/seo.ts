@@ -28,7 +28,7 @@ export const SEO: Record<string, Par> = {
   '/actividades/buceo-y-pesca/': { titulo: 'Buceo, snorkel y pesca', descripcion: 'Bautismo de buceo, snorkel y pesca recreativa en la zona de Sanxenxo, con dónde se hacen y cómo organizarlo.' },
   '/actividades/mar-y-mesa/': { titulo: 'Bateas, mariscada y churrascada', descripcion: 'Ruta de bateas con mejillones y vino, mariscada o cena en barco y churrascada: planes de mar y mesa para grupos.' },
   '/actividades/dias-a-medida/': { titulo: 'Gymkanas y días a medida', descripcion: 'Olimpiadas de playa, gymkana de despedida, torneos, atardeceres en barco y fiestas producidas a medida para tu grupo.' },
-  '/actividades/kayak-areoso/': { titulo: 'Kayak en Areoso', descripcion: 'Ruta en kayak por Areoso con grupos: cómo es, cuánto dura y por qué el desembarco necesita autorización.' },
+  '/actividades/kayak-areoso/': { titulo: 'Kayak en Areoso desde A Illa de Arousa', descripcion: 'Rutas en kayak a Areoso: formatos, precios orientativos y el permiso gratuito de la Xunta para desembarcar en el islote.' },
   '/comer/': { titulo: 'Dónde comer en Sanxenxo', descripcion: 'Restaurantes, chiringuitos y furanchos de Sanxenxo y alrededores, por zona, con consejos para cenas de grupo.' },
   '/comer/restaurantes/': { titulo: 'Restaurantes de Sanxenxo y alrededores', descripcion: 'Restaurantes agrupados por zona: Sanxenxo, Portonovo, O Grove, Combarro, Aldán, Bueu y Marín. Con precios medios y consejos.' },
   '/comer/chiringuitos/': { titulo: 'Chiringuitos de Sanxenxo y alrededores', descripcion: 'Chiringuitos con los pies cerca de la arena en Sanxenxo, A Lanzada, O Grove, Aldán y Bueu. Qué esperar y cómo elegir.' },
