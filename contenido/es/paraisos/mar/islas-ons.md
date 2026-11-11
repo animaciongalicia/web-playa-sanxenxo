@@ -43,6 +43,10 @@ Ons es Parque Nacional y tiene normas.
 
 Para pedir la autorización: autorizacionillasatlanticas.xunta.gal. Atención telefónica de lunes a viernes de 8:00 a 20:00, o 012@xunta.gal.
 
+## Si vas en barco privado
+
+El permiso personal es el de quien viaja en barco regular. Si alquilas un barco privado, **el permiso de acceso lo solicita el propio barco** a la Xunta y no hace falta que cada persona saque el suyo. El cupo diario de barcos suele rondar los 20 o 30. Si lo conceden, el grupo puede pasar unas seis horas en la isla, con baños, comida y paseo. Desde Combarro, Sanxenxo o Portonovo hay una hora de ida y otra de vuelta, así que pide el día entero. Mira la entrada del blog sobre [alquilar un velero o yate para ir a Ons](/blog/alquilar-un-velero-o-yate-para-ir-a-ons-y-pasar-el-dia/).
+
 ## Qué conviene saber
 
 1. **Llega con el tiempo justo y la vuelta cerrada.** Si pierdes el último barco, no hay plan B.

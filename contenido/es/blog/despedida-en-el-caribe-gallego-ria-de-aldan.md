@@ -1,39 +1,37 @@
 ---
-titulo: "Despedida en el Caribe gallego: un día de mar en la ría de Aldán"
+titulo: "Despedida en el Caribe gallego: día entero en velero o yate por la ría de Aldán"
 seo: "Despedida en el Caribe gallego: Aldán"
 fecha: 2026-12-23
-descripcion: "Cómo montar una despedida en el llamado Caribe gallego, la ría de Aldán: playas, barco privado o pesquero, qué esperar del agua y cómo volver a Sanxenxo."
+descripcion: "Una despedida en el Caribe gallego, la ría de Aldán: día entero en velero o yate desde Combarro, Sanxenxo o Portonovo, con comida en la playa y baños."
 imagen: ria-de-aldan
 paginas:
   - /paraisos/mar/ria-de-aldan/
   - /barcos/
 resumen:
-  - "El «Caribe gallego» es un apodo turístico, no una zona oficial: lo real es el agua clara, la arena blanca y las calas pequeñas."
-  - "Es la excursión de mar más fácil desde Sanxenxo: sales por la mañana, pasas el día en una cala y vuelves a cenar."
-  - "El pesquero de la ría, solo para esa zona, admite 11, 16 o 21 personas: es la mayor capacidad de la flota."
+  - "Aldán queda a una hora de navegación desde Combarro, Sanxenxo o Portonovo: para disfrutarlo hace falta el día entero, no medio día."
+  - "Muchos grupos encargan en A Centoleira una cesta de marisco o arroces y se la comen ya en Aldán, a bordo o en la playa."
+  - "«Caribe gallego» es un apodo turístico, no una zona oficial: lo real es el agua clara, la arena blanca y las calas pequeñas."
 objetivo: 800
 fuentes:
-  - "contenido/es/paraisos/mar/ria-de-aldan.md (descripción de la ría, playas y bandera azul 2026-2027)"
-  - "data/mar-y-barcos.json (pesquero de Aldán: plazas y precios) y contenido/es/barcos.md"
+  - "Pablo (2026-11-11): una hora de ida y otra de vuelta desde Combarro, Sanxenxo o Portonovo; grupos que encargan marisco o arroces en A Centoleira y los comen en Aldán"
+  - "contenido/es/paraisos/mar/ria-de-aldan.md (playas, bandera azul 2026-2027) y data/mar-y-barcos.json (veleros, yates y pesquero de Aldán: plazas y precios)"
 publicar: true
 ---
-Si buscas una despedida con mar, agua clara y calas pequeñas sin irte muy lejos, hay una zona que se repite en las conversaciones: la **ría de Aldán**, a la que se llama a veces el «Caribe gallego». Conviene empezar por aclarar el apodo y seguir con lo importante: cómo se organiza un día allí.
+Si buscas una despedida con mar, agua clara y calas pequeñas, hay una zona que se repite: la **ría de Aldán**, a la que se llama a veces el «Caribe gallego». Y hay un detalle que cambia todo el plan y que casi nadie cuenta: **la distancia**.
+
+## Una hora de ida y otra de vuelta
+
+Desde Combarro, Sanxenxo o Portonovo hay **aproximadamente una hora de navegación hasta Aldán**, y otra de regreso. Eso significa que un medio día (4 horas) se queda corto: te pasas la mitad del tiempo en el barco.
+
+Por eso, para Aldán, lo que funciona es el **día entero (8 horas)**, en velero o en yate. Descontando ida y vuelta, te quedan unas seis horas para fondear, bañarte, comer y descansar. Es la diferencia entre «hemos ido a Aldán» y «hemos pasado el día en Aldán».
 
 ## Qué es (y qué no es) el «Caribe gallego»
 
-Es un apodo turístico, no una zona oficial. Lo que sí es real: agua clara, arena blanca y una bahía recogida entre los concellos de Cangas y Bueu. Sus costas dan a las parroquias de Hío, Aldán y Beluso, y la entrada la marcan la Punta Couso y el Cabo Udra. Aunque se llama ría, varias fuentes la describen más bien como bahía o ensenada.
+Es un apodo turístico, no una zona oficial. Lo que sí es real: agua clara, arena blanca y una bahía recogida entre los concellos de Cangas y Bueu. Sus costas dan a las parroquias de Hío, Aldán y Beluso. La Agencia Europea de Medio Ambiente ha calificado la calidad del agua de sus playas como excelente.
 
-La Agencia Europea de Medio Ambiente ha calificado la calidad del agua de sus playas como excelente. No esperes temperaturas del Caribe: es el Atlántico, y el agua es fresca. Lo que se parece es el color.
+No esperes temperaturas del Caribe: es el Atlántico, y el agua es fresca. Lo que se parece es el color.
 
-## Por qué funciona para una despedida
-
-- **Es recogida.** Más tranquila que las playas del Atlántico abierto.
-- **Es cercana.** Desde Sanxenxo, por mar, se llega con facilidad.
-- **Tiene calas pequeñas.** Ideales para que el grupo tenga su propio rincón.
-
-No es una zona de fiesta. Es una zona de **día de mar**, y eso es justo lo que la hace especial para empezar o cerrar una despedida con calma.
-
-## Las playas, en tres grupos
+## Las playas
 
 Hay unas veinte, repartidas por parroquias:
 
@@ -41,39 +39,42 @@ Hay unas veinte, repartidas por parroquias:
 - **Beluso:** Area de Bon, Lagos y Ancoradouro.
 - **O Hío:** Vilariño, Arneles, Castiñeiras, Pintens y Areabrava.
 
-Entre todas, dos tienen bandera azul en 2026-2027: **Area de Bon**, rectilínea, de arena blanca y fina y en un entorno de bosque, y **Lagos**, rodeada de rocas y pinares.
+Dos tienen bandera azul en 2026-2027: **Area de Bon**, de arena blanca y fina en un entorno de bosque, y **Lagos**, rodeada de rocas y pinares.
 
-## Cómo llegar: barco privado o pesquero
+## El truco de la comida: la cesta
 
-Por tierra se llega en coche desde Bueu y Cangas. Pero lo que da sentido a la excursión es llegar por mar, con tu propio barco.
+Un día entero a bordo pide una buena comida. Y muchos grupos lo resuelven así: **encargan en A Centoleira una cesta de marisco o de arroces** y se la comen ya en Aldán, fondeados frente a una cala. Es práctico: no hay que bajar a ningún restaurante, la comida llega lista y se come con el mar delante.
 
-**Barco privado.** Un velero o un yate solo para tu grupo, con patrón y música a bordo, para entre 11 y 16 personas según el modelo. Casi todos salen de Sanxenxo o de Portonovo. Mira los [barcos privados para tu despedida](/barcos/).
+Un consejo: encárgala con tiempo, sobre todo en verano, y di cuántos sois y a qué hora salís.
 
-**El pesquero de la ría de Aldán.** Es distinto: solo navega en esa ría y es la mayor capacidad de la flota. Hay versiones para 11, 16 o 21 personas, con precios de 950 €, 1.400 € y 1.750 €. Incluye barco, seguros y patrón. Si sois un grupo grande, es la forma de ir todos en el mismo barco.
+## Velero, yate o pesquero
 
-**Traslado en lancha rápida.** Si prefieres llegar rápido y dedicar el tiempo a la playa, existe el traslado. Mira los [traslados a Ons, Cíes y Aldán](/barcos/traslados/).
+- **Velero:** desde 600 € medio día y 750 € el día entero, con combustible incluido. Con 11 personas, el día entero sale a unos 68 € por persona.
+- **Yate:** desde 1.000 € el día entero, para 11 personas, unos 91 € por persona. Pregunta si el combustible está incluido.
+- **Yate con motora:** para hasta 16 personas, 1.400 € por 8 horas (unos 88 € por persona).
+- **Pesquero de la ría de Aldán:** solo navega en esa ría y es la mayor capacidad de la flota. Versiones para 11, 16 o 21 personas, con precios de 950 €, 1.400 € y 1.750 €.
+
+Todos incluyen barco, seguros y patrón. Mira los [barcos privados para tu despedida](/barcos/) o la cuenta completa en [cuánto cuesta alquilar un barco para una despedida](/blog/cuanto-cuesta-alquilar-un-barco-para-una-despedida-en-sanxenxo/).
 
 ## Un día tipo
 
-1. **Mañana.** Salida desde Sanxenxo o Portonovo, con música y desayuno a bordo.
-2. **Mediodía.** Fondeo frente a una cala, baño y comida a bordo.
-3. **Tarde.** Playa, paddle surf o kayak, o simplemente descanso.
-4. **Vuelta.** Regreso a media tarde, con tiempo para arreglarse.
-5. **Noche.** Cena en Sanxenxo y copas por el puerto.
-
-## Cuánto cuesta, más o menos
-
-Los precios dependen del barco y de cuántos seáis. Con el pesquero para 21 personas, por ejemplo, la división da unos 83 € por persona si va lleno. Con un velero de medio día para 11, unos 55 €. Estos son precios «desde», sin contar la comida. Si quieres la cuenta completa para cada barco, mira [cuánto cuesta alquilar un barco para una despedida](/blog/cuanto-cuesta-alquilar-un-barco-para-una-despedida-en-sanxenxo/).
+1. **Salida por la mañana** desde Combarro, Sanxenxo o Portonovo, con música a bordo.
+2. **Una hora de navegación**, y el barco entra en la ría.
+3. **Fondeo frente a una cala.** Baño, descanso y llega la hora de comer.
+4. **Comida de la cesta**, con vistas.
+5. **Tarde de baños** y, si hay ganas, paddle surf o kayak.
+6. **Vuelta** con la luz de la tarde, una hora hasta puerto.
+7. **Noche** en Sanxenxo, con cena y copas por el puerto.
 
 ## Lo que conviene saber
 
-- **El tiempo manda.** Si hay mar, un barco puede no salir. Ten plan B en tierra.
-- **No es una zona de noche.** La fiesta, en el puerto de Sanxenxo.
-- **Lleva comida y bebida.** Y recuerda que no está permitido emborracharse a bordo.
+- **El tiempo manda.** Si hay mar, un barco puede no salir. Ten plan B.
+- **Lleva bebida y protector solar.** Y recuerda que no está permitido emborracharse a bordo.
+- **No es zona de fiesta nocturna.** La noche, en el puerto de Sanxenxo.
 - **Reserva con tiempo en verano.** En julio y agosto hay muchas despedidas.
 
 ## Cuándo ir
 
-El agua está mejor, y más cálida, de junio a septiembre. Mayo y septiembre son flojos de ambiente, junio va calentando y julio y agosto son temporada fuerte. Mira [cuándo ir a Sanxenxo según el mes](/cuando-ir/) antes de fijar la fecha.
+El agua está mejor de junio a septiembre. Mayo y septiembre son flojos de ambiente, junio va calentando y de finales de junio a agosto es temporada fuerte. Mira [cuándo ir a Sanxenxo según el mes](/cuando-ir/) antes de fijar la fecha.
 
-Toda la información de la zona, con las playas y cómo llegar, está en la guía de la [ría de Aldán, el Caribe gallego](/paraisos/mar/ria-de-aldan/). Y para montar el plan completo, mira cómo [organizar una despedida en Sanxenxo](/despedidas/).
+Toda la información de la zona está en la guía de la [ría de Aldán, el Caribe gallego](/paraisos/mar/ria-de-aldan/). Y para montar el fin de semana completo, mira cómo [organizar una despedida en Sanxenxo](/despedidas/).
