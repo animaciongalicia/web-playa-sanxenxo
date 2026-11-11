@@ -9,11 +9,12 @@ import { EnPreparacion, TarjetaPlaya } from '../../../../../components/Fichas';
 import { getPlayas } from '../../../../../lib/datos';
 import { IDIOMAS, esIdioma } from '../../../../../lib/i18n';
 import { NOMBRE_TRAMO, TRAMOS_RUTA, buscarTramoRuta } from '../../../../../lib/paraisos';
+import { metaRuta } from '../../../../../lib/seo';
 
 type P = { lang: string; tramo: string };
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.flatMap((lang) => TRAMOS_RUTA.map((t) => ({ lang, tramo: t.slug })));
-export const generateMetadata = ({ params }: { params: P }): Metadata => ({ title: `Playas de ${buscarTramoRuta(params.tramo)?.titulo ?? ''}` });
+export const generateMetadata = ({ params }: { params: P }): Metadata => metaRuta(`/paraisos/playas/${params.tramo}/`);
 
 export default function Tramo({ params }: { params: P }) {
   const tramo = buscarTramoRuta(params.tramo);

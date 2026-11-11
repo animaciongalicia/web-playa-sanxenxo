@@ -30,7 +30,7 @@ Dueño: Pablo García Dacosta. Lo supervisa él. Trabaja en sesiones cortas, as�
 6. **Limusinas y Humor Amarillo** se describen como servicios que se hacen, con la marca "Pendiente de actualización 2027" controlada por el campo `estado_2027`.
 7. **Playas y mar son lo primero.** La noche pura está en desuso: la sección se llama **Diversión** y habla de terraceo, tardeo, puestas de sol y copas. No hay "rutas de noche": son las mismas zonas, bien explicadas con horarios.
 8. **Ningún secreto en el repo.** Ver `docs/05-github-vercel-seguridad.md`.
-9. **Antes de cada commit:** `npm run lint`, `npm run typecheck`, `npm run check:datos` y `npm run build`. Si el build falla, no se hace commit.
+9. **Antes de cada commit:** `npm run lint`, `npm run typecheck`, `npm run check:datos`, `npm run check:contenido`, `npm run check:seo` y `npm run build`. Si el build falla, no se hace commit.
 10. **Componentes con eventos o hooks** (`onClick`, `onChange`, `useState`, `useEffect`) llevan `'use client'` en la primera línea. Fue el primer error de build en DineroFuturo.
 11. **No toques seagalicia.com.** Se enlaza desde barcos y traslados; no se importa su código.
 
@@ -46,6 +46,8 @@ npm run build         # build de producción (obligatorio antes de commit)
 npm run lint
 npm run typecheck
 npm run check:datos   # valida data/ contra los esquemas (zod) y avisa de fichas caducadas
+npm run check:contenido  # textos Markdown: palabras, fuentes y voz
+npm run check:seo     # redirecciones 301, páginas 410, enlaces internos, títulos y descripciones
 ```
 
 ## Carpetas

@@ -1,0 +1,173 @@
+{
+  "_nota": "Redirecciones 301 y páginas retiradas (410) del dominio antiguo. Fuente: docs/06. Todo destino debe existir (npm run check:seo).",
+  "redirecciones": [
+    {
+      "de": "/los-mejores-pubs-de-sanxenxo/",
+      "a": "/diversion/sanxenxo-puerto/"
+    },
+    {
+      "de": "/los-mejores-pubs-de-sanxenxo-para-despedidas-inolvidables/",
+      "a": "/diversion/sanxenxo-puerto/"
+    },
+    {
+      "de": "/pub-varadero-paseo-sanxenxo/",
+      "a": "/diversion/sanxenxo-puerto/varadero/"
+    },
+    {
+      "de": "/el-buddha-puerto-sanxenxo/",
+      "a": "/diversion/sanxenxo-puerto/buddha/"
+    },
+    {
+      "de": "/gassho-sanxenxo-cocteleria/",
+      "a": "/diversion/sanxenxo-puerto/gassho/"
+    },
+    {
+      "de": "/dux-puerto-sanxenxo/",
+      "a": "/diversion/sanxenxo-puerto/dux/"
+    },
+    {
+      "de": "/restaurante-a-ferreira-sanxenxo/",
+      "a": "/comer/restaurantes/a-ferreira/"
+    },
+    {
+      "de": "/vinoteca-a-curva-portonovo/",
+      "a": "/comer/restaurantes/a-curva/"
+    },
+    {
+      "de": "/despedidas-en-sanxenxo/",
+      "a": "/despedidas/"
+    },
+    {
+      "de": "/despedidas-de-soltero-en-sanxenxo/",
+      "a": "/despedidas/soltero/"
+    },
+    {
+      "de": "/despedidas-de-soltera-en-sanxenxo/",
+      "a": "/despedidas/soltera/"
+    },
+    {
+      "de": "/ideas-originales-y-divertidas-para-despedidas-en-sanxenxo/",
+      "a": "/despedidas/"
+    },
+    {
+      "de": "/ideas/",
+      "a": "/despedidas/"
+    },
+    {
+      "de": "/ideas/page/2/",
+      "a": "/despedidas/"
+    },
+    {
+      "de": "/packs-para-despedidas-de-soltero/",
+      "a": "/despedidas/soltero/"
+    },
+    {
+      "de": "/como-elegir-el-pack-de-despedida-perfecto-en-sanxenxo/",
+      "a": "/despedidas/"
+    },
+    {
+      "de": "/como-evitar-errores-al-organizar-tu-despedida-en-sanxenxo/",
+      "a": "/despedidas/"
+    },
+    {
+      "de": "/guia-para-organizar-una-despedida-low-cost-en-sanxenxo/",
+      "a": "/despedidas/"
+    },
+    {
+      "de": "/despedidas-en-barco-en-sanxenxo/",
+      "a": "/barcos/"
+    },
+    {
+      "de": "/alquiler-de-barcos-para-despedidas-en/",
+      "a": "/barcos/"
+    },
+    {
+      "de": "/packs-y-ofertas-de-alquiler-de-barcos/",
+      "a": "/barcos/"
+    },
+    {
+      "de": "/despedida-en-motos-de-agua/",
+      "a": "/actividades/mar-con-motor/"
+    },
+    {
+      "de": "/actividades-para-despedidas/banana-acuatica/",
+      "a": "/actividades/mar-con-motor/"
+    },
+    {
+      "de": "/actividades-para-despedidas/",
+      "a": "/actividades/"
+    },
+    {
+      "de": "/top-5-actividades-acuaticas-para-despedidas/",
+      "a": "/actividades/"
+    },
+    {
+      "de": "/aventuras/",
+      "a": "/actividades/"
+    },
+    {
+      "de": "/karts-de-agua-en-sanxenxo-portonovo/",
+      "a": "/actividades/"
+    },
+    {
+      "de": "/xo-xtreme-actividad-acuatica/",
+      "a": "/actividades/"
+    },
+    {
+      "de": "/gymkanas-en-sanxenxo/",
+      "a": "/actividades/dias-a-medida/"
+    },
+    {
+      "de": "/restaurantes-para-despedidas-en-sanxenxo/",
+      "a": "/comer/restaurantes/"
+    },
+    {
+      "de": "/despedidas-en-limusina-en-sanxenxo/",
+      "a": "/limusinas/"
+    },
+    {
+      "de": "/las-playas-de-sanxenxo/",
+      "a": "/paraisos/playas/sanxenxo/"
+    },
+    {
+      "de": "/playas-de-sanxenxo-ideales-para-despedidas-al-aire-libre/",
+      "a": "/paraisos/playas/sanxenxo/"
+    },
+    {
+      "de": "/buceando-en-las-islas-cies/",
+      "a": "/paraisos/mar/islas-cies/"
+    },
+    {
+      "de": "/local-para-despedidas-conjuntas/",
+      "a": "/despedidas/"
+    },
+    {
+      "de": "/tarifas/",
+      "a": "/agencia/"
+    },
+    {
+      "de": "/ofertas-para-despedidas/",
+      "a": "/agencia/"
+    },
+    {
+      "de": "/extras-para-despedidas/",
+      "a": "/agencia/"
+    },
+    {
+      "de": "/contacto/",
+      "a": "/agencia/"
+    }
+  ],
+  "retiradas": [
+    "/shows/",
+    "/reuniones-tuppersex/",
+    "/discoteca/",
+    "/las-fiestas-discoteca-zoo-club/",
+    "/adelanto-video-despedidas-piramide/",
+    "/casas-rurales-en-sanxenxo-para-despedidas/",
+    "/alojamientos-para-despedidas/",
+    "/despedida-beauty-relax-grove/",
+    "/local-despedidas-sanxenxo-2015/",
+    "/tarifas-y-precios-de-despedidas/"
+  ]
+}

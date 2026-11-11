@@ -12,10 +12,11 @@ import { foto } from '../../../../lib/fotos';
 import { esIdioma, href } from '../../../../lib/i18n';
 import { DESTINO_SLUG } from '../../../../lib/paraisos';
 import Image from 'next/image';
+import { metaRuta } from '../../../../lib/seo';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => [{ lang: 'es' }];
-export const metadata: Metadata = { title: 'Traslados a Ons, Cíes y Aldán' };
+export const metadata: Metadata = metaRuta('/barcos/traslados/');
 const NOMBRE = { ons: 'Isla de Ons', cies: 'Islas Cíes', aldan: 'Ría de Aldán' } as const;
 const CLAVES = { ons: ['islas-ons', 'mar'], cies: ['islas-cies', 'mar'], aldan: ['ria-de-aldan', 'mar'] } as const;
 const eur = (n: number) => new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(n);

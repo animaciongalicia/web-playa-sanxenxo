@@ -11,6 +11,9 @@ import { getContenido } from '../../../../../lib/contenido';
 import { getDestinos, getPlayas } from '../../../../../lib/datos';
 import { IDIOMAS, esIdioma, href } from '../../../../../lib/i18n';
 import { DESTINO_SLUG } from '../../../../../lib/paraisos';
+import JsonLd from '../../../../../components/JsonLd';
+import { jsonLdDestino } from '../../../../../lib/jsonld';
+import { metaRuta } from '../../../../../lib/seo';
 
 type P = { lang: string; destino: string };
 const SLUGS = Object.values(DESTINO_SLUG) as string[];
@@ -19,7 +22,7 @@ const TITULOS: Record<string, string> = { ons: 'Isla de Ons', cies: 'Islas Cíes
 
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.flatMap((lang) => SLUGS.map((destino) => ({ lang, destino })));
-export const generateMetadata = ({ params }: { params: P }): Metadata => ({ title: TITULOS[idDe(params.destino) ?? ''] });
+export const generateMetadata = ({ params }: { params: P }): Metadata => metaRuta(`/paraisos/mar/${params.destino}/`);
 
 export default function Destino({ params }: { params: P }) {
   const id = idDe(params.destino);
@@ -29,8 +32,10 @@ export default function Destino({ params }: { params: P }) {
   const playas = getPlayas().filter((p) => destino?.playas.includes(p.id));
   const hayTexto = !!getContenido(lang, `/paraisos/mar/${params.destino}/`);
   const hayContenido = destino && (destino.descripcion || destino.como_se_llega || destino.cupos_permisos);
+  const ld = destino ? jsonLdDestino(destino, TITULOS[id], `/paraisos/mar/${params.destino}/`) : null;
   return (
     <>
+      {ld && <JsonLd datos={ld} />}
       <HeroPage ruta={`/paraisos/mar/${params.destino}/`} etiqueta={destino?.parque_nacional ? 'Parque Nacional de las Islas Atlánticas' : undefined} titulo={TITULOS[id]} />
       <Migas lang={lang} ruta={`/paraisos/mar/${params.destino}/`} titulo={TITULOS[id]} />
       <Contenido lang={lang} ruta={`/paraisos/mar/${params.destino}/`} />

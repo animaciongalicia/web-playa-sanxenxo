@@ -4,7 +4,7 @@ import { foto } from '../lib/fotos';
 import type { Idioma } from '../lib/i18n';
 import AnimateOnScroll from './AnimateOnScroll';
 
-const PROSE = 'prose prose-sm max-w-none prose-p:my-2 prose-p:leading-relaxed prose-p:text-gray-600 prose-ul:my-2 prose-li:my-0.5 prose-li:text-gray-600 prose-a:font-medium prose-a:text-ria-700 prose-a:decoration-ria-300 prose-strong:text-gray-900';
+const PROSE = 'prose max-w-none prose-p:my-2 prose-p:leading-relaxed prose-p:text-gray-600 prose-ul:my-2 prose-li:my-0.5 prose-li:text-gray-600 prose-a:font-medium prose-a:text-ria-700 prose-a:decoration-ria-300 prose-strong:text-gray-900';
 const ALIAS: Record<string, string> = { 'isla-de-ons': 'islas-ons', 'islas-cies': 'islas-cies', 'ria-de-aldan': 'ria-de-aldan' };
 
 /** Foto de un bloque si el título nombra algo con foto: "Silgar, imprescindible" → playa-silgar. */
@@ -26,7 +26,7 @@ function Cabecera({ titulo }: { titulo: string }) {
 }
 
 function Tarjetas({ items, pasos }: { items: { titulo: string | null; html: string }[]; pasos: boolean }) {
-  const cols = items.length === 2 ? 'sm:grid-cols-2' : items.length === 4 ? 'sm:grid-cols-2 lg:grid-cols-4' : items.length === 3 ? 'sm:grid-cols-3' : 'sm:grid-cols-2 lg:grid-cols-3';
+  const cols = items.length === 2 ? 'sm:grid-cols-2' : items.length === 4 ? 'sm:grid-cols-2' : items.length === 3 ? 'sm:grid-cols-3' : 'sm:grid-cols-2 lg:grid-cols-3';
   return (
     <div className={`grid gap-3 ${cols}`}>
       {items.map((it, j) => (
@@ -58,7 +58,7 @@ function BloqueVista({ b, solo }: { b: Bloque; solo: boolean }) {
   const img = fotoDeBloque(b.titulo);
   const soloTexto = b.piezas.every((p) => p.tipo === 'texto' || p.tipo === 'lista');
   const peso = pesoDe(b);
-  const base = 'stagger-child scroll-mt-32 rounded-2xl border border-gray-100 bg-white p-5 shadow-sm';
+  const base = 'stagger-child scroll-mt-32 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm';
   if (img && soloTexto) {
     return (
       <section id={b.id} className={`${base} grid items-center gap-6 sm:col-span-full md:grid-cols-[1fr_16rem] lg:grid-cols-[1fr_20rem]`}>
@@ -106,7 +106,7 @@ export default function ContenidoBloques({ lang, ruta, id, indice = true, parte 
       {verBloques && (
         <section className="section-padding bg-gray-50 !py-8">
           <AnimateOnScroll>
-            <div className="mx-auto grid max-w-7xl grid-flow-dense gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="mx-auto grid max-w-7xl grid-flow-dense gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {c.bloques.map((b) => <BloqueVista key={b.id} b={b} solo={c.bloques.length <= 2} />)}
             </div>
           </AnimateOnScroll>

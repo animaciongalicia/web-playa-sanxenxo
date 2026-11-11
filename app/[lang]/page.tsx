@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -11,6 +12,11 @@ import Icono, { type NombreIcono } from '../../components/Icono';
 import { esIdioma, href, textos } from '../../lib/i18n';
 import { getBarcos } from '../../lib/datos';
 import { foto } from '../../lib/fotos';
+import JsonLd from '../../components/JsonLd';
+import { organizacion, sitioWeb } from '../../lib/jsonld';
+import { metaRuta } from '../../lib/seo';
+
+export const metadata: Metadata = metaRuta('/');
 
 export default function Home({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();
@@ -52,6 +58,7 @@ export default function Home({ params }: { params: { lang: string } }) {
 
   return (
     <>
+      <JsonLd datos={{ '@graph': [organizacion(), sitioWeb()] }} />
       <HeroPage ruta="/" etiqueta="Sanxenxo · Despedidas" titulo="Tu despedida en Sanxenxo: playas, mar y fiesta" subtitulo={t.tagline}>
         <Link href={h('/paraisos/')} className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-4 text-sm font-semibold text-ria-800 transition-all hover:bg-ria-50 hover:shadow-lg">
           {t.paraisos}
@@ -85,7 +92,7 @@ export default function Home({ params }: { params: { lang: string } }) {
 
       {/* Las siete entradas */}
       <Seccion fondo="gris" etiqueta="Empieza aquí" titulo="Elige por dónde empezar" intro="Siete entradas. Cada una responde una duda real de tu despedida." centrado>
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {entradas.map((e) => (
             <Tarjeta key={e.clave} titulo={e.titulo} texto={e.texto} href={h(e.ruta)} claves={[`card-${e.clave}`, e.clave]} nombreIcono={e.icono} />
           ))}
@@ -94,7 +101,7 @@ export default function Home({ params }: { params: { lang: string } }) {
 
       {/* Tramos de costa */}
       <Seccion fondo="arena" etiqueta="Playas" titulo="Cuatro tramos de costa" intro="El núcleo de la guía. Empieza por el que te pille más cerca." centrado>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-2">
           {tramos.map((z) => (
             <Tarjeta key={z.id} titulo={z.nombre} texto={z.texto} href={h(`/paraisos/playas/${z.id}/`)} claves={[`playas-${z.id}`, z.id, 'paraisos']} nombreIcono="playa" />
           ))}
@@ -116,12 +123,12 @@ export default function Home({ params }: { params: { lang: string } }) {
       )}
 
       {/* Cuándo ir */}
-      <Seccion fondo="ria" etiqueta="Cuándo ir" titulo="La temporada, en tres líneas" intro="Lo gordo es verano. Pero hay vida fuera de él." centrado>
+      <Seccion fondo="ria" etiqueta="Cuándo ir" titulo="La temporada, en tres líneas" intro="El verano es la temporada fuerte. Mayo y septiembre, más flojos." centrado>
         <div className="grid gap-6 md:grid-cols-3">
           {[
-            { k: 'Calentamiento', v: '1 al 15 de junio', d: 'Ambiente suave, precios más amables y menos gente.' },
-            { k: 'Lo gordo', v: '20 de junio a final de agosto', d: 'Todo abierto, todo lleno. Reserva con tiempo.' },
-            { k: 'Resto del año', v: 'De septiembre a mayo', d: 'Zona muy tranquila: manda el Imserso. Mira condiciones antes de decidir.' },
+            { k: 'Calentando', v: '1 al 15 de junio', d: 'Ambiente suave y menos gente. Todo depende del clima.' },
+            { k: 'Temporada fuerte', v: '20 de junio a final de agosto', d: 'Mucho turista y muchas despedidas. Reserva con tiempo.' },
+            { k: 'Resto del año', v: 'De septiembre a mayo', d: 'Flojo, sobre todo con el Imserso. Mayo y septiembre, tranquilos.' },
           ].map((c) => (
             <div key={c.k} className="stagger-child rounded-2xl border border-white/15 bg-white/5 p-7 backdrop-blur-sm">
               <Icono nombre="sol" className="h-8 w-8 text-arena-300" />

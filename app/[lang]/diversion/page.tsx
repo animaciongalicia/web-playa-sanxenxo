@@ -9,10 +9,11 @@ import TarjetaFoto from '../../../components/TarjetaFoto';
 import { getLocales } from '../../../lib/datos';
 import { esIdioma, href } from '../../../lib/i18n';
 import { NOMBRE_ZONA, ZONAS_DIVERSION } from '../../../lib/locales';
+import { metaRuta } from '../../../lib/seo';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => [{ lang: 'es' }];
-export const metadata: Metadata = { title: 'Diversión', description: 'Terraceo, tardeo, puestas de sol y copas.' };
+export const metadata: Metadata = metaRuta('/diversion/');
 
 const RESUMEN: Record<(typeof ZONAS_DIVERSION)[number], string> = {
   'sanxenxo-puerto': 'El punto de partida: pubs con terraza, locales con música y todo a pie.',
@@ -30,7 +31,7 @@ export default function Diversion({ params }: { params: { lang: string } }) {
       <HeroPage ruta="/diversion/" etiqueta="Cuando cae el sol" titulo="Diversión" subtitulo="Terraceo, tardeo, puestas de sol y copas." />
       <Migas lang={lang} ruta="/diversion/" />
       <Seccion etiqueta="Cuatro zonas" titulo="Elige dónde" intro="Son las mismas zonas de la guía, cada una con su ritmo y su horario." centrado>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-2">
           {ZONAS_DIVERSION.map((z) => {
             const n = todos.filter((l) => l.zona === z).length;
             return <TarjetaFoto key={z} alto="alto" titulo={NOMBRE_ZONA[z]} texto={RESUMEN[z]} href={href(lang, `/diversion/${z}/`)} claves={[`diversion-${z}`, z, 'diversion']} datos={n ? [`${n} locales`] : undefined} />;

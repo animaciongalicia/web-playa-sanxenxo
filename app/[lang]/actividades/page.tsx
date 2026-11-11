@@ -9,10 +9,11 @@ import TarjetaFoto from '../../../components/TarjetaFoto';
 import { getActividades } from '../../../lib/datos';
 import { esIdioma, href } from '../../../lib/i18n';
 import { FAMILIAS_INFO } from '../../../lib/paraisos';
+import { metaRuta } from '../../../lib/seo';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => [{ lang: 'es' }];
-export const metadata: Metadata = { title: 'Actividades', description: 'Qué hacer en el mar y en la playa con tu grupo.' };
+export const metadata: Metadata = metaRuta('/actividades/');
 
 export default function Actividades({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();

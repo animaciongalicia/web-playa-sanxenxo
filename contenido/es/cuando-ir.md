@@ -8,12 +8,12 @@ fuentes:
 pendiente:
   - "Pablo detalla el invierno si quiere: eventos de empresa y turismo gastronómico (qué bodegas, qué fechas)"
 ---
-Sanxenxo no es el mismo pueblo en mayo que en agosto. Es un sitio pequeño, con unos 18.000 vecinos, que en verano se llena de decenas de miles de personas. Y eso cambia cuánta gente hay, qué está abierto y, sobre todo, dónde te aceptan una despedida.
+Sanxenxo no es el mismo pueblo en mayo que en agosto. Es un sitio pequeño, con unos 18.000 vecinos, que en verano se llena de decenas de miles de personas. Y eso cambia cuánta gente hay, qué está abierto y con cuánta antelación tienes que reservar.
 
 Mira esta página antes de fijar la fecha. Te puede ahorrar un viaje que no era el que esperabas.
 
 ## La idea que hay que llevarse
 
-La fama de Sanxenxo hace que mucha gente crea que siempre hay ambiente de fiesta. No es así. Hay una temporada corta, del 20 de junio a finales de agosto, y fuera de ella el pueblo es otra cosa: tranquilo, con pocas cosas abiertas y mucho turismo de interior.
+Sanxenxo tiene una temporada fuerte, del 20 de junio a finales de agosto: mucho turista y también muchas despedidas. Mayo y septiembre son flojos, y la primera quincena de junio es el calentamiento. Fuera de esas fechas, el pueblo es otro: tranquilo y con pocas cosas abiertas.
 
-Si buscas mar, fiesta y ambiente, tienes que acertar con el calendario. Y si lo que buscas es calma, también.
+Si buscas mar, fiesta y ambiente, el verano es tu momento. Solo hay que reservar con tiempo.

@@ -8,10 +8,14 @@ import Migas from '../../../components/Migas';
 import Seccion from '../../../components/Seccion';
 import { foto } from '../../../lib/fotos';
 import { IDIOMAS, esIdioma } from '../../../lib/i18n';
+import JsonLd from '../../../components/JsonLd';
+import { organizacion } from '../../../lib/jsonld';
+import { SITIO } from '../../../lib/sitio';
+import { metaRuta } from '../../../lib/seo';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.map((lang) => ({ lang }));
-export const metadata: Metadata = { title: 'Agencia', description: 'Escribe o llama. Aquí no hay formulario.' };
+export const metadata: Metadata = metaRuta('/agencia/');
 
 const DATOS = [
   'Si es despedida de soltero o de soltera.',
@@ -26,6 +30,7 @@ export default function Agencia({ params }: { params: { lang: string } }) {
   const img = foto('despedidas', 'agencia');
   return (
     <>
+      <JsonLd datos={{ '@type': 'ContactPage', name: 'Contacto con la agencia', url: `${SITIO}/agencia/`, about: organizacion() }} />
       <HeroPage ruta="/agencia/" etiqueta="Contacto directo" titulo="Agencia" subtitulo="Aquí no hay formulario: escribes o llamas, y te contestan." />
       <Migas lang={params.lang} ruta="/agencia/" />
       <Contenido lang={params.lang} ruta="/agencia/" />

@@ -12,10 +12,11 @@ import Seccion from '../../../../components/Seccion';
 import { getLocales } from '../../../../lib/datos';
 import { esIdioma } from '../../../../lib/i18n';
 import { NOMBRE_ZONA, ORDEN_CHIRINGUITOS, agruparPorZona, ordenarZonas } from '../../../../lib/locales';
+import { metaRuta } from '../../../../lib/seo';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => [{ lang: 'es' }];
-export const metadata: Metadata = { title: 'Chiringuitos' };
+export const metadata: Metadata = metaRuta('/comer/chiringuitos/');
 
 export default function Chiringuitos({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();

@@ -9,7 +9,8 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "check:datos": "tsx scripts/check-datos.ts",
-    "check:contenido": "tsx scripts/check-contenido.ts"
+    "check:contenido": "tsx scripts/check-contenido.ts",
+    "check:seo": "tsx scripts/check-seo.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

@@ -7,10 +7,11 @@ import PlanDespedida from '../../../components/PlanDespedida';
 import Seccion from '../../../components/Seccion';
 import TarjetaFoto from '../../../components/TarjetaFoto';
 import { IDIOMAS, esIdioma, href } from '../../../lib/i18n';
+import { metaRuta } from '../../../lib/seo';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.map((lang) => ({ lang }));
-export const metadata: Metadata = { title: 'Despedidas', description: 'El plan en conjunto para tu despedida.' };
+export const metadata: Metadata = metaRuta('/despedidas/');
 
 export default function Despedidas({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();

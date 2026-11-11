@@ -2,10 +2,11 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import ServicioPagina from '../../../components/ServicioPagina';
 import { esIdioma } from '../../../lib/i18n';
+import { metaRuta } from '../../../lib/seo';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => [{ lang: 'es' }];
-export const metadata: Metadata = { title: 'Humor Amarillo' };
+export const metadata: Metadata = metaRuta('/humor-amarillo-en-sanxenxo/');
 
 export default function Pagina({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();

@@ -11,10 +11,11 @@ import Seccion from '../../../../components/Seccion';
 import { getLocales } from '../../../../lib/datos';
 import { esIdioma } from '../../../../lib/i18n';
 import { NOMBRE_ZONA, ZONAS_FURANCHOS } from '../../../../lib/locales';
+import { metaRuta } from '../../../../lib/seo';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => [{ lang: 'es' }];
-export const metadata: Metadata = { title: 'Furanchos' };
+export const metadata: Metadata = metaRuta('/comer/furanchos/');
 
 // Una sola página: los furanchos agrupados por zona (decisión de Pablo). Las zonas sin datos no se publican.
 export default function Furanchos({ params }: { params: { lang: string } }) {

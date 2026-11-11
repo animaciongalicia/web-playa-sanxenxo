@@ -8,10 +8,11 @@ import Seccion from '../../../components/Seccion';
 import TarjetaFoto from '../../../components/TarjetaFoto';
 import { getLocales } from '../../../lib/datos';
 import { esIdioma, href } from '../../../lib/i18n';
+import { metaRuta } from '../../../lib/seo';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => [{ lang: 'es' }];
-export const metadata: Metadata = { title: 'Comer', description: 'Restaurantes, chiringuitos y furanchos por zona.' };
+export const metadata: Metadata = metaRuta('/comer/');
 
 export default function Comer({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();

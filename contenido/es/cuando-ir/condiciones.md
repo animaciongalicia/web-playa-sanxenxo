@@ -11,23 +11,23 @@ Antes de fijar la fecha de tu despedida, lee esto. Es información agregada, sin
 
 ## La realidad de la zona
 
-En Sanxenxo hay un pulso entre quienes aceptan despedidas y quienes las evitan, porque no quieren el alboroto que suelen traer. En verano, los restaurantes huyen de ellas.
+En verano hay mucha demanda y muchas despedidas a la vez. Los sitios con espacio para grupos se llenan pronto, y algunos locales preguntan al reservar si es una despedida para organizarse mejor.
 
-Muchos preguntan al reservar si es una despedida. Y cuando el grupo dice que sí, en torno al 90 % ya no quiere esa reserva. Se han dado casos de grupos que llegan, el local ve que es una despedida y no les deja pasar.
+La regla es sencilla: di desde el principio que sois un grupo, reserva con tiempo y ten un plan B.
 
 ## Lo que cambia según el mes
 
-- **Mayo y junio.** Se aceptan despedidas, pero en mayo hay poco abierto y poco ambiente. En junio mejora, sobre todo desde el 20.
-- **Julio y agosto.** Casi nadie las quiere. Además, hoteles y apartamentos suelen pedir estancias de varias noches.
-- **Septiembre.** Se aceptan algunas, pero hay pocas. A partir del 20, casi nada.
+- **Mayo y junio.** Se aceptan despedidas, pero mayo es flojo: poco abierto y poco ambiente. Junio va calentando y mejora mucho desde el 20.
+- **Julio y agosto.** Temporada fuerte, con muchas despedidas. Es más complicado y hay que reservar con antelación: hoteles y apartamentos suelen pedir estancias de varias noches.
+- **Septiembre.** Flojo: se aceptan algunas despedidas, pero hay pocas. A partir del 20, casi nada.
 
-Esto no significa que no puedas organizar una despedida en verano. Significa que tienes que hacerlo con más antelación, con menos sitios disponibles y con otro tipo de plan. Arriba tienes el detalle de cada mes.
+Julio y agosto son época fuerte de despedidas, y salen muy bien. Solo hay que hacerlo con más antelación y con un plan B. Arriba tienes el detalle de cada mes.
 
 ## Cómo organizarte para evitar problemas
 
 - **Pregunta antes de reservar.** Y no esperes a la semana de antes.
-- **No improvises en temporada alta.** En julio y agosto, reserva con mucho tiempo.
-- **Ten un plan B.** Si el sitio que querías no acepta, que no se caiga todo.
+- **No improvises en temporada alta.** En julio y agosto, reserva con tiempo: es cuando más grupos hay.
+- **Ten un plan B.** Si el sitio que querías está completo, que no se caiga todo.
 - **Reparte el grupo si sois muchos.** Es más fácil encontrar sitio para grupos pequeños.
 
 ## Dónde sí hay espacio para grupos

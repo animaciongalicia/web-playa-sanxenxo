@@ -11,10 +11,11 @@ import TarjetaBarco, { ENLACE_BARCOS, tituloBarco } from '../../../components/Ta
 import { getBarcos } from '../../../lib/datos';
 import { CATEGORIAS_BARCO } from '../../../lib/esquemas';
 import { esIdioma } from '../../../lib/i18n';
+import { metaRuta } from '../../../lib/seo';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => [{ lang: 'es' }];
-export const metadata: Metadata = { title: 'Barcos', description: 'Yates, veleros, pesquero y lancha rápida para tu grupo.' };
+export const metadata: Metadata = metaRuta('/barcos/');
 
 // Una sola página con todas las fichas, en 3 columnas (decisión de Pablo). El orden sigue CATEGORIAS_BARCO.
 export default function Barcos({ params }: { params: { lang: string } }) {

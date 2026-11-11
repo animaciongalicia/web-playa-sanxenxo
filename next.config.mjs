@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs';
+
 /** @type {import('next').NextConfig} */
 
 // Cabeceras de seguridad (docs/05).
@@ -9,6 +11,9 @@ const seguridad = [
 ];
 
 const lanzado = process.env.LANZADO === '1';
+
+// Redirecciones 301 del dominio antiguo (data/redirecciones.json, docs/06).
+const { redirecciones } = JSON.parse(readFileSync(new URL('./data/redirecciones.json', import.meta.url), 'utf8'));
 
 const nextConfig = {
   trailingSlash: true,
@@ -26,7 +31,9 @@ const nextConfig = {
       },
     ];
   },
-  // Fase 8: aquí irán las redirecciones 301 de docs/06.
+  async redirects() {
+    return redirecciones.map((r) => ({ source: r.de, destination: r.a, statusCode: 301 }));
+  },
 };
 
 export default nextConfig;

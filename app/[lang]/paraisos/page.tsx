@@ -10,10 +10,11 @@ import TarjetaFoto from '../../../components/TarjetaFoto';
 import { getPlayas } from '../../../lib/datos';
 import { IDIOMAS, esIdioma, href } from '../../../lib/i18n';
 import { esTop } from '../../../lib/paraisos';
+import { metaRuta } from '../../../lib/seo';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.map((lang) => ({ lang }));
-export const metadata: Metadata = { title: 'Paraísos', description: 'Playas y mar de Sanxenxo y alrededores.' };
+export const metadata: Metadata = metaRuta('/paraisos/');
 
 export default function Paraisos({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();
@@ -32,7 +33,7 @@ export default function Paraisos({ params }: { params: { lang: string } }) {
       </Seccion>
       <Contenido lang={lang} ruta="/paraisos/" />
       <Seccion fondo="arena" etiqueta="Las que no fallan" titulo="Ocho playas imprescindibles" intro="Si solo tienes un día, empieza por aquí." centrado>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {top.map((x) => <TarjetaPlaya key={x.id} playa={x} lang={lang} etiquetaTramo />)}
         </div>
       </Seccion>

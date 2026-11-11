@@ -22,7 +22,7 @@ Y alrededor tienes lo demás: la ría, Ons, Cíes, los furanchos, A Lanzada. Nad
 Una despedida bien montada suele combinar tres momentos.
 
 - **Día.** Barco privado, una actividad de grupo, playa, o un plan de relax. Lo mejor es empezar con algo que rompa el hielo.
-- **Cena.** Un sitio con espacio para el grupo, con o sin reservado. Aquí conviene saber que no todos los locales aceptan despedidas, sobre todo en temporada alta, y por eso mismo reservar con tiempo.
+- **Cena.** Un sitio con espacio para el grupo, con o sin reservado. En temporada alta hay mucha demanda, así que reserva con tiempo y di que sois un grupo.
 - **Noche.** Terrazas y copas en el puerto de Sanxenxo, o en Portonovo. Es una zona cómoda para ir enlazando locales.
 
 Cada pieza tiene su sección en la guía: [playas y mar](/paraisos/), [barcos](/barcos/), [actividades](/actividades/), [dónde comer](/comer/) y [diversión](/diversion/).
@@ -49,7 +49,7 @@ Define el presupuesto desde el principio. Evita tensiones y bajas de última hor
 
 1. **Esperar fiestas tipo Ibiza.** Sanxenxo no va de eso.
 2. **Grupos demasiado grandes sin dividir planes.** Si sois muchos, reparte.
-3. **Improvisar reservas en temporada alta.** En julio y agosto, no.
+3. **Improvisar reservas en temporada alta.** En julio y agosto, hay muchas despedidas: reserva con antelación.
 4. **No tener plan B.** Si el tiempo no acompaña, ¿qué hacéis?
 5. **Copiar el plan de otro grupo.** Cada grupo es distinto.
 
@@ -59,7 +59,7 @@ Una despedida bien pensada se disfruta mucho más. Y suele costar menos.
 
 Hay restaurantes para todos los presupuestos: desde menús de 25 € por persona hasta mariscadas de 50 € por persona. Unos tienen reservado para shows, otros no. Unos están junto al paseo y la playa de Silgar, otros más en las afueras, hacia la zona de Panadeira o por Portonovo. Hay furanchos y marisquerías.
 
-Una advertencia que conviene saber: en Sanxenxo no todos los restaurantes aceptan cenas de despedida, sobre todo en temporada alta. Hay quien las evita por el alboroto. Por eso se pregunta antes y se reserva con tiempo. Lo explican las [condiciones de las despedidas](/cuando-ir/#condiciones).
+Un consejo que conviene seguir: en temporada alta, reserva con tiempo y di desde el principio que es una cena de grupo, para que te asignen un sitio con espacio. Lo explican las [condiciones de las despedidas](/cuando-ir/#condiciones).
 
 ## Un sábado tipo
 

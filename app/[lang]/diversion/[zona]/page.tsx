@@ -11,12 +11,13 @@ import Seccion from '../../../../components/Seccion';
 import { getLocales } from '../../../../lib/datos';
 import { esIdioma } from '../../../../lib/i18n';
 import { NOMBRE_ZONA, ZONAS_DIVERSION } from '../../../../lib/locales';
+import { metaRuta } from '../../../../lib/seo';
 
 type P = { lang: string; zona: string };
 const valida = (z: string): z is (typeof ZONAS_DIVERSION)[number] => (ZONAS_DIVERSION as readonly string[]).includes(z);
 export const dynamicParams = false;
 export const generateStaticParams = () => ZONAS_DIVERSION.map((zona) => ({ lang: 'es', zona }));
-export const generateMetadata = ({ params }: { params: P }): Metadata => ({ title: valida(params.zona) ? `Diversión: ${NOMBRE_ZONA[params.zona]}` : undefined });
+export const generateMetadata = ({ params }: { params: P }): Metadata => metaRuta(`/diversion/${params.zona}/`);
 
 export default function ZonaDiversion({ params }: { params: P }) {
   if (!esIdioma(params.lang) || !valida(params.zona)) notFound();

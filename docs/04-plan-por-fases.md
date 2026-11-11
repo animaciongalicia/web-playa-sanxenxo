@@ -143,6 +143,8 @@ Criterio de salida: cada página con versión `pt` enlaza a la `es` y viceversa 
 
 ## Fase 8 · SEO técnico, redirecciones y analítica
 
+**Hecha (sin portugués).** 39 redirecciones 301 y 10 páginas 410 en `data/redirecciones.json`; `sitemap.xml`; `robots.txt` (bloqueado hasta `LANZADO=1`); canónica, Open Graph y títulos/descripciones por página (`lib/seo.ts`); JSON-LD (migas, organización, `ContactPage`, y locales/destinos solo si están verificados); GA4 con aviso de cookies (solo si existe `NEXT_PUBLIC_GA_ID`); 404 con las siete secciones; `npm run check:seo`. Queda: el sitemap multiidioma y `hreflang` (con la Fase 7).
+
 Tareas (detalle en `docs/06`):
 - Redirecciones 301 desde las URLs antiguas con tráfico.
 - `sitemap.xml` multiidioma, `robots.txt` (aún bloqueado), canónicas.

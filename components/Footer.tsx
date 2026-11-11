@@ -39,14 +39,14 @@ export default function Footer({ lang }: { lang: Idioma }) {
         </div>
       </div>
       <div className="border-t border-gray-100">
-        <div className="contenedor flex flex-col justify-between gap-6 py-6 text-xs text-gray-500 sm:flex-row sm:items-end">
-          <div>
-            <ul className="space-y-1.5" aria-label={t.legal}>
+        <div className="contenedor flex flex-col gap-3 py-4 text-[11px] text-gray-400 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+            <span>© {new Date().getFullYear()} Playa Sanxenxo</span>
+            <ul className="flex flex-wrap items-center gap-x-4 gap-y-1" aria-label={t.legal}>
               {legales.map((e) => (
                 <li key={e.href}><Link href={e.href} className="hover:text-ria-700">{e.label}</Link></li>
               ))}
             </ul>
-            <p className="mt-4">© {new Date().getFullYear()} Playa Sanxenxo</p>
           </div>
           <p className="flex items-center gap-3 sm:mr-14" aria-label={t.idioma}>
             <Link href="/" hrefLang="es" className={lang === 'es' ? 'font-semibold text-ria-700' : 'hover:text-ria-700'}>Español</Link>

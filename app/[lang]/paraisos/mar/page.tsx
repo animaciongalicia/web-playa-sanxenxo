@@ -7,10 +7,11 @@ import Migas from '../../../../components/Migas';
 import Seccion from '../../../../components/Seccion';
 import TarjetaFoto from '../../../../components/TarjetaFoto';
 import { IDIOMAS, esIdioma, href } from '../../../../lib/i18n';
+import { metaRuta } from '../../../../lib/seo';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.map((lang) => ({ lang }));
-export const metadata: Metadata = { title: 'Mar', description: 'Ons, Cíes y la ría de Aldán.' };
+export const metadata: Metadata = metaRuta('/paraisos/mar/');
 
 export default function Mar({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();

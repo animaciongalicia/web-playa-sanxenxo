@@ -11,14 +11,12 @@ import { getActividades } from '../../../../lib/datos';
 import { FAMILIAS } from '../../../../lib/esquemas';
 import { esIdioma } from '../../../../lib/i18n';
 import { FAMILIAS_INFO } from '../../../../lib/paraisos';
+import { metaRuta } from '../../../../lib/seo';
 
 type P = { lang: string; familia: string };
 export const dynamicParams = false;
 export const generateStaticParams = () => FAMILIAS.map((familia) => ({ lang: 'es', familia }));
-export const generateMetadata = ({ params }: { params: P }): Metadata => ({
-  title: FAMILIAS_INFO[params.familia as keyof typeof FAMILIAS_INFO]?.titulo,
-  description: FAMILIAS_INFO[params.familia as keyof typeof FAMILIAS_INFO]?.texto,
-});
+export const generateMetadata = ({ params }: { params: P }): Metadata => metaRuta(`/actividades/${params.familia}/`);
 
 export default function Familia({ params }: { params: P }) {
   const info = FAMILIAS_INFO[params.familia as keyof typeof FAMILIAS_INFO];

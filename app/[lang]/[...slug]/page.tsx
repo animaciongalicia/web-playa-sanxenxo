@@ -12,6 +12,7 @@ import { getContenido } from '../../../lib/contenido';
 import { getServicio } from '../../../lib/datos';
 import { IDIOMAS, esIdioma, textos } from '../../../lib/i18n';
 import { RUTAS, buscarRuta } from '../../../lib/rutas';
+import { metaRuta } from '../../../lib/seo';
 
 export const dynamicParams = false;
 
@@ -30,7 +31,7 @@ function resolver(params: { lang: string; slug: string[] }) {
 
 export function generateMetadata({ params }: { params: { lang: string; slug: string[] } }): Metadata {
   const r = resolver(params);
-  return r ? { title: r.ruta.titulo, description: r.ruta.descripcion } : {};
+  return r ? metaRuta(r.ruta.ruta) : {};
 }
 
 export default function Pagina({ params }: { params: { lang: string; slug: string[] } }) {

@@ -11,11 +11,9 @@ pendiente:
 ---
 En esta zona se come bien, y se come de formas muy distintas. Esta sección te ordena las opciones por tipo y por zona, para que no pierdas tiempo.
 
-## Una advertencia sobre las cenas de grupo
+## Cenas de grupo: reserva con tiempo
 
-En Sanxenxo hay un pulso entre los locales que aceptan despedidas y los que las evitan por el alboroto. Muchos no aceptan cenas de grupo, y se han dado casos de grupos a los que no dejan pasar al llegar.
-
-Por eso, pregunta antes y reserva con tiempo, sobre todo en julio y agosto. Lo cuentan las [condiciones de las despedidas](/cuando-ir/#condiciones).
+En verano hay mucha demanda y los sitios con espacio para grupos grandes se llenan pronto. Hay locales preparados para recibir despedidas, pero conviene decir desde el principio que sois un grupo y reservar con tiempo, sobre todo en julio y agosto. Lo cuentan las [condiciones de las despedidas](/cuando-ir/#condiciones).
 
 ## Cómo elegir
 

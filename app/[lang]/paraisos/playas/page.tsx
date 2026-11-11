@@ -10,10 +10,11 @@ import TarjetaFoto from '../../../../components/TarjetaFoto';
 import { getPlayas } from '../../../../lib/datos';
 import { IDIOMAS, esIdioma, href } from '../../../../lib/i18n';
 import { TRAMOS_RUTA, esTop } from '../../../../lib/paraisos';
+import { metaRuta } from '../../../../lib/seo';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.map((lang) => ({ lang }));
-export const metadata: Metadata = { title: 'Playas', description: 'Las playas por tramo de costa y las 8 imprescindibles.' };
+export const metadata: Metadata = metaRuta('/paraisos/playas/');
 
 const RESUMEN: Record<string, string> = {
   sanxenxo: 'Las urbanas, con paseo marítimo: Silgar, Areas, Panadeira.',
@@ -42,7 +43,7 @@ export default function Playas({ params }: { params: { lang: string } }) {
       </Seccion>
       <Seccion fondo="arena" etiqueta="Las que no fallan" titulo="Las ocho imprescindibles" centrado>
         {top.length ? (
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {top.map((p) => <TarjetaPlaya key={p.id} playa={p} lang={lang} etiquetaTramo />)}
           </div>
         ) : <EnPreparacion />}

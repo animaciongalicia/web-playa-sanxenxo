@@ -16,7 +16,7 @@ export default function ListaPorZonas({ grupos, href, pie }: { grupos: Grupo[]; 
               <h2 className="text-2xl font-bold tracking-tight text-gray-900">{g.nombre}</h2>
               <span className="text-sm text-gray-500">{g.locales.length} {g.locales.length === 1 ? 'sitio' : 'sitios'}</span>
             </div>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {g.locales.map((l) => <TarjetaLocal key={l.id} local={l} href={href?.(l)} />)}
             </div>
             {pie?.(g)}

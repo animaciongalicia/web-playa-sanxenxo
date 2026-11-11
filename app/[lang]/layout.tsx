@@ -4,6 +4,7 @@ import type { ReactNode } from 'react';
 import '../globals.css';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import Analitica from '../../components/Analitica';
 import WhatsAppSuave from '../../components/WhatsAppSuave';
 import { IDIOMAS, esIdioma, href, textos } from '../../lib/i18n';
 import { menuPrincipal } from '../../lib/nav';
@@ -37,6 +38,7 @@ export default function RootLayout({ children, params }: { children: ReactNode; 
         <main id="contenido">{children}</main>
         <Footer lang={lang} />
         <WhatsAppSuave etiqueta={t.whatsapp} />
+        <Analitica />
       </body>
     </html>
   );

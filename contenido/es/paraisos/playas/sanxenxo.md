@@ -23,7 +23,7 @@ Es un arenal de arena blanca y fina, con aguas tranquilas, de unos 750 metros de
 
 A un lado queda Punta Vicaño, un parque con mirador que separa Silgar de la playa de Baltar, en Portonovo. Ahí está [Gassho](/diversion/sanxenxo-puerto/gassho/), con una terraza y vistas a la playa: un sitio muy usado para un cóctel después del baño.
 
-En julio y agosto se llena. Si prefieres calma, mayo, junio y septiembre son mejores. Mira [cuándo ir](/cuando-ir/).
+En julio y agosto se llena. Si prefieres calma, mejor la primera quincena de junio o septiembre. Mira [cuándo ir](/cuando-ir/).
 
 ## Areas, imprescindible
 

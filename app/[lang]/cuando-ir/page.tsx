@@ -10,10 +10,11 @@ import Seccion from '../../../components/Seccion';
 import { getMeses } from '../../../lib/datos';
 import { IDIOMAS, esIdioma } from '../../../lib/i18n';
 import { CAMPOS_MES, MESES } from '../../../lib/meses';
+import { metaRuta } from '../../../lib/seo';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.map((lang) => ({ lang }));
-export const metadata: Metadata = { title: 'Cuándo ir y condiciones', description: 'Mes a mes: qué te encuentras, qué te conviene y qué condiciones tienen las despedidas.' };
+export const metadata: Metadata = metaRuta('/cuando-ir/');
 
 // Una sola página: calendario visual, ficha de cada mes (data/servicios-y-meses.json) y condiciones (contenido/es/cuando-ir/condiciones.md).
 const TONO: Record<string, string> = {
@@ -32,7 +33,7 @@ export default function CuandoIr({ params }: { params: { lang: string } }) {
       <HeroPage ruta="/cuando-ir/" etiqueta="Antes de fijar la fecha" titulo="Cuándo ir y condiciones" subtitulo="Mes a mes: qué te encuentras, qué te conviene y qué condiciones tienen las despedidas." />
       <Migas lang={lang} ruta="/cuando-ir/" />
       <Contenido lang={lang} ruta="/cuando-ir/" id="meses" />
-      <Seccion fondo="arena" etiqueta="El año de un vistazo" titulo="La temporada, mes por mes" intro="Dos filas: cuánto ambiente hay y cuánto te aceptan una despedida." centrado>
+      <Seccion fondo="arena" etiqueta="El año de un vistazo" titulo="La temporada, mes por mes" intro="Dos filas: cuánto ambiente hay y cuántas despedidas se organizan." centrado>
         <CalendarioTemporada />
       </Seccion>
       {meses.length > 0 && (

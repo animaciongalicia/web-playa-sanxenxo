@@ -6,6 +6,7 @@ import HeroPage from '../../../../components/HeroPage';
 import Migas from '../../../../components/Migas';
 import PlanDespedida from '../../../../components/PlanDespedida';
 import { IDIOMAS, esIdioma } from '../../../../lib/i18n';
+import { metaRuta } from '../../../../lib/seo';
 
 const TIPOS = {
   soltero: { titulo: 'Despedida de soltero', galeria: 'Planes que funcionan con el grupo' },
@@ -14,7 +15,7 @@ const TIPOS = {
 type P = { lang: string; tipo: string };
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.flatMap((lang) => Object.keys(TIPOS).map((tipo) => ({ lang, tipo })));
-export const generateMetadata = ({ params }: { params: P }): Metadata => ({ title: TIPOS[params.tipo as keyof typeof TIPOS]?.titulo });
+export const generateMetadata = ({ params }: { params: P }): Metadata => metaRuta(`/despedidas/${params.tipo}/`);
 
 export default function Despedida({ params }: { params: P }) {
   if (!esIdioma(params.lang) || !(params.tipo in TIPOS)) notFound();

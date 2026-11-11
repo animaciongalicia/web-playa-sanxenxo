@@ -16,7 +16,7 @@ Hay menús desde unos 25 € por persona hasta mariscadas de unos 50 € por per
 
 ## Lo que conviene saber antes de reservar
 
-- **No todos aceptan despedidas.** En Sanxenxo hay locales que las evitan, sobre todo en temporada alta. Pregunta antes y di claramente que es una cena de grupo.
+- **Reserva con tiempo.** En temporada alta hay mucha demanda de grupos. Pregunta antes y di claramente que es una cena de grupo, para que te den un sitio con espacio.
 - **Con reservado o sin él.** Algunos tienen sala privada para hacer algo más animado. Otros, no. Si quieres animación, mira que el sitio la permita.
 - **Cerca o lejos.** Hay restaurantes junto al paseo y la playa de Silgar, otros en el puerto y otros más en las afueras. Cuanto más cerca de la noche, menos desplazamientos.
 - **Reserva con tiempo.** Los fines de semana de verano se llenan.
