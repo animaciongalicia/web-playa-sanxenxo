@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import BlogSidebar from '../../../../components/BlogSidebar';
 import BandaAgencia from '../../../../components/BandaAgencia';
 import HeroPage from '../../../../components/HeroPage';
 import JsonLd from '../../../../components/JsonLd';
@@ -28,48 +29,44 @@ export default function Entrada({ params }: { params: P }) {
       <JsonLd datos={{ '@type': 'BlogPosting', headline: e.titulo, datePublished: e.fecha, dateModified: e.actualizado ?? e.fecha, description: e.descripcion, inLanguage: 'es', author: { '@type': 'Organization', name: 'Playa Sanxenxo' }, publisher: { '@type': 'Organization', name: 'Playa Sanxenxo' }, mainEntityOfPage: `${SITIO}/blog/${e.slug}/`, ...(img ? { image: `${SITIO}${img}` } : {}) }} />
       <HeroPage imagen={img} etiqueta="Blog" titulo={e.titulo} />
       <Migas lang={params.lang} ruta={`/blog/${e.slug}/`} titulo={e.seo} />
-      <Seccion ancho="estrecho">
-        <p className="-mt-4 mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-gray-600">
-          <time dateTime={e.fecha}>{fechaLarga(e.fecha)}</time>
-          <span aria-hidden="true">·</span>
-          <span>{e.minutos} min de lectura</span>
-          {e.actualizado && <><span aria-hidden="true">·</span><span>Actualizado el {fechaLarga(e.actualizado)}</span></>}
-        </p>
-        {e.resumen.length > 0 && (
-          <aside className="mb-8 rounded-2xl border border-ria-100 bg-ria-50 p-6">
-            <h2 className="text-sm font-bold uppercase tracking-widest text-ria-700">En resumen</h2>
-            <ul className="mt-3 space-y-2 text-gray-700">
-              {e.resumen.map((r) => (
-                <li key={r} className="flex gap-3"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ria-600" aria-hidden="true" />{r}</li>
-              ))}
-            </ul>
-          </aside>
-        )}
-        {e.indice.length >= 4 && (
-          <nav aria-label="Índice de la entrada" className="mb-10 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
-            <h2 className="text-sm font-bold uppercase tracking-widest text-gray-600">En esta entrada</h2>
-            <ol className="mt-3 grid gap-x-8 gap-y-1.5 text-sm sm:grid-cols-2">
-              {e.indice.map((i, n) => (
-                <li key={i.id}><a href={`#${i.id}`} className="text-ria-700 hover:underline"><span className="mr-2 text-gray-600">{n + 1}.</span>{i.titulo}</a></li>
-              ))}
-            </ol>
-          </nav>
-        )}
-        <article
-          className="prose prose-lg max-w-none prose-headings:scroll-mt-24 prose-headings:tracking-tight prose-h2:mt-10 prose-h2:text-2xl prose-a:font-medium prose-a:text-ria-700 prose-strong:text-gray-900 prose-li:marker:text-ria-600 prose-table:text-sm prose-th:bg-gray-50 prose-th:px-3 prose-th:py-2 prose-td:px-3 prose-td:py-2 prose-table:block prose-table:overflow-x-auto"
-          dangerouslySetInnerHTML={{ __html: e.html }}
-        />
-        {e.paginas.length > 0 && (
-          <aside className="mt-12 rounded-2xl bg-gradient-to-br from-ria-800 to-ria-600 p-6 text-white">
-            <h2 className="text-lg font-bold">Sigue con la guía</h2>
-            <ul className="mt-3 space-y-2">
-              {e.paginas.map((r) => (
-                <li key={r}><Link href={r} className="font-medium text-arena-100 underline-offset-4 hover:underline">{SEO[r]?.titulo ?? r} →</Link></li>
-              ))}
-            </ul>
-          </aside>
-        )}
-      </Seccion>
+      <section className="bg-white px-6 py-10 md:px-12 lg:px-16">
+        <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[minmax(0,1fr)_20rem]">
+          <div className="min-w-0">
+            <p className="mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-gray-600">
+              <time dateTime={e.fecha}>{fechaLarga(e.fecha)}</time>
+              <span aria-hidden="true">·</span>
+              <span>{e.minutos} min de lectura</span>
+              {e.actualizado && <><span aria-hidden="true">·</span><span>Actualizado el {fechaLarga(e.actualizado)}</span></>}
+            </p>
+            {e.resumen.length > 0 && (
+              <div className="mb-8 rounded-2xl border border-ria-100 bg-ria-50 p-6">
+                <h2 className="text-sm font-bold uppercase tracking-widest text-ria-700">En resumen</h2>
+                <ul className="mt-3 space-y-2 text-gray-700">
+                  {e.resumen.map((r) => (
+                    <li key={r} className="flex gap-3"><span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-ria-600" aria-hidden="true" />{r}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {e.indice.length >= 4 && (
+              <nav aria-label="Índice de la entrada" className="mb-8 rounded-2xl border border-gray-100 bg-gray-50 p-5 lg:hidden">
+                <h2 className="text-xs font-bold uppercase tracking-widest text-gray-600">En esta entrada</h2>
+                <ol className="mt-3 grid list-none gap-x-8 gap-y-1.5 pl-0 text-sm sm:grid-cols-2">
+                  {e.indice.map((i, n) => (
+                    <li key={i.id}><a href={`#${i.id}`} className="text-ria-700 hover:underline">{!/^\d+\.\s/.test(i.titulo) && <span className="mr-2 text-gray-600">{n + 1}.</span>}{i.titulo}</a></li>
+                  ))}
+                </ol>
+              </nav>
+            )}
+            <article
+              className="prose prose-lg max-w-none prose-headings:scroll-mt-24 prose-headings:tracking-tight prose-h2:mb-3 prose-h2:mt-12 prose-h2:border-l-4 prose-h2:border-ria-600 prose-h2:pl-4 prose-h2:text-2xl prose-h3:text-xl prose-p:leading-relaxed prose-p:text-gray-700 prose-a:font-medium prose-a:text-ria-700 prose-strong:text-gray-900 prose-li:text-gray-700 prose-li:marker:text-ria-600 prose-table:block prose-table:overflow-x-auto prose-table:text-sm prose-th:bg-gray-50 prose-th:px-3 prose-th:py-2 prose-td:px-3 prose-td:py-2 [&>p:first-of-type]:text-xl [&>p:first-of-type]:leading-relaxed [&>p:first-of-type]:text-gray-800 [&_input[type=checkbox]]:mr-2 [&_li.task-list-item]:list-none [&_ul.contains-task-list]:pl-0"
+              dangerouslySetInnerHTML={{ __html: e.html }}
+            />
+            <p className="mt-12"><Link href="/blog/" className="link-inline">← Todas las entradas del blog</Link></p>
+          </div>
+          <BlogSidebar indice={e.indice} paginas={e.paginas} otras={mas} />
+        </div>
+      </section>
       {mas.length > 0 && (
         <Seccion fondo="gris" etiqueta="Del blog" titulo="Sigue leyendo" centrado>
           <ul className="mx-auto grid max-w-5xl gap-5 md:grid-cols-3">
