@@ -75,3 +75,10 @@ export const fechaLarga = (iso: string) => {
 
 /** Entradas del blog que apuntan a una página de la guía (para enlazarlas desde ella). */
 export const entradasDe = (ruta: string): Entrada[] => getEntradas().filter((e) => e.paginas.includes(ruta));
+
+/** Todas las entradas, también las programadas (para comprobar enlaces entre ellas). */
+export const getTodasEntradas = (): Entrada[] => {
+  const antes = process.env.BLOG_HOY;
+  process.env.BLOG_HOY = '9999-12-31';
+  try { return getEntradas(); } finally { if (antes === undefined) delete process.env.BLOG_HOY; else process.env.BLOG_HOY = antes; }
+};

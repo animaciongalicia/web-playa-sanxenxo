@@ -24,7 +24,9 @@ for (const g of cfg.retiradas) {
   if (origenes.has(g)) errores.push(`Retirada y redirigida a la vez: ${g}`);
 }
 // 3) Enlaces internos en los textos Markdown: deben existir (o ser redirecciones).
-const anclaOk = (r: string) => rutas.has(r) || origenes.has(r);
+import { getTodasEntradas } from '../lib/blog';
+const programadas = new Set(getTodasEntradas().map((e) => `/blog/${e.slug}/`));
+const anclaOk = (r: string) => rutas.has(r) || origenes.has(r) || programadas.has(r);
 function md(dir: string): string[] {
   return readdirSync(dir).flatMap((f) => {
     const p = join(dir, f);
