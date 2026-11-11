@@ -4,7 +4,7 @@ import { getEntradas } from '../lib/blog';
 import { columnasPie, enlacesLegales } from '../lib/nav';
 import { href, textos, type Idioma } from '../lib/i18n';
 
-// Pie en 6 partes: 1 columna de texto (2/6) + 4 columnas (1/6 cada una): 3 de enlaces y la de "Novedades del blog".
+// Pie en 5 columnas iguales: texto de marca + 3 de enlaces + "Novedades del blog".
 // Los textos legales van abajo del todo, en vertical.
 export default function Footer({ lang }: { lang: Idioma }) {
   const t = textos(lang);
@@ -14,8 +14,8 @@ export default function Footer({ lang }: { lang: Idioma }) {
   const tituloCol = 'text-sm font-semibold uppercase tracking-wider text-gray-900';
   return (
     <footer id="contacto" className="border-t border-gray-100 bg-gray-50">
-      <div className="contenedor grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-6">
-        <div className="sm:col-span-2 lg:col-span-2">
+      <div className="contenedor grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="sm:col-span-2 lg:col-span-1">
           <div className="flex items-center gap-3">
             <Logo className="h-9 w-9" />
             <span className="text-lg font-bold tracking-tight text-gray-900">PLAYA SANXENXO</span>
@@ -39,7 +39,7 @@ export default function Footer({ lang }: { lang: Idioma }) {
           <h2 className={tituloCol}>{t.blogTitulo}</h2>
           {entradas.length ? (
             <ul className="mt-4 space-y-2">
-              {entradas.map((e) => <li key={e.slug}><Link href={`/blog/${e.slug}/`} className="text-sm text-gray-600 hover:text-ria-700">{e.titulo}</Link></li>)}
+              {entradas.map((e) => <li key={e.slug}><Link href={`/blog/${e.slug}/`} className="text-sm text-gray-600 hover:text-ria-700">{e.seo}</Link></li>)}
               <li><Link href="/blog/" className="text-sm font-medium text-ria-700">Ver el blog →</Link></li>
             </ul>
           ) : (
