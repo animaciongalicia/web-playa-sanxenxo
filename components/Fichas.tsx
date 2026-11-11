@@ -50,13 +50,19 @@ export function TarjetaPlaya({ playa, lang, etiquetaTramo = false }: { playa: Pl
 
 export function TarjetaActividad({ a, compacta = false }: { a: Actividad; compacta?: boolean }) {
   const notas = notasVisibles(a);
+  const imagen = foto(`actividad-${a.slug}`);
+  const donde = a.donde.map((d) => d.nombre).filter((n) => !/por definir/i.test(n));
   const chips: { icono: NombreIcono; texto: string }[] = [];
   if (a.duracion) chips.push({ icono: 'reloj', texto: a.duracion });
   if (a.grupo_minimo) chips.push({ icono: 'personas', texto: `Desde ${a.grupo_minimo} personas` });
   if (a.temporada) chips.push({ icono: 'calendario', texto: a.temporada });
   return (
     <article id={compacta ? undefined : a.slug} className="stagger-child flex scroll-mt-28 flex-col overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-shadow hover:shadow-md">
-      <div className="h-1.5 bg-gradient-to-r from-ria-500 to-arena-400" />
+      {imagen ? (
+        <div className="relative aspect-[16/9] bg-ria-100">
+          <Image src={imagen} alt={a.nombre} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover" />
+        </div>
+      ) : <div className="h-1.5 bg-gradient-to-r from-ria-500 to-arena-400" />}
       <div className="flex flex-1 flex-col p-6">
         <h3 className="text-lg font-semibold text-gray-900">{a.nombre}</h3>
         {a.a_medida && <span className="mt-2 inline-block w-fit rounded-full bg-arena-100 px-3 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-arena-800">Día a medida</span>}
@@ -77,10 +83,12 @@ export function TarjetaActividad({ a, compacta = false }: { a: Actividad; compac
         )}
         {compacta && <a href={`#${slugify(a.nombre)}`} className="mt-4 text-sm font-semibold text-ria-700 hover:underline">Ver detalle ↓</a>}
         {/* "Dónde se hace" es obligatorio en toda actividad (docs/02). */}
-        <p className="mt-auto flex items-start gap-2 border-t border-gray-100 pt-4 text-sm text-gray-700">
-          <Icono nombre="pin" className="mt-0.5 h-4 w-4 shrink-0 text-ria-600" />
-          <span>{a.donde.map((d) => d.nombre).join(' · ')}</span>
-        </p>
+        {donde.length > 0 && (
+          <p className="mt-auto flex items-start gap-2 border-t border-gray-100 pt-4 text-sm text-gray-700">
+            <Icono nombre="pin" className="mt-0.5 h-4 w-4 shrink-0 text-ria-600" />
+            <span>{donde.join(' · ')}</span>
+          </p>
+        )}
       </div>
     </article>
   );

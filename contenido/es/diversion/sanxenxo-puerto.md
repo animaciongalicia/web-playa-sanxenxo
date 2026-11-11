@@ -16,15 +16,6 @@ Empieza pronto. A primera hora, terrazas con vistas al mar para tomar algo con c
 
 Muchos locales están acostumbrados a grupos numerosos, lo que se nota en la atención y en la rapidez en barra. Aun así, en fin de semana de verano, mira reservados o entradas.
 
-## Locales
-
-Los de la guía en esta zona son Dux, Privé Puerto, La Ola, Buddha, Clandestino, Varadero, La Menta, Gassho y Pub 42 Grados Norte. Cuatro tienen ficha propia:
-
-- **[Dux](/diversion/sanxenxo-puerto/dux/).** Cafetería, terraza y pub en el puerto deportivo.
-- **[Buddha](/diversion/sanxenxo-puerto/buddha/).** Uno de los pubs más veteranos del puerto, con reservados para grupos.
-- **[Varadero](/diversion/sanxenxo-puerto/varadero/).** Pub histórico con terraza con vistas a la playa.
-- **[Gassho](/diversion/sanxenxo-puerto/gassho/).** Mirador con cócteles, en Punta Vicaño, para después de la playa.
-
 ## Cuándo ir
 
 En julio y agosto, la cantidad de gente es mucha. Las terrazas ayudan a respirar. Fuera de temporada, algunos locales abren solo fines de semana. Mira [cuándo ir](/cuando-ir/).

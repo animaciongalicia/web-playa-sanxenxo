@@ -8,10 +8,6 @@ pendiente:
 ---
 Portonovo tiene su propio ambiente, más recogido que el de Sanxenxo. Es una buena alternativa cuando buscas copas sin las aglomeraciones del puerto, o cuando te alojas por aquí.
 
-## Locales
-
-En la guía figuran Cubaney, Lolitas, La Noche, Picamillo y Canelas. Pablo aporta cómo es cada uno.
-
 ## Cómo encaja
 
 Portonovo funciona bien para empezar la noche con calma y, si te apetece más ambiente, seguir hacia el puerto de Sanxenxo, que queda a un paseo. Mira [diversión en el puerto de Sanxenxo](/diversion/sanxenxo-puerto/).

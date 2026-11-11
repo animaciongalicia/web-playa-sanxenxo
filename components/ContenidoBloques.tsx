@@ -10,7 +10,7 @@ const ALIAS: Record<string, string> = { 'isla-de-ons': 'islas-ons', 'islas-cies'
 /** Foto de un bloque si el título nombra algo con foto: "Silgar, imprescindible" → playa-silgar. */
 function fotoDeBloque(titulo: string): string | null {
   const nombre = slugify(titulo.split(/[,:–—]/)[0]);
-  return foto(`playa-${nombre}`, ALIAS[nombre] ?? nombre);
+  return foto(`playa-${nombre}`, ALIAS[nombre] ?? null);
 }
 
 function Piezas({ piezas, oscuro }: { piezas: Pieza[]; oscuro?: boolean }) {

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import type { ReactNode } from 'react';
-import { fotoDeRuta } from '../lib/fotos';
+import { focoDe, fotoDeRuta } from '../lib/fotos';
 
 type Props = {
   titulo: string;
@@ -19,7 +19,7 @@ export default function HeroPage({ titulo, subtitulo, etiqueta, ruta, imagen, ch
     <section className="relative isolate flex min-h-[44vh] items-center justify-center overflow-hidden bg-gradient-to-br from-ria-900 via-ria-800 to-ria-600 pt-16 text-white lg:min-h-[48vh]">
       {src && (
         <>
-          <Image src={src} alt="" fill priority sizes="100vw" className="-z-20 object-cover" />
+          <Image src={src} alt="" fill priority sizes="100vw" className="-z-20 object-cover" style={{ objectPosition: focoDe(src) }} />
           <div className="absolute inset-0 -z-10 bg-gradient-to-b from-ria-950/70 via-ria-900/45 to-ria-950/75" />
         </>
       )}

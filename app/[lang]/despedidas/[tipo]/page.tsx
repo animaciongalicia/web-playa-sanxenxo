@@ -1,25 +1,32 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import Contenido from '../../../../components/Contenido';
+import Galeria from '../../../../components/Galeria';
 import HeroPage from '../../../../components/HeroPage';
 import Migas from '../../../../components/Migas';
-import Contenido from '../../../../components/Contenido';
 import PlanDespedida from '../../../../components/PlanDespedida';
 import { IDIOMAS, esIdioma } from '../../../../lib/i18n';
 
-const TIPOS = { soltero: 'Despedida de soltero', soltera: 'Despedida de soltera' } as const;
+const TIPOS = {
+  soltero: { titulo: 'Despedida de soltero', galeria: 'Planes que funcionan con el grupo' },
+  soltera: { titulo: 'Despedida de soltera', galeria: 'Ideas para tu despedida' },
+} as const;
 type P = { lang: string; tipo: string };
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.flatMap((lang) => Object.keys(TIPOS).map((tipo) => ({ lang, tipo })));
-export const generateMetadata = ({ params }: { params: P }): Metadata => ({ title: TIPOS[params.tipo as keyof typeof TIPOS] });
+export const generateMetadata = ({ params }: { params: P }): Metadata => ({ title: TIPOS[params.tipo as keyof typeof TIPOS]?.titulo });
 
 export default function Despedida({ params }: { params: P }) {
   if (!esIdioma(params.lang) || !(params.tipo in TIPOS)) notFound();
-  const titulo = TIPOS[params.tipo as keyof typeof TIPOS];
+  const t = TIPOS[params.tipo as keyof typeof TIPOS];
+  const ruta = `/despedidas/${params.tipo}/`;
   return (
     <>
-      <HeroPage ruta={`/despedidas/${params.tipo}/`} titulo={titulo} />
-      <Migas lang={params.lang} ruta={`/despedidas/${params.tipo}/`} titulo={titulo} />
-      <Contenido lang={params.lang} ruta={`/despedidas/${params.tipo}/`} />
+      <HeroPage ruta={ruta} etiqueta="Despedidas" titulo={t.titulo} />
+      <Migas lang={params.lang} ruta={ruta} titulo={t.titulo} />
+      <Contenido lang={params.lang} ruta={ruta} parte="intro" />
+      <Galeria prefijo={params.tipo} etiqueta="Ambiente" titulo={t.galeria} />
+      <Contenido lang={params.lang} ruta={ruta} parte="resto" />
       <PlanDespedida lang={params.lang} />
     </>
   );

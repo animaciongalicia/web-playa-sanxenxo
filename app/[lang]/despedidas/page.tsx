@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import Contenido from '../../../components/Contenido';
 import HeroPage from '../../../components/HeroPage';
 import Migas from '../../../components/Migas';
-import Contenido from '../../../components/Contenido';
 import PlanDespedida from '../../../components/PlanDespedida';
-import { IDIOMAS, esIdioma } from '../../../lib/i18n';
+import Seccion from '../../../components/Seccion';
+import TarjetaFoto from '../../../components/TarjetaFoto';
+import { IDIOMAS, esIdioma, href } from '../../../lib/i18n';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.map((lang) => ({ lang }));
@@ -12,12 +14,19 @@ export const metadata: Metadata = { title: 'Despedidas', description: 'El plan e
 
 export default function Despedidas({ params }: { params: { lang: string } }) {
   if (!esIdioma(params.lang)) notFound();
+  const lang = params.lang;
   return (
     <>
-      <HeroPage ruta="/despedidas/" titulo="Despedidas" subtitulo="El plan en conjunto para tu despedida." />
-      <Migas lang={params.lang} ruta="/despedidas/" />
-      <Contenido lang={params.lang} ruta="/despedidas/" />
-      <PlanDespedida lang={params.lang} />
+      <HeroPage ruta="/despedidas/" etiqueta="Sanxenxo" titulo="Despedidas" subtitulo="El plan en conjunto para tu despedida." />
+      <Migas lang={lang} ruta="/despedidas/" />
+      <Seccion etiqueta="Empieza por aquí" titulo="¿Soltero o soltera?" intro="Dos guías, con los planes que mejor funcionan en cada caso." centrado>
+        <div className="grid gap-8 md:grid-cols-2">
+          <TarjetaFoto alto="alto" titulo="Despedida de soltero" texto="Mar, barco, actividades y noche en el puerto." href={href(lang, '/despedidas/soltero/')} claves={['soltero', 'despedidas']} />
+          <TarjetaFoto alto="alto" titulo="Despedida de soltera" texto="Día de playa y barco, planes con encanto y copas con vistas." href={href(lang, '/despedidas/soltera/')} claves={['soltera', 'despedidas']} />
+        </div>
+      </Seccion>
+      <Contenido lang={lang} ruta="/despedidas/" />
+      <PlanDespedida lang={lang} />
     </>
   );
 }
