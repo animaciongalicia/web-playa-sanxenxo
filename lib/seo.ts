@@ -61,7 +61,7 @@ function paraRuta(ruta: string): Par | null {
   const b = ruta.match(/^\/blog\/([^/]+)\/$/);
   if (b) {
     const e = getEntrada(b[1]);
-    if (e) return { titulo: e.titulo, descripcion: e.descripcion || `${e.titulo}. Blog de Playa Sanxenxo.` };
+    if (e) return { titulo: e.seo, descripcion: e.descripcion || `${e.titulo}. Blog de Playa Sanxenxo.` };
   }
   let m = ruta.match(/^\/comer\/restaurantes\/([^/]+)\/$/);
   if (m) {

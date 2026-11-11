@@ -60,6 +60,14 @@ for (const [ruta, p] of Object.entries(SEO)) {
   if (p.descripcion.length > 155) errores.push(`Descripción larga (${p.descripcion.length}>155) en ${ruta}`);
 }
 for (const r of rutas) if (r !== '/' && !SEO[r] && !/^\/(comer\/restaurantes|diversion\/[^/]+)\/[^/]+\/$/.test(r)) avisos.push(`Sin SEO propio (usa el genérico): ${r}`);
+// 4b) Blog: título SEO ≤43, descripción 110-155, cabecera completa.
+import { getEntradas } from '../lib/blog';
+for (const e of getEntradas()) {
+  if (e.seo.length > 43) errores.push(`Blog ${e.slug}: título SEO largo (${e.seo.length}>43): ${e.seo}`);
+  if (e.descripcion.length < 110 || e.descripcion.length > 155) errores.push(`Blog ${e.slug}: la descripción mide ${e.descripcion.length} (debe estar entre 110 y 155)`);
+  if (e.resumen.length < 2) errores.push(`Blog ${e.slug}: falta el resumen (mínimo 2 puntos)`);
+  if (!e.paginas.length) errores.push(`Blog ${e.slug}: no apunta a ninguna página de la guía`);
+}
 // 5) Imagen Open Graph y favicon.
 for (const f of ['public/og-playa-sanxenxo.jpg', 'app/icon.svg']) if (!existsSync(join(process.cwd(), f))) errores.push(`Falta ${f}`);
 

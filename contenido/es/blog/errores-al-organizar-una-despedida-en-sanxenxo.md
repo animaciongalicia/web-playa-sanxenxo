@@ -1,44 +1,68 @@
 ---
-titulo: "Seis errores al organizar una despedida en Sanxenxo (y cómo evitarlos)"
-fecha: 2026-11-26
-descripcion: "Los errores que más se repiten al organizar una despedida en Sanxenxo: expectativas, grupos grandes, reservas tardías y falta de plan B."
+titulo: "Ocho errores al organizar una despedida en Sanxenxo y cómo evitarlos"
+seo: "Errores al organizar una despedida"
+fecha: 2026-12-16
+descripcion: "Los ocho errores que más se repiten al organizar una despedida en Sanxenxo, desde esperar fiestas tipo Ibiza hasta olvidar el permiso de Ons."
 imagen: despedidas
 paginas:
   - /despedidas/
   - /cuando-ir/
-objetivo: 380
+resumen:
+  - "Los fallos más caros son las reservas tardías en verano y no saber qué incluye cada plan."
+  - "Hay normas que cambian el plan: el permiso de Ons y Cíes, la hora de la limusina o el reparto del tiempo en las motos de agua."
+  - "Una despedida bien pensada se disfruta más, y casi siempre cuesta menos."
+objetivo: 800
 fuentes:
-  - "contenido/es/despedidas.md, contenido/es/despedidas/soltero.md y contenido/es/despedidas/soltera.md (errores habituales ya publicados en la guía)"
+  - "contenido/es/despedidas.md, contenido/es/despedidas/soltero.md, contenido/es/despedidas/soltera.md"
+  - "contenido/es/limusinas.md, contenido/es/actividades/mar-con-motor.md, contenido/es/actividades/kayak-areoso.md y contenido/es/paraisos/mar/islas-ons.md"
 publicar: true
 ---
-Una despedida bien pensada se disfruta mucho más. Y suele costar menos. Estos son los errores que se repiten una y otra vez.
+Organizar una despedida parece fácil hasta que empiezas. Estos son los ocho errores que se repiten, cada uno con su arreglo. Si los evitas, el día sale casi solo.
 
 ## 1. Esperar fiestas tipo Ibiza
 
-Sanxenxo no va de eso. Hay mar, buena mesa, terrazas y copas por el puerto, pero no barcos tipo discoteca ni fiestas masivas. Ajusta las expectativas y lo pasarás mejor.
+Sanxenxo tiene mar, buena mesa, terrazas y copas por el puerto, pero no barcos tipo discoteca ni fiestas masivas. Quien llega esperando otra cosa se queda con la sensación de que "no había nada". **El arreglo:** ajusta la expectativa desde el principio. Un barco privado con música para tu grupo, y la noche por el puerto, es lo que hay, y funciona.
 
-## 2. Ir en un grupo enorme sin dividir los planes
+## 2. Ir en un grupo enorme sin dividir
 
-Si sois más de unos 15, divide: un grupo en el barco y otro en una actividad, y os juntáis a la hora de comer. Es más fácil de coordinar y nadie espera.
+Un barco aguanta entre 11 y 16 personas según el modelo, y una moto de agua, una o dos. Con 20 personas, el plan único se rompe. **El arreglo:** divide en dos planes a la vez, por ejemplo barco y actividad, y juntaos a la hora de comer.
 
-## 3. Improvisar reservas en temporada alta
+## 3. Improvisar las reservas en temporada alta
 
-En julio y agosto hay muchas despedidas a la vez. Reserva restaurante, alojamiento y barco con antelación, y di desde el principio que sois un grupo. Mira cómo cambia cada mes en [cuándo ir a Sanxenxo mes a mes](/cuando-ir/).
+Del 20 de junio al 29 o 30 de agosto hay mucho turista y muchas despedidas. Los hoteles y apartamentos suelen pedir estancias de 3 o 4 noches, y las cenas de grupo se llenan pronto. **El arreglo:** reserva con antelación, y di desde el principio que sois un grupo. Mira [qué mes elegir y qué esperar de cada uno](/cuando-ir/).
 
 ## 4. No tener plan B
 
-Si el tiempo no acompaña, ¿qué hacéis? Ten una alternativa en tierra: un spa, una comida larga o una actividad cubierta.
+En Galicia, el tiempo manda. Si llueve o hay mar, un barco puede no salir. **El arreglo:** ten siempre una alternativa en tierra: un spa, una comida larga, una gincana urbana o una cata.
 
-## 5. Sobrecargar el día
+## 5. Olvidar el permiso de Ons y Cíes
 
-Con una actividad bien elegida, el día se disfruta más que con cuatro apuradas. Menos es más.
+Las dos islas son Parque Nacional. En Semana Santa y del 15 de mayo al 15 de septiembre necesitas una **autorización gratuita de la Xunta antes de comprar el billete**, y fuera de esas fechas solo se visita con grupos con guía. Y con Areoso pasa algo parecido: para pisar el islote hace falta autorización, y alquilar el kayak no la sustituye. **El arreglo:** pide el permiso lo primero y reserva el barco o el kayak después. Lo explica la guía de [Ons y su autorización de la Xunta](/paraisos/mar/islas-ons/).
 
-## 6. Copiar el plan de otro grupo
+## 6. Poner la limusina a la hora equivocada
 
-Cada grupo es distinto: edades, presupuesto y ganas. Un plan copiado sin adaptar suele quedarse a medias.
+En verano, entre las 19:00 y las 22:00, la gente sale de la playa y circular es muy difícil. Puedes acabar una hora en un atasco dentro de la limusina. Y es una sola, de 8 plazas. **El arreglo:** ponla de noche, a partir de las 23:00, y reserva con tiempo. Más detalles en [limusina para despedidas en Sanxenxo](/limusinas/).
+
+## 7. No preguntar cuánto dura de verdad una actividad
+
+En las motos de agua, **el tiempo se reparte entre los participantes**: dos horas para el grupo no son dos horas por persona. Algo parecido pasa con otras actividades de grupo. **El arreglo:** pregunta cuántos minutos te corresponden y qué incluye el precio. Mira las [motos de agua en Sanxenxo y Portonovo](/actividades/mar-con-motor/).
+
+## 8. Sobrecargar el día y copiar el plan de otro grupo
+
+Con una actividad bien elegida, el día se disfruta más que con cuatro apuradas. Y cada grupo es distinto: edades, presupuesto y ganas. **El arreglo:** pregunta a todos qué quieren y elige menos cosas, pero mejor.
 
 ## Y el presupuesto, desde el principio
 
-Fíjalo antes de reservar nada. Como orientación, entre 100 y 150 € por persona para un plan sencillo, entre 150 y 250 € para uno completo y desde 250 € para un fin de semana.
+Fíjalo antes de reservar nada. Como orientación, por persona: de 100 a 150 € un plan sencillo, de 150 a 250 € uno completo y desde 250 € un fin de semana. Para la cena, menús desde unos 25 € y mariscadas de unos 50 €.
+
+## Lista de comprobación
+
+- [ ] Fecha fijada y mes elegido con calma.
+- [ ] Presupuesto por persona acordado.
+- [ ] Alojamiento y barco reservados con tiempo.
+- [ ] Cena de grupo reservada, diciendo que sois un grupo.
+- [ ] Permiso de Ons, Cíes o Areoso, si lo incluís.
+- [ ] Plan B para lluvia o mar.
+- [ ] Limusina o transporte a la hora correcta.
 
 Si quieres ver cómo se monta todo junto, con las piezas del plan y un sábado tipo, mira cómo [organizar una despedida en Sanxenxo](/despedidas/).
