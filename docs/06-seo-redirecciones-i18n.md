@@ -52,7 +52,7 @@ Estrategia: **web nueva, pocas páginas, buenas**. Se redirige solo lo que tiene
 | `/las-playas-de-sanxenxo/` | 1.711 impr. | `/paraisos/playas/sanxenxo/` |
 | `/playas-de-sanxenxo-ideales-para-despedidas-al-aire-libre/` | 215 impr. | `/paraisos/playas/sanxenxo/` |
 | `/buceando-en-las-islas-cies/` | 63 impr. | `/paraisos/mar/islas-cies/` |
-| `/local-para-despedidas-conjuntas/` | 9 clics, 1.304 impr. | `/despedidas/` *(Pablo confirma si debe apuntar a la ficha de A Vichona)* |
+| `/local-para-despedidas-conjuntas/` | 9 clics, 1.304 impr. | `/comer/restaurantes/a-vichona/` *(Pablo, 2026-11-11: esa página ya no existe y su contenido es A Vichona)* |
 | `/tarifas/`, `/ofertas-para-despedidas/`, `/extras-para-despedidas/` | impresiones sin clics | `/agencia/` |
 | `/contacto/` | 133 impr. | `/agencia/` |
 

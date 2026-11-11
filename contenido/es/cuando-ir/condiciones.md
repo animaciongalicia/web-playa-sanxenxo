@@ -32,7 +32,7 @@ Julio y agosto son época fuerte de despedidas, y salen muy bien. Solo hay que h
 
 ## Dónde sí hay espacio para grupos
 
-Hay locales preparados para recibir despedidas, con espacios amplios y privados. Un ejemplo es [A Vichona](/comer/restaurantes/a-vichona/), un asador de churrasco con capacidad para 120 personas, varios espacios y salas privadas para shows.
+Hay locales preparados para recibir despedidas, con espacios amplios y privados. Un ejemplo es [A Vichona](/comer/restaurantes/a-vichona/), un asador de churrasco con capacidad para 120 personas, donde caben 6, 8 o 10 grupos a la vez, cada uno en su mesa, y 4 reservados para shows privados.
 
 Y la noche en el puerto tiene su propio ritmo: mira [diversión](/diversion/).
 

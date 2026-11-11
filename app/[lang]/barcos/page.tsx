@@ -12,6 +12,7 @@ import { getBarcos } from '../../../lib/datos';
 import { CATEGORIAS_BARCO } from '../../../lib/esquemas';
 import { esIdioma } from '../../../lib/i18n';
 import { metaRuta } from '../../../lib/seo';
+import Rejilla from '../../../components/Rejilla';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => [{ lang: 'es' }];
@@ -29,12 +30,12 @@ export default function Barcos({ params }: { params: { lang: string } }) {
       <Contenido lang={params.lang} ruta="/barcos/" parte="intro" />
       <Seccion etiqueta="Flota" titulo="Elige tu barco" intro="Precio «desde» y capacidad máxima en cada ficha." fondo="gris" centrado>
         {ordenados.length ? (
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <Rejilla>
             {ordenados.map((b) => {
               const misma = barcos.filter((x) => x.categoria === b.categoria);
               return <TarjetaBarco key={b.id} b={b} titulo={tituloBarco(b, misma.indexOf(b) + 1, misma.length)} />;
             })}
-          </div>
+          </Rejilla>
         ) : <EnPreparacion />}
         <p className="mt-10 text-sm text-gray-500">
           Los barcos son de <a href={ENLACE_BARCOS} target="_blank" rel="noopener noreferrer" className="link-inline">Sea Galicia</a>. ¿Prefieres un traslado a Ons, Cíes o Aldán?{' '}

@@ -11,6 +11,7 @@ import { getPlayas } from '../../../../lib/datos';
 import { IDIOMAS, esIdioma, href } from '../../../../lib/i18n';
 import { TRAMOS_RUTA, esTop } from '../../../../lib/paraisos';
 import { metaRuta } from '../../../../lib/seo';
+import Rejilla from '../../../../components/Rejilla';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.map((lang) => ({ lang }));
@@ -34,18 +35,18 @@ export default function Playas({ params }: { params: { lang: string } }) {
       <HeroPage ruta="/paraisos/playas/" etiqueta="Paraísos" titulo="Playas" subtitulo="Cinco tramos de costa y ocho imprescindibles para empezar." />
       <Migas lang={lang} ruta="/paraisos/playas/" />
       <Seccion etiqueta="De sur a norte" titulo="Cinco tramos de costa" intro="Elige el tramo que te quede cerca y verás todas sus playas." centrado>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <Rejilla>
           {TRAMOS_RUTA.map((t) => {
             const n = playas.filter((p) => (t.tramos as readonly string[]).includes(p.tramo)).length;
             return <TarjetaFoto key={t.slug} titulo={t.titulo} texto={RESUMEN[t.slug]} href={href(lang, `/paraisos/playas/${t.slug}/`)} claves={[`playas-${t.slug}`, 'paraisos']} datos={n ? [`${n} playas`] : undefined} />;
           })}
-        </div>
+        </Rejilla>
       </Seccion>
       <Seccion fondo="arena" etiqueta="Las que no fallan" titulo="Las ocho imprescindibles" centrado>
         {top.length ? (
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <Rejilla>
             {top.map((p) => <TarjetaPlaya key={p.id} playa={p} lang={lang} etiquetaTramo />)}
-          </div>
+          </Rejilla>
         ) : <EnPreparacion />}
       </Seccion>
       <Contenido lang={lang} ruta="/paraisos/playas/" />

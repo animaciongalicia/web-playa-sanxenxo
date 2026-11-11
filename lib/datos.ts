@@ -34,9 +34,8 @@ function limpiar<T extends { notas_internas: string | null; datos_fuente: string
 
 function limpiarLocal(l: Local): Local {
   const x = limpiar(l);
-  // Sin verificar no se publica el teléfono.
-  if (enProduccion() && !x.verificado) return { ...x, contacto: { ...x.contacto, telefono: null } };
-  return x;
+  // Decisión de Pablo: no se publica NINGÚN teléfono de locales, ni verificado. Se reserva a través de la agencia.
+  return { ...x, contacto: { ...x.contacto, telefono: null } };
 }
 
 export function getPlayas(): Playa[] {

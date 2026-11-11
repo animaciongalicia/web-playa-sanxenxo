@@ -10,6 +10,7 @@ import { getPlayas } from '../../../../../lib/datos';
 import { IDIOMAS, esIdioma } from '../../../../../lib/i18n';
 import { NOMBRE_TRAMO, TRAMOS_RUTA, buscarTramoRuta } from '../../../../../lib/paraisos';
 import { metaRuta } from '../../../../../lib/seo';
+import Rejilla from '../../../../../components/Rejilla';
 
 type P = { lang: string; tramo: string };
 export const dynamicParams = false;
@@ -33,9 +34,9 @@ export default function Tramo({ params }: { params: P }) {
       {grupos.length ? (
         grupos.map((g, i) => (
           <Seccion key={g.t} fondo={i % 2 ? 'blanco' : 'arena'} etiqueta="Todas las playas" titulo={tramo.tramos.length > 1 ? NOMBRE_TRAMO[g.t] : `Playas de ${tramo.titulo}`} intro={`${g.playas.length} ${g.playas.length === 1 ? 'playa' : 'playas'} en este tramo.`} id={g.t} centrado>
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <Rejilla>
               {g.playas.map((p) => <TarjetaPlaya key={p.id} playa={p} lang={lang} />)}
-            </div>
+            </Rejilla>
           </Seccion>
         ))
       ) : (

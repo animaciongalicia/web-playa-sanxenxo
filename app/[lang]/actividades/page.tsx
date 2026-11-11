@@ -10,6 +10,7 @@ import { getActividades } from '../../../lib/datos';
 import { esIdioma, href } from '../../../lib/i18n';
 import { FAMILIAS_INFO } from '../../../lib/paraisos';
 import { metaRuta } from '../../../lib/seo';
+import Rejilla from '../../../components/Rejilla';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => [{ lang: 'es' }];
@@ -25,12 +26,12 @@ export default function Actividades({ params }: { params: { lang: string } }) {
       <HeroPage ruta="/actividades/" etiqueta="Mar y playa" titulo="Actividades" subtitulo="Qué hacer en el mar y en la playa con tu grupo." />
       <Migas lang={lang} ruta="/actividades/" />
       <Seccion etiqueta="Seis familias" titulo="Elige el tipo de plan" intro="Cada actividad dice dónde se hace." centrado>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <Rejilla>
           {familias.map((f) => {
             const n = todas.filter((a) => a.familia === f).length;
             return <TarjetaFoto key={f} titulo={FAMILIAS_INFO[f].titulo} texto={FAMILIAS_INFO[f].texto} href={href(lang, `/actividades/${f}/`)} claves={[f, 'actividades']} datos={n ? [`${n} ${n === 1 ? 'actividad' : 'actividades'}`] : undefined} />;
           })}
-        </div>
+        </Rejilla>
       </Seccion>
       <Contenido lang={lang} ruta="/actividades/" />
       <BandaAgencia lang={lang} />

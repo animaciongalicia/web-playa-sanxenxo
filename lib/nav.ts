@@ -2,7 +2,7 @@ import { href, type Idioma, textos } from './i18n';
 
 export type NavItem = { label: string; href: string; hijos?: { label: string; href: string }[] };
 
-/** Menú principal (7 elementos, docs/02). */
+/** Menú principal (7 secciones de la guía + Blog). */
 export function menuPrincipal(lang: Idioma): NavItem[] {
   const t = textos(lang);
   const h = (r: string) => href(lang, r);
@@ -39,6 +39,7 @@ export function menuPrincipal(lang: Idioma): NavItem[] {
       hijos: [{ label: t.soltero, href: h('/despedidas/soltero/') }, { label: t.soltera, href: h('/despedidas/soltera/') }],
     },
     { label: t.cuandoIr, href: h('/cuando-ir/') },
+    { label: 'Blog', href: h('/blog/') },
   ];
 }
 

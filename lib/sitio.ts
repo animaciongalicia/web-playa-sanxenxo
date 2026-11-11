@@ -1,4 +1,5 @@
 // Lista de URLs reales de la web (una sola fuente para sitemap y comprobaciones).
+import { getEntradas } from './blog';
 import { getLocales } from './datos';
 import { RUTAS } from './rutas';
 
@@ -10,5 +11,6 @@ export function todasLasRutas(): string[] {
   for (const r of RUTAS) rutas.add(r.ruta);
   for (const l of getLocales('restaurantes')) if (l.pagina_propia) rutas.add(`/comer/restaurantes/${l.slug}/`);
   for (const l of getLocales('diversion')) if (l.pagina_propia) rutas.add(`/diversion/${l.zona}/${l.slug}/`);
+  for (const e of getEntradas()) rutas.add(`/blog/${e.slug}/`);
   return [...rutas].sort();
 }

@@ -12,6 +12,7 @@ import { getLocales } from '../../../../lib/datos';
 import { esIdioma } from '../../../../lib/i18n';
 import { NOMBRE_ZONA, ZONAS_DIVERSION } from '../../../../lib/locales';
 import { metaRuta } from '../../../../lib/seo';
+import Rejilla from '../../../../components/Rejilla';
 
 type P = { lang: string; zona: string };
 const valida = (z: string): z is (typeof ZONAS_DIVERSION)[number] => (ZONAS_DIVERSION as readonly string[]).includes(z);
@@ -32,9 +33,9 @@ export default function ZonaDiversion({ params }: { params: P }) {
       <Contenido lang={params.lang} ruta={`/diversion/${zona}/`} parte="intro" />
       <Seccion fondo="arena" etiqueta="Los locales" titulo={`Qué hay en ${NOMBRE_ZONA[zona]}`} intro={locales.length ? `${locales.length} ${locales.length === 1 ? 'local' : 'locales'} en la guía.` : undefined} centrado>
         {locales.length || referencias.length ? (
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <Rejilla>
             {locales.map((l) => <TarjetaLocal key={l.id} local={l} href={l.pagina_propia ? `/diversion/${zona}/${l.slug}/` : undefined} />)}
-          </div>
+          </Rejilla>
         ) : <EnPreparacion />}
         {referencias.length > 0 && (
           <div className="mt-12 rounded-2xl bg-white p-6 shadow-sm">

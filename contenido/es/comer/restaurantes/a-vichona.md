@@ -3,17 +3,18 @@ titulo: A Vichona
 objetivo: 250
 fuentes:
   - "Pablo (conversación 2026-11-10): asador de churrasco, local propio, 120 personas, varios espacios con salas privadas"
+  - "Pablo (2026-11-11): caben 6, 8 o 10 grupos a la vez, juntos pero no revueltos, cada uno en su mesa; buen ambiente y jaleo, sin DJ ni música fuerte tipo discoteca; 4 reservados para shows privados"
   - "Directorio Gastroranking (dirección y teléfono): Avenida Vichona 52, Sanxenxo"
 pendiente:
   - "Horario, meses de apertura, web, redes y fotos"
-  - "Detalle de los espacios privados: cuántos hay y para cuántas personas cada uno"
+  - "Detalle de los 4 reservados para shows privados: capacidad de cada uno y cómo se contratan (Pablo lo amplía)"
   - "Pablo confirma dirección y teléfono (vienen de un directorio)"
 ---
-A Vichona es un asador de churrasco en la Avenida Vichona, en Sanxenxo. Está pensado para comidas y cenas de grupo, con mucho espacio.
+A Vichona es un asador de churrasco en la Avenida Vichona, en Sanxenxo. Está pensado para comidas y cenas de grupo: caben varios grupos a la vez, cada uno en su mesa.
 
 ## El local
 
-Caben **120 personas**, repartidas en varios espacios, incluidos algunos privados. Eso lo hace útil para grupos grandes, o para quien quiere un sitio donde celebrar con más libertad que en un restaurante convencional.
+Caben **120 personas**, repartidas en varios espacios. Es un sitio pensado para grupos grandes y para celebrar con más libertad que en un restaurante convencional.
 
 ## Qué se come
 
@@ -21,7 +22,9 @@ Churrasco, que es lo que da nombre al asador. Los clientes destacan también el 
 
 ## Para grupos y despedidas
 
-Admite despedidas de soltero y de soltera. Tiene espacios privados por si quieres un momento de animación o de shows, sin mezclar al grupo con el resto de comensales.
+Admite despedidas de soltero y de soltera. Se juntan **6, 8 o 10 grupos a la vez**: juntos, pero no revueltos. Cada grupo va a su mesa, y el ambiente es bueno y animado, con jaleo.
+
+No hay DJ ni música fuerte tipo discoteca: es una cena con buen rollo, no una sala de baile. Si quieres algo más privado, hay **4 reservados para shows privados**.
 
 Si organizas una despedida, lee antes las [condiciones de las despedidas](/cuando-ir/#condiciones) y mira el [plan completo](/despedidas/).
 

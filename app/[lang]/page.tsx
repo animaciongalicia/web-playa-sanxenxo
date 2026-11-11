@@ -15,6 +15,7 @@ import { foto } from '../../lib/fotos';
 import JsonLd from '../../components/JsonLd';
 import { organizacion, sitioWeb } from '../../lib/jsonld';
 import { metaRuta } from '../../lib/seo';
+import Rejilla from '../../components/Rejilla';
 
 export const metadata: Metadata = metaRuta('/');
 
@@ -92,11 +93,11 @@ export default function Home({ params }: { params: { lang: string } }) {
 
       {/* Las siete entradas */}
       <Seccion fondo="gris" etiqueta="Empieza aquí" titulo="Elige por dónde empezar" intro="Siete entradas. Cada una responde una duda real de tu despedida." centrado>
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <Rejilla>
           {entradas.map((e) => (
             <Tarjeta key={e.clave} titulo={e.titulo} texto={e.texto} href={h(e.ruta)} claves={[`card-${e.clave}`, e.clave]} nombreIcono={e.icono} />
           ))}
-        </div>
+        </Rejilla>
       </Seccion>
 
       {/* Tramos de costa */}
@@ -111,11 +112,11 @@ export default function Home({ params }: { params: { lang: string } }) {
       {/* Barcos destacados */}
       {destacados.length > 0 && (
         <Seccion etiqueta="Mar" titulo="Un día en barco cambia la despedida" intro="Yates, veleros y lancha rápida desde Sanxenxo y Portonovo. Con patrón, seguros y precio claro.">
-          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <Rejilla>
             {destacados.map((b) => (
               <TarjetaBarco key={b.id} compacta b={b} titulo={tituloBarco(b, indice(b), contar(b.categoria))} />
             ))}
-          </div>
+          </Rejilla>
           <div className="mt-10 text-center">
             <Link href={h('/barcos/')} className="btn-primary">Ver todos los barcos</Link>
           </div>

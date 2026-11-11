@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Logo from './Logo';
+import { getEntradas } from '../lib/blog';
 import { columnasPie, enlacesLegales } from '../lib/nav';
 import { href, textos, type Idioma } from '../lib/i18n';
 
@@ -9,6 +10,7 @@ export default function Footer({ lang }: { lang: Idioma }) {
   const t = textos(lang);
   const columnas = columnasPie(lang);
   const legales = enlacesLegales(lang);
+  const entradas = getEntradas().slice(0, 3);
   const tituloCol = 'text-sm font-semibold uppercase tracking-wider text-gray-900';
   return (
     <footer id="contacto" className="border-t border-gray-100 bg-gray-50">
@@ -35,7 +37,14 @@ export default function Footer({ lang }: { lang: Idioma }) {
         ))}
         <div>
           <h2 className={tituloCol}>{t.blogTitulo}</h2>
-          <p className="mt-4 text-sm text-gray-500">{t.blogPronto}</p>
+          {entradas.length ? (
+            <ul className="mt-4 space-y-2">
+              {entradas.map((e) => <li key={e.slug}><Link href={`/blog/${e.slug}/`} className="text-sm text-gray-500 hover:text-ria-700">{e.titulo}</Link></li>)}
+              <li><Link href="/blog/" className="text-sm font-medium text-ria-700">Ver el blog →</Link></li>
+            </ul>
+          ) : (
+            <p className="mt-4 text-sm text-gray-500"><Link href="/blog/" className="hover:text-ria-700">{t.blogPronto}</Link></p>
+          )}
         </div>
       </div>
       <div className="border-t border-gray-100">

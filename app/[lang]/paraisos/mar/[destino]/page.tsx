@@ -14,6 +14,7 @@ import { DESTINO_SLUG } from '../../../../../lib/paraisos';
 import JsonLd from '../../../../../components/JsonLd';
 import { jsonLdDestino } from '../../../../../lib/jsonld';
 import { metaRuta } from '../../../../../lib/seo';
+import Rejilla from '../../../../../components/Rejilla';
 
 type P = { lang: string; destino: string };
 const SLUGS = Object.values(DESTINO_SLUG) as string[];
@@ -52,7 +53,7 @@ export default function Destino({ params }: { params: P }) {
       </Seccion>}
       {playas.length > 0 && (
         <Seccion fondo="arena" etiqueta="En la zona" titulo="Playas de esta costa" centrado>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">{playas.map((p) => <TarjetaPlaya key={p.id} playa={p} lang={lang} />)}</div>
+          <Rejilla>{playas.map((p) => <TarjetaPlaya key={p.id} playa={p} lang={lang} />)}</Rejilla>
         </Seccion>
       )}
       <BandaAgencia lang={lang} />

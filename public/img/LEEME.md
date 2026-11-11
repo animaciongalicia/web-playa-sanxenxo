@@ -44,7 +44,14 @@ Se nombran con el id del local (`data/locales.json`): `bico-beach-bar`, `pe-na-p
 Portadas por listado: `chiringuitos`, `restaurantes`.
 
 ## Sin hueco asignado
-`public/img/sin-usar/`: fotos que no sé a qué playa o tramo pertenecen (Castiñeira, Menduíña, Portocelo, Rodas, Areabrava, Pintens, Raeiros, Arneles, Area dos Cas, Melide y Ons, veleros y yates sobrantes, el puerto de Sanxenxo, atardeceres…). Aquí también está `motos-de-agua.heic`, que el servidor no puede leer: pásala a JPG. Dime cuál es cuál y las coloco.
+`fotos-sin-usar/` (en la raíz del repo, fuera de `public/`: no se publican): fotos que no sé a qué playa o tramo pertenecen (Castiñeira, Menduíña, Portocelo, Rodas, Areabrava, Pintens, Raeiros, Arneles, Area dos Cas, Melide y Ons, veleros y yates sobrantes, el puerto de Sanxenxo, atardeceres…). Aquí también está `motos-de-agua.heic`, que el servidor no puede leer: pásala a JPG. Dime cuál es cuál y las coloco.
 
 ## Fotos provisionales
 Las que hay ahora vienen de la web anterior y son **provisionales**: sustitúyelas subiendo la tuya con el mismo nombre (borra la vieja si tiene otra extensión). Las de personas posando en barco o en la playa parecen fotos de archivo: conviene cambiarlas por fotos reales de Sanxenxo.
+
+
+## Portadas: cómo encajarlas bien
+- La portada se recorta a una franja ancha (unos 1280 × 400 px en el ordenador). Lo importante de la foto debe estar **en el centro y algo hacia arriba**: la cabecera tapa los primeros 64 px y la ola blanca, los últimos 80.
+- Medida ideal: **1920 × 800 px**, apaisada. Pesa menos de 250 KB (se comprime sola con `webp`).
+- Si la foto queda mal encajada, no hace falta recortarla: se ajusta el punto de enfoque en `lib/fotos.ts`, objeto `FOCO` (por ejemplo `soltera: '50% 38%'` = centrada, un poco por encima del centro). El segundo número es la altura (0 % = arriba, 100 % = abajo).
+- Al subir una foto nueva con el mismo nombre, el enfoque anterior se conserva: revisa que siga encajando.

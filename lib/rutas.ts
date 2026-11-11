@@ -64,6 +64,9 @@ export const RUTAS: Ruta[] = [
   { ruta: '/humor-amarillo-en-sanxenxo/', titulo: 'Humor Amarillo', fase: 6, servicio: 'humor-amarillo' },
   { ruta: '/agencia/', titulo: 'Agencia', descripcion: 'Cuéntanos tu despedida.', fase: 6, pt: true },
 
+  // Blog (fase 8)
+  { ruta: '/blog/', titulo: 'Blog', descripcion: 'Novedades y consejos para tu despedida en Sanxenxo.', fase: 8 },
+
   // Legales (fase 6)
   { ruta: '/aviso-legal/', titulo: 'Aviso legal', fase: 6, generica: true },
   { ruta: '/privacidad/', titulo: 'Política de privacidad', fase: 6, generica: true },

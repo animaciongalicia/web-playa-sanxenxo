@@ -11,6 +11,7 @@ import { getMeses } from '../../../lib/datos';
 import { IDIOMAS, esIdioma } from '../../../lib/i18n';
 import { CAMPOS_MES, MESES } from '../../../lib/meses';
 import { metaRuta } from '../../../lib/seo';
+import Rejilla from '../../../components/Rejilla';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.map((lang) => ({ lang }));
@@ -38,7 +39,7 @@ export default function CuandoIr({ params }: { params: { lang: string } }) {
       </Seccion>
       {meses.length > 0 && (
         <Seccion etiqueta="El detalle" titulo="Qué te encuentras cada mes" centrado>
-          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <Rejilla>
             {meses.map(({ mes, titulo, campos }) => (
               <article key={mes.id} id={mes.id} className="stagger-child flex scroll-mt-28 flex-col overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm">
                 <header className={`flex items-center justify-between bg-gradient-to-br ${TONO[mes.id] ?? 'from-ria-600 to-ria-800'} px-5 py-3 text-white`}>
@@ -66,7 +67,7 @@ export default function CuandoIr({ params }: { params: { lang: string } }) {
                 </div>
               </article>
             ))}
-          </div>
+          </Rejilla>
           <p className="mx-auto mt-8 max-w-3xl rounded-xl bg-arena-50 px-5 py-3 text-center text-sm text-arena-900">Ons y Cíes piden autorización previa de la Xunta en Semana Santa y del 15 de mayo al 15 de septiembre. Fuera de esas fechas, se visitan con grupos con guía.</p>
         </Seccion>
       )}

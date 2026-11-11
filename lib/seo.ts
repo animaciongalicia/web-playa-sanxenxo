@@ -1,6 +1,7 @@
 // Títulos y descripciones de cada página (docs/06). El título lleva " · Playa Sanxenxo" detrás (plantilla del layout): máx. 43 caracteres.
 // La descripción informa, sin promesas: máx. 155 caracteres.
 import type { Metadata } from 'next';
+import { getEntrada } from './blog';
 import { getLocales } from './datos';
 import { buscarRuta } from './rutas';
 import { SITIO } from './sitio';
@@ -44,6 +45,7 @@ export const SEO: Record<string, Par> = {
   '/limusinas/': { titulo: 'Limusina en Sanxenxo para despedidas', descripcion: 'Limusina blanca de 8 plazas con salidas desde Sanxenxo, Combarro y O Grove. Cuándo compensa y a qué hora reservarla.' },
   '/humor-amarillo-en-sanxenxo/': { titulo: 'Humor Amarillo en Sanxenxo', descripcion: 'Un día de pruebas y juegos al estilo del programa de los 90, a unos 20 minutos de Sanxenxo. Qué se hace y cómo encaja.' },
   '/agencia/': { titulo: 'Contacto con la agencia', descripcion: 'Escribe por correo, WhatsApp o llama para organizar tu despedida en Sanxenxo. Sin formularios: te contestan.' },
+  '/blog/': { titulo: 'Blog de Playa Sanxenxo', descripcion: 'Novedades, consejos y noticias para organizar tu despedida en Sanxenxo y alrededores.' },
   '/aviso-legal/': { titulo: 'Aviso legal', descripcion: 'Aviso legal de Playa Sanxenxo.' },
   '/privacidad/': { titulo: 'Política de privacidad', descripcion: 'Política de privacidad de Playa Sanxenxo.' },
   '/politica-de-cookies/': { titulo: 'Política de cookies', descripcion: 'Política de cookies de Playa Sanxenxo.' },
@@ -56,6 +58,11 @@ function paraRuta(ruta: string): Par | null {
   if (SEO[ruta]) return SEO[ruta];
   const r = buscarRuta(ruta);
   if (r) return { titulo: r.titulo, descripcion: r.descripcion ?? `${r.titulo}. Guía de disfrute de Sanxenxo para despedidas.` };
+  const b = ruta.match(/^\/blog\/([^/]+)\/$/);
+  if (b) {
+    const e = getEntrada(b[1]);
+    if (e) return { titulo: e.titulo, descripcion: e.descripcion || `${e.titulo}. Blog de Playa Sanxenxo.` };
+  }
   let m = ruta.match(/^\/comer\/restaurantes\/([^/]+)\/$/);
   if (m) {
     const l = getLocales('restaurantes').find((x) => x.slug === m![1]);

@@ -12,6 +12,7 @@ import { FAMILIAS } from '../../../../lib/esquemas';
 import { esIdioma } from '../../../../lib/i18n';
 import { FAMILIAS_INFO } from '../../../../lib/paraisos';
 import { metaRuta } from '../../../../lib/seo';
+import Rejilla from '../../../../components/Rejilla';
 
 type P = { lang: string; familia: string };
 export const dynamicParams = false;
@@ -31,7 +32,7 @@ export default function Familia({ params }: { params: P }) {
       <Seccion fondo="gris" etiqueta="Qué se puede hacer" titulo={info.titulo} intro={info.texto}>
         {kayak && <div className="mb-8"><Aviso>El desembarco en Areoso requiere autorización, así que la parada no está garantizada.</Aviso></div>}
         {actividades.length ? (
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">{actividades.map((a) => <TarjetaActividad key={a.id} a={a} compacta={conTexto} />)}</div>
+          <Rejilla>{actividades.map((a) => <TarjetaActividad key={a.id} a={a} compacta={conTexto} />)}</Rejilla>
         ) : <EnPreparacion />}
       </Seccion>
       <Contenido lang={params.lang} ruta={`/actividades/${params.familia}/`} />
