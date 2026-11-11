@@ -71,7 +71,7 @@ export default function Home({ params }: { params: { lang: string } }) {
       <Seccion>
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div>
-            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-ria-600">La guía</p>
+            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-ria-700">La guía</p>
             <h2 className="heading-section">Sanxenxo es pequeño. Lo bueno se extiende 10 km a la redonda.</h2>
             <p className="mt-5 text-lg leading-relaxed text-gray-600">De Aldán a O Grove está todo lo que quiere un grupo: playas, mar, barcos, buena mesa y terrazas al atardecer.</p>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">Aquí lo tienes ordenado para que decidas rápido y llegues con el plan hecho.</p>
@@ -80,7 +80,7 @@ export default function Home({ params }: { params: { lang: string } }) {
                 <div key={p.titulo}>
                   <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-ria-50 text-ria-700"><Icono nombre={p.icono} className="h-6 w-6" /></span>
                   <h3 className="mt-3 font-semibold text-gray-900">{p.titulo}</h3>
-                  <p className="mt-1 text-sm leading-relaxed text-gray-500">{p.texto}</p>
+                  <p className="mt-1 text-sm leading-relaxed text-gray-600">{p.texto}</p>
                 </div>
               ))}
             </div>

@@ -33,7 +33,7 @@ export default function PlanDespedida({ lang, ruta }: { lang: Idioma; ruta?: str
               {imgVichona && <Image src={imgVichona} alt={vichona.nombre} fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />}
             </div>
             <div>
-              <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-ria-600">Un sitio para grupos</p>
+              <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-ria-700">Un sitio para grupos</p>
               <h2 className="heading-section">{vichona.nombre}</h2>
               <p className="mt-2 text-lg font-medium text-ria-700">Asador de churrasco</p>
               <p className="mt-4 text-lg leading-relaxed text-gray-600">{vichona.despedidas.como}</p>

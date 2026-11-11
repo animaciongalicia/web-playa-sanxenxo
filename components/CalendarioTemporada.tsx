@@ -6,19 +6,19 @@ const AMBIENTE: Nivel[] = [1, 1, 1, 1, 2, 3, 4, 4, 2, 1, 1, 1];
 // Despedidas: 0 = no es época · 1 = pocas · 2 = se aceptan · 3 = muchas (reservar con antelación)
 const DESPEDIDAS: Nivel[] = [0, 0, 0, 0, 2, 2, 3, 3, 1, 0, 0, 0];
 
-const COLOR_AMBIENTE = ['', 'bg-ria-100 text-ria-800', 'bg-ria-300 text-ria-900', 'bg-ria-600 text-white', 'bg-ria-900 text-white'];
+const COLOR_AMBIENTE = ['', 'bg-ria-100 text-ria-800', 'bg-ria-300 text-ria-900', 'bg-ria-700 text-white', 'bg-ria-900 text-white'];
 const ETIQ_AMBIENTE = ['', 'Casi cerrado', 'Flojo', 'Calentando', 'Fuerte'];
-const COLOR_DESP = ['bg-gray-100 text-gray-400', 'bg-arena-200 text-arena-900', 'bg-emerald-500 text-white', 'bg-emerald-700 text-white'];
+const COLOR_DESP = ['bg-gray-100 text-gray-600', 'bg-arena-200 text-arena-900', 'bg-emerald-100 text-emerald-900', 'bg-emerald-700 text-white'];
 const ETIQ_DESP = ['—', 'Pocas', 'Sí', 'Muchas'];
 
 export default function CalendarioTemporada() {
   return (
     <div className="mx-auto max-w-5xl">
-      <div className="overflow-x-auto pb-2">
+      <div className="overflow-x-auto pb-2" tabIndex={0} role="region" aria-label="Calendario de la temporada, desplazable">
         <div className="min-w-[640px]">
           <div className="grid grid-cols-[110px_repeat(12,minmax(0,1fr))] gap-1.5 text-center text-xs">
             <span />
-            {MESES.map((m) => <span key={m} className="pb-1 font-semibold uppercase tracking-wider text-gray-500">{m}</span>)}
+            {MESES.map((m) => <span key={m} className="pb-1 font-semibold uppercase tracking-wider text-gray-600">{m}</span>)}
             <span className="flex items-center text-left text-sm font-semibold text-gray-900">Ambiente</span>
             {AMBIENTE.map((n, i) => <span key={i} className={`flex h-14 items-center justify-center rounded-lg px-1 font-medium leading-tight ${COLOR_AMBIENTE[n]}`}>{ETIQ_AMBIENTE[n]}</span>)}
             <span className="flex items-center text-left text-sm font-semibold text-gray-900">Despedidas</span>
@@ -31,7 +31,7 @@ export default function CalendarioTemporada() {
         <li className="rounded-xl bg-gray-50 p-4"><strong className="block text-gray-900">20 de junio – 29/30 de agosto</strong>Temporada fuerte: mucho turista y muchas despedidas. Reserva con antelación.</li>
         <li className="rounded-xl bg-gray-50 p-4"><strong className="block text-gray-900">Septiembre – mayo</strong>Flojo, sobre todo con el Imserso. Pueblo casi cerrado, salvo hoteles y algún evento.</li>
       </ul>
-      <p className="mt-4 text-center text-xs text-gray-400">En gris: no es época de despedidas de mar y fiesta.</p>
+      <p className="mt-4 text-center text-xs text-gray-600">En gris: no es época de despedidas de mar y fiesta.</p>
     </div>
   );
 }

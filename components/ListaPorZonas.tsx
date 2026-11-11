@@ -15,7 +15,7 @@ export default function ListaPorZonas({ grupos, href, pie }: { grupos: Grupo[]; 
           <div key={g.id} id={g.id} className="scroll-mt-32">
             <div className="mb-4 flex items-baseline gap-3 border-b border-gray-200 pb-2">
               <h2 className="text-2xl font-bold tracking-tight text-gray-900">{g.nombre}</h2>
-              <span className="text-sm text-gray-500">{g.locales.length} {g.locales.length === 1 ? 'sitio' : 'sitios'}</span>
+              <span className="text-sm text-gray-600">{g.locales.length} {g.locales.length === 1 ? 'sitio' : 'sitios'}</span>
             </div>
             <Rejilla>
               {g.locales.map((l) => <TarjetaLocal key={l.id} local={l} href={href?.(l)} />)}

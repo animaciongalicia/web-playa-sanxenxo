@@ -20,7 +20,7 @@ export default function Footer({ lang }: { lang: Idioma }) {
             <Logo className="h-9 w-9" />
             <span className="text-lg font-bold tracking-tight text-gray-900">PLAYA SANXENXO</span>
           </div>
-          <p className="mt-4 text-sm leading-relaxed text-gray-500">{t.tagline}</p>
+          <p className="mt-4 text-sm leading-relaxed text-gray-600">{t.tagline}</p>
           <Link href={href(lang, '/agencia/')} className="link-inline mt-4 inline-block text-sm">{t.hablarAgencia} →</Link>
         </div>
         {columnas.map((col) => (
@@ -29,7 +29,7 @@ export default function Footer({ lang }: { lang: Idioma }) {
             <ul className="mt-4 space-y-2">
               {col.enlaces.map((e) => (
                 <li key={e.href}>
-                  <Link href={e.href} className="text-sm text-gray-500 hover:text-ria-700">{e.label}</Link>
+                  <Link href={e.href} className="text-sm text-gray-600 hover:text-ria-700">{e.label}</Link>
                 </li>
               ))}
             </ul>
@@ -39,16 +39,16 @@ export default function Footer({ lang }: { lang: Idioma }) {
           <h2 className={tituloCol}>{t.blogTitulo}</h2>
           {entradas.length ? (
             <ul className="mt-4 space-y-2">
-              {entradas.map((e) => <li key={e.slug}><Link href={`/blog/${e.slug}/`} className="text-sm text-gray-500 hover:text-ria-700">{e.titulo}</Link></li>)}
+              {entradas.map((e) => <li key={e.slug}><Link href={`/blog/${e.slug}/`} className="text-sm text-gray-600 hover:text-ria-700">{e.titulo}</Link></li>)}
               <li><Link href="/blog/" className="text-sm font-medium text-ria-700">Ver el blog →</Link></li>
             </ul>
           ) : (
-            <p className="mt-4 text-sm text-gray-500"><Link href="/blog/" className="hover:text-ria-700">{t.blogPronto}</Link></p>
+            <p className="mt-4 text-sm text-gray-600"><Link href="/blog/" className="hover:text-ria-700">{t.blogPronto}</Link></p>
           )}
         </div>
       </div>
       <div className="border-t border-gray-100">
-        <div className="contenedor flex flex-col gap-3 py-4 text-[11px] text-gray-400 sm:flex-row sm:items-center sm:justify-between">
+        <div className="contenedor flex flex-col gap-3 py-4 text-[11px] text-gray-600 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
             <span>© {new Date().getFullYear()} Playa Sanxenxo</span>
             <ul className="flex flex-wrap items-center gap-x-4 gap-y-1" aria-label={t.legal}>

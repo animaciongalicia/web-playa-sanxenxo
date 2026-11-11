@@ -40,7 +40,7 @@ export default function Header({ lang, items, inicioHref, etiquetas }: Props) {
           <Logo />
           <span className="leading-tight">
             <span className="block text-lg font-bold tracking-tight text-gray-900 sm:text-xl">PLAYA SANXENXO</span>
-            <span className="hidden text-[10px] font-semibold uppercase tracking-wider text-gray-500 sm:block">Disfruta Sanxenxo y alrededores</span>
+            <span className="hidden text-[10px] font-semibold uppercase tracking-wider text-gray-600 sm:block">Disfruta Sanxenxo y alrededores</span>
           </span>
         </Link>
 
@@ -70,9 +70,9 @@ export default function Header({ lang, items, inicioHref, etiquetas }: Props) {
             </li>
           ))}
           <li className="ml-3 flex items-center gap-1 border-l border-gray-200 pl-3 text-xs font-semibold" aria-label="Idioma">
-            <Link href={idioma.es} className={lang === 'es' ? 'text-ria-700' : 'text-gray-500 hover:text-ria-700'} hrefLang="es">ES</Link>
+            <Link href={idioma.es} className={lang === 'es' ? 'text-ria-700' : 'text-gray-600 hover:text-ria-700'} hrefLang="es">ES</Link>
             <span className="text-gray-300">|</span>
-            <Link href={idioma.pt} className={lang === 'pt' ? 'text-ria-700' : 'text-gray-500 hover:text-ria-700'} hrefLang="pt">PT</Link>
+            <Link href={idioma.pt} className={lang === 'pt' ? 'text-ria-700' : 'text-gray-600 hover:text-ria-700'} hrefLang="pt">PT</Link>
           </li>
         </ul>
 
@@ -100,7 +100,7 @@ export default function Header({ lang, items, inicioHref, etiquetas }: Props) {
                   {it.label}
                 </Link>
                 {it.hijos && (
-                  <button type="button" className="p-3 text-gray-500" aria-expanded={sub === it.href} aria-label={it.label} onClick={() => setSub(sub === it.href ? null : it.href)}>
+                  <button type="button" className="p-3 text-gray-600" aria-expanded={sub === it.href} aria-label={it.label} onClick={() => setSub(sub === it.href ? null : it.href)}>
                     <Chevron abierto={sub === it.href} />
                   </button>
                 )}
@@ -117,8 +117,8 @@ export default function Header({ lang, items, inicioHref, etiquetas }: Props) {
             </li>
           ))}
           <li className="flex gap-3 py-3 text-sm font-semibold">
-            <Link href={idioma.es} className={lang === 'es' ? 'text-ria-700' : 'text-gray-500'} hrefLang="es" onClick={() => setAbierto(false)}>ES</Link>
-            <Link href={idioma.pt} className={lang === 'pt' ? 'text-ria-700' : 'text-gray-500'} hrefLang="pt" onClick={() => setAbierto(false)}>PT</Link>
+            <Link href={idioma.es} className={lang === 'es' ? 'text-ria-700' : 'text-gray-600'} hrefLang="es" onClick={() => setAbierto(false)}>ES</Link>
+            <Link href={idioma.pt} className={lang === 'pt' ? 'text-ria-700' : 'text-gray-600'} hrefLang="pt" onClick={() => setAbierto(false)}>PT</Link>
           </li>
         </ul>
       </div>

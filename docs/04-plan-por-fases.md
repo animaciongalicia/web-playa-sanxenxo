@@ -172,6 +172,8 @@ Plan B: el WordPress sigue disponible por si hay que volver atrás durante las p
 
 ## Fase 10 · Mantenimiento y automatización (opcional)
 
+**Hecha en parte:** `.github/workflows/comprobaciones.yml` (checks en cada push) y `revision-anual.yml` (issue el 1 de abril). Lista de lanzamiento en `docs/11-lanzamiento.md`.
+
 - **GitHub Action** que cada 1 de abril abre un issue "Revisar fichas de locales" con la lista de fichas caducadas (más de 12 meses sin verificar) y los furanchos de temporada.
 - Aviso anual de "Pendiente de actualización 2027" → cambiar `estado_2027`.
 - Renovar cupos y condiciones de Ons y Cíes cada temporada.

@@ -26,7 +26,7 @@ export default function NotFound() {
           {SECCIONES.map(([t, h, d]) => (
             <Link key={h} href={h} className="rounded-2xl border border-gray-100 bg-white p-5 shadow-sm transition-shadow hover:shadow-md">
               <span className="block font-semibold text-gray-900">{t}</span>
-              <span className="mt-1 block text-sm text-gray-500">{d}</span>
+              <span className="mt-1 block text-sm text-gray-600">{d}</span>
             </Link>
           ))}
         </div>

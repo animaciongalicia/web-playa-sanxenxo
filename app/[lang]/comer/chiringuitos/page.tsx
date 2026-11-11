@@ -31,7 +31,7 @@ export default function Chiringuitos({ params }: { params: { lang: string } }) {
       {grupos.length ? (
         <ListaPorZonas
           grupos={grupos.map((g) => ({ id: g.zona, nombre: NOMBRE_ZONA[g.zona], locales: g.locales }))}
-          pie={(g) => g.locales.some((l) => l.tambien_en.includes('diversion')) ? <p className="mt-3 text-sm text-gray-500">Algunos también salen en <Link href="/diversion/a-lanzada-san-vicente/" className="link-inline">Diversión</Link>: es la misma ficha.</p> : null}
+          pie={(g) => g.locales.some((l) => l.tambien_en.includes('diversion')) ? <p className="mt-3 text-sm text-gray-600">Algunos también salen en <Link href="/diversion/a-lanzada-san-vicente/" className="link-inline">Diversión</Link>: es la misma ficha.</p> : null}
         />
       ) : <Seccion ancho="estrecho"><EnPreparacion /></Seccion>}
       <Contenido lang={lang} ruta="/comer/chiringuitos/" parte="resto" />

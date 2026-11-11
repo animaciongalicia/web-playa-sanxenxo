@@ -35,9 +35,9 @@ export default function Blog({ params }: { params: { lang: string } }) {
                     {img && <Image src={img} alt="" fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover transition-transform duration-500 group-hover:scale-105" />}
                   </div>
                   <div className="p-5">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-ria-600">{fechaLarga(e.fecha)}</p>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-ria-700">{fechaLarga(e.fecha)}</p>
                     <h3 className="mt-1 text-lg font-semibold text-gray-900">{e.titulo}</h3>
-                    {e.descripcion && <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-gray-500">{e.descripcion}</p>}
+                    {e.descripcion && <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-gray-600">{e.descripcion}</p>}
                   </div>
                 </Link>
               );

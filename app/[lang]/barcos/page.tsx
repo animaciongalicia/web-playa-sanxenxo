@@ -38,7 +38,7 @@ export default function Barcos({ params }: { params: { lang: string } }) {
             })}
           </Rejilla>
         ) : <EnPreparacion />}
-        <p className="mt-10 text-sm text-gray-500">
+        <p className="mt-10 text-sm text-gray-600">
           Los barcos son de <a href={ENLACE_BARCOS} target="_blank" rel="noopener noreferrer" className="link-inline">Sea Galicia</a>. ¿Prefieres un traslado a Ons, Cíes o Aldán?{' '}
           <Link href="/barcos/traslados/" className="link-inline">Mira los traslados</Link>.
         </p>

@@ -31,7 +31,7 @@ export default function IdeasDespedida({ ideas, titulo, intro }: { ideas: Idea[]
           );
         })}
       </Rejilla>
-      <p className="mx-auto mt-8 max-w-2xl text-center text-sm text-gray-500">¿Echas en falta algo? Pregúntalo a la <Link href="/agencia/" className="link-inline">agencia</Link>: muchas de estas ideas se organizan a medida.</p>
+      <p className="mx-auto mt-8 max-w-2xl text-center text-sm text-gray-600">¿Echas en falta algo? Pregúntalo a la <Link href="/agencia/" className="link-inline">agencia</Link>: muchas de estas ideas se organizan a medida.</p>
     </Seccion>
   );
 }

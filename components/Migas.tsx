@@ -13,7 +13,7 @@ export default function Migas({ lang, ruta, titulo }: { lang: Idioma; ruta: stri
     <>
     <JsonLd datos={{ '@type': 'BreadcrumbList', itemListElement: lista.map((m, i) => ({ '@type': 'ListItem', position: i + 1, name: m.titulo, item: `${SITIO}${m.ruta}` })) }} />
     <nav aria-label="Migas de pan" className="border-b border-gray-100 bg-gray-50 px-6 py-3">
-      <ol className="mx-auto flex max-w-7xl flex-wrap items-center gap-2 text-sm text-gray-500">
+      <ol className="mx-auto flex max-w-7xl flex-wrap items-center gap-2 text-sm text-gray-600">
         <li><Link href={href(lang, '/')} className="hover:text-ria-700">{t.inicio}</Link></li>
         {migas.map((m, i) => (
           <li key={m.ruta} className="flex items-center gap-2">

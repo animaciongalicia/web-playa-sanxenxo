@@ -29,7 +29,7 @@ export function TarjetaLocal({ local, href, completo = false }: { local: Local; 
   const cuerpo = (
     <>
       <h3 className="text-lg font-semibold text-gray-900">{titulo}</h3>
-      <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-gray-500">
+      <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-gray-600">
         {TIPO_LOCAL[local.tipo]}
         {local.zona !== 'por-definir' && ` · ${local.municipio ?? NOMBRE_ZONA[local.zona]}`}
       </p>

@@ -1,0 +1,20 @@
+name: Comprobaciones
+on:
+  push:
+  pull_request:
+jobs:
+  comprobar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm run check:datos
+      - run: npm run check:contenido
+      - run: npm run check:seo
+      - run: npm run build

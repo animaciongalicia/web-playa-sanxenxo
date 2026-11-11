@@ -40,7 +40,7 @@ export default function Agencia({ params }: { params: { lang: string } }) {
       <Seccion fondo="arena">
         <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-2">
           <div>
-            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-ria-600">Para ir rápido</p>
+            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-ria-700">Para ir rápido</p>
             <h2 className="heading-section">Cuenta esto y te responden antes</h2>
             <p className="mt-4 text-lg text-gray-600">Aunque sea a grandes rasgos.</p>
             <ul className="mt-6 space-y-3">
@@ -53,7 +53,7 @@ export default function Agencia({ params }: { params: { lang: string } }) {
                 </li>
               ))}
             </ul>
-            <p className="mt-6 text-sm text-gray-500">El correo y el WhatsApp ya llevan estas preguntas escritas: solo tienes que completarlas.</p>
+            <p className="mt-6 text-sm text-gray-600">El correo y el WhatsApp ya llevan estas preguntas escritas: solo tienes que completarlas.</p>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-gradient-to-br from-ria-200 to-ria-500 shadow-xl">
             {img && <Image src={img} alt="" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" style={{ objectPosition: '50% 20%' }} />}

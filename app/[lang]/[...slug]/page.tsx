@@ -14,7 +14,8 @@ import { IDIOMAS, esIdioma, textos } from '../../../lib/i18n';
 import { RUTAS, buscarRuta } from '../../../lib/rutas';
 import { metaRuta } from '../../../lib/seo';
 
-export const dynamicParams = false;
+// true: las URLs desconocidas llegan hasta notFound() y se ve la 404 con cabecera y pie (con false saldría la 404 por defecto de Next).
+export const dynamicParams = true;
 
 export function generateStaticParams() {
   return IDIOMAS.flatMap((lang) =>

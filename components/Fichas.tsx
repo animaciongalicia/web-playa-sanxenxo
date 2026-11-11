@@ -10,7 +10,7 @@ import Icono, { type NombreIcono } from './Icono';
 import { NOMBRE_TRAMO, esTop, slugTramoDe } from '../lib/paraisos';
 
 export function EnPreparacion({ texto = 'Sección en preparación.' }: { texto?: string }) {
-  return <p className="rounded-lg border border-dashed border-gray-200 px-4 py-6 text-center text-gray-500">{texto}</p>;
+  return <p className="rounded-lg border border-dashed border-gray-200 px-4 py-6 text-center text-gray-600">{texto}</p>;
 }
 
 export function Aviso({ children }: { children: ReactNode }) {
@@ -27,7 +27,7 @@ export function TarjetaPlaya({ playa, lang, etiquetaTramo = false }: { playa: Pl
         {playa.nombre}
         
       </h3>
-      <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-gray-500">
+      <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-gray-600">
         {etiquetaTramo ? NOMBRE_TRAMO[playa.tramo] : playa.municipio}
         {top && <span className="ml-2 text-ria-700">· Imprescindible</span>}
       </p>
@@ -77,7 +77,7 @@ export function TarjetaActividad({ a, compacta = false }: { a: Actividad; compac
           </ul>
         )}
         {notas.length > 0 && (
-          <ul className="mt-4 space-y-1 text-xs leading-relaxed text-gray-500">
+          <ul className="mt-4 space-y-1 text-xs leading-relaxed text-gray-600">
             {notas.map((n) => <li key={n}>· {n}</li>)}
           </ul>
         )}

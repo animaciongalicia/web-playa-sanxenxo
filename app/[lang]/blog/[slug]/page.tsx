@@ -29,7 +29,7 @@ export default function Entrada({ params }: { params: P }) {
       <HeroPage imagen={img} etiqueta="Blog" titulo={e.titulo} />
       <Migas lang={params.lang} ruta={`/blog/${e.slug}/`} titulo={e.seo} />
       <Seccion ancho="estrecho">
-        <p className="-mt-4 mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-gray-500">
+        <p className="-mt-4 mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-gray-600">
           <time dateTime={e.fecha}>{fechaLarga(e.fecha)}</time>
           <span aria-hidden="true">·</span>
           <span>{e.minutos} min de lectura</span>
@@ -47,10 +47,10 @@ export default function Entrada({ params }: { params: P }) {
         )}
         {e.indice.length >= 4 && (
           <nav aria-label="Índice de la entrada" className="mb-10 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
-            <h2 className="text-sm font-bold uppercase tracking-widest text-gray-500">En esta entrada</h2>
+            <h2 className="text-sm font-bold uppercase tracking-widest text-gray-600">En esta entrada</h2>
             <ol className="mt-3 grid gap-x-8 gap-y-1.5 text-sm sm:grid-cols-2">
               {e.indice.map((i, n) => (
-                <li key={i.id}><a href={`#${i.id}`} className="text-ria-700 hover:underline"><span className="mr-2 text-gray-400">{n + 1}.</span>{i.titulo}</a></li>
+                <li key={i.id}><a href={`#${i.id}`} className="text-ria-700 hover:underline"><span className="mr-2 text-gray-600">{n + 1}.</span>{i.titulo}</a></li>
               ))}
             </ol>
           </nav>
@@ -82,7 +82,7 @@ export default function Entrada({ params }: { params: P }) {
                       {f && <Image src={f} alt="" fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" />}
                     </div>
                     <div className="p-4">
-                      <span className="text-xs font-semibold uppercase tracking-wide text-ria-600">{m.minutos} min de lectura</span>
+                      <span className="text-xs font-semibold uppercase tracking-wide text-ria-700">{m.minutos} min de lectura</span>
                       <span className="mt-1 block font-semibold text-gray-900 group-hover:text-ria-700">{m.titulo}</span>
                     </div>
                   </Link>

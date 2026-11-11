@@ -7,7 +7,7 @@ export default function NavZonas({ zonas }: { zonas: { id: string; nombre: strin
         {zonas.map((z) => (
           <li key={z.id} className="shrink-0">
             <a href={`#${z.id}`} className="inline-flex items-center gap-2 rounded-full bg-gray-100 px-4 py-1.5 font-medium text-gray-700 transition-colors hover:bg-ria-700 hover:text-white">
-              {z.nombre}<span className="rounded-full bg-white/70 px-1.5 text-xs text-gray-500">{z.n}</span>
+              {z.nombre}<span className="rounded-full bg-white/70 px-1.5 text-xs text-gray-600">{z.n}</span>
             </a>
           </li>
         ))}

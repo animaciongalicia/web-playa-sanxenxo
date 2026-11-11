@@ -59,7 +59,7 @@ export default function CuandoIr({ params }: { params: { lang: string } }) {
                     <dl className="mt-3 space-y-3">
                       {campos.map((c) => (
                         <div key={c.campo}>
-                          <dt className="text-[11px] font-bold uppercase tracking-widest text-ria-600">{c.titulo}</dt>
+                          <dt className="text-[11px] font-bold uppercase tracking-widest text-ria-700">{c.titulo}</dt>
                           <dd className="mt-1">{mes[c.campo]}</dd>
                         </div>
                       ))}

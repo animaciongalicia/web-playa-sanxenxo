@@ -1,0 +1,40 @@
+name: Revisión anual de fichas
+on:
+  schedule:
+    - cron: '0 8 1 4 *'   # 1 de abril, antes de la temporada
+  workflow_dispatch:
+permissions:
+  issues: write
+  contents: read
+jobs:
+  abrir-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Lista de fichas caducadas
+        run: npm run check:datos | tee fichas.txt
+      - name: Abrir issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            echo "Revisión anual antes de la temporada. Marca cada punto al terminarlo."
+            echo
+            echo "## Fichas sin verificar o caducadas"
+            echo '```'; tail -n 25 fichas.txt; echo '```'
+            echo
+            echo "## Lista de comprobación"
+            echo "- [ ] Locales: horarios, meses de apertura y que sigan abiertos (furanchos de temporada incluidos)."
+            echo "- [ ] Barcos: precios «desde», plazas, puertos y combustible."
+            echo "- [ ] Ons, Cíes y Areoso: fechas de autorización y normas en el portal de la Xunta."
+            echo "- [ ] Bandera azul de la temporada: actualizar la lista de playas."
+            echo "- [ ] Limusinas y Humor Amarillo: cambiar estado_2027."
+            echo "- [ ] Meses y condiciones de despedidas (data/servicios-y-meses.json)."
+            echo "- [ ] Blog: revisar precios y fechas de las entradas."
+          } > cuerpo.md
+          gh issue create --title "Revisar fichas y datos antes de la temporada $(date +%Y)" --body-file cuerpo.md

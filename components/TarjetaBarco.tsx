@@ -51,7 +51,7 @@ export default function TarjetaBarco({ b, titulo, compacta = false }: { b: Barco
         {!compacta && (b.incluye.length > 0 || b.consultar) && (
           <p className="mt-3 text-sm text-gray-600">
             {b.incluye.length > 0 && <><strong className="text-gray-900">El precio incluye: </strong>{b.incluye.map((x, i) => (i === 0 ? x : x.toLowerCase())).join(', ').replace(/, ([^,]*)$/, ' y $1')}.</>}
-            {b.consultar && <span className="block pt-1 text-gray-500">{b.consultar}.</span>}
+            {b.consultar && <span className="block pt-1 text-gray-600">{b.consultar}.</span>}
           </p>
         )}
         {b.precios.length > 0 && (

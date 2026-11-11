@@ -9,7 +9,6 @@ import WhatsAppSuave from '../../components/WhatsAppSuave';
 import { IDIOMAS, esIdioma, href, textos } from '../../lib/i18n';
 import { menuPrincipal } from '../../lib/nav';
 
-export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.map((lang) => ({ lang }));
 
 export const viewport: Viewport = { width: 'device-width', initialScale: 1, themeColor: '#176380' };

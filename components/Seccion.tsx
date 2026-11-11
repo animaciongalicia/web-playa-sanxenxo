@@ -30,7 +30,7 @@ export default function Seccion({ titulo, intro, etiqueta, fondo = 'blanco', anc
         <AnimateOnScroll>
           {(titulo || intro || etiqueta) && (
             <header className={centrado ? 'mx-auto max-w-3xl text-center' : ''}>
-              {etiqueta && <p className={`mb-3 text-xs font-bold uppercase tracking-[0.18em] ${oscuro ? 'text-arena-300' : 'text-ria-600'}`}>{etiqueta}</p>}
+              {etiqueta && <p className={`mb-3 text-xs font-bold uppercase tracking-[0.18em] ${oscuro ? 'text-arena-300' : 'text-ria-700'}`}>{etiqueta}</p>}
               {titulo && <h2 className={`heading-section ${oscuro ? '!text-white' : ''}`}>{titulo}</h2>}
               {intro && <p className={`mt-4 max-w-3xl text-lg leading-relaxed ${centrado ? 'mx-auto' : ''} ${oscuro ? 'text-ria-100' : 'text-gray-600'}`}>{intro}</p>}
             </header>
