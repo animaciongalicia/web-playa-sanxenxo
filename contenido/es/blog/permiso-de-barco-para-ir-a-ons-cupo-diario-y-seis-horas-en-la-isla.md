@@ -2,21 +2,22 @@
 titulo: "Permiso de barco para Ons: cupo diario, quién lo pide y seis horas en la isla"
 seo: "Permiso de barco para Ons: cupo diario"
 fecha: 2027-01-13
-descripcion: "Cómo funciona el permiso de los barcos para ir a Ons: lo solicitan ellos a la Xunta, el cupo diario ronda los 20 o 30 y no hace falta permiso personal."
+descripcion: "Cómo funciona el permiso de los barcos para ir a Ons y Cíes: lo pide cada patrón a la Xunta, se concede al barco y no hace falta permiso personal."
 imagen: islas-ons
 paginas:
   - /paraisos/mar/islas-ons/
   - /barcos/traslados/
 resumen:
-  - "Los barcos solicitan a la Xunta su propio permiso de acceso: quien alquila un barco privado no necesita sacar el suyo."
-  - "El cupo diario de barcos suele ser de 20 o 30 al día, así que conviene reservar con tiempo."
+  - "Cada patrón solicita a la Xunta el permiso de fondeo y se concede al barco: quien alquila un barco privado no necesita sacar el suyo."
+  - "El cupo diario de barcos no consta con certeza; se calcula en unos 20 o 25 al día como máximo, así que conviene reservar con tiempo."
+  - "Las Cíes funcionan igual, pero están mucho más lejos: unos 90 minutos de ida y otros 90 de vuelta desde la ría de Pontevedra."
   - "Con el permiso concedido, el grupo puede pasar unas seis horas en la isla: baños, comida y paseo."
 objetivo: 800
 fuentes:
-  - "Pablo (2026-11-11): los barcos solicitan el permiso a la Xunta; cupo diario de entre 20 y 30 barcos; sin permiso personal para los usuarios; unas seis horas en la isla; los permisos personales los creó la Xunta para evitar que las navieras saturaran las islas"
+  - "Pablo (2026-11-11): cada patrón solicita el permiso de fondeo a la Xunta y se concede al barco; cupo de barcos para Ons no conocido con certeza (cree que 20 o 25 al día como máximo); sin permiso personal para los usuarios; mismo sistema en las Cíes, a 90 minutos de ida y 90 de vuelta bordeando la costa de la Vela; unas seis horas en la isla; los permisos personales los creó la Xunta para evitar que las navieras saturaran las islas"
   - "contenido/es/paraisos/mar/islas-ons.md (autorizaciones de visitantes en el portal oficial de la Xunta: autorizacionillasatlanticas.xunta.gal)"
 pendiente:
-  - "Pablo confirma las cifras exactas del cupo de barcos, quién lo tramita y si es igual para las Cíes"
+  - "Cifra exacta del cupo de barcos para fondear en Ons y en las Cíes: no consta; hoy se redacta como estimación"
 publicar: true
 ---
 Hay mucha confusión con el permiso de Ons, y es normal: existen **dos sistemas distintos**, y casi nadie explica la diferencia. Esta entrada la deja clara, porque cambia mucho cómo organizas el día.
@@ -25,13 +26,13 @@ Hay mucha confusión con el permiso de Ons, y es normal: existen **dos sistemas 
 
 **1. Permiso personal del visitante.** Es el que se pide en el portal de la Xunta cuando vas con el barco regular de una naviera: autorización gratuita, personal e intransferible, en Semana Santa y del 15 de mayo al 15 de septiembre. Lo creó la Xunta para evitar que las navieras saturaran el acceso a las islas y que se masificaran.
 
-**2. Permiso del barco.** Es el que solicita **el propio barco** a la Xunta. Si alquilas un barco privado, **no necesitas sacar un permiso particular**: lo gestiona el barco.
+**2. Permiso del barco.** Es el que solicita **cada patrón** a la Xunta y se concede **al barco**. Si alquilas un barco privado, **no necesitas sacar un permiso particular**: lo gestiona el barco.
 
 ## El cupo diario de barcos
 
-Los barcos tienen un cupo diario de accesos. Suele ser de **entre 20 y 30 al día**. Eso quiere decir que hay un número limitado de barcos que pueden estar en Ons cada jornada, y que en los días de más demanda, sobre todo en verano, hay que reservar con tiempo.
+Los barcos también tienen un cupo diario para fondear en Ons. **La cifra exacta no se conoce con certeza**: se calcula que ronda los **20 o 25 barcos al día como máximo**. Eso quiere decir que el número de barcos que pueden estar en la isla cada jornada es limitado, y que en los días de más demanda, sobre todo en verano, hay que reservar con tiempo.
 
-Un aviso: estas cifras son orientativas y pueden cambiar según la temporada. Confírmalo al reservar.
+Tómalo como una estimación, no como un dato oficial, y confírmalo al reservar.
 
 ## Qué ventajas tiene alquilar un barco privado
 
@@ -70,6 +71,10 @@ Si el barco está fondeado cerca de la playa, se puede incluso llegar nadando.
 - ¿Qué pasa si no lo conceden ese día?
 - ¿Cuántas horas de estancia incluye el día entero?
 - ¿Se puede fondear y bañarse?
+
+## Y en las Cíes
+
+El sistema es el mismo: el patrón pide el permiso de fondeo y se concede al barco. Pero las Cíes están más lejos. Desde la ría de Pontevedra son **unos 90 minutos de ida y otros 90 de vuelta**, bordeando la costa de la Vela, que es una zona movida. Con el día entero te quedan unas cinco horas en las islas. Si tu grupo se marea, mejor Ons.
 
 ## Normas que no cambian
 

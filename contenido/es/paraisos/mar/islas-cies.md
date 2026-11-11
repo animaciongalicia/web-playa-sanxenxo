@@ -48,6 +48,10 @@ Es una de las actividades preferidas de grupos de amigos y de familias. Para hac
 
 El único requisito es saber nadar. Mira [buceo y pesca](/actividades/buceo-y-pesca/).
 
+## Si vas en barco privado
+
+El sistema es el mismo que en Ons: el permiso de fondeo lo solicita cada patrón a la Xunta y se concede al barco, así que no hace falta que cada persona saque el suyo. La diferencia es la distancia: desde la ría de Pontevedra son unos 90 minutos de ida y otros 90 de vuelta, bordeando la costa de la Vela, que es una zona movida. Pide el día entero, y cuenta con unas cinco horas en las islas. Mira cómo funciona en la entrada del blog sobre el [permiso de los barcos para Ons y las Cíes](/blog/permiso-de-barco-para-ir-a-ons-cupo-diario-y-seis-horas-en-la-isla/).
+
 ## Qué conviene saber
 
 1. **Reserva con tiempo.** En verano, la demanda es alta.

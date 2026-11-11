@@ -2,7 +2,7 @@
 titulo: "Una despedida diferente: lancha rápida por la ría, comida en Combarro y motos de agua guiadas"
 seo: "Despedida diferente: lancha y motos"
 fecha: 2026-12-30
-descripcion: "Una despedida de 10 personas con lancha rápida por toda la ría, comida en Combarro y cinco motos de agua dobles con guía por otra zona. Horarios y cuentas."
+descripcion: "Despedida de 10 personas con lancha rápida por la ría, comida en Combarro y cinco motos de agua dobles guiadas. Horarios, precios y cuentas por persona."
 imagen: mar-con-motor
 paginas:
   - /actividades/mar-con-motor/
@@ -10,10 +10,10 @@ paginas:
 resumen:
   - "El plan: por la mañana, lancha rápida por toda la ría; al mediodía, comida en Combarro; por la tarde, cinco motos dobles guiadas por otra zona."
   - "La lancha rápida lleva a todo el grupo junto, con patrón. En las motos pilotáis vosotros, pero siempre con guía."
-  - "Para 10 personas, la lancha (450 € la hora, hasta 11) sale a 45 € por persona."
+  - "Coste orientativo: unos 95 a 105 € por persona (lancha 45 €, motos dobles de 50 a 60 € por hora), sin contar la comida."
 objetivo: 800
 fuentes:
-  - "Pablo (2026-11-11): plan de 10 personas con lancha rápida por la ría desde Combarro, comida en Combarro (por ejemplo en Tintanegra), y cinco motos dobles durante una hora desde Sanxenxo o Portonovo, con guía siempre y ruta guiada"
+  - "Pablo (2026-11-11): precios de las motos dobles (35 € por persona media hora; 50-60 € por persona una hora); plan de 10 personas con lancha rápida por la ría desde Combarro, comida en Combarro (por ejemplo en Tintanegra), y cinco motos dobles durante una hora desde Sanxenxo o Portonovo, con guía siempre y ruta guiada"
   - "data/mar-y-barcos.json (lancha rápida: 1 hora, hasta 11 plazas, 450 €) y contenido/es/actividades/mar-con-motor.md (rutas y normas de las motos de agua)"
 publicar: true
 ---
@@ -48,7 +48,14 @@ Aquí cambia la sensación: **pilotáis vosotros**. Con 10 personas, **cinco mot
 - **Otra zona.** Para que no repitáis lo de la mañana, la ruta de las motos va por un tramo distinto de la costa. Las rutas con guía duran unos 20 minutos (Sanxenxo–Raxó, Sanxenxo–Montalvo, Sanxenxo–Aguete), unos 40 (Sanxenxo–Combarro, Sanxenxo–Bueu) o más de una hora (vuelta por la ría, Aldán, Ons y San Vicente).
 - **Temporada.** Se alquilan de mayo a octubre.
 
-Los precios de las motos se concretan con la agencia según la fecha y el grupo.
+## Cuánto cuesta
+
+Las motos dobles tienen estos precios por persona:
+
+- **Media hora:** desde 35 € por persona, en moto doble.
+- **Una hora:** de 50 a 60 € por persona, en moto doble.
+
+Para un grupo de 10, con cinco motos dobles durante una hora, son **de 500 a 600 € en total**. Súmale la lancha (450 € entre 10, 45 € por persona) y sale a **unos 95 a 105 € por persona**, sin contar la comida. Son precios de referencia: confirma siempre la fecha y la temporada.
 
 ## Por qué funciona
 

@@ -9,11 +9,11 @@ paginas:
   - /barcos/
 resumen:
   - "Aldán queda a una hora de navegación desde Combarro, Sanxenxo o Portonovo: para disfrutarlo hace falta el día entero, no medio día."
-  - "Muchos grupos encargan en A Centoleira una cesta de marisco o arroces y se la comen ya en Aldán, a bordo o en la playa."
+  - "La mayoría de los grupos lleva su propia comida; otros bajan a comer en O Con de Aldán y otros encargan una cesta en A Centoleira."
   - "«Caribe gallego» es un apodo turístico, no una zona oficial: lo real es el agua clara, la arena blanca y las calas pequeñas."
 objetivo: 800
 fuentes:
-  - "Pablo (2026-11-11): una hora de ida y otra de vuelta desde Combarro, Sanxenxo o Portonovo; grupos que encargan marisco o arroces en A Centoleira y los comen en Aldán"
+  - "Pablo (2026-11-11): una hora de ida y otra de vuelta desde Combarro, Sanxenxo o Portonovo; comida: la mayoría de grupos lleva la suya, otros bajan a comer en O Con de Aldán y otros cogen una cesta en A Centoleira"
   - "contenido/es/paraisos/mar/ria-de-aldan.md (playas, bandera azul 2026-2027) y data/mar-y-barcos.json (veleros, yates y pesquero de Aldán: plazas y precios)"
 publicar: true
 ---
@@ -41,11 +41,15 @@ Hay unas veinte, repartidas por parroquias:
 
 Dos tienen bandera azul en 2026-2027: **Area de Bon**, de arena blanca y fina en un entorno de bosque, y **Lagos**, rodeada de rocas y pinares.
 
-## El truco de la comida: la cesta
+## La comida: cada grupo hace lo que prefiere
 
-Un día entero a bordo pide una buena comida. Y muchos grupos lo resuelven así: **encargan en A Centoleira una cesta de marisco o de arroces** y se la comen ya en Aldán, fondeados frente a una cala. Es práctico: no hay que bajar a ningún restaurante, la comida llega lista y se come con el mar delante.
+Un día entero a bordo pide una buena comida, y hay tres formas habituales de resolverla:
 
-Un consejo: encárgala con tiempo, sobre todo en verano, y di cuántos sois y a qué hora salís.
+- **Llevar la comida vosotros.** Es lo que hace la mayoría de los grupos: la preparáis o la compráis antes y la coméis a bordo, fondeados frente a una cala.
+- **Bajar a comer a un restaurante.** Algunos grupos bajan a tierra y comen en O Con de Aldán.
+- **Encargar una cesta.** Otros recogen en A Centoleira una cesta de marisco o de arroces y se la comen en Aldán.
+
+No hay una forma mejor: depende del grupo. Si optas por restaurante o cesta, reserva o encarga con tiempo, sobre todo en verano, y di cuántos sois y a qué hora llegáis.
 
 ## Velero, yate o pesquero
 
@@ -61,7 +65,7 @@ Todos incluyen barco, seguros y patrón. Mira los [barcos privados para tu despe
 1. **Salida por la mañana** desde Combarro, Sanxenxo o Portonovo, con música a bordo.
 2. **Una hora de navegación**, y el barco entra en la ría.
 3. **Fondeo frente a una cala.** Baño, descanso y llega la hora de comer.
-4. **Comida de la cesta**, con vistas.
+4. **Comida**: a bordo, en un restaurante de la zona o con una cesta, con vistas.
 5. **Tarde de baños** y, si hay ganas, paddle surf o kayak.
 6. **Vuelta** con la luz de la tarde, una hora hasta puerto.
 7. **Noche** en Sanxenxo, con cena y copas por el puerto.
@@ -69,7 +73,7 @@ Todos incluyen barco, seguros y patrón. Mira los [barcos privados para tu despe
 ## Lo que conviene saber
 
 - **El tiempo manda.** Si hay mar, un barco puede no salir. Ten plan B.
-- **Lleva bebida y protector solar.** Y recuerda que no está permitido emborracharse a bordo.
+- **Lleva bebida y protector solar**, y la comida si vais a comer a bordo. Y recuerda que no está permitido emborracharse a bordo.
 - **No es zona de fiesta nocturna.** La noche, en el puerto de Sanxenxo.
 - **Reserva con tiempo en verano.** En julio y agosto hay muchas despedidas.
 

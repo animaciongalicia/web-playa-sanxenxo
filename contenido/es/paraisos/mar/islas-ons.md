@@ -45,7 +45,7 @@ Para pedir la autorización: autorizacionillasatlanticas.xunta.gal. Atención te
 
 ## Si vas en barco privado
 
-El permiso personal es el de quien viaja en barco regular. Si alquilas un barco privado, **el permiso de acceso lo solicita el propio barco** a la Xunta y no hace falta que cada persona saque el suyo. El cupo diario de barcos suele rondar los 20 o 30. Si lo conceden, el grupo puede pasar unas seis horas en la isla, con baños, comida y paseo. Desde Combarro, Sanxenxo o Portonovo hay una hora de ida y otra de vuelta, así que pide el día entero. Mira la entrada del blog sobre [alquilar un velero o yate para ir a Ons](/blog/alquilar-un-velero-o-yate-para-ir-a-ons-y-pasar-el-dia/).
+El permiso personal es el de quien viaja en barco regular. Si alquilas un barco privado, **el permiso de fondeo lo solicita cada patrón** a la Xunta y se concede al barco y no hace falta que cada persona saque el suyo. El cupo diario de barcos no se conoce con certeza: se calcula en unos 20 o 25 como máximo. Si lo conceden, el grupo puede pasar unas seis horas en la isla, con baños, comida y paseo. Desde Combarro, Sanxenxo o Portonovo hay una hora de ida y otra de vuelta, así que pide el día entero. Mira la entrada del blog sobre [alquilar un velero o yate para ir a Ons](/blog/alquilar-un-velero-o-yate-para-ir-a-ons-y-pasar-el-dia/).
 
 ## Qué conviene saber
 
