@@ -23,7 +23,7 @@ Es un arenal de arena blanca y fina, con aguas tranquilas, de unos 750 metros de
 
 A un lado queda Punta Vicaño, un parque con mirador que separa Silgar de la playa de Baltar, en Portonovo. Ahí está [Gassho](/diversion/sanxenxo-puerto/gassho/), con una terraza y vistas a la playa: un sitio muy usado para un cóctel después del baño.
 
-En julio y agosto se llena. Si prefieres calma, mejor la primera quincena de junio o septiembre. Mira [cuándo ir](/cuando-ir/).
+En julio y agosto se llena. Si prefieres calma, mejor la primera quincena de junio o septiembre. Mira [cuándo ir a Sanxenxo mes a mes](/cuando-ir/).
 
 ## Areas, imprescindible
 
@@ -41,12 +41,12 @@ Panadeira es una playa pequeña y urbana, a unos cientos de metros de Silgar. Ti
 
 ## Cómo moverte
 
-La gran ventaja de Sanxenxo es la cercanía. Desde el casco urbano llegas a pie a Silgar y a Panadeira. Para el resto necesitarás un paseo corto en coche. Y si te apetece verlas desde el mar, el puerto deportivo está al lado: mira los [barcos](/barcos/).
+La gran ventaja de Sanxenxo es la cercanía. Desde el casco urbano llegas a pie a Silgar y a Panadeira. Para el resto necesitarás un paseo corto en coche. Y si te apetece verlas desde el mar, el puerto deportivo está al lado: mira los [barcos privados para tu despedida](/barcos/).
 
 ## Qué hay cerca
 
-Junto al paseo y las playas encuentras terrazas, restaurantes y el puerto deportivo con locales de copas. Es la zona natural para seguir la jornada: mira [diversión en el puerto de Sanxenxo](/diversion/sanxenxo-puerto/) y [dónde comer](/comer/restaurantes/). A pocos minutos queda [Portonovo](/paraisos/playas/portonovo/), con otro ambiente.
+Junto al paseo y las playas encuentras terrazas, restaurantes y el puerto deportivo con locales de copas. Es la zona natural para seguir la jornada: mira [diversión en el puerto de Sanxenxo](/diversion/sanxenxo-puerto/) y [dónde comer](/comer/restaurantes/). A pocos minutos quedan las [playas y el ambiente de Portonovo para una despedida](/paraisos/playas/portonovo/), con otro ritmo.
 
 ## Para una despedida
 
-Playa por la mañana o por la tarde, y la cena y las copas a pie. Eso es lo que hace tan cómoda esta zona. Mira las [actividades](/actividades/) que se hacen por aquí y el [plan completo](/despedidas/).
+Playa por la mañana o por la tarde, y la cena y las copas a pie. Eso es lo que hace tan cómoda esta zona. Mira las [actividades](/actividades/) que se hacen por aquí y el [plan completo de la despedida](/despedidas/).

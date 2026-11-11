@@ -41,7 +41,7 @@ Lleva comida y bebida: el mar da hambre. Eso sí, **no está permitido emborrach
 
 El barco funciona mejor como **inicio del día**. Después sigues con una comida o una actividad, una tarde tranquila o la noche de fiesta. Así disfrutas del mar sin prisas y sin llegar cansado al resto del plan.
 
-Si el grupo es grande, reparte: unos en el barco y otros en una actividad, y os juntáis a la hora de comer. Mira [actividades](/actividades/), [dónde comer](/comer/) y el [plan completo de la despedida](/despedidas/).
+Si el grupo es grande, reparte: unos en el barco y otros en una actividad, y os juntáis a la hora de comer. Mira [actividades](/actividades/), [dónde comer](/comer/) y el [plan completo de despedida en Sanxenxo](/despedidas/).
 
 ## El pesquero y la lancha
 
@@ -55,4 +55,4 @@ Eso son [traslados](/barcos/traslados/), un plan distinto del alquiler de un bar
 
 ## Antes de decidir
 
-Mira [cuándo ir](/cuando-ir/): la época cambia cuánta gente hay y cómo está el mar. Y si quieres hablarlo, [la agencia](/agencia/) te responde por correo, WhatsApp o teléfono.
+Mira [cuándo ir a Sanxenxo mes a mes](/cuando-ir/): la época cambia cuánta gente hay y cómo está el mar. Y si quieres hablarlo, [la agencia](/agencia/) te responde por correo, WhatsApp o teléfono.

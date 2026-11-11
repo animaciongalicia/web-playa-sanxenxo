@@ -16,4 +16,4 @@ Portonovo funciona bien para empezar la noche con calma y, si te apetece más am
 
 Para cenar, mira [A Curva](/comer/restaurantes/a-curva/) y el resto de [restaurantes](/comer/restaurantes/). Para el día, las [playas de Portonovo](/paraisos/playas/portonovo/).
 
-En verano la zona se llena. Lee [cuándo ir](/cuando-ir/) y el [plan completo](/despedidas/).
+En verano la zona se llena. Lee [cuándo ir a Sanxenxo para una despedida](/cuando-ir/) y el [plan completo de la despedida](/despedidas/).

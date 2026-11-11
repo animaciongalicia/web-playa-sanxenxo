@@ -8,7 +8,7 @@ import html from 'remark-html';
 
 const DIR = join(process.cwd(), 'contenido', 'es', 'blog');
 
-export type Entrada = { slug: string; titulo: string; fecha: string; descripcion: string; imagen: string | null };
+export type Entrada = { slug: string; titulo: string; fecha: string; descripcion: string; imagen: string | null; /** Páginas de la guía a las que apunta la entrada (se enlazan desde ellas con el título como texto). */ paginas: string[] };
 
 function leer(slug: string) {
   const archivo = join(DIR, `${slug}.md`);
@@ -16,7 +16,7 @@ function leer(slug: string) {
   const { data, content } = matter(readFileSync(archivo, 'utf8'));
   if (data.publicar === false || !data.titulo) return null;
   const fecha = data.fecha instanceof Date ? data.fecha.toISOString().slice(0, 10) : String(data.fecha ?? '');
-  const entrada: Entrada = { slug, titulo: String(data.titulo), fecha, descripcion: String(data.descripcion ?? ''), imagen: data.imagen ? String(data.imagen) : null };
+  const entrada: Entrada = { slug, titulo: String(data.titulo), fecha, descripcion: String(data.descripcion ?? ''), imagen: data.imagen ? String(data.imagen) : null, paginas: Array.isArray(data.paginas) ? data.paginas.map(String) : [] };
   return { entrada, contenido: content };
 }
 
@@ -40,3 +40,6 @@ export const fechaLarga = (iso: string) => {
   const d = new Date(`${iso}T12:00:00`);
   return Number.isNaN(d.getTime()) ? iso : new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }).format(d);
 };
+
+/** Entradas del blog que apuntan a una página de la guía (para enlazarlas desde ella). */
+export const entradasDe = (ruta: string): Entrada[] => getEntradas().filter((e) => e.paginas.includes(ruta));

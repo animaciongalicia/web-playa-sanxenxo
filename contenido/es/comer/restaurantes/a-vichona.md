@@ -26,7 +26,7 @@ Admite despedidas de soltero y de soltera. Se juntan **6, 8 o 10 grupos a la vez
 
 No hay DJ ni música fuerte tipo discoteca: es una cena con buen rollo, no una sala de baile. Si quieres algo más privado, hay **4 reservados para shows privados**.
 
-Si organizas una despedida, lee antes las [condiciones de las despedidas](/cuando-ir/#condiciones) y mira el [plan completo](/despedidas/).
+Si organizas una despedida, lee antes las [condiciones para reservar una despedida en Sanxenxo](/cuando-ir/#condiciones) y mira el [plan completo para tu despedida en Sanxenxo](/despedidas/).
 
 ## Cómo llegar
 

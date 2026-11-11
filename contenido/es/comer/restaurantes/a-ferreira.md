@@ -30,4 +30,4 @@ Todo el año, que no es lo habitual en la zona. De lunes a viernes tiene menú d
 
 Los fines de semana se suele llenar, así que conviene reservar. El sitio es amplio y se agradece, sobre todo con grupos.
 
-Para ver otras opciones, mira [restaurantes](/comer/restaurantes/). Y para ver cómo encajar el día entero, mira el [plan completo](/despedidas/).
+Para ver otras opciones, mira [restaurantes](/comer/restaurantes/). Y para ver cómo encajar el día entero, mira el [plan completo para tu despedida de soltero o soltera](/despedidas/).

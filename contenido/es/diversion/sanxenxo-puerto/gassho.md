@@ -31,4 +31,4 @@ Las despedidas, sobre todo de soltera, suelen subir después de la playa del sá
 
 ## Dónde está
 
-En Punta Vicaño, entre [Silgar](/paraisos/playas/sanxenxo/) y las [playas de Portonovo](/paraisos/playas/portonovo/). Mira el resto de [diversión en el puerto de Sanxenxo](/diversion/sanxenxo-puerto/) y el [plan completo](/despedidas/).
+En Punta Vicaño, entre [Silgar](/paraisos/playas/sanxenxo/) y las [playas de Portonovo](/paraisos/playas/portonovo/). Mira el resto de [diversión en el puerto de Sanxenxo](/diversion/sanxenxo-puerto/) y el [plan completo para organizar tu despedida](/despedidas/).

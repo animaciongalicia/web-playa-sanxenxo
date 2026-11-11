@@ -13,7 +13,7 @@ En esta zona se come bien, y se come de formas muy distintas. Esta sección te o
 
 ## Cenas de grupo: reserva con tiempo
 
-En verano hay mucha demanda y los sitios con espacio para grupos grandes se llenan pronto. Hay locales preparados para recibir despedidas, pero conviene decir desde el principio que sois un grupo y reservar con tiempo, sobre todo en julio y agosto. Lo cuentan las [condiciones de las despedidas](/cuando-ir/#condiciones).
+En verano hay mucha demanda y los sitios con espacio para grupos grandes se llenan pronto. Hay locales preparados para recibir despedidas, pero conviene decir desde el principio que sois un grupo y reservar con tiempo, sobre todo en julio y agosto. Lo cuentan las [condiciones de las despedidas en Sanxenxo](/cuando-ir/#condiciones).
 
 ## Cómo elegir
 

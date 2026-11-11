@@ -30,4 +30,4 @@ Destacan sus programaciones de verano, con actuaciones en vivo de cantautores y 
 
 ## Cómo encaja en el plan
 
-Funciona como parada de tarde o como segunda copa, junto a sus vecinos del puerto: [Buddha](/diversion/sanxenxo-puerto/buddha/) y [Varadero](/diversion/sanxenxo-puerto/varadero/). Mira el [puerto de Sanxenxo](/diversion/sanxenxo-puerto/), las [condiciones](/cuando-ir/#condiciones) y el [plan completo](/despedidas/).
+Funciona como parada de tarde o como segunda copa, junto a sus vecinos del puerto: [Buddha](/diversion/sanxenxo-puerto/buddha/) y [Varadero](/diversion/sanxenxo-puerto/varadero/). Mira el [puerto de Sanxenxo](/diversion/sanxenxo-puerto/), las [condiciones de las despedidas en temporada alta](/cuando-ir/#condiciones) y el [plan completo de despedida en Sanxenxo](/despedidas/).

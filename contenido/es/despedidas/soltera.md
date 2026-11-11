@@ -29,7 +29,7 @@ Por eso funcionan los planes pensados a medida. Los copiados de otro grupo, no.
 
 **Spa y bienestar.** Es uno de los planes estrella: circuito en grupo, charla y desconexión. Va muy bien por la mañana o a mediodía, antes de una comida o de una noche animada.
 
-**Barco privado tranquilo.** Velero o yate solo para el grupo, con capacidad limitada: entre 11 y 16 personas, según el barco. Ambiente relajado, música y brindis. No hay fiestas masivas en el mar, pero como plan exclusivo es un acierto. Mira los [barcos](/barcos/).
+**Barco privado tranquilo.** Velero o yate solo para el grupo, con capacidad limitada: entre 11 y 16 personas, según el barco. Ambiente relajado, música y brindis. No hay fiestas masivas en el mar, pero como plan exclusivo es un acierto. Mira los [barcos para despedidas en Sanxenxo](/barcos/).
 
 **Actividades suaves y participativas.** Gincanas adaptadas, experiencias de grupo, planes pensados para reírse sin forzar. Ideal cuando queréis algo divertido pero cómodo. Tienes opciones en [actividades](/actividades/).
 
@@ -80,12 +80,12 @@ Y el domingo, un desayuno tranquilo. Algunos grupos lo hacen en [Gassho](/divers
 
 ## Dónde cenar
 
-Hay menús desde 25 € por persona y mariscadas de 50 €. No todos los locales aceptan despedidas, así que pregunta con tiempo. Lo explican las [condiciones de las despedidas](/cuando-ir/#condiciones).
+Hay menús desde 25 € por persona y mariscadas de 50 €. No todos los locales aceptan despedidas, así que pregunta con tiempo. Lo explican las [condiciones para reservar una despedida en Sanxenxo](/cuando-ir/#condiciones).
 
 ## Y ahora, ¿qué?
 
 Cuenta fecha aproximada, cuántas sois, presupuesto orientativo y qué os apetece. Con eso la agencia te propone algo que encaje. Antes, mira cuándo ir y las condiciones:
 
-- [Cuándo ir](/cuando-ir/)
-- [Condiciones de las despedidas](/cuando-ir/#condiciones)
+- [Cuándo ir a Sanxenxo en verano o fuera de temporada](/cuando-ir/)
+- [Condiciones de las despedidas en temporada alta](/cuando-ir/#condiciones)
 - [Hablar con la agencia](/agencia/)

@@ -47,7 +47,7 @@ npm run lint
 npm run typecheck
 npm run check:datos   # valida data/ contra los esquemas (zod) y avisa de fichas caducadas
 npm run check:contenido  # textos Markdown: palabras, fuentes y voz
-npm run check:seo     # redirecciones 301, páginas 410, enlaces internos, títulos y descripciones
+npm run check:seo     # redirecciones 301, páginas 410, enlaces internos (con texto de cola larga), títulos y descripciones
 ```
 
 ## Carpetas
@@ -71,3 +71,4 @@ docs/                 especificación (esto)
 5. `docs/05-github-vercel-seguridad.md`
 6. `docs/06-seo-redirecciones-i18n.md`
 7. `docs/07-contenido-pendiente.md`
+8. `docs/10-enlazado-interno-y-posicionamiento.md` (enlaces de cola larga y blog)

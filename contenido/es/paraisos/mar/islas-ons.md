@@ -29,7 +29,7 @@ Y para recuperar fuerzas, lo clásico: el polbo á illa.
 
 Hay servicio regular de barco a Ons desde **Portonovo, Sanxenxo, Bueu y Marín**. Si vienes de Sanxenxo, es de las excursiones más cómodas de la zona. La travesía es corta, y puedes ir y volver el mismo día.
 
-También puedes ir en un traslado en lancha rápida. Mira [traslados](/barcos/traslados/) y [barcos](/barcos/).
+También puedes ir en un traslado en lancha rápida. Mira [traslados](/barcos/traslados/) y [barcos privados para tu despedida](/barcos/).
 
 ## Permisos y cupos
 
@@ -54,10 +54,10 @@ Para pedir la autorización: autorizacionillasatlanticas.xunta.gal. Atención te
 
 Es un plan de día entero, de los que se recuerdan. Funciona como excursión tranquila, con paseo, baño y comida. No es una isla de fiesta, y eso es justo lo que la hace especial.
 
-Si el grupo es grande, divide: una parte en la isla y otra en la playa. Y combina con una cena en [Sanxenxo](/comer/restaurantes/) o [Portonovo](/paraisos/playas/portonovo/) al volver.
+Si el grupo es grande, divide: una parte en la isla y otra en la playa. Y combina con una cena en [Sanxenxo](/comer/restaurantes/) o cerca de las [playas de Portonovo](/paraisos/playas/portonovo/) al volver.
 
 ## Playas de esta costa
 
 Si prefieres no cruzar, desde la ría se ven las islas. Mira las [playas de O Grove y San Vicente](/paraisos/playas/o-grove-san-vicente/), desde donde, en días claros, se divisa Ons.
 
-Para planificar fecha: [cuándo ir](/cuando-ir/) y [despedidas](/despedidas/).
+Para planificar fecha: [cuándo ir a Sanxenxo según el mes](/cuando-ir/) y [despedidas en Sanxenxo](/despedidas/).

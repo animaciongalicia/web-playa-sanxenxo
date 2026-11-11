@@ -47,6 +47,6 @@ Cercanía. Estas playas quedan a más distancia de Sanxenxo, y el plan de cena y
 
 ## Cómo encajarlo
 
-Funciona como plan alternativo: una mañana fuera, comer por la zona y volver a Sanxenxo para la noche. Mira [barcos](/barcos/) si quieres hacerlo por mar, y el [plan completo de despedida](/despedidas/).
+Funciona como plan alternativo: una mañana fuera, comer por la zona y volver a Sanxenxo para la noche. Mira [barcos para despedidas en Sanxenxo](/barcos/) si quieres hacerlo por mar, y el [plan completo de despedida en Sanxenxo](/despedidas/).
 
-Para volver al núcleo: [Sanxenxo](/paraisos/playas/sanxenxo/), [Portonovo](/paraisos/playas/portonovo/), [A Lanzada](/paraisos/playas/noalla-a-lanzada/) y [O Grove](/paraisos/playas/o-grove-san-vicente/).
+Para volver al núcleo: [Sanxenxo](/paraisos/playas/sanxenxo/), [playas de Portonovo](/paraisos/playas/portonovo/), [A Lanzada](/paraisos/playas/noalla-a-lanzada/) y [O Grove](/paraisos/playas/o-grove-san-vicente/).

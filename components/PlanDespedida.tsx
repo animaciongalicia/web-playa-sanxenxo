@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import BandaAgencia from './BandaAgencia';
+import GuiasRelacionadas from './GuiasRelacionadas';
 import Seccion from './Seccion';
 import TarjetaFoto from './TarjetaFoto';
 import { getLocales } from '../lib/datos';
@@ -8,7 +9,7 @@ import { foto } from '../lib/fotos';
 import { href, type Idioma } from '../lib/i18n';
 
 /** El plan en conjunto (docs/02): enlaza todas las secciones con foto. Cierra con A Vichona (dato real) y la banda de contacto. */
-export default function PlanDespedida({ lang }: { lang: Idioma }) {
+export default function PlanDespedida({ lang, ruta }: { lang: Idioma; ruta?: string }) {
   const h = (r: string) => href(lang, r);
   const vichona = getLocales('restaurantes').find((l) => l.id === 'a-vichona');
   const imgVichona = foto('a-vichona');
@@ -41,6 +42,7 @@ export default function PlanDespedida({ lang }: { lang: Idioma }) {
           </div>
         </Seccion>
       )}
+      {ruta && <GuiasRelacionadas ruta={ruta} />}
       <BandaAgencia lang={lang} />
     </>
   );

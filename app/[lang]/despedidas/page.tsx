@@ -27,7 +27,7 @@ export default function Despedidas({ params }: { params: { lang: string } }) {
         </div>
       </Seccion>
       <Contenido lang={lang} ruta="/despedidas/" />
-      <PlanDespedida lang={lang} />
+      <PlanDespedida lang={lang} ruta="/despedidas/" />
     </>
   );
 }

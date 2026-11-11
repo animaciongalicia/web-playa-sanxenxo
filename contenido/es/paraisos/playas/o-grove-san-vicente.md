@@ -47,4 +47,4 @@ San Vicente do Mar tiene su propia zona de chiringuitos y terrazas. Mira [chirin
 
 ## Cómo combinarlo
 
-Es un tramo para un día tranquilo: paseo por la pasarela, baño, y comer o tomar algo al caer la tarde. Va muy bien como pausa entre dos días de más actividad. Si quieres más movimiento, mira [actividades](/actividades/) y [barcos](/barcos/). Y para la época, [cuándo ir](/cuando-ir/).
+Es un tramo para un día tranquilo: paseo por la pasarela, baño, y comer o tomar algo al caer la tarde. Va muy bien como pausa entre dos días de más actividad. Si quieres más movimiento, mira [actividades](/actividades/) y [barcos para despedidas en Portonovo](/barcos/). Y para la época, [cuándo ir a Sanxenxo para una despedida](/cuando-ir/).

@@ -21,4 +21,4 @@ Diversión es lo que pasa cuando cae el sol: terraceo, tardeo, puestas de sol y 
 
 Primero cena. Después, terraza para empezar con calma y copas por el puerto. Si buscas desayunar al día siguiente con vistas, mira [Gassho](/diversion/sanxenxo-puerto/gassho/).
 
-Si vais a mover mucha gente de noche, mira la [limusina](/limusinas/). Y antes de fijar fecha, lee las [condiciones de las despedidas](/cuando-ir/#condiciones) y [cuándo ir](/cuando-ir/). El plan completo está en [despedidas](/despedidas/).
+Si vais a mover mucha gente de noche, mira la [limusina para despedidas en Sanxenxo](/limusinas/). Y antes de fijar fecha, lee las [condiciones de las despedidas en Sanxenxo](/cuando-ir/#condiciones) y [cuándo ir a Sanxenxo según el mes](/cuando-ir/). El plan completo está en [despedidas en Sanxenxo](/despedidas/).

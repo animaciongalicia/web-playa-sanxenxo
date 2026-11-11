@@ -28,7 +28,7 @@ El archipiélago tiene tres islas principales: Monteagudo, Do Faro y San Martiñ
 
 El servicio regular de barco a las Cíes sale de **Vigo, Baiona y Cangas**, en temporada alta. No sale de Sanxenxo ni de Portonovo.
 
-Si te interesa ir desde la ría, la opción es un traslado en lancha rápida, que sigue disponible. Mira [traslados](/barcos/traslados/) y [barcos](/barcos/).
+Si te interesa ir desde la ría, la opción es un traslado en lancha rápida, que sigue disponible. Mira [traslados](/barcos/traslados/) y [barcos para despedidas en Portonovo](/barcos/).
 
 ## Permisos y cupos
 
@@ -59,4 +59,4 @@ El único requisito es saber nadar. Mira [buceo y pesca](/actividades/buceo-y-pe
 
 Es una excursión de día entero, con mucho que ver. Funciona mejor en grupos pequeños, que sean ágiles con los permisos. Si quieres algo más fácil desde Sanxenxo, mira [Ons](/paraisos/mar/islas-ons/).
 
-Para decidir fecha: [cuándo ir](/cuando-ir/). Para el plan completo: [despedidas](/despedidas/).
+Para decidir fecha: [cuándo ir a Sanxenxo y qué esperar cada mes](/cuando-ir/). Para el plan completo: [guía de despedidas en Sanxenxo](/despedidas/).

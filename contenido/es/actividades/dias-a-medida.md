@@ -40,4 +40,4 @@ Rompen el hielo, hacen reír y sacan lo mejor de cada participante. Son una alte
 
 Como cada día se diseña con el grupo, el primer paso es contar cuántos sois, la fecha aproximada y qué tipo de plan buscáis. Habla con la [agencia](/agencia/).
 
-Mira también el [plan completo de la despedida](/despedidas/), el [humor amarillo](/humor-amarillo-en-sanxenxo/), que encaja en esta misma línea, y el resto de [actividades](/actividades/).
+Mira también el [plan completo para tu despedida de soltero o soltera](/despedidas/), el [Humor Amarillo en Sanxenxo](/humor-amarillo-en-sanxenxo/), que encaja en esta misma línea, y el resto de [actividades](/actividades/).

@@ -42,4 +42,4 @@ Algo que conviene saber: **el tiempo se reparte entre los participantes**. Dos h
 
 Son actividades de mañana o de tarde. Después de una moto de agua o una sesión de banana, lo que apetece es comer y descansar. Mira [dónde comer](/comer/) y las [playas de Portonovo](/paraisos/playas/portonovo/).
 
-Con grupos grandes, reparte entre varias actividades para que nadie espere. Mira el [plan completo](/despedidas/) y las otras [actividades](/actividades/). Para época y condiciones, [cuándo ir](/cuando-ir/).
+Con grupos grandes, reparte entre varias actividades para que nadie espere. Mira el [plan completo de despedida en Sanxenxo](/despedidas/) y las otras [actividades](/actividades/). Para época y condiciones, [cuándo ir a Sanxenxo y qué esperar cada mes](/cuando-ir/).

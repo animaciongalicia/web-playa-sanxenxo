@@ -22,4 +22,4 @@ Casi siempre hay bastante gente, y allí suelen verse muchos jóvenes de Sanxenx
 
 Es un sitio para empezar la noche con calma, en un entorno agradable, antes de seguir. Combina bien con una cena previa y con los otros locales del [puerto de Sanxenxo](/diversion/sanxenxo-puerto/): [Dux](/diversion/sanxenxo-puerto/dux/) y [Buddha](/diversion/sanxenxo-puerto/buddha/) están cerca.
 
-Mira [dónde cenar](/comer/restaurantes/) y el [plan completo](/despedidas/).
+Mira [dónde cenar](/comer/restaurantes/) y el [plan completo para una despedida en Sanxenxo y Portonovo](/despedidas/).

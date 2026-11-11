@@ -42,7 +42,7 @@ En Cangas, ninguna playa de la lista oficial tiene bandera azul esta temporada.
 
 ## Cómo llegar
 
-Por tierra, en coche, desde Bueu y Cangas. Por mar, en barco o lancha rápida desde Sanxenxo. Mira [barcos](/barcos/) y [traslados](/barcos/traslados/). Y si quieres hacerlo en moto de agua, mira [mar con motor](/actividades/mar-con-motor/): una de las rutas llega hasta Aldán.
+Por tierra, en coche, desde Bueu y Cangas. Por mar, en barco o lancha rápida desde Sanxenxo. Mira [barcos para despedidas en Sanxenxo](/barcos/) y [traslados](/barcos/traslados/). Y si quieres hacerlo en moto de agua, mira [mar con motor](/actividades/mar-con-motor/): una de las rutas llega hasta Aldán.
 
 ## Qué hacer
 
@@ -52,4 +52,4 @@ Playa, baño y calma. Y, si te apetece más movimiento, paddle surf o kayak. Mir
 
 Es una excursión corta: sales por la mañana, pasas el día en una cala y vuelves para la cena en Sanxenxo. Funciona especialmente bien en barco privado: el grupo va solo, con música, y puedes parar a bañarte.
 
-Antes, mira [cuándo ir](/cuando-ir/), y para el plan completo, [despedidas](/despedidas/).
+Antes, mira [cuándo ir a Sanxenxo con tu grupo](/cuando-ir/), y para el plan completo, [despedidas en Sanxenxo y alrededores](/despedidas/).

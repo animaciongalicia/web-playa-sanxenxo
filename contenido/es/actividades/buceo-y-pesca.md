@@ -47,4 +47,4 @@ Una jornada con profesionales del mar. Es distinta de una fiesta a bordo: aquí 
 
 El snorkel funciona como actividad de mañana y combina bien con una comida tranquila. La pesca ocupa buena parte del día. Con el buceo y el snorkel en Ons, cuenta con la autorización de la isla: mira [Ons](/paraisos/mar/islas-ons/).
 
-Mira el [plan completo de la despedida](/despedidas/) y el resto de [actividades](/actividades/). Para la época, [cuándo ir](/cuando-ir/).
+Mira el [plan completo de la despedida](/despedidas/) y el resto de [actividades](/actividades/). Para la época, [cuándo ir a Sanxenxo para una despedida](/cuando-ir/).

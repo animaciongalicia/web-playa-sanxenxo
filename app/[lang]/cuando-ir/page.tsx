@@ -12,6 +12,7 @@ import { IDIOMAS, esIdioma } from '../../../lib/i18n';
 import { CAMPOS_MES, MESES } from '../../../lib/meses';
 import { metaRuta } from '../../../lib/seo';
 import Rejilla from '../../../components/Rejilla';
+import GuiasRelacionadas from '../../../components/GuiasRelacionadas';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => IDIOMAS.map((lang) => ({ lang }));
@@ -76,6 +77,7 @@ export default function CuandoIr({ params }: { params: { lang: string } }) {
         <h2 className="mx-auto mt-3 max-w-3xl text-3xl font-bold tracking-tight md:text-4xl">Condiciones de las despedidas</h2>
       </section>
       <Contenido lang={lang} ruta="/cuando-ir/condiciones/" />
+      <GuiasRelacionadas ruta={'/cuando-ir/'} />
       <BandaAgencia lang={lang} />
     </>
   );

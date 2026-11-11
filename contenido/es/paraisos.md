@@ -22,6 +22,6 @@ Hay tres cosas que conviene tener claras.
 
 ## Cómo combinarlo con el resto del plan
 
-Playa por la mañana, barco a mediodía, cena en el puerto. Lo que mejor funciona en una despedida es no cargar el día. Mira el [plan completo](/despedidas/) y [cuándo ir](/cuando-ir/), porque la época cambia mucho lo que te encuentras.
+Playa por la mañana, barco a mediodía, cena en el puerto. Lo que mejor funciona en una despedida es no cargar el día. Mira el [plan completo para una despedida en Sanxenxo y Portonovo](/despedidas/) y [cuándo ir a Sanxenxo con tu grupo](/cuando-ir/), porque la época cambia mucho lo que te encuentras.
 
 Si quieres hablarlo con alguien, [la agencia](/agencia/) te responde por correo, WhatsApp o teléfono.

@@ -13,6 +13,7 @@ import { esIdioma } from '../../../../lib/i18n';
 import { FAMILIAS_INFO } from '../../../../lib/paraisos';
 import { metaRuta } from '../../../../lib/seo';
 import Rejilla from '../../../../components/Rejilla';
+import GuiasRelacionadas from '../../../../components/GuiasRelacionadas';
 
 type P = { lang: string; familia: string };
 export const dynamicParams = false;
@@ -36,6 +37,7 @@ export default function Familia({ params }: { params: P }) {
         ) : <EnPreparacion />}
       </Seccion>
       <Contenido lang={params.lang} ruta={`/actividades/${params.familia}/`} />
+      <GuiasRelacionadas ruta={`/actividades/${params.familia}/`} />
       <BandaAgencia lang={params.lang} />
     </>
   );

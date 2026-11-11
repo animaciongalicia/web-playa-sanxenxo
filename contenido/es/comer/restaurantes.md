@@ -21,8 +21,8 @@ Hay menús desde unos 25 € por persona hasta mariscadas de unos 50 € por per
 - **Cerca o lejos.** Hay restaurantes junto al paseo y la playa de Silgar, otros en el puerto y otros más en las afueras. Cuanto más cerca de la noche, menos desplazamientos.
 - **Reserva con tiempo.** Los fines de semana de verano se llenan.
 
-Más sobre esto en las [condiciones de las despedidas](/cuando-ir/#condiciones).
+Más sobre esto en las [condiciones de las despedidas en Sanxenxo](/cuando-ir/#condiciones).
 
 ## Y después de cenar
 
-La noche tiene su propio ritmo: mira [diversión en el puerto de Sanxenxo](/diversion/sanxenxo-puerto/) y [Portonovo](/diversion/portonovo/). Para el plan completo, [despedidas](/despedidas/). Y si quieres comer con los pies en la arena, mira los [chiringuitos](/comer/chiringuitos/).
+La noche tiene su propio ritmo: mira [diversión en el puerto de Sanxenxo](/diversion/sanxenxo-puerto/) y [Portonovo](/diversion/portonovo/). Para el plan completo, [guía de despedidas en Sanxenxo](/despedidas/). Y si quieres comer con los pies en la arena, mira los [chiringuitos](/comer/chiringuitos/).

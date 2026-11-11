@@ -9,6 +9,7 @@ import Seccion from '../../../../components/Seccion';
 import { fechaLarga, getEntrada, getEntradas } from '../../../../lib/blog';
 import { foto } from '../../../../lib/fotos';
 import { esIdioma } from '../../../../lib/i18n';
+import { SEO } from '../../../../lib/seo';
 import { SITIO } from '../../../../lib/sitio';
 import { metaRuta } from '../../../../lib/seo';
 
@@ -28,6 +29,16 @@ export default function Entrada({ params }: { params: P }) {
       <Migas lang={params.lang} ruta={`/blog/${e.slug}/`} titulo={e.titulo} />
       <Seccion ancho="estrecho">
         <article className="prose prose-lg max-w-none prose-a:text-ria-700 prose-strong:text-gray-900" dangerouslySetInnerHTML={{ __html: e.html }} />
+        {e.paginas.length > 0 && (
+          <aside className="mt-10 rounded-2xl bg-ria-50 p-6">
+            <h2 className="text-lg font-bold text-gray-900">Sigue con la guía</h2>
+            <ul className="mt-3 space-y-2">
+              {e.paginas.map((r) => (
+                <li key={r}><Link href={r} className="font-medium text-ria-700 hover:underline">{SEO[r]?.titulo ?? r} →</Link></li>
+              ))}
+            </ul>
+          </aside>
+        )}
         <p className="mt-10"><Link href="/blog/" className="link-inline">← Más entradas del blog</Link></p>
       </Seccion>
       <BandaAgencia lang={params.lang} />

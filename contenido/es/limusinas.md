@@ -37,7 +37,7 @@ Para trayectos cortos, a pie suele ser más rápido. La limusina compensa cuando
 
 ## Cómo encaja en el plan
 
-Ponla a última hora de la noche, no a media tarde. Y si vienes de O Grove o de Combarro, cuenta con el tiempo del trayecto. Mira el [plan completo de la despedida](/despedidas/) y [dónde salir de copas](/diversion/).
+Ponla a última hora de la noche, no a media tarde. Y si vienes de O Grove o de Combarro, cuenta con el tiempo del trayecto. Mira el [plan completo para organizar tu despedida](/despedidas/) y [dónde salir de copas](/diversion/).
 
 ## Si te interesa
 

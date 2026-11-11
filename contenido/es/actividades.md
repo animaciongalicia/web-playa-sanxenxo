@@ -29,6 +29,6 @@ La mayoría salen de los puertos y playas de Sanxenxo y Portonovo, y de playas c
 
 ## Cómo encaja en el plan
 
-Una actividad por la mañana, comida y playa por la tarde, cena y noche en el puerto. Mira el [plan completo de la despedida](/despedidas/), las [playas](/paraisos/playas/) y los [barcos](/barcos/).
+Una actividad por la mañana, comida y playa por la tarde, cena y noche en el puerto. Mira el [plan completo para tu despedida en Sanxenxo](/despedidas/), las [playas](/paraisos/playas/) y los [barcos para despedidas en Sanxenxo](/barcos/).
 
-Y antes de fijar la fecha, [cuándo ir](/cuando-ir/): hay actividades que dependen de la época. Si quieres hablarlo, [la agencia](/agencia/) te responde por correo, WhatsApp o teléfono.
+Y antes de fijar la fecha, [cuándo ir a Sanxenxo para una despedida](/cuando-ir/): hay actividades que dependen de la época. Si quieres hablarlo, [la agencia](/agencia/) te responde por correo, WhatsApp o teléfono.

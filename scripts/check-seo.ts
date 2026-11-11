@@ -38,6 +38,21 @@ for (const f of md(join(process.cwd(), 'contenido', 'es'))) {
     if (!anclaOk(destino)) errores.push(`Enlace roto en ${f.replace(process.cwd() + '/', '')}: ${m[1]}`);
   }
 }
+// 3b) Enlaces internos a las páginas que queremos posicionar: el texto del enlace es de cola larga (3 palabras o más), nunca una palabra suelta.
+const DESTINO_CLAVE = new Set(['/despedidas/', '/despedidas/soltero/', '/despedidas/soltera/', '/paraisos/playas/portonovo/', '/barcos/', '/limusinas/', '/actividades/mar-con-motor/', '/humor-amarillo-en-sanxenxo/', '/cuando-ir/']);
+const repeticiones = new Map<string, number>();
+for (const f of md(join(process.cwd(), 'contenido', 'es'))) {
+  const t = readFileSync(f, 'utf8');
+  if (/^legal:\s*true/m.test(t)) continue;
+  for (const m of t.matchAll(/\[([^\]]+)\]\((\/[^)\s#]*)(#[^)\s]*)?\)/g)) {
+    const destino = m[2].endsWith('/') ? m[2] : `${m[2]}/`;
+    if (!DESTINO_CLAVE.has(destino)) continue;
+    if (m[1].trim().split(/\s+/).length < 3) errores.push(`Enlace corto a una página clave en ${f.replace(process.cwd() + '/', '')}: [${m[1]}](${m[2]}). Usa cola larga (3 palabras o más)`);
+    const k = `${destino} · ${m[1].trim().toLowerCase()}`;
+    repeticiones.set(k, (repeticiones.get(k) ?? 0) + 1);
+  }
+}
+for (const [k, n] of repeticiones) if (n > 4) avisos.push(`Mismo texto de enlace repetido ${n} veces (varía la redacción): ${k}`);
 // 4) Títulos y descripciones: longitud y presencia.
 for (const [ruta, p] of Object.entries(SEO)) {
   if (!rutas.has(ruta)) errores.push(`SEO de una ruta que no existe: ${ruta}`);

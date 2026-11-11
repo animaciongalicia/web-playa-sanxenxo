@@ -11,6 +11,7 @@ import { IDIOMAS, esIdioma } from '../../../../../lib/i18n';
 import { NOMBRE_TRAMO, TRAMOS_RUTA, buscarTramoRuta } from '../../../../../lib/paraisos';
 import { metaRuta } from '../../../../../lib/seo';
 import Rejilla from '../../../../../components/Rejilla';
+import GuiasRelacionadas from '../../../../../components/GuiasRelacionadas';
 
 type P = { lang: string; tramo: string };
 export const dynamicParams = false;
@@ -42,6 +43,7 @@ export default function Tramo({ params }: { params: P }) {
       ) : (
         <Seccion ancho="estrecho"><EnPreparacion /></Seccion>
       )}
+      <GuiasRelacionadas ruta={`/paraisos/playas/${params.tramo}/`} />
       <BandaAgencia lang={lang} />
     </>
   );

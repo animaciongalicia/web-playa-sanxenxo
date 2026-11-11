@@ -35,4 +35,4 @@ En algunas zonas se les llama también "loureiros", porque antiguamente colocaba
 
 Es un plan de tarde, perfecto en invierno y primavera, cuando las playas están más tranquilas. Sirve para una despedida fuera de temporada alta. Combínalo con una comida y la noche en Sanxenxo.
 
-Mira [cuándo ir](/cuando-ir/) para saber qué más hay en esa época, y el [plan completo de la despedida](/despedidas/). Y para comer con otro estilo, los [restaurantes](/comer/restaurantes/) y los [chiringuitos](/comer/chiringuitos/).
+Mira [cuándo ir a Sanxenxo con tu grupo](/cuando-ir/) para saber qué más hay en esa época, y el [plan completo de la despedida](/despedidas/). Y para comer con otro estilo, los [restaurantes](/comer/restaurantes/) y los [chiringuitos](/comer/chiringuitos/).

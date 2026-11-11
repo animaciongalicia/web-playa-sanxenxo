@@ -38,7 +38,7 @@ Y para rematar, un juego de rodillos móviles, solo para equilibristas, el futbo
 
 ## Cómo encaja en una despedida
 
-Es un plan de día, de los que rompen el hielo. Competís por equipos, os reís y llegáis a la cena con anécdotas. Funciona bien en despedidas de [soltero](/despedidas/soltero/) y de [soltera](/despedidas/soltera/), y también si el grupo es mixto.
+Es un plan de día, de los que rompen el hielo. Competís por equipos, os reís y llegáis a la cena con anécdotas. Funciona bien en una [despedida de soltero en Sanxenxo](/despedidas/soltero/) y en una [despedida de soltera en Sanxenxo](/despedidas/soltera/), y también si el grupo es mixto.
 
 Combina bien con una comida tranquila después y con la [noche en el puerto](/diversion/). Si el grupo es grande, divide en equipos y la competición está servida.
 

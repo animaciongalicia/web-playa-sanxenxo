@@ -27,9 +27,9 @@ Por eso funcionan los planes claros, compactos y bien coordinados.
 
 ## Planes de día
 
-**Barco privado.** Veleros o yates solo para vuestro grupo, con patrón, entre 11 y 16 personas, según el barco. Es un plan ideal para empezar. No hay barcos tipo discoteca ni fiestas conjuntas en el mar, pero bien integrado deja un recuerdo que se comenta durante años. Mira los [barcos](/barcos/).
+**Barco privado.** Veleros o yates solo para vuestro grupo, con patrón, entre 11 y 16 personas, según el barco. Es un plan ideal para empezar. No hay barcos tipo discoteca ni fiestas conjuntas en el mar, pero bien integrado deja un recuerdo que se comenta durante años. Mira los [barcos privados para tu despedida](/barcos/).
 
-**Actividades de grupo.** Gincanas y juegos, actividades acuáticas, o karting y paintball en zonas cercanas. Ayudan a romper el hielo y a crear ambiente. Tienes el catálogo en [actividades](/actividades/), y un día de [humor amarillo](/humor-amarillo-en-sanxenxo/) también encaja.
+**Actividades de grupo.** Gincanas y juegos, actividades acuáticas, o karting y paintball en zonas cercanas. Ayudan a romper el hielo y a crear ambiente. Tienes el catálogo en [actividades](/actividades/), y un día de [Humor Amarillo en Sanxenxo](/humor-amarillo-en-sanxenxo/) también encaja.
 
 ## Planes de noche
 
@@ -76,12 +76,12 @@ Si sois más de unos 15, divide: un grupo en el barco y otro en la actividad, y 
 
 ## Dónde cenar
 
-Hay menús desde 25 € por persona y mariscadas de 50 €. Ten en cuenta que no todos los locales aceptan despedidas, así que pregunta pronto. Lo cuentan las [condiciones de las despedidas](/cuando-ir/#condiciones).
+Hay menús desde 25 € por persona y mariscadas de 50 €. Ten en cuenta que no todos los locales aceptan despedidas, así que pregunta pronto. Lo cuentan las [condiciones de las despedidas en Sanxenxo](/cuando-ir/#condiciones).
 
 ## Y ahora, ¿qué?
 
 Reúne cuatro datos: fecha aproximada, cuántos sois, presupuesto orientativo y qué tipo de plan buscáis. Con eso, la agencia te propone algo realista. Mira antes cuándo ir y las condiciones:
 
-- [Cuándo ir](/cuando-ir/)
-- [Condiciones de las despedidas](/cuando-ir/#condiciones)
+- [Cuándo ir a Sanxenxo de mayo a septiembre](/cuando-ir/)
+- [Condiciones para reservar una despedida en Sanxenxo](/cuando-ir/#condiciones)
 - [Hablar con la agencia](/agencia/)

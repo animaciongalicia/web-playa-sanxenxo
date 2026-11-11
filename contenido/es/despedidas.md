@@ -25,7 +25,7 @@ Una despedida bien montada suele combinar tres momentos.
 - **Cena.** Un sitio con espacio para el grupo, con o sin reservado. En temporada alta hay mucha demanda, así que reserva con tiempo y di que sois un grupo.
 - **Noche.** Terrazas y copas en el puerto de Sanxenxo, o en Portonovo. Es una zona cómoda para ir enlazando locales.
 
-Cada pieza tiene su sección en la guía: [playas y mar](/paraisos/), [barcos](/barcos/), [actividades](/actividades/), [dónde comer](/comer/) y [diversión](/diversion/).
+Cada pieza tiene su sección en la guía: [playas y mar](/paraisos/), [barcos privados para tu despedida](/barcos/), [actividades](/actividades/), [dónde comer](/comer/) y [diversión](/diversion/).
 
 ## Un barco privado, sin fantasías
 
@@ -59,7 +59,7 @@ Una despedida bien pensada se disfruta mucho más. Y suele costar menos.
 
 Hay restaurantes para todos los presupuestos: desde menús de 25 € por persona hasta mariscadas de 50 € por persona. Unos tienen reservado para shows, otros no. Unos están junto al paseo y la playa de Silgar, otros más en las afueras, hacia la zona de Panadeira o por Portonovo. Hay furanchos y marisquerías.
 
-Un consejo que conviene seguir: en temporada alta, reserva con tiempo y di desde el principio que es una cena de grupo, para que te asignen un sitio con espacio. Lo explican las [condiciones de las despedidas](/cuando-ir/#condiciones).
+Un consejo que conviene seguir: en temporada alta, reserva con tiempo y di desde el principio que es una cena de grupo, para que te asignen un sitio con espacio. Lo explican las [condiciones para reservar una despedida en Sanxenxo](/cuando-ir/#condiciones).
 
 ## Un sábado tipo
 
@@ -74,7 +74,7 @@ Lo importante: no sobrecargues. Con una actividad bien elegida, el día se disfr
 
 ## Cuándo ir
 
-El mes cambia casi todo: qué hay abierto, cuánta gente encuentras y dónde se aceptan despedidas. Mira [cuándo ir](/cuando-ir/) antes de fijar la fecha, y lee las [condiciones de las despedidas](/cuando-ir/#condiciones).
+El mes cambia casi todo: qué hay abierto, cuánta gente encuentras y dónde se aceptan despedidas. Mira [cuándo ir a Sanxenxo y qué esperar cada mes](/cuando-ir/) antes de fijar la fecha, y lee las [condiciones de las despedidas en temporada alta](/cuando-ir/#condiciones).
 
 ## Soltero o soltera
 

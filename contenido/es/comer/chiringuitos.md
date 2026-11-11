@@ -26,4 +26,4 @@ Son locales de temporada: abren sobre todo en primavera y verano, y algunos solo
 
 Algunos de estos locales, sobre todo los de [A Lanzada y San Vicente](/diversion/a-lanzada-san-vicente/), también aparecen en diversión. Es la misma ficha: un sitio para tardear, ver la puesta de sol y seguir con una copa.
 
-Para el plan completo, mira [despedidas](/despedidas/) y [cuándo ir](/cuando-ir/).
+Para el plan completo, mira [despedidas en Sanxenxo y alrededores](/despedidas/) y [cuándo ir a Sanxenxo según el mes](/cuando-ir/).

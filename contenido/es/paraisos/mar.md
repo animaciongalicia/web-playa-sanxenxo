@@ -24,7 +24,7 @@ Las dos islas son Parque Nacional, y eso tiene normas.
 
 ## Cómo llegar
 
-Hay dos formas: el barco regular, que compras con tu autorización, o un traslado en lancha rápida. Mira [barcos](/barcos/) y los [traslados](/barcos/traslados/) a Ons, Cíes y Aldán.
+Hay dos formas: el barco regular, que compras con tu autorización, o un traslado en lancha rápida. Mira [barcos para despedidas en Portonovo](/barcos/) y los [traslados](/barcos/traslados/) a Ons, Cíes y Aldán.
 
 ## Qué hacer en el mar
 
@@ -32,4 +32,4 @@ Además de las islas, el mar da para actividades en grupo: motos de agua, paddle
 
 ## Cuándo ir
 
-El mar cambia mucho con la época: temperatura, viento, cupos. Lee [cuándo ir](/cuando-ir/) antes de fijar fecha. Y si quieres hablarlo con alguien, [la agencia](/agencia/) te responde por correo, WhatsApp o teléfono.
+El mar cambia mucho con la época: temperatura, viento, cupos. Lee [cuándo ir a Sanxenxo en verano o fuera de temporada](/cuando-ir/) antes de fijar fecha. Y si quieres hablarlo con alguien, [la agencia](/agencia/) te responde por correo, WhatsApp o teléfono.

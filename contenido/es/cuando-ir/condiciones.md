@@ -38,4 +38,4 @@ Y la noche en el puerto tiene su propio ritmo: mira [diversión](/diversion/).
 
 ## Dónde mirar el plan completo
 
-Si ya sabes cuándo vais, lo que falta es juntar las piezas: [despedidas](/despedidas/), [barcos](/barcos/) y [actividades](/actividades/). Y para hablarlo, la [agencia](/agencia/).
+Si ya sabes cuándo vais, lo que falta es juntar las piezas: [guía de despedidas en Sanxenxo](/despedidas/), [barcos para despedidas en Portonovo](/barcos/) y [actividades](/actividades/). Y para hablarlo, la [agencia](/agencia/).

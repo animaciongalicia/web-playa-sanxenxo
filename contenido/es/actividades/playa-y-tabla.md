@@ -40,8 +40,8 @@ En alquiler o con una salida guiada, individual o doble. Una manera tranquila de
 - **Para algo tranquilo:** paddle surf o kayak.
 - **Para aprender algo nuevo:** clase de surf.
 
-Al ser costa abierta, en A Lanzada el oleaje y el viento pueden cambiar el plan. En las playas de ría hay menos oleaje. Mira [cuándo ir](/cuando-ir/).
+Al ser costa abierta, en A Lanzada el oleaje y el viento pueden cambiar el plan. En las playas de ría hay menos oleaje. Mira [cuándo ir a Sanxenxo con tu grupo](/cuando-ir/).
 
 ## Cómo encaja
 
-Son actividades de mañana. Después, baño, comida y descanso. Mira las [playas de Portonovo](/paraisos/playas/portonovo/), [dónde comer](/comer/chiringuitos/) y el [plan completo](/despedidas/). Y el resto de [actividades](/actividades/).
+Son actividades de mañana. Después, baño, comida y descanso. Mira las [playas de Portonovo](/paraisos/playas/portonovo/), [dónde comer](/comer/chiringuitos/) y el [plan completo para una despedida en Sanxenxo y Portonovo](/despedidas/). Y el resto de [actividades](/actividades/).

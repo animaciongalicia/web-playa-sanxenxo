@@ -40,4 +40,4 @@ Un churrasco a bordo, con la ría de fondo. Conviene confirmar qué se cocina en
 
 Son planes de mediodía o de tarde. Funcionan bien como comida de la despedida, sin necesidad de reservar restaurante. Eso sí: el mar manda, y con mal tiempo hay que tener plan B.
 
-Si prefieres comer en tierra, mira los [restaurantes](/comer/restaurantes/) y los [chiringuitos](/comer/chiringuitos/). Para ver cómo encaja el día, el [plan completo](/despedidas/). Y el resto de [actividades](/actividades/). Para la época, [cuándo ir](/cuando-ir/).
+Si prefieres comer en tierra, mira los [restaurantes](/comer/restaurantes/) y los [chiringuitos](/comer/chiringuitos/). Para ver cómo encaja el día, el [plan completo para organizar tu despedida](/despedidas/). Y el resto de [actividades](/actividades/). Para la época, [cuándo ir a Sanxenxo según el mes](/cuando-ir/).

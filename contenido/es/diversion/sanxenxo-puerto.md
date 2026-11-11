@@ -18,12 +18,12 @@ Muchos locales están acostumbrados a grupos numerosos, lo que se nota en la ate
 
 ## Cuándo ir
 
-En julio y agosto, la cantidad de gente es mucha. Las terrazas ayudan a respirar. Fuera de temporada, algunos locales abren solo fines de semana. Mira [cuándo ir](/cuando-ir/).
+En julio y agosto, la cantidad de gente es mucha. Las terrazas ayudan a respirar. Fuera de temporada, algunos locales abren solo fines de semana. Mira [cuándo ir a Sanxenxo mes a mes](/cuando-ir/).
 
 ## Cómo moverte
 
-La cercanía entre locales es la gran ventaja. Para trayectos más largos, desde O Grove o Combarro, cuenta con el tráfico: mira la [limusina](/limusinas/) y su hora recomendada.
+La cercanía entre locales es la gran ventaja. Para trayectos más largos, desde O Grove o Combarro, cuenta con el tráfico: mira la [limusina para despedidas en Sanxenxo](/limusinas/) y su hora recomendada.
 
 ## Cómo encaja en una despedida
 
-Después de cenar, terraza y copas. Si vais a la playa de día, [Silgar](/paraisos/playas/sanxenxo/) queda a un paseo. Mira el [plan completo](/despedidas/).
+Después de cenar, terraza y copas. Si vais a la playa de día, [Silgar](/paraisos/playas/sanxenxo/) queda a un paseo. Mira el [plan completo para tu despedida de soltero o soltera](/despedidas/).

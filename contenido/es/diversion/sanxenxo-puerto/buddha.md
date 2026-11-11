@@ -25,8 +25,8 @@ Son muy recomendables los reservados para grupos con botellas. Evitan colas y te
 
 ## Cuándo ir
 
-En julio y agosto, la cantidad de gente en el puerto es mucha. La terraza y los exteriores ayudan. Mira [cuándo ir](/cuando-ir/).
+En julio y agosto, la cantidad de gente en el puerto es mucha. La terraza y los exteriores ayudan. Mira [cuándo ir a Sanxenxo y qué esperar cada mes](/cuando-ir/).
 
 ## Para una despedida
 
-Es un clásico para empezar. Combínalo con los demás locales del [puerto de Sanxenxo](/diversion/sanxenxo-puerto/), como el [Varadero](/diversion/sanxenxo-puerto/varadero/), y con una cena antes: mira [restaurantes](/comer/restaurantes/). El [plan completo](/despedidas/) te ayuda a encajarlo.
+Es un clásico para empezar. Combínalo con los demás locales del [puerto de Sanxenxo](/diversion/sanxenxo-puerto/), como el [Varadero](/diversion/sanxenxo-puerto/varadero/), y con una cena antes: mira [restaurantes](/comer/restaurantes/). El [plan completo para tu despedida en Sanxenxo](/despedidas/) te ayuda a encajarlo.

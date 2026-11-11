@@ -36,7 +36,7 @@ Mide unos 700 metros. Un acantilado la separa de Pragueira. También tiene bande
 
 ## Pragueira, imprescindible
 
-De arena blanca y vegetación, con bandera azul 2026-2027. Es de tamaño medio y de entorno más natural que las urbanas. Grandes rocas la separan de la concurrida playa de Areas, en [Sanxenxo](/paraisos/playas/sanxenxo/). A su lado queda Bascuas, la playa naturista de [Portonovo](/paraisos/playas/portonovo/).
+De arena blanca y vegetación, con bandera azul 2026-2027. Es de tamaño medio y de entorno más natural que las urbanas. Grandes rocas la separan de la concurrida playa de Areas, en [Sanxenxo](/paraisos/playas/sanxenxo/). A su lado queda Bascuas, la playa naturista de la zona de [Portonovo y sus playas](/paraisos/playas/portonovo/).
 
 ## Qué hay cerca
 
@@ -44,8 +44,8 @@ Los chiringuitos de esta zona son parte del plan: mira [chiringuitos de Noalla y
 
 ## Cuándo ir
 
-El viento y el oleaje mandan aquí. Lee [cuándo ir](/cuando-ir/) antes de planificar, y ten un plan B si el día no acompaña.
+El viento y el oleaje mandan aquí. Lee [cuándo ir a Sanxenxo de mayo a septiembre](/cuando-ir/) antes de planificar, y ten un plan B si el día no acompaña.
 
 ## Para una despedida
 
-Un día de playa grande, con mucho espacio, y un plan de tabla si al grupo le apetece. Combínalo con una comida con vistas y la noche en Sanxenxo. Mira el [plan completo](/despedidas/).
+Un día de playa grande, con mucho espacio, y un plan de tabla si al grupo le apetece. Combínalo con una comida con vistas y la noche en Sanxenxo. Mira el [plan completo para organizar tu despedida](/despedidas/).

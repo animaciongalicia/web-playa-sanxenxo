@@ -22,4 +22,4 @@ La hora buena es la última de la tarde. Si el día es claro, la puesta de sol s
 
 Funciona como plan intermedio: playa y baño por la mañana, comida, tarde de terraza y, para la noche, vuelves a Sanxenxo. Mira las [playas de A Lanzada](/paraisos/playas/noalla-a-lanzada/) y las de [San Vicente](/paraisos/playas/o-grove-san-vicente/).
 
-Para el plan completo, [despedidas](/despedidas/). Y antes de fijar fecha, [cuándo ir](/cuando-ir/).
+Para el plan completo, [despedidas en Sanxenxo y alrededores](/despedidas/). Y antes de fijar fecha, [cuándo ir a Sanxenxo en verano o fuera de temporada](/cuando-ir/).

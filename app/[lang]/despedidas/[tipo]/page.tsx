@@ -35,7 +35,7 @@ export default function Despedida({ params }: { params: P }) {
         titulo={params.tipo === 'soltero' ? 'Planes para el grupo, con ficha o sin ella' : 'Cosas de chicas, y alguna más'}
         intro="Ideas que funcionan en una despedida en Sanxenxo y alrededores. Algunas tienen página propia; otras se organizan a medida."
       />
-      <PlanDespedida lang={params.lang} />
+      <PlanDespedida lang={params.lang} ruta={ruta} />
     </>
   );
 }

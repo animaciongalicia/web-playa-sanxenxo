@@ -61,4 +61,4 @@ Es una salida de mañana o de tarde, algo alejada del núcleo de Sanxenxo. Funci
 
 Si buscas kayak más cerca, mira [playa y tabla](/actividades/playa-y-tabla/): hay kayak en Sanxenxo, San Vicente do Mar y Baltar.
 
-Para el resto de planes, mira las [actividades](/actividades/), las [playas de O Grove y San Vicente](/paraisos/playas/o-grove-san-vicente/) y el [plan completo](/despedidas/). Para la época, [cuándo ir](/cuando-ir/).
+Para el resto de planes, mira las [actividades](/actividades/), las [playas de O Grove y San Vicente](/paraisos/playas/o-grove-san-vicente/) y el [plan completo para tu despedida en Sanxenxo](/despedidas/). Para la época, [cuándo ir a Sanxenxo mes a mes](/cuando-ir/).
