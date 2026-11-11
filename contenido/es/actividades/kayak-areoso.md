@@ -6,7 +6,7 @@ fuentes:
   - "DOG de 3 de julio de 2023 (normas de uso del islote): https://www.xunta.gal/dog/Publicados/2023/20230703/AnuncioG0691-270623-0001_es.html"
   - "Webs de empresas de kayak de A Illa de Arousa (precios y formatos publicados, consultadas el 2026-11-11, resumidas por Pablo). No se citan empresas en la web."
 pendiente:
-  - "Pablo confirma precios, formatos y con qué empresa se trabaja. Los precios son los anunciados por empresas de la zona, no presupuestos"
+  - "Página genérica a propósito (decisión de Pablo): no se nombra ninguna empresa. Los precios son los anunciados por empresas de la zona, no presupuestos"
   - "Comprobar en el portal oficial que la autorización es obligatoria también en temporada baja"
   - "Confirmar la relación con Areaso Beach / Kiosco Areaso (O Grove): posible coincidencia sin contrastar"
 ---
