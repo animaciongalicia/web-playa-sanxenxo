@@ -2375,14 +2375,14 @@
     {
       "id": "furancho-lagueina",
       "slug": "furancho-lagueina",
-      "nombre": "Furancho Lagüiña",
+      "nombre": "Lagüiña Lieux-dit",
       "tipo": "furancho",
-      "zona": "sin-zona",
-      "municipio": null,
-      "direccion": null,
+      "zona": "meano",
+      "municipio": "Meaño",
+      "direccion": "Lugar Iglesia 16, Simes, Meaño",
       "playa_cercana": null,
-      "como_es": "Furancho de referencia por sus vinos.",
-      "que_se_come": null,
+      "como_es": "Antiguo furancho familiar reconvertido en 2020 en taberna gastronómica y enoteca, entre viñedos, en la parroquia de Simes. Carta de vinos viva que se renueva cada semana, comedor rústico y terraza bajo una parra. Conviene reservar: el aforo es limitado.",
+      "que_se_come": "Cocina de mercado, con los platos del día en una pizarra: tortilla de patatas, croquetas, berberechos, ceviche de pescado azul, croca de vaca vieja o brioche de chistorra. Tarta de queso al horno de postre.",
       "contacto": {
         "telefono": null,
         "web": null,
@@ -2402,9 +2402,11 @@
       "publicar": null,
       "verificado": false,
       "ultima_verificacion": null,
-      "origen": "Pablo, 2026-11-12",
+      "origen": "Pablo, 2026-11-12 + resumen web",
       "datos_fuente": [
-        "Pablo (2026-11-12): \"top de vinos\". Zona, dirección y meses de apertura pendientes de confirmar"
+        "Pablo (2026-11-12): \"top de vinos\", conocido popularmente como Furancho Lagüiña",
+        "Resumen de búsqueda web pegado por Pablo (2026-11-12), con fuentes: Páxinas Galegas, Tripadvisor, Gaudaru, Guía Repsol, winefluencer.es e Instagram del local. Los resúmenes de IA pueden contener errores: confirmar",
+        "Google Maps lo muestra como \"cerrado temporalmente\": confirmar si abre en 2027. Reservas por teléfono o Instagram (no se publican)"
       ],
       "notas_internas": null
     },
