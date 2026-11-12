@@ -3055,9 +3055,9 @@
       "tipo": "terraza",
       "zona": "sanxenxo-puerto",
       "municipio": "Sanxenxo",
-      "direccion": null,
+      "direccion": "Puerto deportivo Juan Carlos I, Sanxenxo",
       "playa_cercana": null,
-      "como_es": "Cócteles, shishas, copas y partidos de fútbol, con buena música.",
+      "como_es": "Club y terraza lounge en el puerto deportivo, con cócteles y música.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3081,7 +3081,8 @@
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
         "Terraza de copas y formato de club en el puerto",
-        "Directorio: local de cócteles, shishas, copas y partidos de fútbol, con música (https://www.paxinasgalegas.es/pubs-sanxenxo-443ep_304ay.html). Consultado 2026-11-10"
+        "Directorio: local de cócteles, shishas, copas y partidos de fútbol, con música (https://www.paxinasgalegas.es/pubs-sanxenxo-443ep_304ay.html). Consultado 2026-11-10",
+        "Directorio Páxinas Galegas (consultado el 2026-11-11): pubs-sanxenxo-443ep_304ay (la descripción anterior —shishas y fútbol— era de otro local, Truhán)"
       ],
       "notas_internas": null
     },
@@ -3092,9 +3093,9 @@
       "tipo": "discoteca",
       "zona": "sanxenxo-puerto",
       "municipio": "Sanxenxo",
-      "direccion": null,
+      "direccion": "Puerto deportivo Juan Carlos I, Sanxenxo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Pub en el puerto deportivo, con pista de baile y terraza.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3118,7 +3119,8 @@
       "origen": "Pablo + Search Console (926 impresiones)",
       "datos_fuente": [
         "Discoteca con terraza",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Directorio Páxinas Galegas (consultado el 2026-11-11): pubs-sanxenxo-443ep_304ay"
       ],
       "notas_internas": null
     },
@@ -3241,9 +3243,9 @@
       "tipo": "copas",
       "zona": "sanxenxo-puerto",
       "municipio": "Sanxenxo",
-      "direccion": null,
+      "direccion": "Praza Pazo Patiño 5, Sanxenxo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Local de copas con ginebras premium, cócteles de autor, cervezas y chupitos, con música.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3267,7 +3269,8 @@
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
         "Primera copa / coctelería",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Directorio Páxinas Galegas (consultado el 2026-11-11): pubs-sanxenxo-443ep_304ay (está en el centro, no en el puerto)"
       ],
       "notas_internas": null
     },
@@ -3355,9 +3358,9 @@
       "tipo": "copas",
       "zona": "portonovo",
       "municipio": "Sanxenxo",
-      "direccion": null,
+      "direccion": "Méndez Núñez 16, Portonovo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Bar cubano para tomar un mojito o las primeras copas de la noche.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3381,7 +3384,8 @@
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
         "Coctelería",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Directorio Páxinas Galegas (consultado el 2026-11-11): pubs-sanxenxo-443ep_304ay"
       ],
       "notas_internas": null
     },
@@ -3392,9 +3396,9 @@
       "tipo": "copas",
       "zona": "portonovo",
       "municipio": "Sanxenxo",
-      "direccion": null,
+      "direccion": "Méndez Núñez, Portonovo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Pub con conciertos, coctelería, cervezas de importación y artesanas gallegas.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3418,7 +3422,8 @@
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
         "Coctelería",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Directorio Páxinas Galegas (consultado el 2026-11-11): pubs-sanxenxo-443ep_304ay"
       ],
       "notas_internas": null
     },
@@ -3429,9 +3434,9 @@
       "tipo": "copas",
       "zona": "portonovo",
       "municipio": "Sanxenxo",
-      "direccion": null,
+      "direccion": "Méndez Núñez 2, Portonovo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Pub de copas, abierto los fines de semana, muy cerca de la playa de Baltar.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3455,7 +3460,8 @@
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
         "Pub o discoteca según el grupo",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Directorio Páxinas Galegas (consultado el 2026-11-11): pubs-sanxenxo-443ep_304ay"
       ],
       "notas_internas": null
     },
@@ -3466,9 +3472,9 @@
       "tipo": "copas",
       "zona": "portonovo",
       "municipio": "Sanxenxo",
-      "direccion": null,
+      "direccion": "Rúa Santa Catalina, Portonovo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Pub con música y conciertos en directo, cócteles y combinados. Abre los fines de semana.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3492,7 +3498,8 @@
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
         "Pub o discoteca según el grupo",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Directorio Páxinas Galegas (consultado el 2026-11-11): pubs-sanxenxo-443ep_304ay"
       ],
       "notas_internas": null
     },
@@ -3503,9 +3510,9 @@
       "tipo": "discoteca",
       "zona": "portonovo",
       "municipio": "Sanxenxo",
-      "direccion": null,
+      "direccion": "Playa de Canelas 12, Portonovo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Discoteca de dos plantas con conciertos y fiestas, junto a la playa de Canelas.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3529,7 +3536,8 @@
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
         "Formato de discoteca o pista de baile",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Directorio Páxinas Galegas (consultado el 2026-11-11): discotecas-sanxenxo-177ep_304ay"
       ],
       "notas_internas": null
     },
@@ -3542,7 +3550,7 @@
       "municipio": "O Grove",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Terraza cerca de la playa de Foxos, con música en directo y buenas vistas del atardecer. Se puede ir a cenar o a tomar algo.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3566,7 +3574,8 @@
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
         "Atardecer, cena y primera copa",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Blog de chiringuitos de Galicia (mundo-r.com, consultado el 2026-11-11); fechas de conciertos en su Instagram"
       ],
       "notas_internas": null
     },
@@ -3577,9 +3586,9 @@
       "tipo": "terraza",
       "zona": "a-lanzada-san-vicente",
       "municipio": "O Grove",
-      "direccion": null,
+      "direccion": "Carretera San Vicente–A Lanzada 27, O Grove",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Terraza con vistas al mar en la carretera San Vicente–A Lanzada: cervezas, vinos, vermuts y combinados.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3603,7 +3612,8 @@
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
         "Playa con música, eventos con DJ o música en vivo según fecha",
-        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10"
+        "No aparece en los directorios consultados: sin contraste posible. Consultado 2026-11-10",
+        "Directorio de locales (consultado el 2026-11-11); confirmar la dirección"
       ],
       "notas_internas": null
     },
@@ -3614,9 +3624,9 @@
       "tipo": "terraza",
       "zona": "o-grove",
       "municipio": "O Grove",
-      "direccion": null,
+      "direccion": "Rúa Platería 40, O Grove",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Pub de primera hora en el centro de O Grove, con buena música y una amplia terraza.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3640,7 +3650,8 @@
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
         "Terraza interior",
-        "Pocos datos en directorios (existe como pub en O Grove): sin contraste posible. Consultado 2026-11-10"
+        "Pocos datos en directorios (existe como pub en O Grove): sin contraste posible. Consultado 2026-11-10",
+        "Directorio Páxinas Galegas (consultado el 2026-11-11): k-lua-265574em y turismo.gal (pub-k-lua)"
       ],
       "notas_internas": null
     },
@@ -3651,9 +3662,9 @@
       "tipo": "copas",
       "zona": "o-grove",
       "municipio": "O Grove",
-      "direccion": null,
+      "direccion": "Praza 23, O Grove",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Café bar y pub de coctelería, conocido por el gin tonic premium.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3677,7 +3688,8 @@
       "origen": "lista de Pablo (documento de diversión)",
       "datos_fuente": [
         "Coctelería",
-        "Pocos datos en directorios (existe como pub en O Grove): sin contraste posible. Consultado 2026-11-10"
+        "Pocos datos en directorios (existe como pub en O Grove): sin contraste posible. Consultado 2026-11-10",
+        "Directorio Páxinas Galegas (consultado el 2026-11-11): chiado-265305em y turismo.gal (pub-chiado)"
       ],
       "notas_internas": null
     }
