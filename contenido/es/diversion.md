@@ -34,6 +34,7 @@ No es lo mismo salir por el puerto que tardear en A Lanzada. Antes de elegir zon
 - **En julio y agosto hay mucha gente.** El paseo de la playa puede parecer una discoteca en hora punta. Las terrazas y los exteriores alivian la cantidad de gente.
 - **Empieza temprano.** En la zona del puerto, ve enlazando pubs desde pronto y evita improvisar.
 - **Hay variedad de música.** Comercial actual, clásicos de siempre y locales más animados para bailar hasta tarde. Eso ayuda a grupos mixtos.
+- **Los disfraces, mejor de día.** Los locales aceptan despedidas, pero no disfraces. Para salir de noche, parece un grupo de amigos y deja el disfraz para el barco, la playa o una actividad.
 - **Pregunta por reservados.** En noches señaladas y fines de semana de verano, reservar entrada o reservado evita colas.
 
 ## Cómo encaja en una despedida

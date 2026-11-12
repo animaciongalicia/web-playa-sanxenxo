@@ -26,7 +26,7 @@ No todo lo que se puede hacer cabe en una lista cerrada. Estos son días pensado
 
 Una gymkana es un conjunto de pruebas y juegos pensados para retar la creatividad, la habilidad y el trabajo en equipo. Es apta para todos los niveles, y deja muchas anécdotas. Según el tipo de grupo, hay varias modalidades:
 
-- **Temática.** Para quien quiere algo personalizado: pruebas disfrazados, acertijos o retos fotográficos, con el tema que elijas.
+- **Temática.** Para quien quiere algo personalizado: pruebas, acertijos o retos fotográficos, con el tema que elijas.
 - **Urbana.** Por el centro de Sanxenxo o Portonovo, con retos en puntos como la playa de Silgar o el puerto deportivo.
 - **De agua.** Para aprovechar el entorno costero: carreras en paddle surf, búsqueda del tesoro en la playa o juegos en el agua.
 

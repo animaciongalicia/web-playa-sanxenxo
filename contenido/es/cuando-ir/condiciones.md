@@ -15,6 +15,13 @@ En verano hay mucha demanda y muchas despedidas a la vez. Los sitios con espacio
 
 La regla es sencilla: di desde el principio que sois un grupo, reserva con tiempo y ten un plan B.
 
+## Despedidas sí, disfraces no
+
+Las despedidas se aceptan en la zona. Lo que los locales no permiten son los disfraces. Si llegáis muy caracterizados, os pueden pedir que no entréis o que os cambiéis.
+
+Por eso, para salir de noche, lo mejor es parecer un grupo de amigos que sale de fiesta. Los disfraces, las camisetas a juego y los accesorios, para el barco, la playa o una actividad de día.
+
+
 ## Lo que cambia según el mes
 
 - **Mayo.** Se aceptan despedidas, pero con poco abierto y poco ambiente. Entre el 15 y el 30 llegan sobre todo grupos de Portugal o de fuera de Galicia.

@@ -76,7 +76,7 @@ Si sois más de unos 15, divide: un grupo en el barco y otro en la actividad, y 
 
 ## Dónde cenar
 
-Hay menús desde 25 € por persona y mariscadas de 50 €. Ten en cuenta que no todos los locales aceptan despedidas, así que pregunta pronto. Lo cuentan las [condiciones de las despedidas en Sanxenxo](/cuando-ir/#condiciones).
+Hay menús desde 25 € por persona y mariscadas de 50 €. Las despedidas se aceptan sin problema. Lo que los locales no permiten son los disfraces: si queréis ir caracterizados, dejad el disfraz para otro momento y entrad como un grupo normal. Y pregunta con tiempo. Lo cuentan las [condiciones de las despedidas en Sanxenxo](/cuando-ir/#condiciones).
 
 ## Y ahora, ¿qué?
 

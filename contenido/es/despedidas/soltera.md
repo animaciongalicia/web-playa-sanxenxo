@@ -80,7 +80,7 @@ Y el domingo, un desayuno tranquilo. Algunos grupos lo hacen en [Gassho](/divers
 
 ## Dónde cenar
 
-Hay menús desde 25 € por persona y mariscadas de 50 €. No todos los locales aceptan despedidas, así que pregunta con tiempo. Lo explican las [condiciones para reservar una despedida en Sanxenxo](/cuando-ir/#condiciones).
+Hay menús desde 25 € por persona y mariscadas de 50 €. Las despedidas se aceptan sin problema. Lo que los locales no permiten son los disfraces: si queréis ir caracterizados, dejad el disfraz para otro momento y entrad como un grupo normal. Y pregunta con tiempo. Lo explican las [condiciones para reservar una despedida en Sanxenxo](/cuando-ir/#condiciones).
 
 ## Y ahora, ¿qué?
 
