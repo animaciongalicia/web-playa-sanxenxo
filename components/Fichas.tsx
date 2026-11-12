@@ -19,7 +19,7 @@ export function Aviso({ children }: { children: ReactNode }) {
 
 export function TarjetaPlaya({ playa, lang, etiquetaTramo = false }: { playa: Playa; lang: Idioma; etiquetaTramo?: boolean }) {
   const top = esTop(playa);
-  const src = foto(`playa-${playa.slug}`);
+  const src = foto(`playa-${playa.slug}`, top ? `playas-${slugTramoDe(playa.tramo)}` : null);
   const enlace = top ? `${href(lang, `/paraisos/playas/${slugTramoDe(playa.tramo)}/`)}#${playa.slug}` : null;
   const cuerpo = (
     <>
@@ -38,9 +38,13 @@ export function TarjetaPlaya({ playa, lang, etiquetaTramo = false }: { playa: Pl
   );
   return (
     <div id={playa.slug} className="card-elegant stagger-child overflow-hidden !p-0">
-      {src && (
+      {src ? (
         <div className="relative aspect-[16/9]">
           <Image src={src} alt={`Playa de ${playa.nombre}`} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover" />
+        </div>
+      ) : (
+        <div className="relative aspect-[16/9] bg-gradient-to-br from-ria-600 via-ria-500 to-arena-300" aria-hidden="true">
+          <svg className="absolute inset-x-0 bottom-0 h-10 w-full text-white" viewBox="0 0 1440 120" preserveAspectRatio="none"><path fill="currentColor" d="M0 70c120 36 240 36 360 0s240-36 360 0 240 36 360 0 240-36 360 0v50H0z" /></svg>
         </div>
       )}
       <div className="p-6">{cuerpo}</div>

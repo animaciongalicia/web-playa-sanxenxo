@@ -70,14 +70,14 @@ Criterio de salida: `check:datos` pasa con los 5 archivos; ninguna página pinta
 **Objetivo:** el corazón de la guía.
 
 Tareas:
-- Hub de playas con mapa/lista por tramo y las 8 top.
+- Hub de playas con mapa/lista por tramo y las 9 top.
 - 5 páginas de tramo, con las 8 playas imprescindibles como sección dentro de su tramo (sin páginas sueltas, decisión de Pablo).
 - Hub de mar y 3 destinos: Ons, Cíes, Aldán.
 - Textos: Pablo aporta el material; Claude Code redacta con la skill `redactar-ficha`, **sin inventar**.
 
 Criterio de salida: las 5 páginas de tramo muestran todas sus playas; las páginas de destino enlazan a barcos y traslados.
 
-Necesita de Pablo: confirmar las 8 top; fotos; descripciones de Ons, Cíes y Aldán; cupos y permisos.
+Necesita de Pablo: confirmar las 9 top; fotos; descripciones de Ons, Cíes y Aldán; cupos y permisos.
 
 ---
 

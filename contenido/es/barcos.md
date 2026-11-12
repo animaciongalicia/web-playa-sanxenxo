@@ -1,6 +1,6 @@
 ---
 titulo: Barcos
-objetivo: 450
+objetivo: 500
 fuentes:
   - "Fichas y precios dictados por Pablo (2026-11-10) en data/mar-y-barcos.json"
   - "Textos propios de Pablo en despedidasplayasanxenxo.com (barcos, despedidas-en-barco-en-sanxenxo), reescritos"
@@ -9,15 +9,21 @@ pendiente:
   - "Pesquero y lancha rápida: confirmar si los precios son cerrados y qué duración incluye el pesquero"
   - "Yates: cuáles incluyen combustible y cuáles no"
 ---
-Un barco privado es uno de los planes que más se recuerdan de una despedida. Aquí tienes lo que hay, con capacidad y precio «desde» en cada ficha.
+El plan que más se cuenta después. No por el barco, sino por lo que pasa a bordo: el primer brindis con la ría de fondo, el chapuzón que nadie quería dar y todos acaban dando, la foto en la proa que acaba en la boda.
 
-Una advertencia, para que no te lleves sorpresas: no son barcos grandes tipo discoteca, ni hay fiestas conjuntas en el mar. El valor está en lo contrario: el barco es solo para tu grupo, con música a bordo y un ambiente que se adapta a lo que buscáis, más tranquilo o más animado.
+Un barco privado es de tu grupo y de nadie más. Sin horarios ajenos, sin desconocidos, sin prisa.
+
+## Para qué es y para qué no
+
+Aquí no hay barcos tipo discoteca ni fiestas conjuntas en el mar. Es lo contrario, y lo mejor: música a bordo, el mar alrededor y un ambiente que decides tú, más tranquilo o más animado.
+
+Es un plan para disfrutar, charlar y celebrar con calma. Cada ficha lleva capacidad y precio «desde».
 
 ## Medio día o día entero
 
-Los veleros se alquilan por **medio día, de 4 horas**, de mañana o de tarde, o por **día entero, de 8 horas**. Los yates se alquilan por medio día o por día entero. El yate con motora se alquila por 4 u 8 horas.
+Los veleros se alquilan por **medio día, de 4 horas**, de mañana o de tarde, o por **día entero, de 8 horas**. Los yates, igual. El yate con motora, por 4 u 8 horas.
 
-Si es la primera vez, medio día suele bastar. Un día entero tiene sentido si quieres comer a bordo y hacer varias paradas de baño.
+Si es la primera vez, medio día suele bastar. El día entero es para quien quiere comer a bordo, parar a bañarse y no volver hasta que se ponga el sol.
 
 ## Qué incluye el precio
 
@@ -25,21 +31,20 @@ Cada precio incluye **el barco, los seguros y el patrón**. En los veleros, adem
 
 ## Desde dónde salen
 
-Casi todos los barcos salen de **Sanxenxo o de Portonovo**, y alguno, de **Combarro**. Con esto no tienes que desplazarte lejos: son los dos puertos del centro de la zona.
+Casi todos los barcos salen de **Sanxenxo o de Portonovo**, y alguno, de **Combarro**. Son los puertos del centro de la zona: no hace falta ir lejos para estar en el agua.
 
-## Cómo funciona
+## Cómo es el día a bordo
 
-- **Solo para tu grupo.** Nadie más sube a bordo.
-- **Parada para el baño.** Si el tiempo acompaña, se puede parar a bañarse, y eso convierte la salida en una experiencia más completa.
+- **Solo tu grupo.** Nadie más sube.
+- **Paradas para el baño.** Si el tiempo acompaña, se para en una cala y se baña quien quiera.
 - **Música y brindis.** Pensado para disfrutar, charlar y celebrar con calma.
+- **Comida y bebida.** Lleva lo que quieras: el mar da hambre.
 
-## Qué llevar
-
-Lleva comida y bebida: el mar da hambre. Eso sí, **no está permitido emborracharse a bordo**: pone en peligro tu vida y la de los demás.
+Eso sí, **no está permitido emborracharse a bordo**: pone en peligro tu vida y la de los demás.
 
 ## Cómo encajarlo en la despedida
 
-El barco funciona mejor como **inicio del día**. Después sigues con una comida o una actividad, una tarde tranquila o la noche de fiesta. Así disfrutas del mar sin prisas y sin llegar cansado al resto del plan.
+Funciona mejor como **inicio del día**. Después, una comida o una actividad, una tarde tranquila y la noche de fiesta. Así disfrutas del mar sin prisas y sin llegar cansado al resto del plan.
 
 Si el grupo es grande, reparte: unos en el barco y otros en una actividad, y os juntáis a la hora de comer. Mira [actividades](/actividades/), [dónde comer](/comer/) y el [plan completo de despedida en Sanxenxo](/despedidas/).
 
@@ -47,11 +52,11 @@ Si el grupo es grande, reparte: unos en el barco y otros en una actividad, y os 
 
 El **pesquero de la ría de Aldán** es distinto: solo se usa en esa ría y tiene versiones para 11, 16 o 21 personas, la capacidad más grande de la flota. Mira la [ría de Aldán](/paraisos/mar/ria-de-aldan/).
 
-La **lancha rápida** es una experiencia corta, de una hora, para ver la zona desde el agua a toda velocidad. Va bien como plan extra o cuando no tienes tiempo para medio día.
+La **lancha rápida** es una hora de velocidad y viento para ver la zona desde el agua. Va bien como plan extra o cuando no tienes tiempo para medio día.
 
 ## Si quieres ir a Ons, Cíes o Aldán
 
-Eso son [traslados](/barcos/traslados/), un plan distinto del alquiler de un barco. Y recuerda que Ons y Cíes tienen normas de acceso: mira [Ons](/paraisos/mar/islas-ons/) y [Cíes](/paraisos/mar/islas-cies/).
+Eso son [traslados](/barcos/traslados/), un plan distinto del alquiler de un barco. Ons y Cíes tienen normas de acceso: mira [Ons](/paraisos/mar/islas-ons/) y [Cíes](/paraisos/mar/islas-cies/).
 
 ## Antes de decidir
 

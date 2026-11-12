@@ -32,7 +32,7 @@ export default function Playas({ params }: { params: { lang: string } }) {
   const top = playas.filter(esTop);
   return (
     <>
-      <HeroPage ruta="/paraisos/playas/" etiqueta="Paraísos" titulo="Playas" subtitulo="Cinco tramos de costa y ocho imprescindibles para empezar." />
+      <HeroPage ruta="/paraisos/playas/" etiqueta="Paraísos" titulo="Playas" subtitulo="Cinco tramos de costa y nueve imprescindibles para empezar." />
       <Migas lang={lang} ruta="/paraisos/playas/" />
       <Seccion etiqueta="De sur a norte" titulo="Cinco tramos de costa" intro="Elige el tramo que te quede cerca y verás todas sus playas." centrado>
         <Rejilla>
@@ -42,7 +42,7 @@ export default function Playas({ params }: { params: { lang: string } }) {
           })}
         </Rejilla>
       </Seccion>
-      <Seccion fondo="arena" etiqueta="Las que no fallan" titulo="Las ocho imprescindibles" centrado>
+      <Seccion fondo="arena" etiqueta="Las que no fallan" titulo="Las nueve imprescindibles" centrado>
         {top.length ? (
           <Rejilla>
             {top.map((p) => <TarjetaPlaya key={p.id} playa={p} lang={lang} etiquetaTramo />)}

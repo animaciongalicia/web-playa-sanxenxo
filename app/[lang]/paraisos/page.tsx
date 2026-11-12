@@ -28,12 +28,12 @@ export default function Paraisos({ params }: { params: { lang: string } }) {
       <Migas lang={lang} ruta="/paraisos/" />
       <Seccion etiqueta="Dos entradas" titulo="Elige: arena o mar" centrado>
         <div className="grid gap-8 md:grid-cols-2">
-          <TarjetaFoto alto="alto" titulo="Playas" texto="Ordenadas por tramos de costa, de Sanxenxo a O Grove, con las ocho imprescindibles." href={href(lang, '/paraisos/playas/')} claves={['playas', 'paraisos']} datos={[`${playas.length} playas`, '5 tramos']} />
+          <TarjetaFoto alto="alto" titulo="Playas" texto="Ordenadas por tramos de costa, de Sanxenxo a O Grove, con las nueve imprescindibles." href={href(lang, '/paraisos/playas/')} claves={['playas', 'paraisos']} datos={[`${playas.length} playas`, '5 tramos']} />
           <TarjetaFoto alto="alto" titulo="Mar" texto="Ons, Cíes y la ría de Aldán: el Caribe gallego a un paseo en barco." href={href(lang, '/paraisos/mar/')} claves={['mar']} datos={['Ons', 'Cíes', 'Aldán']} />
         </div>
       </Seccion>
       <Contenido lang={lang} ruta="/paraisos/" />
-      <Seccion fondo="arena" etiqueta="Las que no fallan" titulo="Ocho playas imprescindibles" intro="Si solo tienes un día, empieza por aquí." centrado>
+      <Seccion fondo="arena" etiqueta="Las que no fallan" titulo="Nueve playas imprescindibles" intro="Si solo tienes un día, empieza por aquí." centrado>
         <Rejilla>
           {top.map((x) => <TarjetaPlaya key={x.id} playa={x} lang={lang} etiquetaTramo />)}
         </Rejilla>

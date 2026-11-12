@@ -8,14 +8,23 @@ pendiente:
   - "Duración, precios, grupo mínimo y temporada de cada actividad: Pablo los aporta"
   - "Confirmar qué actividades se ofrecen en 2027"
 ---
-Una despedida no es solo cena y fiesta. Cada vez más grupos aprovechan el día entero para hacer algo juntos. Esta sección reúne lo que se puede hacer en el mar y en la playa de Sanxenxo y alrededores.
+Una despedida no se recuerda por la cena. Se recuerda por el rato en que todo el grupo hace algo a la vez, se ríe de sí mismo y descubre quién se mueve mejor sobre una tabla y quién cae primero.
 
-Una regla de esta guía: **toda actividad dice dónde se hace**. Es lo primero que necesitas para saber si te encaja.
+Eso es lo que buscan estas actividades. No son tareas que tachar: son excusas para pasarlo bien juntos, con el mar de Sanxenxo de decorado.
 
-## Cómo elegir
+## Qué te vas a encontrar
 
-1. **Piensa en el grupo.** Una actividad para todos no es lo mismo que una para algunos. Si hay perfiles muy distintos, reparte.
-2. **Piensa en el momento.** Las actividades de mar funcionan mejor por la mañana o por la tarde, y la cena y las copas, después.
+- **Mar con motor.** Motos de agua, parascending y sesión acuática. Velocidad, salpicaduras y gritos.
+- **Playa y tabla.** Surf, paddle surf, Big SUP y kayak. Más risas que técnica, y caídas incluidas.
+- **Pesca.** Pesca recreativa y pesca-turismo, con quien conoce el mar.
+- **Mar y mesa.** Bateas, mariscada en barco y churrascada. El mar, al plato.
+- **Kayak en Areoso.** Remar hasta un islote protegido.
+- **Días a medida.** Olimpiadas, gymkana y fiesta con DJ, a tu manera.
+
+## Cómo elegir sin complicarte
+
+1. **Piensa en el grupo.** Si hay perfiles muy distintos, reparte: unos en una cosa y otros en otra.
+2. **Piensa en el momento.** El mar funciona mejor por la mañana o por la tarde. La cena y las copas, después.
 3. **Combina poco.** Una actividad bien elegida suele dar más que tres apuradas.
 4. **Ten un plan B.** Con mal tiempo, algunas no salen.
 

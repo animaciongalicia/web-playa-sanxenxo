@@ -9,8 +9,8 @@ import { SITIO } from './sitio';
 type Par = { titulo: string; descripcion: string };
 
 export const SEO: Record<string, Par> = {
-  '/paraisos/': { titulo: 'Playas y mar de Sanxenxo', descripcion: 'Playas y mar de Sanxenxo y alrededores: tramos de costa, las 8 imprescindibles y las islas Ons, Cíes y la ría de Aldán.' },
-  '/paraisos/playas/': { titulo: 'Playas de Sanxenxo y alrededores', descripcion: 'Las playas de Sanxenxo, Portonovo, A Lanzada, O Grove y más, ordenadas por tramo de costa, con las ocho imprescindibles.' },
+  '/paraisos/': { titulo: 'Playas y mar de Sanxenxo', descripcion: 'Playas y mar de Sanxenxo y alrededores: tramos de costa, las 9 imprescindibles y las islas Ons, Cíes y la ría de Aldán.' },
+  '/paraisos/playas/': { titulo: 'Playas de Sanxenxo y alrededores', descripcion: 'Las playas de Sanxenxo, Portonovo, A Lanzada, O Grove y más, ordenadas por tramo de costa, con las nueve imprescindibles.' },
   '/paraisos/playas/sanxenxo/': { titulo: 'Playas de Sanxenxo', descripcion: 'Silgar, Areas, Panadeira y el resto de playas urbanas de Sanxenxo: cómo son, cómo llegar y cuándo conviene ir.' },
   '/paraisos/playas/portonovo/': { titulo: 'Playas de Portonovo y despedidas', descripcion: 'Baltar, Montalvo, Caneliñas y las calas de Portonovo: playas, ambiente y planes para una despedida en la zona.' },
   '/paraisos/playas/noalla-a-lanzada/': { titulo: 'Playas de Noalla y A Lanzada', descripcion: 'A Lanzada, Areas Gordas, Pragueira y los arenales abiertos al Atlántico de Noalla: cómo son y qué esperar.' },

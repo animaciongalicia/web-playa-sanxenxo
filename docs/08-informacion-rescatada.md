@@ -55,7 +55,7 @@ Fuente: [nota de prensa de la Xunta](https://www.xunta.gal/notas-de-prensa/-/nov
 
 > **Pablo decide:** estas **8 playas están en la lista oficial y NO en tus 39**: O Espiñeiro y Pampaído (Sanxenxo), Cabeceira, O Laño y Xiorto (Poio), Loira, Portocelo y A Coviña (Marín). ¿Las añadimos?
 
-### Datos de las 8 top (🟡 portales turísticos; las cifras varían)
+### Datos de las 9 top (🟡 portales turísticos; las cifras varían)
 | Playa | Dato encontrado |
 |---|---|
 | Silgar | ~750 m x 80 m, arena blanca y fina, paseo marítimo (otras fuentes: 800 m, 1,2 km) |

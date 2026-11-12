@@ -13,7 +13,7 @@ pendiente:
 ---
 Sanxenxo es el municipio con más playas con bandera azul de España. En 2026-2027 son 18. Aquí tienes las del tramo de Sanxenxo, las más urbanas, las que se llegan andando desde el centro.
 
-Dos de ellas son de las ocho imprescindibles de la guía: Silgar y Areas.
+Dos de ellas son de las nueve imprescindibles de la guía: Silgar y Areas.
 
 ## Silgar, imprescindible
 

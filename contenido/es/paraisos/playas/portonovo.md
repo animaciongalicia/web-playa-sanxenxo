@@ -10,21 +10,21 @@ pendiente:
   - "Longitudes sin contrastar con fuente oficial: se publican solo como aproximadas"
   - "Pablo aporta ambiente y qué playas recomienda para grupos de despedida"
 ---
-Portonovo es el otro polo de la zona. Más pequeño y más recogido que Sanxenxo, con su propio puerto y su propio ambiente. Quien busca despedidas en Portonovo suele querer eso: playa, buen sitio para comer y copas sin agobios.
+Portonovo es el otro corazón de la zona. Más pequeño y más recogido que Sanxenxo, con su propio puerto, su propio ritmo y playas de las que se quedan en la memoria: arena blanca y fina, agua tranquila y calas de un verde esmeralda que no parece Galicia.
 
-Aquí tienes las playas del tramo, de la más urbana a la más escondida. Una es imprescindible: Montalvo.
+Quien viene a una despedida a Portonovo suele querer eso: playa, un buen sitio para comer y copas sin agobios. Y lo tiene todo a un paseo.
 
 ## Baltar
 
-Es la playa de la villa. Un arenal urbano de forma curva, entre el puerto de Portonovo y el parque de Punta Vicaño. De arena blanca y fina, con agua tranquila y poco viento. Mide unos 600 metros de largo, según las guías, y tiene bandera azul 2026-2027.
+Es la playa de la villa. Un arenal urbano en forma de curva, entre el puerto de Portonovo y el parque de Punta Vicaño. Arena blanca y fina, agua tranquila y poco viento. Mide unos 600 metros de largo, según las guías, y tiene bandera azul 2026-2027.
 
-La punta de Vicaño la separa de Silgar. Y en esa misma punta tienes [Gassho](/diversion/sanxenxo-puerto/gassho/), el mirador con terraza para tomar algo con vistas.
+Es para llegar sin plan y quedarse todo el día: baño, toalla y, cuando apetece, una terraza a dos pasos. La punta de Vicaño la separa de Silgar. Y en esa punta tienes [Gassho](/diversion/sanxenxo-puerto/gassho/), el mirador con terraza para tomar algo con vistas.
 
 ## Montalvo, imprescindible
 
 Montalvo es una de las playas más grandes del tramo, de arena blanca y fina. Mide algo menos de un kilómetro, entre 900 y 1.000 metros según las guías, aunque no hay cifra oficial. La Punta Montalvo la limita por un lado y hace de mirador natural. Al otro lado, la Punta Paxariñas la separa de la playa de Paxariñas. Tiene bandera azul 2026-2027.
 
-En la guía de actividades, Montalvo aparece entre los lugares donde se dan clases de surf, y de aquí sale una de las rutas guiadas en moto de agua. Mira [playa y tabla](/actividades/playa-y-tabla/) y [mar con motor](/actividades/mar-con-motor/).
+Aquí se hace de todo. Montalvo aparece entre los lugares donde se dan clases de surf, y de aquí sale una de las rutas guiadas en moto de agua. Mira [playa y tabla](/actividades/playa-y-tabla/) y [mar con motor](/actividades/mar-con-motor/).
 
 Al ser amplia, aguanta mejor el verano que las playas más pequeñas. Aun así, mayo, junio y septiembre dan más calma.
 

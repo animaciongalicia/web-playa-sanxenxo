@@ -8,20 +8,30 @@ fuentes:
 pendiente:
   - "Pablo revisa el tono y confirma que 'Caribe gallego' sí se usa en la ría de Aldán"
 ---
-La parte buena de la zona empieza por la arena y el agua. Esta sección reúne las dos cosas: las playas y el mar.
+Hay sitios que se visitan y sitios que se te quedan. La zona de Sanxenxo, entre Aldán y O Grove, es de las segundas. Arena blanca, agua que en agosto engaña a cualquiera con el Caribe, calas escondidas y una ría que lo suaviza todo.
 
-Son 39 playas en Sanxenxo y sus alrededores, de la ría de Aldán a O Grove. Todas se llegan en coche y también en barco, así que no tienes que elegir entre una cosa y otra. Y el mar abre tres destinos que merecen un día entero: Ons, Cíes y la ría de Aldán.
+Aquí empieza lo bueno: el agua. Y tienes dos formas de entrar.
 
-## Antes de elegir
+## Por la arena
 
-Hay tres cosas que conviene tener claras.
+39 playas entre Aldán y O Grove. Hay playas urbanas con paseo y terraza, arenales largos que miran al Atlántico, calas a las que llegas por una pasarela de madera y rincones donde casi no hay nadie.
 
-1. **Ons y Cíes tienen cupo diario.** En temporada alta (Semana Santa y del 15 de mayo al 15 de septiembre) necesitas una autorización gratuita de la Xunta antes de comprar el billete. Lo cuenta cada página de destino.
-2. **La bandera azul cambia cada año.** Lo que ves aquí es la lista de 2026-2027. Confirma siempre la vigente.
-3. **Las medidas de las playas varían según la fuente.** Por eso, cuando una cifra no está clara, no se pone.
+Todas valen para todos. No hay playas "de ambiente" ni "de otra gente": eliges por el plan del día. Empieza por las nueve que no fallan y deja el resto para cuando repitas.
 
-## Cómo combinarlo con el resto del plan
+## Por el mar
 
-Playa por la mañana, barco a mediodía, cena en el puerto. Lo que mejor funciona en una despedida es no cargar el día. Mira el [plan completo para una despedida en Sanxenxo y Portonovo](/despedidas/) y [cuándo ir a Sanxenxo con tu grupo](/cuando-ir/), porque la época cambia mucho lo que te encuentras.
+Desde la arena se ve, pero desde el agua se entiende. Tres destinos que piden un día entero: la isla de Ons, las Cíes y la ría de Aldán, el Caribe gallego. Cada uno es un plan distinto. Elegir bien es la mitad del día.
+
+## Cómo hacer un día redondo
+
+Playa por la mañana, barco o actividad a mediodía, comida sin prisa y cena en el puerto. En una despedida, lo que mejor funciona es no cargar el día: mejor pocas cosas bien hechas que muchas apuradas.
+
+Mira el [plan completo para una despedida en Sanxenxo y Portonovo](/despedidas/) y [cuándo ir a Sanxenxo con tu grupo](/cuando-ir/), porque la época cambia mucho lo que te encuentras.
+
+## Tres cosas, y ya está
+
+- **Ons y Cíes piden autorización.** Es gratuita, y solo en temporada alta: Semana Santa y del 15 de mayo al 15 de septiembre. Se pide antes de comprar el billete.
+- **La bandera azul cambia cada año.** Lo que ves aquí es la lista 2026-2027.
+- **Medidas orientativas.** Las fuentes no coinciden, así que, cuando una cifra no está clara, no se pone.
 
 Si quieres hablarlo con alguien, [la agencia](/agencia/) te responde por correo, WhatsApp o teléfono.

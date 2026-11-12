@@ -25,7 +25,7 @@ Una guía honesta de disfrute de **Sanxenxo para despedidas** (playas, mar, barc
 | Núcleo de la guía | Sanxenxo, Portonovo, Noalla–A Lanzada, O Grove–San Vicente |
 | Más allá del núcleo | Aldán, Bueu, Marín, Poio, Combarro (menos peso) |
 | Playas | 39 identificadas, "nos llegan de sobras". Todas se llegan en coche y en barco: **sin campo de acceso ni de ambiente** |
-| Playas top | 8 imprescindibles, **como sección dentro de su tramo** (sin páginas sueltas). Decisión de Pablo, 2026-11-10 |
+| Playas top | 9 imprescindibles, **como sección dentro de su tramo** (sin páginas sueltas). Decisión de Pablo, 2026-11-10 |
 | Mar | Tres bloques propios: **Ons, Cíes (Parque Nacional de las Islas Atlánticas) y Aldán (el Caribe gallego)** |
 | Barcos | 3-4 yates y 3-4 veleros de 11 plazas más patrón. Precios "desde". Se enlaza a seagalicia.com |
 | Traslados | Lancha rápida a Ons, Cíes y Aldán |

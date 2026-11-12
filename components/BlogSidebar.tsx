@@ -4,7 +4,7 @@ import { SEO } from '../lib/seo';
 import Icono, { type NombreIcono } from './Icono';
 
 const EXPLORA: { icono: NombreIcono; titulo: string; texto: string; href: string }[] = [
-  { icono: 'playa', titulo: 'Playas', texto: 'Cinco tramos y ocho imprescindibles', href: '/paraisos/playas/' },
+  { icono: 'playa', titulo: 'Playas', texto: 'Cinco tramos y nueve imprescindibles', href: '/paraisos/playas/' },
   { icono: 'comer', titulo: 'Dónde comer', texto: 'Restaurantes por zona', href: '/comer/restaurantes/' },
   { icono: 'comer', titulo: 'Chiringuitos', texto: 'Con los pies en la arena', href: '/comer/chiringuitos/' },
   { icono: 'barcos', titulo: 'Barcos', texto: 'Veleros, yates y pesquero', href: '/barcos/' },

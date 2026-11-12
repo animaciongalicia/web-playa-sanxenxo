@@ -9,7 +9,7 @@ pendiente:
   - "Las medidas de las playas no se publican: las fuentes no coinciden"
   - "Confirmar si se añaden las 8 playas con bandera que no están en las 39 (O Espiñeiro, Pampaído, Cabeceira, O Laño, Xiorto, Loira, Portocelo, A Coviña)"
 ---
-Entre Aldán y O Grove hay, solo en nuestra lista, 39 playas. Es una de las zonas con más arena concentrada de Galicia. Algunas son enormes y están llenas. Otras son calas casi vacías a las que se llega por un camino.
+Entre Aldán y O Grove hay, solo en esta guía, 39 playas. Es una de las zonas con más arena concentrada de Galicia. Algunas son enormes y están llenas. Otras son calas casi vacías a las que se llega por un camino.
 
 La mejor noticia es práctica: todas se llegan en coche y también en barco. No hay playas "solo para unos" ni filtros de ambiente. Valen para todos.
 

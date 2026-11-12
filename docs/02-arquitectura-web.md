@@ -14,7 +14,7 @@
 |---|---|---|---|
 | `/` | Home | todos | Mensaje: guía de disfrute de Sanxenxo para despedidas. Entradas a las 7 secciones |
 | `/paraisos/` | Hub | — | Playas + mar |
-| `/paraisos/playas/` | HubPlayas | playas | Mapa y las 8 top. Los 5 tramos |
+| `/paraisos/playas/` | HubPlayas | playas | Mapa y las 9 top. Los 5 tramos |
 | `/paraisos/playas/sanxenxo/` | Tramo | playas | Tramo `sanxenxo` |
 | `/paraisos/playas/portonovo/` | Tramo | playas | Incluye Paxariñas, Montalvo, Bascuas |
 | `/paraisos/playas/noalla-a-lanzada/` | Tramo | playas | |
