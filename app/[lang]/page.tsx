@@ -86,7 +86,7 @@ export default function Home({ params }: { params: { lang: string } }) {
             </div>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-gradient-to-br from-ria-100 via-ria-200 to-ria-400 shadow-xl">
-            {fotoIntro && <Image src={fotoIntro} alt="" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />}
+            {fotoIntro && <Image src={fotoIntro} alt="Costa y playas de Sanxenxo" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />}
           </div>
         </div>
       </Seccion>

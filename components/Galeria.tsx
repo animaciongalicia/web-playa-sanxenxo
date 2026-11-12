@@ -11,9 +11,9 @@ export default function Galeria({ prefijo, etiqueta, titulo, intro }: { prefijo:
   return (
     <Seccion fondo="arena" etiqueta={etiqueta} titulo={titulo} intro={intro} centrado>
       <div className={`grid gap-3 ${fotos.length === 3 ? 'grid-cols-1 sm:grid-cols-3' : fotos.length === 4 ? 'grid-cols-2 md:grid-cols-4' : fotos.length === 2 ? 'grid-cols-1 sm:grid-cols-2' : 'grid-cols-2 md:grid-cols-3'}`}>
-        {fotos.map((f) => (
+        {fotos.map((f, i) => (
           <div key={f} className="stagger-child relative aspect-[4/3] overflow-hidden rounded-2xl bg-ria-100 shadow-sm">
-            <Image src={f} alt="" fill sizes="(min-width: 768px) 33vw, 50vw" className="object-cover" />
+            <Image src={f} alt={`${titulo}: foto ${i + 1} de ${fotos.length}`} fill sizes="(min-width: 768px) 33vw, 50vw" className="object-cover" />
           </div>
         ))}
       </div>

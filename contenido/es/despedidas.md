@@ -74,7 +74,7 @@ Lo importante: no sobrecargues. Con una actividad bien elegida, el día se disfr
 
 ## Cuándo ir
 
-El mes cambia casi todo: qué hay abierto, cuánta gente encuentras y qué está abierto y cuánto ambiente hay. Mira [cuándo ir a Sanxenxo y qué esperar cada mes](/cuando-ir/) antes de fijar la fecha, y lee las [condiciones de las despedidas en temporada alta](/cuando-ir/#condiciones).
+El mes cambia casi todo: qué hay abierto, cuánta gente encuentras y cuánto ambiente hay. Mira [cuándo ir a Sanxenxo y qué esperar cada mes](/cuando-ir/) antes de fijar la fecha, y lee las [condiciones de las despedidas en temporada alta](/cuando-ir/#condiciones).
 
 ## Soltero o soltera
 

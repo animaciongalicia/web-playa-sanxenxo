@@ -15,10 +15,12 @@ const { redirecciones } = JSON.parse(readFileSync(new URL('./data/redirecciones.
 
 const nextConfig = {
   trailingSlash: true,
+  images: { formats: ['image/avif', 'image/webp'], minimumCacheTTL: 2592000 },
   poweredByHeader: false,
   reactStrictMode: true,
   async headers() {
     return [
+      { source: '/img/:path*', headers: [{ key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=604800' }] },
       {
         source: '/:path*',
         headers: [

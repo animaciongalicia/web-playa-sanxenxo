@@ -72,7 +72,7 @@ export default function Header({ lang, items, inicioHref, etiquetas }: Props) {
           <li className="ml-3 flex items-center gap-1 border-l border-gray-200 pl-3 text-xs font-semibold" aria-label="Idioma">
             <Link href={idioma.es} className={lang === 'es' ? 'text-ria-700' : 'text-gray-600 hover:text-ria-700'} hrefLang="es">ES</Link>
             <span className="text-gray-300">|</span>
-            <Link href={idioma.pt} className={lang === 'pt' ? 'text-ria-700' : 'text-gray-600 hover:text-ria-700'} hrefLang="pt">PT</Link>
+            <Link href={idioma.pt} prefetch={false} className={lang === 'pt' ? 'text-ria-700' : 'text-gray-600 hover:text-ria-700'} hrefLang="pt">PT</Link>
           </li>
         </ul>
 
@@ -118,7 +118,7 @@ export default function Header({ lang, items, inicioHref, etiquetas }: Props) {
           ))}
           <li className="flex gap-3 py-3 text-sm font-semibold">
             <Link href={idioma.es} className={lang === 'es' ? 'text-ria-700' : 'text-gray-600'} hrefLang="es" onClick={() => setAbierto(false)}>ES</Link>
-            <Link href={idioma.pt} className={lang === 'pt' ? 'text-ria-700' : 'text-gray-600'} hrefLang="pt" onClick={() => setAbierto(false)}>PT</Link>
+            <Link href={idioma.pt} prefetch={false} className={lang === 'pt' ? 'text-ria-700' : 'text-gray-600'} hrefLang="pt" onClick={() => setAbierto(false)}>PT</Link>
           </li>
         </ul>
       </div>

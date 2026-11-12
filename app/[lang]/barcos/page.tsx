@@ -15,6 +15,7 @@ import { esIdioma } from '../../../lib/i18n';
 import { metaRuta } from '../../../lib/seo';
 import Rejilla from '../../../components/Rejilla';
 import GuiasRelacionadas from '../../../components/GuiasRelacionadas';
+import Preguntas from '../../../components/Preguntas';
 
 export const dynamicParams = false;
 export const generateStaticParams = () => [{ lang: 'es' }];
@@ -45,6 +46,7 @@ export default function Barcos({ params }: { params: { lang: string } }) {
         </p>
       </Seccion>
       <Contenido lang={params.lang} ruta="/barcos/" parte="resto" />
+      <Preguntas ruta="/barcos/" />
       <Galeria prefijo="barcos" etiqueta="En el agua" titulo="Así se ve el día desde a bordo" />
       <GuiasRelacionadas ruta={'/barcos/'} />
       <BandaAgencia lang={params.lang} />

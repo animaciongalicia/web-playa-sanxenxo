@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Contenido from '../../../components/Contenido';
 import HeroPage from '../../../components/HeroPage';
 import Migas from '../../../components/Migas';
+import Preguntas from '../../../components/Preguntas';
 import PlanDespedida from '../../../components/PlanDespedida';
 import Seccion from '../../../components/Seccion';
 import TarjetaFoto from '../../../components/TarjetaFoto';
@@ -27,6 +28,7 @@ export default function Despedidas({ params }: { params: { lang: string } }) {
         </div>
       </Seccion>
       <Contenido lang={lang} ruta="/despedidas/" />
+      <Preguntas ruta="/despedidas/" />
       <PlanDespedida lang={lang} ruta="/despedidas/" />
     </>
   );

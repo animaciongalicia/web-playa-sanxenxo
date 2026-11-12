@@ -31,7 +31,7 @@ La lista oficial de bandera azul incluye también otras playas de Marín que no 
 
 ## Poio y Combarro
 
-Poio reúne las playas de **Padrón/A Pinela, Chancelas, Ouriceira, A Canteira, Raxó y Lourido**. Lourido es una playa semiurbana rodeada de bosque. Ninguna de las de nuestra lista tiene bandera azul 2026-2027. Las que sí la tienen en Poio son Cabeceira, O Laño y Xiorto.
+Poio reúne las playas de **Padrón/A Pinela, Chancelas, Ouriceira, A Canteira, Raxó y Lourido**. Lourido es una playa semiurbana rodeada de bosque. Ninguna de las de esta guía tiene bandera azul 2026-2027. Las que sí la tienen en Poio son Cabeceira, O Laño y Xiorto.
 
 Combarro, también en Poio, es un pueblo marinero famoso por sus hórreos junto al agua, casi sobre la ría. Merece una parada aunque no vayas a bañarte.
 

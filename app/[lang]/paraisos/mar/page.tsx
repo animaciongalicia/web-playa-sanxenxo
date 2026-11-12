@@ -7,6 +7,7 @@ import Migas from '../../../../components/Migas';
 import Seccion from '../../../../components/Seccion';
 import TarjetaFoto from '../../../../components/TarjetaFoto';
 import Galeria from '../../../../components/Galeria';
+import Preguntas from '../../../../components/Preguntas';
 import { IDIOMAS, esIdioma, href } from '../../../../lib/i18n';
 import { metaRuta } from '../../../../lib/seo';
 
@@ -45,6 +46,7 @@ export default function Mar({ params }: { params: { lang: string } }) {
       </Seccion>
       <Galeria prefijo="mar" etiqueta="En el agua" titulo="Así se ve desde el mar" />
       <Contenido lang={lang} ruta="/paraisos/mar/" parte="resto" />
+      <Preguntas ruta="/paraisos/mar/" />
       <BandaAgencia lang={lang} />
     </>
   );

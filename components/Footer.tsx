@@ -29,7 +29,7 @@ export default function Footer({ lang }: { lang: Idioma }) {
             <ul className="mt-4 space-y-2">
               {col.enlaces.map((e) => (
                 <li key={e.href}>
-                  <Link href={e.href} className="text-sm text-gray-600 hover:text-ria-700">{e.label}</Link>
+                  <Link href={e.href} prefetch={false} className="text-sm text-gray-600 hover:text-ria-700">{e.label}</Link>
                 </li>
               ))}
             </ul>
@@ -39,7 +39,7 @@ export default function Footer({ lang }: { lang: Idioma }) {
           <h2 className={tituloCol}>{t.blogTitulo}</h2>
           {entradas.length ? (
             <ul className="mt-4 space-y-2">
-              {entradas.map((e) => <li key={e.slug}><Link href={`/blog/${e.slug}/`} className="text-sm text-gray-600 hover:text-ria-700">{e.seo}</Link></li>)}
+              {entradas.map((e) => <li key={e.slug}><Link href={`/blog/${e.slug}/`} prefetch={false} className="text-sm text-gray-600 hover:text-ria-700">{e.seo}</Link></li>)}
               <li><Link href="/blog/" className="text-sm font-medium text-ria-700">Ver el blog →</Link></li>
             </ul>
           ) : (
@@ -53,13 +53,13 @@ export default function Footer({ lang }: { lang: Idioma }) {
             <span>© {new Date().getFullYear()} Playa Sanxenxo</span>
             <ul className="flex flex-wrap items-center gap-x-4 gap-y-1" aria-label={t.legal}>
               {legales.map((e) => (
-                <li key={e.href}><Link href={e.href} className="hover:text-ria-700">{e.label}</Link></li>
+                <li key={e.href}><Link href={e.href} prefetch={false} className="hover:text-ria-700">{e.label}</Link></li>
               ))}
             </ul>
           </div>
           <p className="flex items-center gap-3 sm:mr-14" aria-label={t.idioma}>
             <Link href="/" hrefLang="es" className={lang === 'es' ? 'font-semibold text-ria-700' : 'hover:text-ria-700'}>Español</Link>
-            <Link href="/pt/" hrefLang="pt" className={lang === 'pt' ? 'font-semibold text-ria-700' : 'hover:text-ria-700'}>Português</Link>
+            <Link href="/pt/" prefetch={false} hrefLang="pt" className={lang === 'pt' ? 'font-semibold text-ria-700' : 'hover:text-ria-700'}>Português</Link>
           </p>
         </div>
       </div>

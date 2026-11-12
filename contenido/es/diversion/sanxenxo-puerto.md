@@ -8,7 +8,7 @@ fuentes:
 pendiente:
   - "Pablo confirma horarios actuales, qué locales abren en temporada baja y cuáles recomienda para grupos"
 ---
-El puerto deportivo de Sanxenxo es el corazón de la noche en la zona. Aquí encuentras varios locales juntos, de modo que puedes ir enlazando sin coger coche, y de todo: terrazas con vistas, pubs con música y sitios para bailar.
+El puerto deportivo de Sanxenxo es el corazón de la diversión en la zona. Aquí encuentras varios locales juntos, de modo que puedes ir enlazando sin coger coche, y de todo: terrazas con vistas, pubs con música y sitios para bailar.
 
 ## Cómo funciona la noche
 

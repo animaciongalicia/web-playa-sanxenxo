@@ -45,16 +45,16 @@ export const SEO: Record<string, Par> = {
   '/limusinas/': { titulo: 'Limusina en Sanxenxo para despedidas', descripcion: 'Limusina blanca de 8 plazas con salidas desde Sanxenxo, Combarro y O Grove. Cuándo compensa y a qué hora reservarla.' },
   '/humor-amarillo-en-sanxenxo/': { titulo: 'Humor Amarillo en Sanxenxo', descripcion: 'Un día de pruebas y juegos al estilo del programa de los 90, a unos 20 minutos de Sanxenxo. Qué se hace y cómo encaja.' },
   '/agencia/': { titulo: 'Contacto con la agencia', descripcion: 'Escribe por correo, WhatsApp o llama para organizar tu despedida en Sanxenxo. Sin formularios: te contestan.' },
-  '/blog/': { titulo: 'Blog de Playa Sanxenxo', descripcion: 'Novedades, consejos y noticias para organizar tu despedida en Sanxenxo y alrededores.' },
-  '/aviso-legal/': { titulo: 'Aviso legal', descripcion: 'Aviso legal de Playa Sanxenxo.' },
-  '/privacidad/': { titulo: 'Política de privacidad', descripcion: 'Política de privacidad de Playa Sanxenxo.' },
-  '/politica-de-cookies/': { titulo: 'Política de cookies', descripcion: 'Política de cookies de Playa Sanxenxo.' },
-  '/terminos-y-condiciones/': { titulo: 'Términos y condiciones', descripcion: 'Términos y condiciones de uso de Playa Sanxenxo.' },
+  '/blog/': { titulo: 'Blog de Playa Sanxenxo', descripcion: 'Guías y consejos para organizar tu despedida en Sanxenxo: barcos, precios, mejor mes, planes de soltero y de soltera, Portonovo, Aldán y Ons.' },
+  '/aviso-legal/': { titulo: 'Aviso legal', descripcion: 'Aviso legal de Playa Sanxenxo: titularidad del sitio web, condiciones de uso, propiedad intelectual y enlaces a otras webs.' },
+  '/privacidad/': { titulo: 'Política de privacidad', descripcion: 'Política de privacidad de Playa Sanxenxo: qué datos se tratan, con qué finalidad, quién es el responsable y cómo ejercer tus derechos.' },
+  '/politica-de-cookies/': { titulo: 'Política de cookies', descripcion: 'Política de cookies de Playa Sanxenxo: qué cookies usa la web, para qué sirven y cómo puedes aceptarlas, rechazarlas o borrarlas.' },
+  '/terminos-y-condiciones/': { titulo: 'Términos y condiciones', descripcion: 'Términos y condiciones de uso de Playa Sanxenxo: qué ofrece la guía, cómo contactar con la agencia y límites de responsabilidad.' },
 };
 
 const recorta = (s: string, max: number) => (s.length <= max ? s : `${s.slice(0, max - 1).replace(/\s+\S*$/, '')}…`);
 
-function paraRuta(ruta: string): Par | null {
+export function paraRuta(ruta: string): Par | null {
   if (SEO[ruta]) return SEO[ruta];
   const r = buscarRuta(ruta);
   if (r) return { titulo: r.titulo, descripcion: r.descripcion ?? `${r.titulo}. Guía de disfrute de Sanxenxo para despedidas.` };
@@ -66,12 +66,12 @@ function paraRuta(ruta: string): Par | null {
   let m = ruta.match(/^\/comer\/restaurantes\/([^/]+)\/$/);
   if (m) {
     const l = getLocales('restaurantes').find((x) => x.slug === m![1]);
-    if (l) return { titulo: `${l.nombre}: restaurante en ${l.municipio ?? 'Sanxenxo'}`, descripcion: l.como_es ?? `${l.nombre}, restaurante en ${l.municipio ?? 'Sanxenxo'}: qué se come, dónde está y si admite grupos y despedidas.` };
+    if (l) return { titulo: `${l.nombre}: restaurante en ${l.municipio ?? 'Sanxenxo'}`, descripcion: l.como_es ? (l.como_es.length < 90 ? `${l.como_es} Qué se come, dónde está y cómo reservar.` : l.como_es) : `${l.nombre}, restaurante en ${l.municipio ?? 'Sanxenxo'}: qué se come, dónde está y si admite grupos y despedidas.` };
   }
   m = ruta.match(/^\/diversion\/[^/]+\/([^/]+)\/$/);
   if (m) {
     const l = getLocales('diversion').find((x) => x.slug === m![1]);
-    if (l) return { titulo: `${l.nombre} en Sanxenxo`, descripcion: l.como_es ?? `${l.nombre} en Sanxenxo: cómo es, qué se bebe y si admite grupos y despedidas.` };
+    if (l) return { titulo: `${l.nombre} en Sanxenxo`, descripcion: l.como_es ? (l.como_es.length < 90 ? `${l.como_es} Cómo es y dónde está.` : l.como_es) : `${l.nombre} en Sanxenxo: cómo es, qué se bebe y si admite grupos y despedidas.` };
   }
   return null;
 }
