@@ -8,9 +8,9 @@ pendiente:
   - "Pablo decide cuáles se publican: propuesta de 8-10 de los 20 candidatos"
   - "Para cada uno: cómo es, qué se come, horarios y meses de apertura"
 ---
-Muchas playas de la zona tienen chiringuitos. Para tomar una caña, comer un bocadillo o hacer una buena comilona de marisco, con los pies cerca de la arena.
+Hay momentos que solo pasan con los pies cerca de la arena. La primera caña después del baño. El pulpo en una mesa de madera. El sol cayendo mientras el grupo no quiere irse todavía.
 
-Aquí están por zona de costa.
+Muchas playas de la zona tienen chiringuitos para eso: tomar algo, comer un bocadillo o hacer una buena comilona de marisco sin ponerse zapatos. Aquí los tienes por zona de costa.
 
 ## Cómo elegir
 
@@ -21,6 +21,12 @@ Aquí están por zona de costa.
 ## Qué esperar
 
 Son locales de temporada: abren sobre todo en primavera y verano, y algunos solo los fines de semana. Mira siempre los horarios antes de ir. Y en agosto, llega con tiempo.
+
+## Un plan que funciona
+
+Baño por la mañana, comida sin prisa en el chiringuito, otro baño y, cuando baja el sol, la última ronda mirando el mar. No hace falta más. El resto del día se organiza solo.
+
+Si el grupo es grande, avisa antes de ir: un chiringuito pequeño se llena rápido en agosto.
 
 ## Y la noche
 
