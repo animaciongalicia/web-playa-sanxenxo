@@ -29,7 +29,12 @@ export function middleware(req: NextRequest) {
     url.pathname = pathname.replace(/^\/es/, '') || '/';
     return conRobots(NextResponse.redirect(url, 308), req);
   }
-  if (pathname === '/pt' || pathname.startsWith('/pt/')) return conRobots(NextResponse.next(), req);
+  // El portugués aún no está traducido: no se indexa hasta que lo esté (Fase 7).
+  if (pathname === '/pt' || pathname.startsWith('/pt/')) {
+    const res = conRobots(NextResponse.next(), req);
+    res.headers.set('X-Robots-Tag', 'noindex, follow');
+    return res;
+  }
 
   const url = req.nextUrl.clone();
   url.pathname = `/es${pathname}`;
