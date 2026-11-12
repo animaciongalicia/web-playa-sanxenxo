@@ -6,7 +6,7 @@ fuentes:
 pendiente:
   - "Confirmar dirección, horarios y si sigue abierto en 2027"
 ---
-El Varadero es uno de los pubs míticos del puerto de Sanxenxo, y de los pocos que siguen en el mismo sitio donde empezaron. Se mantiene fiel a sus orígenes.
+Hay sitios que cambian con cada moda y sitios que no se mueven. El Varadero es de los segundos: uno de los pubs míticos del puerto de Sanxenxo, y de los pocos que siguen en el mismo sitio donde empezaron. Fiel a sus orígenes.
 
 ## Cómo es
 

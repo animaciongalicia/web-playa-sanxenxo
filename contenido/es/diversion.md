@@ -8,7 +8,9 @@ pendiente:
   - "Pablo decide qué locales se publican y aporta horarios de verano e invierno"
   - "Confirmar el estado de cada local para 2027"
 ---
-Diversión es lo que pasa cuando cae el sol: terraceo, tardeo, puestas de sol y copas. Aquí no hay "rutas de noche". Hay zonas, y cada una tiene su ritmo.
+Cae el sol y la playa cambia de cara. El mar se pone naranja, las terrazas se llenan, alguien pide la primera ronda y el grupo, que llevaba todo el día en bañador, se arregla para lo que viene.
+
+Eso es la diversión en Sanxenxo: terraceo, tardeo, puestas de sol y copas. Aquí no hay "rutas de noche". Hay zonas, y cada una tiene su ritmo. Lo único que tienes que hacer es elegir la que le va a tu grupo.
 
 ## Cuatro zonas, cuatro ritmos
 
