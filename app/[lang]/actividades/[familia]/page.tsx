@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import HeroPage from '../../../../components/HeroPage';
+import Galeria from '../../../../components/Galeria';
 import BandaAgencia from '../../../../components/BandaAgencia';
 import { Aviso, EnPreparacion, TarjetaActividad } from '../../../../components/Fichas';
 import Migas from '../../../../components/Migas';
@@ -37,6 +38,7 @@ export default function Familia({ params }: { params: P }) {
         ) : <EnPreparacion />}
       </Seccion>
       <Contenido lang={params.lang} ruta={`/actividades/${params.familia}/`} />
+      <Galeria prefijo={params.familia} etiqueta="Cómo se vive" titulo="Un vistazo al plan" />
       <GuiasRelacionadas ruta={`/actividades/${params.familia}/`} />
       <BandaAgencia lang={params.lang} />
     </>

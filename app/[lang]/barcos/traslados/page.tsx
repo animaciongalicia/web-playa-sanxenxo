@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import Galeria from '../../../../components/Galeria';
 import BandaAgencia from '../../../../components/BandaAgencia';
 import Contenido from '../../../../components/Contenido';
 import { Aviso, EnPreparacion } from '../../../../components/Fichas';
@@ -63,6 +64,7 @@ export default function Traslados({ params }: { params: { lang: string } }) {
         </div>
       </Seccion>
       <Contenido lang={lang} ruta="/barcos/traslados/" parte="resto" />
+      <Galeria prefijo="traslados" etiqueta="Por el camino" titulo="El trayecto ya es parte del plan" />
       <BandaAgencia lang={lang} />
     </>
   );

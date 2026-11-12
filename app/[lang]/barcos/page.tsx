@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import Contenido from '../../../components/Contenido';
 import { EnPreparacion } from '../../../components/Fichas';
 import HeroPage from '../../../components/HeroPage';
+import Galeria from '../../../components/Galeria';
 import BandaAgencia from '../../../components/BandaAgencia';
 import Migas from '../../../components/Migas';
 import Seccion from '../../../components/Seccion';
@@ -44,6 +45,7 @@ export default function Barcos({ params }: { params: { lang: string } }) {
         </p>
       </Seccion>
       <Contenido lang={params.lang} ruta="/barcos/" parte="resto" />
+      <Galeria prefijo="barcos" etiqueta="En el agua" titulo="Así se ve el día desde a bordo" />
       <GuiasRelacionadas ruta={'/barcos/'} />
       <BandaAgencia lang={params.lang} />
     </>

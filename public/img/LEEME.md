@@ -58,3 +58,7 @@ Las que hay ahora vienen de la web anterior y son **provisionales**: sustitúyel
 
 ## Galerías de Ons y Cíes
 `islas-ons-galeria-1..6` y `islas-cies-galeria-1..6` (se muestran en la página de cada destino cuando hay 2 o más).
+
+## Galerías (mosaico de fotos, se muestra con 2 o más)
+`<prefijo>-galeria-1..6`: `barcos`, `traslados`, `playas-<tramo>` (sanxenxo, portonovo, noalla-a-lanzada, o-grove-san-vicente, mas-alla), `sanxenxo-puerto` (y las otras zonas de diversión), familias de actividades (`kayak-areoso`, `mar-y-mesa`, `mar-con-motor`, `dias-a-medida`), `ria-de-aldan`, `islas-ons`, `islas-cies`.
+Todas las fotos se guardan en WebP, máximo 1400-1600 px de ancho, para que pesen poco. Si subes un JPG o PNG, se puede dejar con cualquier nombre: pásamelo y se renombra y comprime.

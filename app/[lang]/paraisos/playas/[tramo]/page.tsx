@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import HeroPage from '../../../../../components/HeroPage';
 import Migas from '../../../../../components/Migas';
 import Contenido from '../../../../../components/Contenido';
+import Galeria from '../../../../../components/Galeria';
 import BandaAgencia from '../../../../../components/BandaAgencia';
 import Seccion from '../../../../../components/Seccion';
 import { EnPreparacion, TarjetaPlaya } from '../../../../../components/Fichas';
@@ -57,6 +58,7 @@ export default function Tramo({ params }: { params: P }) {
       ) : (
         <Seccion ancho="estrecho"><EnPreparacion /></Seccion>
       )}
+      <Galeria prefijo={`playas-${params.tramo}`} etiqueta="Para ir abriendo boca" titulo="Un vistazo a la costa" />
       <GuiasRelacionadas ruta={`/paraisos/playas/${params.tramo}/`} />
       <BandaAgencia lang={lang} />
     </>

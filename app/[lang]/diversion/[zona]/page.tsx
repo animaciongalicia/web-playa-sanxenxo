@@ -6,6 +6,7 @@ import { EnPreparacion } from '../../../../components/Fichas';
 import { TarjetaLocal } from '../../../../components/Locales';
 import Migas from '../../../../components/Migas';
 import Contenido from '../../../../components/Contenido';
+import Galeria from '../../../../components/Galeria';
 import BandaAgencia from '../../../../components/BandaAgencia';
 import Seccion from '../../../../components/Seccion';
 import { getLocales } from '../../../../lib/datos';
@@ -47,6 +48,7 @@ export default function ZonaDiversion({ params }: { params: P }) {
         )}
       </Seccion>
       <Contenido lang={params.lang} ruta={`/diversion/${zona}/`} parte="resto" />
+      <Galeria prefijo={zona} etiqueta="Ambiente" titulo="Cómo se ve cuando cae el sol" />
       <BandaAgencia lang={params.lang} />
     </>
   );
