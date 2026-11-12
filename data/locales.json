@@ -2373,6 +2373,42 @@
   ],
   "furanchos": [
     {
+      "id": "furancho-lagueina",
+      "slug": "furancho-lagueina",
+      "nombre": "Furancho Lagüiña",
+      "tipo": "furancho",
+      "zona": "sin-zona",
+      "municipio": null,
+      "direccion": null,
+      "playa_cercana": null,
+      "como_es": "Furancho de referencia por sus vinos.",
+      "que_se_come": null,
+      "contacto": {
+        "telefono": null,
+        "web": null,
+        "email": null
+      },
+      "meses_apertura": null,
+      "horario_tipico": null,
+      "despedidas": {
+        "admite": "desconocido",
+        "cuando": null,
+        "como": null
+      },
+      "pagina_propia": false,
+      "tambien_en": [],
+      "tipo_dudoso": false,
+      "decision_pendiente": "Sin ubicación en la fuente",
+      "publicar": null,
+      "verificado": false,
+      "ultima_verificacion": null,
+      "origen": "Pablo, 2026-11-12",
+      "datos_fuente": [
+        "Pablo (2026-11-12): \"top de vinos\". Zona, dirección y meses de apertura pendientes de confirmar"
+      ],
+      "notas_internas": null
+    },
+    {
       "id": "loureiro-minino",
       "slug": "loureiro-minino",
       "nombre": "Loureiro Miniño",
