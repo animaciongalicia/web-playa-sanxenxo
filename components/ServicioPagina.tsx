@@ -9,6 +9,7 @@ import { getContenido } from '../lib/contenido';
 import type { Idioma } from '../lib/i18n';
 import type { Servicio } from '../lib/esquemas';
 import GuiasRelacionadas from './GuiasRelacionadas';
+import Galeria from './Galeria';
 
 /** Servicio de pie (limusinas, Humor Amarillo): se describe como algo que se hace; nota 2027 según `estado_2027`. */
 export default function ServicioPagina({ lang, id, ruta, titulo, subtitulo }: { lang: Idioma; id: Servicio['id']; ruta: string; titulo: string; subtitulo?: string }) {
@@ -29,6 +30,7 @@ export default function ServicioPagina({ lang, id, ruta, titulo, subtitulo }: { 
         </Seccion>
       )}
       <GuiasRelacionadas ruta={ruta} />
+      <Galeria prefijo={id} etiqueta="En la calle" titulo="Así se ve" />
       <BandaAgencia lang={lang} />
     </>
   );

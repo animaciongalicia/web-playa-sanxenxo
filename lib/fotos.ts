@@ -8,6 +8,12 @@ const EXT = ['jpg', 'jpeg', 'webp', 'png', 'avif'];
 
 /** Claves que reutilizan la foto de otra (para no duplicar archivos). */
 const ALIAS: Record<string, string> = {
+  'mar-galeria-1': 'islas-ons-galeria-2',
+  'mar-galeria-2': 'kayak-areoso-galeria-1',
+  'mar-galeria-3': 'islas-cies-galeria-1',
+  'mar-galeria-4': 'ria-de-aldan-galeria-1',
+  'mar-galeria-5': 'islas-cies-galeria-2',
+  'mar-galeria-6': 'islas-ons-galeria-3',
   'chiringuito-de-castineiras': 'playa-castineira',
   'diversion-portonovo': 'playas-portonovo',
   'diversion-a-lanzada-san-vicente': 'cuando-ir',
