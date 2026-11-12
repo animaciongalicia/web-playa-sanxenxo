@@ -6,6 +6,8 @@ fuentes:
 pendiente:
   - "Duración, precio, grupo mínimo y temporada de las dos pescas: Pablo los aporta"
 ---
+Amanece en la ría, el motor se apaga y, de repente, solo se oye el agua. Hay quien lleva años sin quedarse tan callado.
+
 Para ver el mar como lo vive quien trabaja en él, o para un rato tranquilo con caña. Dos actividades, las dos para quien tiene interés real en pescar, no para una fiesta a bordo.
 
 ## Pesca recreativa

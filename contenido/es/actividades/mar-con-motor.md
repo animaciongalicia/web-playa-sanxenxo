@@ -1,6 +1,6 @@
 ---
 titulo: Mar con motor
-objetivo: 400
+objetivo: 450
 fuentes:
   - "data/actividades.json: motos de agua, parascending y sesión acuática desde barco"
   - "Texto propio de Pablo en despedidasplayasanxenxo.com/despedida-en-motos-de-agua/, reescrito (sin precios)"
@@ -8,11 +8,13 @@ pendiente:
   - "Precios, duración real de cada ruta y plazas por salida: Pablo los aporta"
   - "Confirmar motos disponibles y la temporada 2027"
 ---
-Es la familia de la velocidad y la adrenalina. Tres actividades con motor, todas en el agua de Sanxenxo y Portonovo.
+Hay gritos que solo salen cuando la moto da el primer salto sobre la ola. O cuando la banana se inclina y todo el grupo, a la vez, ya sabe que va a acabar en el agua.
+
+Esta es la familia de la velocidad y la adrenalina. Tres actividades con motor, todas en el agua de Sanxenxo y Portonovo, y todas con la misma consecuencia: risas durante el resto de la noche.
 
 ## Motos de agua
 
-Navegar en una moto de agua es de lo que más adrenalina da en Sanxenxo. Se alquilan en el puerto durante los meses de verano, de mayo a octubre, y se sale en grupo, con una o dos personas por moto.
+Navegar en una moto de agua es de lo que más adrenalina da en Sanxenxo: viento en la cara, la costa pasando a toda velocidad y la ría abierta delante. Se alquilan en el puerto durante los meses de verano, de mayo a octubre, y se sale en grupo, con una o dos personas por moto.
 
 Siempre sales acompañado por un monitor y con un pequeño curso previo. No hace falta ningún carné, pero sí estar en plenas facultades: está prohibido subir o pilotar bajo los efectos del alcohol o de las drogas.
 
@@ -26,13 +28,13 @@ Algunas de las rutas con monitor, según su duración aproximada:
 
 ## Parascending
 
-Es un vuelo con paracaídas remolcado por una embarcación. Te ves la costa desde arriba y sin esfuerzo.
+Es un vuelo con paracaídas remolcado por una embarcación. Subes, el barco tira y, de pronto, ves la costa desde arriba y sin esfuerzo. Tranquilo y emocionante a la vez.
 
 **Dónde:** Sanxenxo.
 
 ## Sesión acuática desde barco
 
-Una salida en barco con banana, donut, doble donut y wakeboard. Es de las más animadas para un grupo.
+Una salida en barco con banana, donut, doble donut y wakeboard. Es de las más animadas para un grupo: se grita, se ríe y se acaba en el agua.
 
 **Dónde:** Portonovo.
 

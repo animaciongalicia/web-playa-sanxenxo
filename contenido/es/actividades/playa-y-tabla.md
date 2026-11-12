@@ -1,6 +1,6 @@
 ---
 titulo: Playa y tabla
-objetivo: 400
+objetivo: 450
 fuentes:
   - "data/actividades.json: clase de surf, paddle surf, Big SUP y kayak (con su 'dónde se hace')"
   - "Guías de playas: A Lanzada como playa de referencia para surf y deportes de tabla"
@@ -8,23 +8,25 @@ pendiente:
   - "Duración, precios, grupo mínimo, temporada y proveedores: Pablo los aporta"
   - "Kayak: confirmar si es guiado o alquiler, individual o doble, según la salida"
 ---
-Actividades en el agua, con el cuerpo y con calma. Cuatro formas de aprovechar las playas de la zona.
+No hace falta ser deportista. Basta con querer probar, reírse de uno mismo y acabar en el agua más de una vez. Eso es lo que pasa cuando un grupo se sube a una tabla.
+
+Estas son actividades con el cuerpo y con calma, y cuatro formas de aprovechar las playas de la zona. Se aprende rápido, se falla con gracia y las fotos son mejores de lo que esperas.
 
 ## Clase de surf
 
-Una clase para empezar o para repetir, con monitor. Es de las actividades que más se piden en la costa abierta.
+Una clase para empezar o para repetir, con monitor. Es de las actividades que más se piden en la costa abierta. Te subes, te caes, te vuelves a subir, y a la tercera ya sale algo que parece surf.
 
 **Dónde:** A Lanzada y Montalvo. A Lanzada es la playa de referencia para el surf en la zona: mira [Noalla y A Lanzada](/paraisos/playas/noalla-a-lanzada/).
 
 ## Paddle surf
 
-De pie sobre una tabla, con un remo. Es más tranquilo que el surf y se aprende rápido. Funciona bien con grupos mixtos.
+De pie sobre una tabla, con un remo, mirando el mar desde arriba. Es más tranquilo que el surf y se aprende rápido. Funciona bien con grupos mixtos.
 
 **Dónde:** Portonovo, A Lanzada y Foxos.
 
 ## Big SUP
 
-Una tabla grande y colectiva, donde caben varias personas a la vez. Es la modalidad con más componente de grupo: se rema, se coordina y es fácil acabar en el agua.
+Una tabla grande y colectiva, donde caben varias personas a la vez. Es la modalidad con más componente de grupo: se rema, se coordina, se discute quién rema peor y es fácil acabar todos en el agua.
 
 **Dónde:** A Lanzada y Foxos.
 

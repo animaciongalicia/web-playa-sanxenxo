@@ -1,6 +1,6 @@
 ---
 titulo: Mar y mesa
-objetivo: 350
+objetivo: 450
 fuentes:
   - "data/actividades.json: ruta de bateas, mariscada o cena en barco y churrascada en barco"
 pendiente:
@@ -8,11 +8,13 @@ pendiente:
   - "Churrascada en barco: confirmar qué se cocina a bordo y qué va servido"
   - "Mariscada o cena en barco: pedir presupuesto actualizado"
 ---
-Tres formas de unir el mar y la comida en el mismo plan.
+Hay platos que saben distinto cuando se comen en el sitio donde nacen. El mejillón, con las bateas delante. El marisco, con el mar a los pies. El churrasco, con la ría de fondo.
+
+Esta es la familia de las comidas con mar. Tres formas de unir el mar y la mesa en el mismo plan, y de que la comida de la despedida sea parte de lo que se recuerda.
 
 ## Ruta de bateas con mejillones y vino
 
-Una salida en barco hasta las bateas, las plataformas donde se cultiva el mejillón, con mejillones y vino. Es una de las experiencias más típicas de la zona.
+Una salida en barco hasta las bateas, las plataformas donde se cultiva el mejillón, con mejillones y vino. Ves de dónde viene lo que vas a comer. Es una de las experiencias más típicas de la zona.
 
 **Dónde:** O Grove.
 
@@ -20,7 +22,7 @@ Un dato práctico: la propuesta localizada exige un **mínimo de diez personas**
 
 ## Mariscada o cena en barco
 
-Comer o cenar a bordo, con marisco. Hay propuestas que incluyen queimada y espectáculo. Pide un presupuesto actualizado, porque lo que se incluye cambia.
+Comer o cenar a bordo, con marisco, mientras el barco se mece y baja el sol. Hay propuestas que incluyen queimada y espectáculo. Pide un presupuesto actualizado, porque lo que se incluye cambia.
 
 **Dónde:** O Grove.
 

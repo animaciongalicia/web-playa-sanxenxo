@@ -11,6 +11,8 @@ pendiente:
   - "Ubicación exacta y municipio de cada furancho"
   - "Zonas de O Grove y Bueu-Marín sin datos: no se publican"
 ---
+Una mesa de madera, una cuncha de vino joven, una tortilla recién hecha y el cuñado de alguien contando una historia por tercera vez. Eso es un furancho.
+
 Un furancho no es un bar ni un restaurante. Es una casa particular que abre de forma temporal para vender el vino sobrante de su cosecha, acompañado de tapas caseras.
 
 Es una de las tradiciones más gallegas que puedes meter en un plan, y de las más baratas.
