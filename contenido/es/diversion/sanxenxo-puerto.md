@@ -4,9 +4,9 @@ objetivo: 500
 fuentes:
   - "data/locales.json (lista de Pablo) y textos propios de Pablo en despedidasplayasanxenxo.com: Dux, Buddha, Varadero y Gassho"
   - "Directorio Páxinas Galegas, pubs y discotecas de Sanxenxo (consultado el 2026-11-11): La Ola, Privé Puerto y La Menta"
+  - "Pablo (2026-11-12): Clandestino y Pub 42 Grados Norte"
 pendiente:
   - "Pablo confirma horarios actuales, qué locales abren en temporada baja y cuáles recomienda para grupos"
-  - "Clandestino y Pub 42 Grados Norte: no se encontró información contrastada"
 ---
 El puerto deportivo de Sanxenxo es el corazón de la noche en la zona. Aquí encuentras varios locales juntos, de modo que puedes ir enlazando sin coger coche, y de todo: terrazas con vistas, pubs con música y sitios para bailar.
 
@@ -24,6 +24,8 @@ No todos los locales sirven para lo mismo. Esta es una guía rápida:
 - **Para un ambiente más cuidado:** [Buddha](/diversion/sanxenxo-puerto/buddha/), pub veterano de decoración oriental y música chill-out y house, con reservados para grupos.
 - **Para bailar:** La Ola, un pub en el puerto con pista de baile y terraza, y Privé Puerto, un club con terraza lounge.
 - **Para un cóctel con vistas:** [Gassho](/diversion/sanxenxo-puerto/gassho/), el mirador de Punta Vicaño, perfecto para después de la playa o para el desayuno del domingo.
+- **Para ir al sitio de siempre:** Clandestino, un local de copas muy conocido, junto al Buddha.
+- **Para un público más adulto:** el Pub 42 Grados Norte, en los bajos del Club Náutico de Sanxenxo. Parece de socios, pero entra todo el mundo, y el público ronda los 40 años de media.
 - **Para copas con carta cuidada:** La Menta, en la Praza Pazo Patiño, en el centro de Sanxenxo, con ginebras premium y cócteles de autor.
 
 ## Un orden que suele funcionar
