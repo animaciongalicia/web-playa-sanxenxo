@@ -9,9 +9,19 @@ pendiente:
   - "Las medidas de las playas no se publican: las fuentes no coinciden"
   - "Confirmar si se añaden las 8 playas con bandera que no están en las 39 (O Espiñeiro, Pampaído, Cabeceira, O Laño, Xiorto, Loira, Portocelo, A Coviña)"
 ---
-Entre Aldán y O Grove hay, solo en esta guía, 39 playas. Es una de las zonas con más arena concentrada de Galicia. Algunas son enormes y están llenas. Otras son calas casi vacías a las que se llega por un camino.
+Hay playas que se visitan y playas que se te quedan. Entre Aldán y O Grove hay 39 en esta guía, y casi todas tienen algo que contar: arenales enormes que miran al Atlántico, calas de agua verde escondidas entre rocas, pasarelas de madera sobre el mar y playas urbanas donde del agua pasas a una terraza en dos pasos.
 
-La mejor noticia es práctica: todas se llegan en coche y también en barco. No hay playas "solo para unos" ni filtros de ambiente. Valen para todos.
+La mejor noticia es práctica: se llega a todas en coche y también en barco. No hay playas "solo para unos" ni filtros de ambiente. Valen para todos.
+
+## Cómo elegir
+
+Elige por el plan del día, no por la playa:
+
+- **Quieres paseo y terraza.** Las de Sanxenxo, con paseo marítimo pegado a la arena.
+- **Quieres calma y agua clara.** Las de Portonovo, con calas de agua verde esmeralda.
+- **Quieres arena inmensa y atardecer.** A Lanzada y las playas de Noalla.
+- **Quieres calas y pasarelas.** O Grove y San Vicente.
+- **Quieres menos gente.** Aldán, Bueu, Marín, Poio y Combarro.
 
 ## Qué dice la bandera azul
 
@@ -29,10 +39,14 @@ No es una garantía eterna. Cambia cada temporada: mira siempre la lista vigente
 
 Muchas tienen chiringuitos donde tomar una caña, comer algo o pedir un buen marisco. En las más turísticas, como A Lanzada, hay clases de surf y de paddle surf.
 
-Al estar dentro de una ría, el oleaje es suave en la mayoría. Y hay barcos y yates por la zona en verano, lo que te da una imagen distinta de la playa vista desde el agua.
+Al estar dentro de una ría, el oleaje es suave en la mayoría. Y en verano ves barcos y yates fondeados, lo que da una imagen distinta de la playa vista desde el agua.
 
-## Cómo encajan en una despedida
+## Un día de playa que funciona
 
-Las playas son el primer plan de casi todos los grupos: baño, una actividad, algo de comer y vuelta a arreglarse. Mira [actividades](/actividades/) para ver qué se hace en cada una y [dónde comer](/comer/chiringuitos/) si lo quieres con los pies en la arena.
+Playa por la mañana, con el agua como un espejo. Una actividad si apetece moverse. Comer con los pies en la arena o en una terraza. Siesta, otro baño y a arreglarse. Es el primer plan de casi todos los grupos, y casi siempre sale bien.
 
-Para ver el cuadro completo, vuelve a [Paraísos](/paraisos/) o mira el [mar](/paraisos/mar/).
+Mira [actividades](/actividades/) para ver qué se hace en cada playa y [dónde comer](/comer/chiringuitos/) si lo quieres con los pies en la arena.
+
+## Y desde el agua
+
+Si quieres ver la costa desde el agua, [el mar](/paraisos/mar/) tiene tres destinos que piden un día entero. Para ver el cuadro completo, vuelve a [Paraísos](/paraisos/).

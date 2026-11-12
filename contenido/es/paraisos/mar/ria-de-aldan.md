@@ -10,9 +10,15 @@ pendiente:
   - "Faltan descripciones de las playas de Cangas (Aldán, Hío): sin fuente fiable"
   - "Pazo de Santa Cruz: sin fuente, no se menciona"
 ---
-La ría de Aldán es una bahía pequeña y recogida, entre los concellos de Cangas y Bueu. Es el destino de mar más fácil: poca distancia, agua tranquila y mucha playa pequeña.
+Hay días que piden calma. Agua quieta, calas pequeñas con arena blanca, pinos que llegan hasta la orilla y un barco fondeado donde nadie tiene prisa. Eso es la ría de Aldán.
 
-A esta zona se la llama a veces el "Caribe gallego". Es un apodo turístico, no una zona oficial, así que tómalo como lo que es. Lo que sí es real es el agua clara y la arena blanca.
+Es una bahía recogida, entre los concellos de Cangas y Bueu, y el destino de mar más fácil de la zona: poca distancia, agua tranquila y mucha playa pequeña. A esta zona se la llama el "Caribe gallego". Es un apodo, no una zona oficial, pero cuando ves el color del agua entiendes por qué ha cuajado.
+
+## Un día en Aldán
+
+Sales por la mañana, sin prisa. En poco tiempo estás fondeado frente a una cala. Te bañas, comes a bordo, vuelves a bañarte, y a media tarde hay quien ya duerme al sol y quien insiste en un último brindis. Vuelves a Sanxenxo con tiempo para ducharte y salir a cenar.
+
+Es el plan que mejor funciona para grupos que quieren mar sin pasarse el día navegando.
 
 ## Cómo es
 
@@ -50,6 +56,6 @@ Playa, baño y calma. Y, si te apetece más movimiento, paddle surf o kayak. Mir
 
 ## Cómo encaja en una despedida
 
-Es una excursión corta: sales por la mañana, pasas el día en una cala y vuelves para la cena en Sanxenxo. Funciona especialmente bien en barco privado: el grupo va solo, con música, y puedes parar a bañarte.
+Es una excursión corta que sabe a mucho. Funciona especialmente bien en barco privado: el grupo va solo, con música, y puedes parar a bañarte donde más os guste. Para ver el día completo, mira la entrada del blog sobre una [despedida en el Caribe gallego en velero o yate](/blog/despedida-en-el-caribe-gallego-ria-de-aldan/).
 
 Antes, mira [cuándo ir a Sanxenxo con tu grupo](/cuando-ir/), y para el plan completo, [despedidas en Sanxenxo y alrededores](/despedidas/).
