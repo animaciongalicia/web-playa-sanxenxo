@@ -43,7 +43,7 @@
       "municipio": "Cangas",
       "direccion": "Paseo de Carlos Pérez 12, Aldán",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Cocina gallega tradicional en una antigua fábrica de salazón, al borde de la ría de Aldán. Pescados, mariscos y arroces.",
       "que_se_come": "Pescados, mariscos y arroces.",
       "contacto": {
         "telefono": "986 32 92 29",
@@ -82,7 +82,7 @@
       "municipio": "Cangas",
       "direccion": "Av. José Graña 38, Aldán",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Marisquería en la avenida principal de Aldán.",
       "que_se_come": null,
       "contacto": {
         "telefono": "618 149 050",
@@ -120,7 +120,7 @@
       "municipio": "Cangas",
       "direccion": "Av. José Graña 52, Aldán",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Restaurante gallego junto al puerto de Aldán.",
       "que_se_come": null,
       "contacto": {
         "telefono": "622 354 398",
@@ -157,7 +157,7 @@
       "municipio": "Cangas",
       "direccion": "Lontreira 1 Bajo, Aldán",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Local de Aldán especializado en barbacoa.",
       "que_se_come": null,
       "contacto": {
         "telefono": "886 295 998",
@@ -194,7 +194,7 @@
       "municipio": "Bueu",
       "direccion": "Praia de Beluso, Bueu",
       "playa_cercana": "Beluso",
-      "como_es": null,
+      "como_es": "Marisquería centenaria frente al puerto y la playa de Beluso. Cestas de marisco, guisos, arroces marineros y pescados al horno. El menú del día solo se sirve en invierno.",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 323 481",
@@ -233,7 +233,7 @@
       "municipio": "Bueu",
       "direccion": "Costa Figueirón, Beluso",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Marisquería de perfil tradicional en la costa de Beluso, en Bueu.",
       "que_se_come": null,
       "contacto": {
         "telefono": "636 178 815",
@@ -270,7 +270,7 @@
       "municipio": "Bueu",
       "direccion": "Av. Loureiro 13, Bueu",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Restaurante y hotel en Bueu con acceso directo a la playa. Puede tener salones independientes para eventos.",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 320 719",
@@ -657,7 +657,7 @@
       "municipio": "Poio",
       "direccion": "Camiño da Serpe, Raxó",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Alta cocina con menús degustación, en Raxó.",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 741 378",
@@ -693,7 +693,7 @@
       "municipio": "O Grove",
       "direccion": "Reboredo 73, O Grove",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Alta cocina con menús degustación y vistas al mar, en Reboredo (O Grove).",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 732 275",
@@ -729,7 +729,7 @@
       "municipio": "Poio",
       "direccion": "San Salvador de Poio",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Restaurante recogido en la Guía Michelin, en San Salvador de Poio.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -767,7 +767,7 @@
       "municipio": "Cangas",
       "direccion": "Av. José Graña 30, Aldán",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Restaurante y cafetería en la avenida principal de Aldán.",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 328 333",
@@ -803,7 +803,7 @@
       "municipio": "Cangas",
       "direccion": "O Igrexario, Hío",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Cocina gallega en Hío, cerca de Aldán.",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 328 302",
@@ -839,7 +839,7 @@
       "municipio": "Cangas",
       "direccion": "Playa de Menduiña",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Referencia junto al arenal de Menduiña para pescado y marisco, con la playa a un paso.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -875,7 +875,7 @@
       "municipio": "Bueu",
       "direccion": "Montero Ríos 207, Bueu",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Pizzería, cervecería, tapas y pub en Bueu.",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 321 921",
@@ -911,7 +911,7 @@
       "municipio": "Bueu",
       "direccion": "Rúa Alexandre Bóveda, Bueu",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Cocina mediterránea en Bueu.",
       "que_se_come": null,
       "contacto": {
         "telefono": "633 150 105",
@@ -947,7 +947,7 @@
       "municipio": "Marín",
       "direccion": "Camiño de Aguete 172",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Restaurante en el camino de Aguete (Marín) que también organiza eventos y bodas.",
       "que_se_come": null,
       "contacto": {
         "telefono": "620 358 997",
@@ -983,7 +983,7 @@
       "municipio": "Poio",
       "direccion": "Rúa do Mar 34, Combarro",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Taberna-restaurante en el frente marítimo de Combarro.",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 771 064",
@@ -1019,7 +1019,7 @@
       "municipio": "Poio",
       "direccion": "Praza Peirao da Chousa 2, Combarro",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Restaurante en la plaza del muelle de Combarro. Mar y tierra.",
       "que_se_come": null,
       "contacto": {
         "telefono": "667 228 453",
@@ -1055,7 +1055,7 @@
       "municipio": "Poio",
       "direccion": "Rúa do Mar 6, Combarro",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Carnes y pescado con vistas a la ría, en el frente marítimo de Combarro.",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 772 376",
@@ -1091,7 +1091,7 @@
       "municipio": "Poio",
       "direccion": "Ramón Encinas 4, Raxó",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Hotel frente a la playa de Raxó, con café-bar.",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 740 433",
@@ -1127,7 +1127,7 @@
       "municipio": "Sanxenxo",
       "direccion": "Praia dos Barcos, Sanxenxo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Tapas junto a la playa urbana de Sanxenxo (Praia dos Barcos).",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1163,7 +1163,7 @@
       "municipio": "Sanxenxo",
       "direccion": "Parque do Espiñeiro 5, Portonovo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Restaurante gallego en el parque do Espiñeiro, en Portonovo.",
       "que_se_come": null,
       "contacto": {
         "telefono": "671 347 921",
@@ -1199,7 +1199,7 @@
       "municipio": "Sanxenxo",
       "direccion": "Rúa do Progreso 4, Portonovo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Cocina de fusión en pleno centro de Portonovo.",
       "que_se_come": null,
       "contacto": {
         "telefono": "886 299 510",
@@ -1235,7 +1235,7 @@
       "municipio": "O Grove",
       "direccion": "Av. de Beiramar 84, O Grove",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Parrilla, cocina gallega y marisquería en el paseo de Beiramar de O Grove. Es un asador, no un chiringuito de arena.",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 731 701",
@@ -1271,7 +1271,7 @@
       "municipio": "O Grove",
       "direccion": "Rúa Peralto 53, O Grove",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Restaurante pequeño e informal de tapas y marisco, en O Grove.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1307,7 +1307,7 @@
       "municipio": "O Grove",
       "direccion": "Rúa Luís Seoane 11, O Grove",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Taberna de O Grove con referencias gallegas y japonesas.",
       "que_se_come": null,
       "contacto": {
         "telefono": "986 187 348",
@@ -1345,7 +1345,7 @@
       "municipio": "Bueu",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Restaurante clásico de la zona de Bueu. También ofrece alojamiento y traslados en barco a Ons.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1382,7 +1382,7 @@
       "municipio": "Sanxenxo",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Taberna de tapas de Sanxenxo, bien valorada en rankings de tapas.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1418,7 +1418,7 @@
       "municipio": "Sanxenxo",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Restaurante con vistas al puerto deportivo de Sanxenxo.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1454,7 +1454,7 @@
       "municipio": "Sanxenxo",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Asador en el paseo do Silgar, con vistas a la playa de Portonovo.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1490,7 +1490,7 @@
       "municipio": "Sanxenxo",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Cocina gallega tradicional en el paseo do Silgar, con comedor con vistas al mar.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1526,7 +1526,7 @@
       "municipio": "Sanxenxo",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Bodega con terraza en Portonovo.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1562,7 +1562,7 @@
       "municipio": "O Grove",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Asador cerca de la playa de Pedras Negras, en O Grove.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1598,7 +1598,7 @@
       "municipio": "Cangas",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Taberna en Aldán.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1674,7 +1674,7 @@
       "municipio": "Sanxenxo",
       "direccion": null,
       "playa_cercana": "Area de Agra",
-      "como_es": null,
+      "como_es": "Kiosco de playa, probablemente el de la playa de Area de Agra (Sanxenxo).",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1904,7 +1904,7 @@
       "municipio": "O Grove",
       "direccion": null,
       "playa_cercana": "Area de Reboredo",
-      "como_es": null,
+      "como_es": "Kiosco de playa en Area de Reboredo (O Grove), junto a la zona de kayaks y paddle surf.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1943,7 +1943,7 @@
       "municipio": "Cangas",
       "direccion": null,
       "playa_cercana": "Francón",
-      "como_es": null,
+      "como_es": "Chiringo de madera con comida y cócteles, en la playa de Francón. Ha tenido conciertos al atardecer.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -1979,7 +1979,7 @@
       "municipio": "Cangas",
       "direccion": null,
       "playa_cercana": "Areacova",
-      "como_es": null,
+      "como_es": "Terraza sobre el arenal de Areacova, con tapas tradicionales y churrasco los fines de semana.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2015,7 +2015,7 @@
       "municipio": "Cangas",
       "direccion": "Estr. Baixada á Praia de Menduiña 70, Aldán",
       "playa_cercana": "Menduiña",
-      "como_es": null,
+      "como_es": "Chiringuito de comida tradicional junto a la playa de Menduiña.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2051,7 +2051,7 @@
       "municipio": "Cangas",
       "direccion": null,
       "playa_cercana": "Pinténs",
-      "como_es": null,
+      "como_es": "Local a pie de la playa de Pinténs, con aparcamiento contiguo.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2087,7 +2087,7 @@
       "municipio": "Cangas",
       "direccion": null,
       "playa_cercana": "San Xián",
-      "como_es": null,
+      "como_es": "Chiringuito de la playa de San Xián, con cervezas NÓS. Ha tenido conciertos.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2123,7 +2123,7 @@
       "municipio": "Cangas",
       "direccion": null,
       "playa_cercana": "Arneles",
-      "como_es": null,
+      "como_es": "Chiringuito en una finca espaciosa junto a la playa de Arneles, de ambiente familiar.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2159,7 +2159,7 @@
       "municipio": "Cangas",
       "direccion": null,
       "playa_cercana": "Vilariño",
-      "como_es": null,
+      "como_es": "Bebidas y vistas a la ensenada de Vilariño. Alguna música puntual.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2195,7 +2195,7 @@
       "municipio": "Cangas",
       "direccion": null,
       "playa_cercana": "Castiñeiras",
-      "como_es": null,
+      "como_es": "Chiringuito de la playa de Castiñeiras, de ambiente animado según una guía de la ría.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2231,7 +2231,7 @@
       "municipio": "Bueu",
       "direccion": null,
       "playa_cercana": "Portomaior",
-      "como_es": null,
+      "como_es": "Bebidas y comida sencilla junto a la playa, en Bueu.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2268,7 +2268,7 @@
       "municipio": "Bueu",
       "direccion": null,
       "playa_cercana": "Area de Bon",
-      "como_es": null,
+      "como_es": "Chiringuito junto a la playa de Area de Bon, con una parcela amplia de hierba.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2304,7 +2304,7 @@
       "municipio": "O Grove",
       "direccion": null,
       "playa_cercana": "Area de Reboredo",
-      "como_es": null,
+      "como_es": "Chiringuito y bar en la playa de San Vicente do Mar (O Grove).",
       "que_se_come": null,
       "contacto": {
         "telefono": "621 492 930",
@@ -2341,7 +2341,7 @@
       "municipio": "Sanxenxo",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Bar-restaurante en la zona de Montalvo, con arroces y fideuá.",
       "que_se_come": null,
       "contacto": {
         "telefono": "680 383 214",
@@ -2381,7 +2381,7 @@
       "municipio": "Sanxenxo",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Furancho tradicional que abre pocos meses al año. Huevos, zorza, tortilla y richada.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2419,7 +2419,7 @@
       "municipio": null,
       "direccion": "Dorrón",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Furancho en Dorrón. Secreto ibérico, pulpo y tortilla.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2494,7 +2494,7 @@
       "municipio": "Meaño",
       "direccion": "Aldea de Abaixo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Furancho en Aldea de Abaixo (Meaño). Garbanzos con callos y tarta de orujo.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2532,7 +2532,7 @@
       "municipio": "Meaño",
       "direccion": "Outeiro 10, Cobas, Meaño",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Furancho en Cobas (Meaño). Zamburiñas, raxo con patatas y tortillas rellenas. Destacan la tortilla de jamón y el queso de tetilla.",
       "que_se_come": "Destacan la tortilla de jamón y el queso de tetilla.",
       "contacto": {
         "telefono": null,
@@ -2570,7 +2570,7 @@
       "municipio": "Meaño",
       "direccion": "Lores",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Furancho en Lores (Meaño). Huevos con pan de millo, tortilla con chorizo y pulpo a feira.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2607,7 +2607,7 @@
       "municipio": "Meaño",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Local de estilo furancho en Meaño.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2645,7 +2645,7 @@
       "municipio": "Meaño / Cambados",
       "direccion": "Aldea de Abaixo 4, Meaño",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Furancho en Aldea de Abaixo (Meaño). Albariño y tinto de Barrantes, churrasco, zamburiñas, pulpo y richada.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2720,7 +2720,7 @@
       "municipio": "Cambados",
       "direccion": "Oubiña",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Furancho en Oubiña (Cambados).",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2757,7 +2757,7 @@
       "municipio": "Cambados",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Furancho de Cambados.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2793,7 +2793,7 @@
       "municipio": "Cambados",
       "direccion": "Castrelo",
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Furancho en Castrelo (Cambados).",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2867,7 +2867,7 @@
       "municipio": "Ribadumia",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Furancho de Ribadumia, un clásico de la zona.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2905,7 +2905,7 @@
       "municipio": "Vilanova de Arousa",
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Furancho de Vilanova de Arousa. Raciones variadas, pulpo y calamares.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2943,7 +2943,7 @@
       "municipio": null,
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Furancho con zorza adobada, cordero estofado, chipirones y tarta de queso.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -2980,7 +2980,7 @@
       "municipio": null,
       "direccion": null,
       "playa_cercana": null,
-      "como_es": null,
+      "como_es": "Furancho con pulpo, oreja, raxo y tarta de piña fría.",
       "que_se_come": null,
       "contacto": {
         "telefono": null,
@@ -3206,7 +3206,7 @@
       "tipo": "copas",
       "zona": "sanxenxo-puerto",
       "municipio": "Sanxenxo",
-      "direccion": null,
+      "direccion": "Rúa de Madrid 16, Praia dos Barcos, Sanxenxo",
       "playa_cercana": null,
       "como_es": "Pub histórico del puerto de Sanxenxo, que sigue en el sitio donde empezó. Terraza con vistas a la playa, en una calle peatonal: puedes pedir en la barra y tomarte la copa fuera.",
       "que_se_come": null,
