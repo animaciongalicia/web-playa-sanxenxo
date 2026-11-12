@@ -25,7 +25,7 @@ export const DESTINO_SLUG = { ons: 'islas-ons', cies: 'islas-cies', aldan: 'ria-
 export const FAMILIAS_INFO = {
   'mar-con-motor': { titulo: 'Mar con motor', texto: 'Motos de agua, parascending y sesión acuática desde barco.' },
   'playa-y-tabla': { titulo: 'Playa y tabla', texto: 'Surf, paddle surf, Big SUP y kayak.' },
-  'buceo-y-pesca': { titulo: 'Buceo y pesca', texto: 'Bautismo de buceo, snorkel, pesca recreativa y pesca-turismo.' },
+  'pesca': { titulo: 'Pesca', texto: 'Pesca recreativa y pesca-turismo, con quien conoce el mar.' },
   'mar-y-mesa': { titulo: 'Mar y mesa', texto: 'Bateas, mariscada en barco y churrascada.' },
   'dias-a-medida': { titulo: 'Días a medida', texto: 'Días producidos casi a medida: olimpiadas, gymkana, fiesta con DJ…' },
   'kayak-areoso': { titulo: 'Kayak en Areoso', texto: 'Rutas a un islote protegido: formatos, precios orientativos y permiso.' },

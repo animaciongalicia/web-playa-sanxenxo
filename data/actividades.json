@@ -3,7 +3,7 @@
   "familias": [
     "mar-con-motor",
     "playa-y-tabla",
-    "buceo-y-pesca",
+    "pesca",
     "mar-y-mesa",
     "kayak-areoso",
     "dias-a-medida"
@@ -238,68 +238,10 @@
       "notas_internas": null
     },
     {
-      "id": "bautismo-de-buceo",
-      "slug": "bautismo-de-buceo",
-      "nombre": "Bautismo de buceo",
-      "familia": "buceo-y-pesca",
-      "descripcion": "Tu primera inmersión, con instructor y organizada por subgrupos.",
-      "donde": [
-        {
-          "tipo": "puerto",
-          "nombre": "Portonovo"
-        },
-        {
-          "tipo": "zona",
-          "nombre": "Isla de Ons"
-        }
-      ],
-      "duracion": null,
-      "grupo_minimo": null,
-      "temporada": null,
-      "notas_operativas": [
-        "Organización por subgrupos; confirmar requisitos"
-      ],
-      "a_medida": false,
-      "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
-      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
-      "datos_fuente": [],
-      "notas_internas": null
-    },
-    {
-      "id": "snorkel",
-      "slug": "snorkel",
-      "nombre": "Snorkel",
-      "familia": "buceo-y-pesca",
-      "descripcion": "Con el equipo que ponen los clubes de buceo, acompañado de monitores y guías y pegado a la costa. Solo hace falta saber nadar.",
-      "donde": [
-        {
-          "tipo": "zona",
-          "nombre": "Costa de Portonovo"
-        },
-        {
-          "tipo": "zona",
-          "nombre": "Isla de Ons (con traslado)"
-        }
-      ],
-      "duracion": null,
-      "grupo_minimo": null,
-      "temporada": null,
-      "notas_operativas": [],
-      "a_medida": false,
-      "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
-      "origen": "documento de actividades de Pablo (búsqueda web 2026)",
-      "datos_fuente": [],
-      "notas_internas": null
-    },
-    {
       "id": "pesca-recreativa",
       "slug": "pesca-recreativa",
       "nombre": "Pesca recreativa",
-      "familia": "buceo-y-pesca",
+      "familia": "pesca",
       "descripcion": "Una jornada de pesca para grupos con interés real en pescar.",
       "donde": [
         {
@@ -329,7 +271,7 @@
       "id": "pesca-turismo",
       "slug": "pesca-turismo",
       "nombre": "Pesca-turismo",
-      "familia": "buceo-y-pesca",
+      "familia": "pesca",
       "descripcion": "Una jornada con profesionales del mar: se va a ver cómo se trabaja, no a una fiesta a bordo.",
       "donde": [
         {

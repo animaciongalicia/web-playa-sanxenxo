@@ -3,7 +3,7 @@ titulo: Actividades
 objetivo: 450
 fuentes:
   - "data/actividades.json (lista de Pablo, con 'dónde se hace' de cada actividad)"
-  - "Textos propios de Pablo en despedidasplayasanxenxo.com (motos de agua, gymkanas, snorkel, despedidas)"
+  - "Textos propios de Pablo en despedidasplayasanxenxo.com (motos de agua, gymkanas, despedidas)"
 pendiente:
   - "Duración, precios, grupo mínimo y temporada de cada actividad: Pablo los aporta"
   - "Confirmar qué actividades se ofrecen en 2027"

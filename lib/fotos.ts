@@ -8,6 +8,8 @@ const EXT = ['jpg', 'jpeg', 'webp', 'png', 'avif'];
 
 /** Claves que reutilizan la foto de otra (para no duplicar archivos). */
 const ALIAS: Record<string, string> = {
+  'playa-a-lanzada': 'playas-noalla-a-lanzada',
+  'chiringuito-de-castineiras': 'playa-castineira',
   'diversion-portonovo': 'playas-portonovo',
   'diversion-a-lanzada-san-vicente': 'cuando-ir',
   'diversion-o-grove': 'playas-o-grove-san-vicente',
@@ -15,12 +17,11 @@ const ALIAS: Record<string, string> = {
   'actividad-big-sup': 'playa-y-tabla',
   'actividad-reto-de-big-sup': 'playa-y-tabla',
   'actividad-ruta-en-kayak-con-picnic': 'actividad-kayak-en-areoso',
-  'actividad-ruta-de-bateas-con-mejillones-y-vino': 'mar-y-mesa',
   'actividad-olimpiadas-de-playa': 'dias-a-medida',
   'actividad-barco-privado-con-fondeo-bano-y-paddle': 'despedidas',
   'idea-gincana-soltero': 'soltero-galeria-2',
   'idea-motos': 'actividad-motos-de-agua',
-  'idea-pesca': 'buceo-y-pesca',
+  'idea-pesca': 'pesca',
   'idea-voley': 'actividad-torneo-de-voley-playa-o-palas',
   'idea-churrascada': 'a-vichona',
   'idea-limusina': 'limusinas-interior',

@@ -19,7 +19,7 @@ export function menuPrincipal(lang: Idioma): NavItem[] {
       hijos: [
         { label: 'Mar con motor', href: h('/actividades/mar-con-motor/') },
         { label: 'Playa y tabla', href: h('/actividades/playa-y-tabla/') },
-        { label: 'Buceo y pesca', href: h('/actividades/buceo-y-pesca/') },
+        { label: 'Pesca', href: h('/actividades/pesca/') },
         { label: 'Mar y mesa', href: h('/actividades/mar-y-mesa/') },
         { label: 'Días a medida', href: h('/actividades/dias-a-medida/') },
         { label: 'Kayak en Areoso', href: h('/actividades/kayak-areoso/') },

@@ -85,7 +85,7 @@ export const Local = z
 export const DiversionReferencia = z.object({ zona: z.string(), ref: idKebab, nota: z.string().nullable().optional() }).strict();
 
 // ── Actividad ──────────────────────────────────────────
-export const FAMILIAS = ['mar-con-motor', 'playa-y-tabla', 'buceo-y-pesca', 'mar-y-mesa', 'kayak-areoso', 'dias-a-medida'] as const;
+export const FAMILIAS = ['mar-con-motor', 'playa-y-tabla', 'pesca', 'mar-y-mesa', 'kayak-areoso', 'dias-a-medida'] as const;
 
 export const Actividad = z
   .object({

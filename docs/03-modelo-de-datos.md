@@ -63,7 +63,7 @@ type Local = {
 // Actividad
 type Actividad = {
   id: string; slug: string; nombre: string;
-  familia: 'mar-con-motor' | 'playa-y-tabla' | 'buceo-y-pesca' | 'mar-y-mesa' | 'kayak-areoso' | 'dias-a-medida';
+  familia: 'mar-con-motor' | 'playa-y-tabla' | 'pesca' | 'mar-y-mesa' | 'kayak-areoso' | 'dias-a-medida';
   descripcion: string | null;
   donde: { tipo: 'puerto' | 'playa' | 'zona'; nombre: string }[];   // OBLIGATORIO mostrarlo
   duracion: string | null;

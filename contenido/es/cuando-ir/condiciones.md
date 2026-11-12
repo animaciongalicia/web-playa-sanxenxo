@@ -1,6 +1,6 @@
 ---
 titulo: Condiciones de las despedidas
-objetivo: 350
+objetivo: 600
 fuentes:
   - "Entrevista por voz de Pablo (2026-11-10) y texto propio en despedidasplayasanxenxo.com/restaurantes-para-despedidas-en-sanxenxo/"
 pendiente:
@@ -17,11 +17,31 @@ La regla es sencilla: di desde el principio que sois un grupo, reserva con tiemp
 
 ## Lo que cambia según el mes
 
-- **Mayo y junio.** Se aceptan despedidas, pero mayo es flojo: poco abierto y poco ambiente. Junio va calentando y mejora mucho desde el 20.
-- **Julio y agosto.** Temporada fuerte, con muchas despedidas. Es más complicado y hay que reservar con antelación: hoteles y apartamentos suelen pedir estancias de varias noches.
-- **Septiembre.** Flojo: se aceptan algunas despedidas, pero hay pocas. A partir del 20, casi nada.
+- **Mayo.** Se aceptan despedidas, pero con poco abierto y poco ambiente. Entre el 15 y el 30 llegan sobre todo grupos de Portugal o de fuera de Galicia.
+- **Junio.** Se aceptan despedidas: de media, entre 3 y 5 grupos por fin de semana, con muchos portugueses. Del 1 al 15, calentando. Desde el 20, temporada fuerte.
+- **Julio y agosto.** Muchas despedidas. Es más complicado encontrar sitio para grupos, así que hay que reservar con antelación.
+- **Septiembre.** Se aceptan algunas, pocas: unos 3 o 4 grupos cada sábado hasta el 15. Desde el 20, casi nadie.
+- **De octubre a abril.** No es época de despedidas de mar y fiesta: casi todo está cerrado.
 
-Julio y agosto son época fuerte de despedidas, y salen muy bien. Solo hay que hacerlo con más antelación y con un plan B. Arriba tienes el detalle de cada mes.
+Julio y agosto salen muy bien. Solo hay que hacerlo con más antelación y con un plan B. Arriba tienes el detalle de cada mes.
+
+## Alojamiento: lo que te van a pedir
+
+En temporada alta, hoteles y apartamentos suelen pedir estancias de varias noches, normalmente 3 o 4. Un fin de semana suelto en julio o agosto es difícil de encontrar.
+
+Si sois muchos, repartid el grupo en varios alojamientos cercanos. Es más fácil que encontrar uno enorme.
+
+## Restaurantes y mesas
+
+- **Di que sois un grupo.** Siempre, al reservar. Sin sorpresas el día de la cena.
+- **Da el número real.** Y avisa si cambia. El local se organiza con ese dato.
+- **Reserva con margen.** En julio y agosto, con semanas de antelación. Fuera de temporada, con unos días basta.
+
+## Barcos y mar
+
+Un barco privado necesita fecha y hora cerradas, y depende del tiempo. Tu plan B es el día siguiente o una actividad en tierra.
+
+Para Ons y Cíes hace falta autorización de la Xunta del 15 de mayo al 15 de septiembre y en Semana Santa. Todo sobre permisos y trayectos, en [Ons, Cíes y la ría de Aldán](/paraisos/mar/).
 
 ## Cómo organizarte para evitar problemas
 
@@ -34,7 +54,7 @@ Julio y agosto son época fuerte de despedidas, y salen muy bien. Solo hay que h
 
 Hay locales preparados para recibir despedidas, con espacios amplios y privados. Un ejemplo es [A Vichona](/comer/restaurantes/a-vichona/), un asador de churrasco con capacidad para 120 personas, donde caben 6, 8 o 10 grupos a la vez, cada uno en su mesa, y 4 reservados para shows privados.
 
-Y la noche en el puerto tiene su propio ritmo: mira [diversión](/diversion/).
+Y la diversión de Sanxenxo tiene su propio ritmo: mira [diversión](/diversion/).
 
 ## Dónde mirar el plan completo
 

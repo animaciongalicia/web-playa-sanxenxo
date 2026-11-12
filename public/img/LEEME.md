@@ -18,7 +18,7 @@ Medidas recomendadas (la web las redimensiona sola):
 | `islas-ons`, `islas-cies`, `ria-de-aldan` | Cada destino de mar |
 | `barcos` | Barcos |
 | `actividades` | Actividades |
-| `mar-con-motor`, `playa-y-tabla`, `buceo-y-pesca`, `mar-y-mesa`, `dias-a-medida`, `kayak-areoso` | Cada familia de actividades |
+| `mar-con-motor`, `playa-y-tabla`, `pesca`, `mar-y-mesa`, `dias-a-medida`, `kayak-areoso` | Cada familia de actividades |
 | `comer` | Comer (y restaurantes, chiringuitos y furanchos por defecto) |
 | `diversion` | Diversión |
 | `despedidas` | Despedidas |
@@ -55,3 +55,6 @@ Las que hay ahora vienen de la web anterior y son **provisionales**: sustitúyel
 - Medida ideal: **1920 × 800 px**, apaisada. Pesa menos de 250 KB (se comprime sola con `webp`).
 - Si la foto queda mal encajada, no hace falta recortarla: se ajusta el punto de enfoque en `lib/fotos.ts`, objeto `FOCO` (por ejemplo `soltera: '50% 38%'` = centrada, un poco por encima del centro). El segundo número es la altura (0 % = arriba, 100 % = abajo).
 - Al subir una foto nueva con el mismo nombre, el enfoque anterior se conserva: revisa que siga encajando.
+
+## Galerías de Ons y Cíes
+`islas-ons-galeria-1..6` y `islas-cies-galeria-1..6` (se muestran en la página de cada destino cuando hay 2 o más).

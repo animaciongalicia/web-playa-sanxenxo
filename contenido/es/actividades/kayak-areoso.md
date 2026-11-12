@@ -20,7 +20,7 @@ Los precios son los que anuncian las empresas de la zona. No son un presupuesto 
 
 - **Salida de grupo con finca.** Desde unos 20 € por persona: finca privada en primera línea de playa durante el día, kayak media jornada y una hora de hidropedales. Se anuncia para despedidas, cumpleaños y empresas. No incluye desembarcar en Areoso, salvo que lo confirmen.
 - **Ruta a Areoso con barco de apoyo.** Desde unos 25 € por persona, con salida desde la playa de Espiñeiro y pedaletas de apoyo. Piden tramitar antes el permiso y reservar el kayak después.
-- **Ruta guiada de medio día.** Desde unos 35 € por persona: unos 5 km, guía, material, seguros, comida y snorkel con neopreno. Confirma cómo encaja el permiso de desembarco.
+- **Ruta guiada de medio día.** Desde unos 35 € por persona: unos 5 km, guía, material, seguros y comida. Confirma cómo encaja el permiso de desembarco.
 - **Ruta por el litoral, sin bajar.** Desde unos 24 € por persona, unas 2 horas y media bordeando Areoso. Tiene grupo mínimo y suplementos de monitores según el tamaño del grupo y la temporada.
 
 ## Lo que importa en una despedida

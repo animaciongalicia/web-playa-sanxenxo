@@ -6,7 +6,6 @@ fuentes:
   - "Portal oficial de autorizaciones: https://autorizacionillasatlanticas.xunta.gal/illasr/verMasInfo?lang=es"
   - "Lista oficial de bandera azul 2026-2027 (Rodas, en Vigo): https://www.xunta.gal/notas-de-prensa/-/nova/024145/galicia-tendra-este-ano-118-playas-con-bandera-azul-10-mas-que-2025-consolida"
   - "Guías (Komoot, Wikipedia, Pirata de Nabia): islas, faros, camping"
-  - "Texto propio de Pablo sobre snorkel en las Cíes, despedidasplayasanxenxo.com/buceando-en-las-islas-cies/"
 pendiente:
   - "Traslado a Cíes desde la ría: Pablo confirma que sigue; faltan puerto de salida, duración y precio"
   - "Cupo: la ficha del Parque dice 2.200 al día; la prensa 2026 cita 1.800. No se publica cifra"
@@ -21,7 +20,7 @@ El archipiélago tiene tres islas principales: Monteagudo, Do Faro y San Martiñ
 
 - **Playas de arena blanca.** Rodas, Figueiras y Nosa Señora. Rodas es de aguas tranquilas y tiene bandera azul 2026-2027. Figueiras es muy apta para ir en familia.
 - **Tres faros.** Hay rutas señalizadas para llegar a ellos. La del Monte Faro, por ejemplo, ronda los 5 km entre ida y vuelta y se hace con facilidad.
-- **Fondos marinos.** Son el 80 % del Parque. Hay gente que va solo por el snorkel.
+- **Fondos marinos.** Son el 80 % del Parque. 
 - **Camping.** Está junto a la playa de Rodas, y es el único lugar donde se puede acampar.
 
 ## Cómo se llega
@@ -42,11 +41,6 @@ Las Cíes son Parque Nacional, y el acceso está controlado.
 
 Portal: autorizacionillasatlanticas.xunta.gal. Atención telefónica de lunes a viernes de 8:00 a 20:00, o 012@xunta.gal.
 
-## Snorkel y buceo
-
-Es una de las actividades preferidas de grupos de amigos y de familias. Para hacer snorkel basta con el equipo que ponen los clubes de buceo, siempre con monitores y guías. Antes de entrar al agua suele darse una charla sobre biología marina y normas básicas de seguridad.
-
-El único requisito es saber nadar. Mira [buceo y pesca](/actividades/buceo-y-pesca/).
 
 ## Si vas en barco privado
 

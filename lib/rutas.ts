@@ -35,7 +35,7 @@ export const RUTAS: Ruta[] = [
   { ruta: '/actividades/', titulo: 'Actividades', descripcion: 'Qué hacer en el mar y en la playa con tu grupo.', fase: 4 },
   { ruta: '/actividades/mar-con-motor/', titulo: 'Mar con motor', fase: 4 },
   { ruta: '/actividades/playa-y-tabla/', titulo: 'Playa y tabla', fase: 4 },
-  { ruta: '/actividades/buceo-y-pesca/', titulo: 'Buceo y pesca', fase: 4 },
+  { ruta: '/actividades/pesca/', titulo: 'Pesca', fase: 4 },
   { ruta: '/actividades/mar-y-mesa/', titulo: 'Mar y mesa', fase: 4 },
   { ruta: '/actividades/dias-a-medida/', titulo: 'Días a medida', fase: 4 },
   { ruta: '/actividades/kayak-areoso/', titulo: 'Kayak en Areoso', fase: 4 },

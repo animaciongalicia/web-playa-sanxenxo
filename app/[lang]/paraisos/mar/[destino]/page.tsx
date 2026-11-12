@@ -14,6 +14,7 @@ import { DESTINO_SLUG } from '../../../../../lib/paraisos';
 import JsonLd from '../../../../../components/JsonLd';
 import { jsonLdDestino } from '../../../../../lib/jsonld';
 import { metaRuta } from '../../../../../lib/seo';
+import Galeria from '../../../../../components/Galeria';
 import Rejilla from '../../../../../components/Rejilla';
 
 type P = { lang: string; destino: string };
@@ -51,6 +52,7 @@ export default function Destino({ params }: { params: P }) {
           <Link href={href(lang, '/barcos/traslados/')} className="link-inline">Traslados en lancha rápida →</Link>
         </p>
       </Seccion>}
+      <Galeria prefijo={params.destino} etiqueta="Cómo es" titulo="Lo que te espera" />
       {playas.length > 0 && (
         <Seccion fondo="arena" etiqueta="En la zona" titulo="Playas de esta costa" centrado>
           <Rejilla>{playas.map((p) => <TarjetaPlaya key={p.id} playa={p} lang={lang} />)}</Rejilla>

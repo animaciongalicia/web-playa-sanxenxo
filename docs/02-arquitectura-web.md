@@ -30,7 +30,7 @@
 | `/actividades/` | Hub | actividades | |
 | `/actividades/mar-con-motor/` | Familia | actividades | Motos de agua, parascending, sesión acuática desde barco |
 | `/actividades/playa-y-tabla/` | Familia | actividades | Surf, paddle surf, Big SUP, kayak |
-| `/actividades/buceo-y-pesca/` | Familia | actividades | Bautismo, snorkel, pesca recreativa, pesca-turismo |
+| `/actividades/pesca/` | Familia | actividades | Pesca recreativa, pesca-turismo |
 | `/actividades/mar-y-mesa/` | Familia | actividades | Bateas, mariscada en barco, churrascada |
 | `/actividades/dias-a-medida/` | Familia | actividades | Días producidos casi a medida: olimpiadas, gymkana, fiesta con DJ… |
 | `/actividades/kayak-areoso/` | Actividad | actividades | Página propia por las búsquedas. Desembarco con autorización |
