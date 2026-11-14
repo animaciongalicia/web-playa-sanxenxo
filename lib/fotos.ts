@@ -69,6 +69,7 @@ export const FOCO: Record<string, string> = {
   actividades: '50% 45%',
   limusinas: '50% 60%',
   restaurantes: '50% 45%',
+  furanchos: '50% 62%',
 };
 export const focoDe = (src: string | null): string => {
   const clave = src ? src.replace(/^\/img\//, '').replace(/\.[a-z]+$/, '') : '';
