@@ -62,8 +62,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": null,
       "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "Pablo + búsqueda web 2026",
       "datos_fuente": [
         "Cocina gallega tradicional al borde de la ría de Aldán",
@@ -101,8 +101,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": null,
       "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Marisquería",
@@ -139,8 +139,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": "Comprobar si pertenece al mismo grupo que O Con de Aldán",
       "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Restaurante gallego junto al puerto",
@@ -176,8 +176,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": null,
       "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Especializado en barbacoa",
@@ -213,8 +213,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": null,
       "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "Pablo + búsqueda web 2026",
       "datos_fuente": [
         "Marisquería centenaria frente al puerto y la playa de Beluso",
@@ -252,8 +252,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": null,
       "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Marisquería de perfil tradicional",
@@ -289,8 +289,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": null,
       "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Restaurante y hotel con acceso directo a la playa",
@@ -327,8 +327,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": null,
       "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Restaurante en la zona de playa de Aguete",
@@ -365,8 +365,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": null,
       "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Pescado a la brasa, arroces y tapas",
@@ -404,8 +404,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": null,
       "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Restaurante tradicional de pescado y marisco, con vistas",
@@ -555,8 +555,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": null,
       "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "Pablo + búsqueda web 2026",
       "datos_fuente": [
         "Chiringuito gourmet a pie de playa, entre Seixeliño y Area da Cruz",
@@ -595,8 +595,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": null,
       "publicar": null,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Marisquería: producto del mar al vapor, parrilla y guisos",
@@ -676,8 +676,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": "Bloque opcional de alta cocina",
       "publicar": false,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Alta cocina, menús degustación"
@@ -712,8 +712,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": "Bloque opcional de alta cocina",
       "publicar": false,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Alta cocina, menús degustación, vistas al mar"
@@ -748,8 +748,8 @@
       "tipo_dudoso": false,
       "decision_pendiente": "Bloque opcional de alta cocina",
       "publicar": false,
-      "verificado": false,
-      "ultima_verificacion": null,
+      "verificado": true,
+      "ultima_verificacion": "2026-11-14",
       "origen": "lista de Pablo (documento de locales)",
       "datos_fuente": [
         "Restaurante recogido en la Guía Michelin"
